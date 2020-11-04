@@ -36,7 +36,7 @@
 
             <a class="navbar-brand absolute" href="index.html">
                 <!--        <strong>SALON GROOM</strong>-->
-                <img class="w-72" src="/img/logo-new.png" alt="logo">
+                <img class="w-72" src="/public/img/logo-new.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-main" aria-controls="navbars-main" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -71,8 +71,8 @@
 <!--    Launch demo modal-->
 <!--  </button>-->
 
-<section id="home-slider-mobile" class="hidden mt-70__">
-    <div id="container" style="height: 100px; background-color: #6f42c1; border: 2px solid red; margin-top: 100px; ">
+<section id="home-slider-mobile" class="hidden">
+    <div id="container" style="height: 100px; background-color: #6f42c1; border: 2px solid red; margin-top: 100px; align-content: center;">
         <p>
             <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">Записаться</button>
         </p>
@@ -129,7 +129,7 @@
         <div class="row element-animate">
             <div class="col-md text-center">
                 <div class="card" style="margin: 0 auto; max-width: 500px">
-                    <img class="card-img-top" src="/img/masters/master_1.jpg" alt="Card image">
+                    <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">
                     <div class="card-body bg-light">
                         <h3 class="mt-0 text-white"><span class="text-strong text-shadow">Карина</span></h3>
                         <p class="block-master">
@@ -321,7 +321,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Немецкая овчарка</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -331,7 +331,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Лабрадор</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Бульдог</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -351,7 +351,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Восточно-европейская овчарка</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Бигль</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -371,7 +371,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Золотистый ретривер</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
