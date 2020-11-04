@@ -31,12 +31,12 @@
 <a id="button"></a>
 
 <header role="banner">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
+    <nav class="navbar navbar-expand-lg navbar-dark transparant">
         <div class="container">
 
             <a class="navbar-brand absolute" href="index.html">
                 <!--        <strong>SALON GROOM</strong>-->
-                <img style="width: 72px;" src="/img/logo-new.png" alt="logo">
+                <img class="w-72" src="/img/logo-new.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-main" aria-controls="navbars-main" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -71,8 +71,14 @@
 <!--    Launch demo modal-->
 <!--  </button>-->
 
+<section id="home-slider-mobile" class="hidden">
+    <div id="container">
+        Joker area
+    </div>
+</section>
+
 <section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url('/img/banner-bg.jpg');">
+    <div class="slider-item slider-1">
         <div class="banner-area">
             <div class="container">
                 <div class="row slider-text align-items-center justify-content-center">
@@ -91,7 +97,7 @@
         </div>
     </div>
 
-    <div class="slider-item" style="background-image: url('/img/slider-2.jpg');">
+    <div class="slider-item slider-2">
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-md-8 text-center col-sm-12 element-animate">
@@ -123,7 +129,7 @@
                 <div class="card" style="margin: 0 auto; max-width: 500px">
                     <img class="card-img-top" src="/img/masters/master_1.jpg" alt="Card image">
                     <div class="card-body bg-light">
-                        <h3 class="mt-0 text-white"><span class="text-strong text-shadow">Карина Фирхо</span></h3>
+                        <h3 class="mt-0 text-white"><span class="text-strong text-shadow">Карина</span></h3>
                         <p class="block-master">
                             Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.
                             Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />
@@ -313,7 +319,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Немецкая овчарка</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="../../public/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -323,7 +329,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Лабрадор</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="../../public/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -333,7 +339,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Бульдог</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="../../public/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -341,9 +347,9 @@
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
-                            <h3>Ротвейлер</h3>
+                            <h3>Восточно-европейская овчарка</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="../../public/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -353,7 +359,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Бигль</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="../../public/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -363,7 +369,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3>Золотистый ретривер</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="../../public/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>

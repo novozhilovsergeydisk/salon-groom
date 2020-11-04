@@ -104,6 +104,10 @@ header {
     #prices {
       display: none;
     }
+
+    .owl-carousel {
+        display: none;
+    }
   }
 
     header .navbar .nav-link {
