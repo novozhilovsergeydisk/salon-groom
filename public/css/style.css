@@ -105,8 +105,12 @@ header {
       display: none;
     }
 
-    .owl-carousel {
+    #home-slider {
         display: none;
+    }
+
+    #home-slider-mobile {
+        display: block;
     }
   }
 

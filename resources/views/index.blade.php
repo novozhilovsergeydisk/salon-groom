@@ -7,20 +7,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/css/animate.css">
+    <link rel="stylesheet" href="/public/css/owl.carousel.min.css">
 
-    <link rel="stylesheet" href="/fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/public/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/public/fonts/fontawesome/css/font-awesome.min.css">
 
     <!--  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">-->
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/public/css/style.css">
 
     <!-- Theme Style Custom -->
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
@@ -71,13 +71,15 @@
 <!--    Launch demo modal-->
 <!--  </button>-->
 
-<section id="home-slider-mobile" class="hidden">
-    <div id="container">
-        Joker area
+<section id="home-slider-mobile" class="hidden mt-70__">
+    <div id="container" style="height: 100px; background-color: #6f42c1; border: 2px solid red; margin-top: 100px; ">
+        <p>
+            <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">Записаться</button>
+        </p>
     </div>
 </section>
 
-<section class="home-slider owl-carousel">
+<section id="home-slider" class="home-slider owl-carousel">
     <div class="slider-item slider-1">
         <div class="banner-area">
             <div class="container">
@@ -533,13 +535,13 @@
 <!--      </svg>-->
 <!--    </div>-->
 
-<script src="/js/jquery-3.2.1.min.js"></script>
-<script src="/js/popper.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/jquery.waypoints.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/custom.js"></script>
+<script src="/public/js/jquery-3.2.1.min.js"></script>
+<script src="/public/js/popper.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
+<script src="/public/js/owl.carousel.min.js"></script>
+<script src="/public/js/jquery.waypoints.min.js"></script>
+<script src="/public/js/main.js"></script>
+<script src="/public/js/custom.js"></script>
 
 <script>
     /* 1 */
