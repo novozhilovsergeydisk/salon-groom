@@ -38,7 +38,7 @@
 	margin-top: -190px !important;
 }
 .mt-70 {
-	margin-top: 70px;
+	margin-top: 70px !important;
 }
 .lh-12 {
 	line-height: 12px !important;
@@ -126,6 +126,12 @@
 }
 .slider-2 {
     background-image: url('/public/img/slider-2.jpg');
+}
+.slider-mobile {
+    height: 150px;
+    background-color: #6f42c1;
+    /*border: 2px solid red; */
+    margin-top: 100px;
 }
 /* */
 

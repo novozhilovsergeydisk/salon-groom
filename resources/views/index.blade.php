@@ -72,8 +72,10 @@
 <!--  </button>-->
 
 <section id="home-slider-mobile" class="hidden">
-    <div id="container" style="height: 100px; background-color: #6f42c1; border: 2px solid red; margin-top: 100px; align-content: center;">
-        <p>
+    <div id="container" class="slider-mobile">
+        <br />
+        <p class="text-center text-white">Салон №1 груминг собак и кошек</p>
+        <p class="text-center">
             <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">Записаться</button>
         </p>
     </div>
