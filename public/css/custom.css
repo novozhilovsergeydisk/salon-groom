@@ -133,6 +133,14 @@
     /*border: 2px solid red; */
     margin-top: 100px;
 }
+body {
+    /*background-color: #666e76 !important;*/
+}
+
+.main-font {
+    font-family: "Rubik" /*"Roboto Slab";*/
+}
+
 /* */
 
 #button {

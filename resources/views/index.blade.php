@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <style>
+        body {
+            font-family: "Rubik" /*"Roboto Slab";*/
+            /*font-size: 22px;*/
+        }
+
+
+    </style>
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
     <link rel="stylesheet" href="/public/css/bootstrap.css">
@@ -45,19 +55,19 @@
             <div class="collapse navbar-collapse" id="navbars-main">
                 <ul class="navbar-nav mx-auto pl-lg-5 pl-0">
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#about-our"><h6 class="font-weight-bold">О нас</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#about-our"><h6 class="main-font">О нас</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#masters"><h6 class="font-weight-bold">Мастера</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#masters"><h6 class="main-font">Мастера</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#prices"><h6 class="font-weight-bold">Цены</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#prices"><h6 class="main-font">Цены</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#gallery"><h6 class="font-weight-bold">Галерея</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#gallery"><h6 class="main-font">Галерея</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6 class="font-weight-bold">Адреса салонов</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6 class="main-font">Адреса</h6></a>
                     </li>
                 </ul>
 
@@ -74,9 +84,9 @@
 <section id="home-slider-mobile" class="hidden">
     <div id="container" class="slider-mobile">
         <br />
-        <p class="text-center text-white">Салон №1 груминг собак и кошек</p>
+        <p class="text-center text-white main-font">Салон №1 груминг собак и кошек</p>
         <p class="text-center">
-            <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">Записаться</button>
+            <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>
         </p>
     </div>
 </section>
@@ -87,10 +97,10 @@
             <div class="container">
                 <div class="row slider-text align-items-center justify-content-center">
                     <div class="col-md-8 text-center col-sm-12 element-animate">
-                        <h1 class="color-light"><span class="text-shadow">Мы стрижем ваших питомцев с любовью</span></h1>
-                        <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
+                        <h2 class="color-light"><span class="main-font">Мы стрижем ваших питомцев с любовью</span></h2>
+                        <p class="mb-5 main-font">Салон №1 груминг собак и кошек</p>
                         <p>
-                            <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">Записаться</button>
+                            <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>
                         </p>
 
                         <!--              <p class="mb-5">В нашем салоне доступны услуги: стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей.</p>-->
@@ -105,10 +115,10 @@
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-md-8 text-center col-sm-12 element-animate">
-                    <h1 class="color-light"><span class="text-shadow">Мы стрижем ваших питомцев с любовью</span></h1>
-                    <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
+                    <h2 class="color-light"><span class="main-font">Мы стрижем ваших питомцев с любовью</span></h2>
+                    <p class="mb-5 main-font">Салон №1 груминг собак и кошек</p>
                     <p>
-                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">Записаться</button>
+                        <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>
                     </p>
                 </div>
             </div>
@@ -121,9 +131,9 @@
 <!-- Masters -->
 <section id="masters" class="section">
     <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
+        <div class="row justify-content-center mb-5 element-animate" style="margin-top: -50px">
             <div class="col-md-10 text-center">
-                <h2 class="heading mb-4 color-common"><span class="text-strong text-shadow">Наши мастера просто обожают ваших питомцев</span></h2>
+                <h2 class="heading mb-4 color-common"><span class="text-strong__ main-font">Наши мастера просто обожают ваших питомцев</span></h2>
                 <!--            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>-->
             </div>
         </div>
@@ -133,8 +143,8 @@
                 <div class="card" style="margin: 0 auto; max-width: 500px">
                     <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">
                     <div class="card-body bg-light">
-                        <h3 class="mt-0 text-white"><span class="text-strong text-shadow">Карина</span></h3>
-                        <p class="block-master">
+                        <h3 class="mt-0 text-white"><span class="text-strong__ main-font">Карина</span></h3>
+                        <p class="block-master main-font">
                             Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.
                             Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />
                             <strong>Владелица Йорка Гуччи.</strong>
@@ -167,11 +177,11 @@
 <!-- Prices -->
 <section id="prices" class="section">
     <div class="container">
-        <div id="row">
-            <h2 class="heading mb-4 text-center color-common text-strong text-shadow">Цены на наши услуги не кусаются и не царапаются</h2>
+        <div id="row" style="margin-top: -150px">
+            <h2 class="heading mb-4 text-center color-common text-strong__ main-font">Цены на наши услуги не кусаются и не царапаются</h2>
         </div>
 
-        <p class="text-center">
+        <p class="text-center main-font" style="margin-top: 50px">
             <!--      <button id="tab-btn-1" class="tab-btn btn-tab-active">Порода</button>-->
             <button id="tab-btn-2" class="tab-btn btn-tab-active">Под машинку/модельная</button>
             <button id="tab-btn-3" class="tab-btn">Гигиена</button>
@@ -180,8 +190,8 @@
             <button id="tab-btn-6" class="tab-btn">Экпресс/линька</button>
         </p>
 
-        <div class="row">
-            <div id="tab-1" class="col-sm tabs-price ">
+        <div class="row main-font">
+            <div id="tab-1" class="col-sm tabs-price main-font">
                 <p><strong>Порода</strong></p>
                 <p>Бишон-фризе</p>
                 <p>Гриффон, пти брабансон</p>
@@ -201,7 +211,7 @@
                 <p>Шпиц (карликовый /малый, до 5кг)</p>
                 <p>Японский хин</p>
             </div>
-            <div id="tab-2" class="col-sm tabs-price">
+            <div id="tab-2" class="col-sm tabs-price main-font">
                 <p><strong>Комплекс: под машинку / модельная</strong></p>
                 <p>2700 / 3200 &#8381;</p>
                 <p>2000 / 2300 &#8381;</p>
@@ -309,19 +319,19 @@
 <!-- Gallery -->
 <section id="gallery" class="section">
     <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
+        <div class="row justify-content-center mb-5 element-animate" style="margin-top: -150px">
             <div class="col-md-10 text-center">
-                <h2 class=" heading mb-4 color-common text-strong text-shadow">Все самые красивые работы смотрите в нашем Instagram и еще немного наших работ для примера</h2>
+                <h2 class="heading mb-4 color-common text-strong__ main-font">Все самые красивые работы смотрите в нашем Instagram и еще немного наших работ для примера</h2>
             </div>
         </div>
 
-        <div class="row element-animate">
+        <div class="row element-animate" style="margin-top: -50px">
             <div class="major-caousel js-carousel-1 owl-carousel">
 
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
-                            <h3>Немецкая овчарка</h3>
+                            <h3 class="main-font">Немецкая овчарка</h3>
                             <span class="ion-plus icon"></span>
                             <img src="/public/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -331,7 +341,7 @@
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
-                            <h3>Лабрадор</h3>
+                            <h3 class="main-font">Лабрадор</h3>
                             <span class="ion-plus icon"></span>
                             <img src="/public/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -341,7 +351,7 @@
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
-                            <h3>Бульдог</h3>
+                            <h3 class="main-font">Бульдог</h3>
                             <span class="ion-plus icon"></span>
                             <img src="/public/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -351,7 +361,7 @@
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
-                            <h3>Восточно-европейская овчарка</h3>
+                            <h3 class="main-font">Восточно-европейская овчарка</h3>
                             <span class="ion-plus icon"></span>
                             <img src="/public/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -361,7 +371,7 @@
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
-                            <h3>Бигль</h3>
+                            <h3 class="main-font">Бигль</h3>
                             <span class="ion-plus icon"></span>
                             <img src="/public/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -371,7 +381,7 @@
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
-                            <h3>Золотистый ретривер</h3>
+                            <h3 class="main-font">Золотистый ретривер</h3>
                             <span class="ion-plus icon"></span>
                             <img src="/public/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -386,15 +396,17 @@
 
 <!-- About our -->
 <section id="about-our" class="section">
-    <div class="container">
+    <div class="container" style="margin-top: -200px">
+        <h2 class="heading mb-4 color-common text-center main-font">Почему клиенты выбирают нас?</h2>
+
         <div class="bg-light div-custom">
             <!--      <h1 class="text-white__ box-alt"><span class="text-alt">Почему клиенты выбирают нас?</span></h1>-->
 
-            <h1 class="text-white"><span class="text-shadow">Почему клиенты выбирают нас?</span></h1>
+
 
             <!--      <h1 class="text-white "><span class="text">Почему клиенты выбирают нас?</span></h1>-->
 
-            <p>
+            <p class="main-font">
                 <span class="fa fa-check" style="font-size: large"></span>
                 Команда профессиональных груммеров с большим опытом.<br />
                 <span class="fa fa-check" style="font-size: large"></span>
@@ -409,7 +421,7 @@
                 И конечно, все процедуры выполняются без наркоза.
             </p>
 
-            <p>
+            <p class="main-font">
                 В нашем салоне доступны услуги: <span class="text-strong">стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей.</span>
             </p>
 
@@ -419,13 +431,13 @@
 <!-- END section -->
 
 <!-- Address -->
-<section id="address" class="section mt-20-">
+<section id="address" class="section" style="margin-top: -150px;">
     <div class="container">
-        <div class="bg-light div-custom text-center">
-            <h1 class="text-white text-shadow">Москва, ул. Гарибальди, 15</h1>
-            <p class="text-center" style="">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af82128a6e8e17a25923b2b00bc65e18d20f4189d65318f6d379f369b144d463d&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
-            </p>
+        <h2 class="heading mb-4 color-common text-center main-font">Москва, ул. Гарибальди, 15</h2>
+        <div class="bg-light div-custom__ text-center">
+
+           <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af82128a6e8e17a25923b2b00bc65e18d20f4189d65318f6d379f369b144d463d&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
+
         </div>
     </div>
 </section>
@@ -433,7 +445,7 @@
 
 <footer class="site-footer">
     <div class="container">
-        <div class="row">
+        <div class="row main-font">
             <div class="col-md-4 mb-5">
                 <h3>Контакты</h3>
                 <ul class="list-unstyled footer-link">
@@ -478,7 +490,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row main-font">
             <div class="col-12 text-md-center text-left">
                 <p>
                     salon-groom.ru &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены
@@ -497,8 +509,8 @@
                 <button type="button" class="close text-white pointer" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <!--          <h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
             </div>
-            <div class="modal-body">
-                <h2 class="text-white text-strong__"><span class="text-shadow">Запись на стрижку</span></h2>
+            <div class="modal-body main-font">
+                <h3 class="text-white text-strong__"><span class="text-shadow">Запись на стрижку</span></h3>
                 <form action="/action_page.php">
                     <div class="form-group">
                         <label for="name">Имя:</label>

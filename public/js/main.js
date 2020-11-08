@@ -6,7 +6,7 @@
 
   // loader
   var loader = function() {
-    setTimeout(function() { 
+    setTimeout(function() {
       if($('#loader').length > 0) {
         $('#loader').removeClass('show');
       }
@@ -14,7 +14,7 @@
   };
   loader();
 
-	
+
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
 		$this.addClass('show');
@@ -34,27 +34,29 @@
 
 	// home slider
 	$('.home-slider').owlCarousel({
-    loop:true,
+    loop: true,
     autoplay: true,
-    margin:10,
+    margin: 10,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
-    nav:true,
+    nav: true,
+    dots: false,
     autoplayHoverPause: true,
     items: 1,
     navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
-    responsive:{
+    responsive: {
       0:{
-        items:1,
-        nav:false
+        items: 1,
+        nav: false
       },
       600:{
-        items:1,
-        nav:false
+        items: 1,
+        nav: false
       },
       1000:{
-        items:1,
-        nav:true
+        items: 1,
+          dots: false,
+        nav: true
       }
     }
 	});
@@ -68,22 +70,25 @@
     margin: 20,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
-    nav: true,
+    nav: false,
     autoplayHoverPause: true,
     items: 3,
     navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
     responsive:{
       0:{
-        items:1,
-        nav:false
+        items: 1,
+        nav: false,
+          dots: false
       },
       600:{
-        items:2,
-        nav:false
+        items: 2,
+        nav: false,
+          dots: false
       },
       1000:{
         items:3,
-        nav:true,
+        nav: true,
+        dots: false,
         loop:false
       }
   	}
@@ -125,7 +130,7 @@
 		$('.element-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('element-animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -147,9 +152,9 @@
 							el.removeClass('item-animate');
 						},  k * 100);
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
