@@ -17,20 +17,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/css/animate.css">
+    <link rel="stylesheet" href="/public/css/owl.carousel.min.css">
 
-    <link rel="stylesheet" href="/fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/public/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/public/fonts/fontawesome/css/font-awesome.min.css">
 
     <!--  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">-->
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/public/css/style.css">
 
     <!-- Theme Style Custom -->
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
@@ -44,9 +44,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark transparant">
         <div class="container">
 
-            <a class="navbar-brand absolute" href="/">
+            <a class="navbar-brand absolute" href="index.html">
                 <!--        <strong>SALON GROOM</strong>-->
-                <img class="w-72" src="/img/logo-new.png" alt="logo">
+                <img class="w-72" src="/public/img/logo-new.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-main" aria-controls="navbars-main" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -141,7 +141,7 @@
         <div class="row element-animate" style="margin-top: -50px">
             <div class="col-md text-center">
                 <div class="card" style="margin: 0 auto; max-width: 500px">
-                    <img class="card-img-top" src="/img/masters/master_1.jpg" alt="Card image">
+                    <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">
                     <div class="card-body bg-light">
                         <h3 class="mt-0 text-white"><span class="text-strong__ main-font">Карина</span></h3>
                         <p class="block-master main-font">
@@ -332,7 +332,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3 class="main-font">Немецкая овчарка</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -342,7 +342,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3 class="main-font">Лабрадор</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -352,7 +352,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3 class="main-font">Бульдог</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -362,7 +362,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3 class="main-font">Восточно-европейская овчарка</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -372,7 +372,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3 class="main-font">Бигль</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -382,7 +382,7 @@
                         <a href="single.html" class="link-thumbnail">
                             <h3 class="main-font">Золотистый ретривер</h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -548,13 +548,13 @@
 <!--      </svg>-->
 <!--    </div>-->
 
-<script src="/js/jquery-3.2.1.min.js"></script>
-<script src="/js/popper.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/jquery.waypoints.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/custom.js"></script>
+<script src="/public/js/jquery-3.2.1.min.js"></script>
+<script src="/public/js/popper.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
+<script src="/public/js/owl.carousel.min.js"></script>
+<script src="/public/js/jquery.waypoints.min.js"></script>
+<script src="/public/js/main.js"></script>
+<script src="/public/js/custom.js"></script>
 
 <script>
     /* 1 */
