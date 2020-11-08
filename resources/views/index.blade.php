@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balsamiq%20Sans">
     <style>
         body {
-            font-family: "Rubik" /*"Roboto Slab";*/
+            font-family: "Balsamiq Sans" /* Rubik "Roboto Slab" "Yanone Kaffeesatz" Caveat "Balsamiq Sans" */
             /*font-size: 22px;*/
         }
 
@@ -53,7 +53,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbars-main">
-                <ul class="navbar-nav mx-auto pl-lg-5 pl-0">
+                <ul class="navbar-nav mx-auto pl-lg-5 pl-0 main-font">
                     <li class="nav-item">
                         <a class="nav-link" onclick="hideNavbarCollapse()" href="#about-our"><h6 class="main-font">О нас</h6></a>
                     </li>
