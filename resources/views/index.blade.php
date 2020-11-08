@@ -138,7 +138,7 @@
             </div>
         </div>
 
-        <div class="row element-animate">
+        <div class="row element-animate" style="margin-top: -50px">
             <div class="col-md text-center">
                 <div class="card" style="margin: 0 auto; max-width: 500px">
                     <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">
@@ -181,7 +181,7 @@
             <h2 class="heading mb-4 text-center color-common text-strong__ main-font">Цены на наши услуги не кусаются и не царапаются</h2>
         </div>
 
-        <p class="text-center main-font" style="margin-top: 50px">
+        <p class="text-center main-font" style="margin-top: 15px">
             <!--      <button id="tab-btn-1" class="tab-btn btn-tab-active">Порода</button>-->
             <button id="tab-btn-2" class="tab-btn btn-tab-active">Под машинку/модельная</button>
             <button id="tab-btn-3" class="tab-btn">Гигиена</button>
@@ -325,9 +325,8 @@
             </div>
         </div>
 
-        <div class="row element-animate" style="margin-top: -50px">
+        <div class="row element-animate" style="margin-top: -75px">
             <div class="major-caousel js-carousel-1 owl-carousel">
-
                 <div>
                     <div class="media d-block media-custom text-center">
                         <a href="single.html" class="link-thumbnail">
