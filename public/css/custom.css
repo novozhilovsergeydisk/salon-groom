@@ -122,10 +122,10 @@
     background-color: transparent;
 }
 .slider-1 {
-    background-image: url('/img/banner-bg.jpg');
+    background-image: url('/public/img/banner-bg.jpg');
 }
 .slider-2 {
-    background-image: url('/img/slider-2.jpg');
+    background-image: url('/public/img/slider-2.jpg');
 }
 .slider-mobile {
     height: 150px;
