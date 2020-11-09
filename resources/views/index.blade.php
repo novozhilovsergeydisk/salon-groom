@@ -44,7 +44,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark transparant">
         <div class="container">
 
-            <a class="navbar-brand absolute" href="index.html">
+            <a class="navbar-brand absolute" href="/">
                 <!--        <strong>SALON GROOM</strong>-->
                 <img class="w-72" src="/public/img/logo-new.png" alt="logo">
             </a>

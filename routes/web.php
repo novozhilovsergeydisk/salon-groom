@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,12 @@ Route::get('/', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/admin', [MainController::class, 'index']);
+
+//Route::get('/rock', 'Admin/MainController@rock');
+
+
+//Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
+//    Route::get('/', 'MainController@index')->name('admin.index');
+//});
