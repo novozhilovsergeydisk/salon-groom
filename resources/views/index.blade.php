@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balsamiq%20Sans">
+{{--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balsamiq%20Sans">--}}
     <style>
         body {
             font-family: "Balsamiq Sans" /* Rubik "Roboto Slab" "Yanone Kaffeesatz" Caveat "Balsamiq Sans" */
@@ -22,7 +22,9 @@
     <link rel="stylesheet" href="/public/css/owl.carousel.min.css">
 
     <link rel="stylesheet" href="/public/fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="/public/fonts/fontawesome/css/font-awesome.min.css">
+{{--    <link rel="stylesheet" href="/public/fonts/fontawesome/css/font-awesome.min.css">--}}
+
+    <link rel="stylesheet" href="/public/fonts/fontawesome-free-5.15.1-web/css/all.css">
 
     <!--  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">-->
 
@@ -40,10 +42,9 @@
 <!-- Back to top button -->
 <a id="button"></a>
 
-<header role="banner">
+<header role="banner" style__="border: 1px solid red;">
     <nav class="navbar navbar-expand-lg navbar-dark transparant">
         <div class="container">
-
             <a class="navbar-brand absolute" href="/">
                 <!--        <strong>SALON GROOM</strong>-->
                 <img class="w-72" src="/public/img/logo-new.png" alt="logo">
@@ -53,34 +54,30 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbars-main">
-                <ul class="navbar-nav mx-auto pl-lg-5 pl-0 main-font">
+                <ul class="navbar-nav mx-auto pl-lg-5 pl-0">
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#about-our"><h6 class="main-font">О нас</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#about-our"><h6>О нас</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#masters"><h6 class="main-font">Мастера</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#masters"><h6>Мастера</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#prices"><h6 class="main-font">Цены</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#prices"><h6>Цены</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#gallery"><h6 class="main-font">Галерея</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#gallery"><h6>Галерея</h6></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6 class="main-font">Адреса</h6></a>
+                        <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6>Адреса салонов</h6></a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
 </header>
 <!-- END header -->
 
-<!--  <button class="btn btn-block btn-lg" data-toggle="modal" data-target="#myModal">-->
-<!--    Launch demo modal-->
-<!--  </button>-->
-
+<!-- Slider mobile -->
 <section id="home-slider-mobile" class="hidden">
     <div id="container" class="slider-mobile">
         <br />
@@ -90,21 +87,54 @@
         </p>
     </div>
 </section>
+<!-- END section -->
 
+<!-- Slider -->
 <section id="home-slider" class="home-slider owl-carousel">
+    <div class="slider-item main-slider-2">
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center">
+                <div class="col-md-8 text-center col-sm-12 element-animate">
+                    <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
+                    <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
+                    <p>
+                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
+                            <h4 class="text-white">Записаться</h4>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-item main-slider-1">
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center">
+                <div class="col-md-8 text-center col-sm-12 element-animate">
+                    <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
+                    <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
+                    <p>
+                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
+                            <h4 class="text-white">Записаться</h4>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="slider-item slider-1">
         <div class="banner-area">
             <div class="container">
                 <div class="row slider-text align-items-center justify-content-center">
                     <div class="col-md-8 text-center col-sm-12 element-animate">
-                        <h2 class="color-light"><span class="main-font">Мы стрижем ваших питомцев с любовью</span></h2>
-                        <p class="mb-5 main-font">Салон №1 груминг собак и кошек</p>
+                        <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
+                        <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                         <p>
-                            <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>
+                            <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
+                                <h4 class="text-white">Записаться</h4>
+                            </button>
                         </p>
-
-                        <!--              <p class="mb-5">В нашем салоне доступны услуги: стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей.</p>-->
-
                     </div>
                 </div>
             </div>
@@ -115,25 +145,26 @@
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-md-8 text-center col-sm-12 element-animate">
-                    <h2 class="color-light"><span class="main-font">Мы стрижем ваших питомцев с любовью</span></h2>
-                    <p class="mb-5 main-font">Салон №1 груминг собак и кошек</p>
+                    <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
+                    <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                     <p>
-                        <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>
+                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
+                            <h4 class="text-white">Записаться</h4>
+                        </button>
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <!-- END slider -->
 
 <!-- Masters -->
 <section id="masters" class="section">
     <div class="container">
-        <div class="row justify-content-center mb-5 element-animate" style="margin-top: -50px">
+        <div class="row justify-content-center mb-5 element-animate" style__="margin-top: -50px">
             <div class="col-md-10 text-center">
-                <h2 class="heading mb-4 color-common"><span class="text-strong__ main-font">Наши мастера просто обожают ваших питомцев</span></h2>
+                <h2 class="heading mb-4 color-common section-title">Наши мастера просто обожают ваших питомцев</h2>
                 <!--            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>-->
             </div>
         </div>
@@ -143,7 +174,7 @@
                 <div class="card" style="margin: 0 auto; max-width: 500px">
                     <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">
                     <div class="card-body bg-light">
-                        <h3 class="mt-0 text-white"><span class="text-strong__ main-font">Карина</span></h3>
+                        <h3 class="mt-0 text-white section-title">Карина</h3>
                         <p class="block-master main-font">
                             Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.
                             Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />
@@ -177,8 +208,8 @@
 <!-- Prices -->
 <section id="prices" class="section">
     <div class="container">
-        <div id="row" style="margin-top: -150px">
-            <h2 class="heading mb-4 text-center color-common text-strong__ main-font">Цены на наши услуги не кусаются и не царапаются</h2>
+        <div id="row" style__="margin-top: -150px">
+            <h2 class="heading mb-4 text-center color-common section-title">Цены на наши услуги не кусаются и не царапаются</h2>
         </div>
 
         <p class="text-center main-font" style="margin-top: 15px">
@@ -319,13 +350,13 @@
 <!-- Gallery -->
 <section id="gallery" class="section">
     <div class="container">
-        <div class="row justify-content-center mb-5 element-animate" style="margin-top: -150px">
+        <div id="animate-title" class="row justify-content-center mb-5 element-animate">
             <div class="col-md-10 text-center">
-                <h2 class="heading mb-4 color-common text-strong__ main-font">Все самые красивые работы смотрите в нашем Instagram и еще немного наших работ для примера</h2>
+                <h2 class="heading mb-4 color-common section-title">Все самые красивые работы смотрите в нашем Instagram и еще немного наших работ для примера</h2>
             </div>
         </div>
 
-        <div class="row element-animate" style="margin-top: -75px">
+        <div id="animate-data" class="row element-animate">
             <div class="major-caousel js-carousel-1 owl-carousel">
                 <div>
                     <div class="media d-block media-custom text-center">
@@ -395,49 +426,57 @@
 
 <!-- About our -->
 <section id="about-our" class="section">
-    <div class="container" style="margin-top: -200px">
-        <h2 class="heading mb-4 color-common text-center main-font">Почему клиенты выбирают нас?</h2>
+    <div class="container" style__="margin-top: -100px">
+        <h2 class="heading mb-4 color-common text-center section-title">Почему клиенты выбирают нас?</h2>
 
-        <div class="bg-light div-custom">
-            <!--      <h1 class="text-white__ box-alt"><span class="text-alt">Почему клиенты выбирают нас?</span></h1>-->
+        <div class="row pd-1-rem__ text-center">
+            <div class="col-md-4 our">
+                <i class="fa fa-car our-icon"></i>
+                <p><strong>Бесплатная VIP стоянка для наших клиентов возле офиса</strong></p>
+            </div>
+            <div class="col-md-4 our">
+                <i class="fas fa-dog our-icon"></i>
+                <p>Комфортная зона отдыха для ожидания ваших питомцев</p>
+            </div>
+            <div class="col-md-4 our">
+                <i class="fa fa-eye-dropper our-icon"></i>
+                <p><strong>И конечно, все процедуры выполняются без наркоза</strong></p>
+            </div>
+{{--        </div>--}}
 
+{{--        <div class="row pd-1-rem text-center">--}}
+            <div class="col-md-4 our">
+                <i class="fas fa-diagnoses our-icon"></i>
+                <p>Команда профессиональных груммеров с большим опытом</p>
+            </div>
+            <div class="col-md-4 our">
+                <i class="fas fa-hands-wash our-icon"></i>
+                <p>Мы используем современные средства европейских брендов ухода за шерстью</p>
+            </div>
+            <div class="col-md-4 our">
+                <i class="fas fa-user-plus our-icon"></i>
+                <p>Помощь в консультировании по вопросам правильного ухода за домашними животными</p>
+            </div>
+        </div>
 
-
-            <!--      <h1 class="text-white "><span class="text">Почему клиенты выбирают нас?</span></h1>-->
-
-            <p class="main-font">
-                <span class="fa fa-check" style="font-size: large"></span>
-                Команда профессиональных груммеров с большим опытом.<br />
-                <span class="fa fa-check" style="font-size: large"></span>
-                Мы используем современные средства европейских брендов ухода за шерстью.<br />
-                <span class="fa fa-check" style="font-size: large"></span>
-                Бесплатная VIP стоянка для наших клиентов возле офиса.<br />
-                <span class="fa fa-check" style="font-size: large"></span>
-                Комфортная зона отдыха для ожидания ваших питомцев.<br />
-                <span class="fa fa-check" style="font-size: large"></span>
-                Помощь в консультировании по вопросам правильного ухода за домашними животными.<br />
-                <span class="fa fa-check" style="font-size: large"></span>
-                И конечно, все процедуры выполняются без наркоза.
-            </p>
-
-            <p class="main-font">
-                В нашем салоне доступны услуги: <span class="text-strong">стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей.</span>
-            </p>
-
+        <div class="row">
+            <div class="col-12 text-center our">
+                <p style="margin-top: 2em">
+                    В нашем салоне доступны услуги: <strong>стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей</strong>
+                </p>
+            </div>
         </div>
     </div>
 </section>
 <!-- END section -->
 
 <!-- Address -->
-<section id="address" class="section" style="margin-top: -150px;">
-    <div class="container">
-        <h2 class="heading mb-4 color-common text-center main-font">Москва, ул. Гарибальди, 15</h2>
-        <div class="bg-light div-custom__ text-center">
+<section id="address" class="address-fluid">
+    <h2 class="heading mb-4 color-common text-center section-title">Москва, ул. Гарибальди, 15</h2>
+    <div class="">
 
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af82128a6e8e17a25923b2b00bc65e18d20f4189d65318f6d379f369b144d463d&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af82128a6e8e17a25923b2b00bc65e18d20f4189d65318f6d379f369b144d463d&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
 
-        </div>
     </div>
 </section>
 <!-- END section -->
