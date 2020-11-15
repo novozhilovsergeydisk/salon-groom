@@ -114,9 +114,12 @@
                     <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
                     <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                     <p>
-                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
-                            <h4 class="text-white">Записаться</h4>
-                        </button>
+
+                        <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
+
+{{--                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">--}}
+{{--                            <h4 class="text-white">Записаться</h4>--}}
+{{--                        </button>--}}
                     </p>
                 </div>
             </div>
@@ -130,9 +133,7 @@
                     <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
                     <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                     <p>
-                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
-                            <h4 class="text-white">Записаться</h4>
-                        </button>
+                        <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
                     </p>
                 </div>
             </div>
@@ -147,9 +148,7 @@
                         <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
                         <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                         <p>
-                            <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
-                                <h4 class="text-white">Записаться</h4>
-                            </button>
+                            <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
                         </p>
                     </div>
                 </div>
@@ -164,9 +163,7 @@
                     <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
                     <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                     <p>
-                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">
-                            <h4 class="text-white">Записаться</h4>
-                        </button>
+                        <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
                     </p>
                 </div>
             </div>
@@ -487,7 +484,7 @@
 <!-- END section -->
 
 <!-- Orders form -->
-<section class="section">
+<section id="orders-list" class="section">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -514,8 +511,9 @@
                         <div class="input-group date form_date col-md-5__" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
                             <input class="form-control" id="date" name="date" type="text">
 
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-calendar"></span>
+                            <span class="input-group-addon pointer">
+                                <i class="fa fa-calendar"></i>
+{{--                                <span class="glyphicon glyphicon-calendar"></span>--}}
                             </span>
                         </div>
                     </div>
@@ -525,7 +523,7 @@
                         <div class="input-group date form_time col-md-5__" data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
                             <input id="time" name="time" class="form-control" size="16" type="text">
 
-                            <span class="input-group-addon">
+                            <span class="input-group-addon pointer">
                                 <i class="fa fa-calendar"></i>
                             </span>
                         </div>
