@@ -531,7 +531,7 @@
 
                     <div class="form-group">
                         <div id="sendmessage" style="color: green; font-weight: bold;" class="hidden">
-                            Заявка успешно отправлена
+                            Ваша заявка принята
                         </div>
 
                         <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
