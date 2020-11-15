@@ -554,10 +554,10 @@
 
 <!-- Address -->
 <section id="address" class="address-fluid">
-    <h2 class="heading mb-4 color-common text-center section-title">Москва, ул. Гарибальди, 15</h2>
+    <h2 class="heading mb-4 color-common text-center section-title">Москва, ул. Долгоруковская, 40</h2>
     <div class="">
 
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af82128a6e8e17a25923b2b00bc65e18d20f4189d65318f6d379f369b144d463d&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1d2c42ddbc66b85e3eafa2435ccd87074e779036847fb644e7984904e205959&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
 
     </div>
 </section>
