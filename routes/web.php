@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\MainController;
+use App\Http\Controllers\Ajax\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,17 @@ use App\Http\Controllers\Admin\MainController;
 |
 */
 
+Route::post('/sendmail', [ContactController::class, 'send']);
+
+//Route::post('/sendmail', function () {
+////    dd('OK');
+//    return 'OK';
+//
+//    return view('welcome');
+//});
+
+//Route::post('/sendmail', 'Ajax\ContactController@send');
+
 Route::get('/', function () {
     return view('index');
 });
@@ -23,6 +35,8 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/admin', [MainController::class, 'index']);
+
+Route::get('/admin/orders-list', [MainController::class, 'orders']);
 
 //Route::get('/rock', 'Admin/MainController@rock');
 

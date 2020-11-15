@@ -36,6 +36,22 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+    <link href="/public/components/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+
+{{--    <script src="/public/components/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>--}}
+
+    <style>
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url('/public/fonts/glyphicons-halflings-regular.eot');
+            src:
+                url('/public/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+                url('/public/fonts/glyphicons-halflings-regular.woff') format('woff'),
+                url('/public/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+                url('/public/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+        }
+    </style>
 </head>
 
 <body class="main">
@@ -470,6 +486,72 @@
 </section>
 <!-- END section -->
 
+<!-- Orders form -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="color-common text-center section-title">Запись на стрижку</h3>
+                <form id="contactform" method="post" class="validateform" name="contactform">
+                    {{ csrf_field() }}
+
+                    <div class="form-group">
+                        <label for="name">Имя *</label>
+                        <input type="text" class="form-control" placeholder="" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input type="text" class="form-control" placeholder="" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="poroda">Порода *</label>
+                        <input type="text" class="form-control" placeholder="" id="poroda" name="poroda">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date" class="">Дата *</label>
+                        <div class="input-group date form_date col-md-5__" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
+                            <input class="form-control" id="date" name="date" type="text">
+
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time" class="">Время *</label>
+                        <div class="input-group date form_time col-md-5__" data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+                            <input id="time" name="time" class="form-control" size="16" type="text">
+
+                            <span class="input-group-addon">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div id="sendmessage" style="color: green; font-weight: bold;" class="hidden">
+                            Заявка успешно отправлена
+                        </div>
+
+                        <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
+                            Заполните пустые поля
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label></label>
+                        <button type="submit" class="btn btn-block bg-common pointer">Записаться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END section -->
+
 <!-- Address -->
 <section id="address" class="address-fluid">
     <h2 class="heading mb-4 color-common text-center section-title">Москва, ул. Гарибальди, 15</h2>
@@ -550,6 +632,8 @@
             <div class="modal-body main-font">
                 <h3 class="text-white text-strong__"><span class="text-shadow">Запись на стрижку</span></h3>
                 <form action="/action_page.php">
+                    {{ csrf_field() }}
+
                     <div class="form-group">
                         <label for="name">Имя:</label>
                         <input type="email" class="form-control" placeholder="" id="name" name="name">
@@ -565,6 +649,15 @@
                     <div class="form-group">
                         <label for="date_time">Дата и время:</label>
                         <input type="email" class="form-control" placeholder="" id="date_time" name="date_time">
+                    </div>
+
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker7'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label></label>
@@ -594,6 +687,49 @@
 <script src="/public/js/jquery.waypoints.min.js"></script>
 <script src="/public/js/main.js"></script>
 <script src="/public/js/custom.js"></script>
+
+<!-- 6. Подключить js-файл библиотеки Bootstrap 3 DateTimePicker -->
+{{--<script src="/public/js/moment.js"></script>--}}
+
+{{--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>--}}
+
+<!-- Инициализация виджета "Bootstrap datetimepicker" -->
+<script>
+    $(document).ready(function () {
+        console.log('test ajax');
+
+        $('#contactform').on('submit', function (e) {
+            e.preventDefault();
+
+            console.log('contactform');
+
+            $.ajax({
+                type: 'POST',
+                url: '/sendmail',
+                data: $('#contactform').serialize(),
+                success: function (data) {
+                    if (data.result == 'success') {
+                        console.log('data.result = ', data.result);
+                        $('#senderror').hide();
+                        $('#sendmessage').show();
+                        $('#contactform')[0].reset();
+                    }
+
+                    if (data.result == 'failed') {
+                        console.log('data = ', data.name);
+                        $('#senderror').show();
+                        $('#sendmessage').hide();
+                    }
+                },
+                error: function () {
+                    console.log('error ajax');
+                    // $('#senderror').show();
+                    // $('#sendmessage').hide();
+                }
+            });
+        });
+    });
+</script>
 
 <script>
     /* 1 */
@@ -636,6 +772,42 @@
             navbars_main.removeClass('show');
         }
     }
+</script>
+
+<script type="text/javascript" src="/public/components/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="/public/components/bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.ru.js" charset="UTF-8"></script>
+<script type="text/javascript">
+    $('.form_datetime').datetimepicker({
+        language:  'ru',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        forceParse: 0,
+        showMeridian: 1
+    });
+    $('.form_date').datetimepicker({
+        language:  'ru',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+    $('.form_time').datetimepicker({
+        language:  'ru',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 1,
+        minView: 0,
+        maxView: 1,
+        forceParse: 0
+    });
 </script>
 
 </body>

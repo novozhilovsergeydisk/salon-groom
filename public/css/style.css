@@ -29,6 +29,11 @@ body {
 #animate-data {
     margin-top: -50px
 }
+#contactform {
+    margin: 0 auto;
+    width: 50%;
+    text-align:center !important;
+}
 
 /* END Custom css */
 
@@ -130,13 +135,14 @@ header {
     #prices {
       display: none;
     }
-
     #home-slider {
         display: none;
     }
-
     #home-slider-mobile {
         display: block;
+    }
+    #contactform {
+        width: 100%;
     }
   }
 
