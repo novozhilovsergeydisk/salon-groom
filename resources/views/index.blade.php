@@ -99,7 +99,9 @@
         <br />
         <p class="text-center text-white main-font">Салон №1 груминг собак и кошек</p>
         <p class="text-center">
-            <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>
+            <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
+
+{{--            <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>--}}
         </p>
     </div>
 </section>
