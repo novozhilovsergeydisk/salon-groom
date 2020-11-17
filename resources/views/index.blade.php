@@ -367,7 +367,8 @@
     <div class="container">
         <div id="animate-title" class="row justify-content-center mb-5 element-animate">
             <div class="col-md-10 text-center">
-                <h2 class="heading mb-4 color-common section-title">Все самые красивые работы смотрите в нашем Instagram и еще немного наших работ для примера</h2>
+                <h2 class="heading mb-4 color-common section-title">Все работы смотрите в нашем Instagram </h2>
+{{--                    и еще немного наших работ для примера--}}
             </div>
         </div>
 
