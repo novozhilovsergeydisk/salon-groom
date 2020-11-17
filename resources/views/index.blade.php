@@ -374,67 +374,122 @@
         <div id="animate-data" class="row element-animate">
             <div class="major-caousel js-carousel-1 owl-carousel">
                 <div>
-                    <div class="media d-block media-custom text-center">
-                        <a href="single.html" class="link-thumbnail">
-                            <h3 class="main-font">Немецкая овчарка</h3>
+                    <div id="our-1" class="media d-block media-custom text-center">
+                        <a href="#our-1" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/public/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/our1.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div>
-                    <div class="media d-block media-custom text-center">
-                        <a href="single.html" class="link-thumbnail">
-                            <h3 class="main-font">Лабрадор</h3>
+                    <div id="our-2" class="media d-block media-custom text-center">
+                        <a href="#our-2" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/public/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/our4.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div>
-                    <div class="media d-block media-custom text-center">
-                        <a href="single.html" class="link-thumbnail">
-                            <h3 class="main-font">Бульдог</h3>
+                    <div id="our-3" class="media d-block media-custom text-center">
+                        <a href="#our-3" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/public/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/our5.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div>
-                    <div class="media d-block media-custom text-center">
-                        <a href="single.html" class="link-thumbnail">
-                            <h3 class="main-font">Восточно-европейская овчарка</h3>
+                    <div id="our-4" class="media d-block media-custom text-center">
+                        <a href="#our-4" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/public/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/our6.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div>
-                    <div class="media d-block media-custom text-center">
-                        <a href="single.html" class="link-thumbnail">
-                            <h3 class="main-font">Бигль</h3>
+                    <div id="our-5" class="media d-block media-custom text-center">
+                        <a href="#our-5" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/public/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="media d-block media-custom text-center">
-                        <a href="single.html" class="link-thumbnail">
-                            <h3 class="main-font">Золотистый ретривер</h3>
-                            <span class="ion-plus icon"></span>
-                            <img src="/public/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/our7.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
             </div>
             <!-- END slider -->
         </div>
+
+{{--        <div id="animate-data" class="row element-animate">--}}
+{{--            <div class="major-caousel js-carousel-1 owl-carousel">--}}
+{{--                <div>--}}
+{{--                    <div class="media d-block media-custom text-center">--}}
+{{--                        <a href="single.html" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font">Немецкая овчарка</h3>--}}
+{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--                <div>--}}
+{{--                    <div class="media d-block media-custom text-center">--}}
+{{--                        <a href="single.html" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font">Лабрадор</h3>--}}
+{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--                <div>--}}
+{{--                    <div class="media d-block media-custom text-center">--}}
+{{--                        <a href="single.html" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font">Бульдог</h3>--}}
+{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--                <div>--}}
+{{--                    <div class="media d-block media-custom text-center">--}}
+{{--                        <a href="single.html" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font">Восточно-европейская овчарка</h3>--}}
+{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--                <div>--}}
+{{--                    <div class="media d-block media-custom text-center">--}}
+{{--                        <a href="single.html" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font">Бигль</h3>--}}
+{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--                <div>--}}
+{{--                    <div class="media d-block media-custom text-center">--}}
+{{--                        <a href="single.html" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font">Золотистый ретривер</h3>--}}
+{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <!-- END slider -->--}}
+{{--        </div>--}}
     </div>
 </section>
 <!-- END section -->
@@ -620,58 +675,6 @@
     </div>
 </footer>
 <!-- END footer -->
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content bg-common">
-            <div class="modal-header">
-                <button type="button" class="close text-white pointer" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <!--          <h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
-            </div>
-            <div class="modal-body main-font">
-                <h3 class="text-white text-strong__"><span class="text-shadow">Запись на стрижку</span></h3>
-                <form action="/action_page.php">
-                    {{ csrf_field() }}
-
-                    <div class="form-group">
-                        <label for="name">Имя:</label>
-                        <input type="email" class="form-control" placeholder="" id="name" name="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Телефон:</label>
-                        <input type="email" class="form-control" placeholder="" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="poroda">Порода:</label>
-                        <input type="email" class="form-control" placeholder="" id="poroda" name="poroda">
-                    </div>
-                    <div class="form-group">
-                        <label for="date_time">Дата и время:</label>
-                        <input type="email" class="form-control" placeholder="" id="date_time" name="date_time">
-                    </div>
-
-                    <div class="form-group">
-                        <div class='input-group date' id='datetimepicker7'>
-                            <input type='text' class="form-control" />
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-calendar"></span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label></label>
-                        <button type="button" class="btn btn-block bg-light-alt pointer" data-dismiss="modal">Записаться</button>
-                    </div>
-                </form>
-            </div>
-            <!--      <div class="modal-footer">-->
-            <!--        <button type="button" class="btn btn-block bg-common" style="cursor: pointer" data-dismiss="modal">Закрыть</button>-->
-            <!--&lt;!&ndash;        <button type="button" class="btn btn-save">Сохранить</button>&ndash;&gt;-->
-            <!--      </div>-->
-        </div>
-    </div>
-</div>
 
 <!-- loader -->
 <!--    <div id="loader" class="show fullscreen">-->
