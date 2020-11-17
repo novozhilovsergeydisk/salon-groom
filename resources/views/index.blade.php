@@ -113,7 +113,7 @@
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-md-8 text-center col-sm-12 element-animate">
-                    <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
+                    <h2 class="color-light__ text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
                     <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                     <p>
 
@@ -128,49 +128,6 @@
         </div>
     </div>
 
-    <div class="slider-item main-slider-1">
-        <div class="container">
-            <div class="row slider-text align-items-center justify-content-center">
-                <div class="col-md-8 text-center col-sm-12 element-animate">
-                    <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
-                    <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
-                    <p>
-                        <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="slider-item slider-1">
-        <div class="banner-area">
-            <div class="container">
-                <div class="row slider-text align-items-center justify-content-center">
-                    <div class="col-md-8 text-center col-sm-12 element-animate">
-                        <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
-                        <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
-                        <p>
-                            <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="slider-item slider-2">
-        <div class="container">
-            <div class="row slider-text align-items-center justify-content-center">
-                <div class="col-md-8 text-center col-sm-12 element-animate">
-                    <h2 class="color-light section-title">Мы стрижем ваших питомцев с любовью</h2>
-                    <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
-                    <p>
-                        <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <!-- END slider -->
 
@@ -530,13 +487,13 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 text-center our">
-                <p style="margin-top: 2em">
-                    В нашем салоне доступны услуги: <strong>стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей</strong>
-                </p>
-            </div>
-        </div>
+{{--        <div class="row">--}}
+{{--            <div class="col-12 text-center our">--}}
+{{--                <p style="margin-top: 2em">--}}
+{{--                    В нашем салоне доступны услуги: <strong>стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей</strong>--}}
+{{--                </p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </div>
 </section>
 <!-- END section -->
@@ -546,6 +503,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <hr />
                 <h3 class="color-common text-center section-title">Запись на стрижку</h3>
                 <form id="contactform" method="post" class="validateform" name="contactform">
                     {{ csrf_field() }}
@@ -626,7 +584,7 @@
                 <h3>Контакты</h3>
                 <ul class="list-unstyled footer-link">
                     <li class="d-block"><span class="d-block">Адрес:</span><span class="text-white">Москва, ул. Гарибальди, 15</span></li>
-                    <li class="d-block"><span class="d-block">Телефон:</span><span class="text-white">+7 765 211-59-72</span></li>
+                    <li class="d-block"><span class="d-block">Телефон:</span><span class="text-white">+7 495 430-00-26</span></li>
                     <li class="d-block"><span class="d-block">Email:</span><span class="text-white">info@salon-groom.ru</span></li>
                 </ul>
             </div>
