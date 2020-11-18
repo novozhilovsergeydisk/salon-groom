@@ -583,7 +583,7 @@
             <div class="col-md-4 mb-5">
                 <h3>Контакты</h3>
                 <ul class="list-unstyled footer-link">
-                    <li class="d-block"><span class="d-block">Адрес:</span><span class="text-white">Москва, ул. Гарибальди, 15</span></li>
+                    <li class="d-block"><span class="d-block">Адрес:</span><span class="text-white">Москва, ул. Долгоруковская, 40</span></li>
                     <li class="d-block"><span class="d-block">Телефон:</span><span class="text-white">+7 (499) 430-00-26</span></li>
                     <li class="d-block"><span class="d-block">Email:</span><span class="text-white">info@salon-groom.ru</span></li>
                 </ul>
