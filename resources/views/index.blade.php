@@ -134,7 +134,7 @@
 
 
 
-<section class="section">
+<section id="masters" class="section">
     <div class="container">
         <div class="row justify-content-center mb-5 element-animate" style__="margin-top: -50px">
             <div class="col-md-10 text-center">
