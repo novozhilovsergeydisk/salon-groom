@@ -112,7 +112,7 @@
     <div class="slider-item main-slider-2">
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
-                <div class="col-md-8 text-center col-sm-12 element-animate">
+                <div class="col-md-8 text-center col-sm-12 element-animate zzz">
                     <h2 class="color-light__ text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
                     <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                     <p>
@@ -131,50 +131,115 @@
 </section>
 <!-- END slider -->
 
-<!-- Masters -->
-<section id="masters" class="section">
+
+
+
+<section class="section">
     <div class="container">
         <div class="row justify-content-center mb-5 element-animate" style__="margin-top: -50px">
             <div class="col-md-10 text-center">
                 <h2 class="heading mb-4 color-common section-title">Наши мастера просто обожают ваших питомцев</h2>
-                <!--            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>-->
             </div>
         </div>
 
-        <div class="row element-animate" style="margin-top: -50px">
-            <div class="col-md text-center">
-                <div class="card" style="margin: 0 auto; max-width: 500px">
-                    <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">
-                    <div class="card-body bg-light">
-                        <h3 class="mt-0 text-white section-title">Карина</h3>
-                        <p class="block-master main-font">
-                            Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.
-                            Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />
-                            <strong>Владелица Йорка Гуччи.</strong>
-                        </p>
+        <div id="animate-data" class="row element-animate">
+            <div class="major-caousel js-carousel-1 owl-carousel">
+                <div>
+                    <div id="our-1" class="media d-block media-custom text-center">
+                        <a href="#our-1" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
+                            <span class="ion-plus icon"></span>
+                            <img src="/public/img/masters/groomer1.jpg" alt="Image placeholder" class="img-fluid">
+                        </a>
                     </div>
                 </div>
-            </div>
 
-            <!--      <div class="major-caousel js-carousel-1 owl-carousel">-->
-            <!--        <div>-->
-            <!--          <div class="media d-block media-custom text-center">-->
-            <!--            <a href="adoption-single.html"><img src="img/masters/master_1.jpg" alt="Image Placeholder" class="img-fluid"></a>-->
-            <!--            <div class="media-body bg-light">-->
-            <!--              <h3 class="mt-0 text-white"><b>Карина Ферхо</b></h3>-->
-            <!--              <p class="block-master">-->
-            <!--                Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.-->
-            <!--                Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />-->
-            <!--                <strong>Владелица Йорка Гуччи.</strong>-->
-            <!--              </p>-->
-            <!--            </div>-->
-            <!--          </div>-->
-            <!--        </div>-->
-            <!--      </div>-->
+                <div>
+                    <div id="our-2" class="media d-block media-custom text-center">
+                        <a href="#our-2" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
+                            <span class="ion-plus icon"></span>
+                            <img src="/public/img/masters/groomer2.jpg" alt="Image placeholder" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <div id="our-3" class="media d-block media-custom text-center">
+                        <a href="#our-3" class="link-thumbnail">
+                            <h3 class="main-font"> </h3>
+                            <span class="ion-plus icon"></span>
+                            <img src="/public/img/masters/groomer3.jpg" alt="Image placeholder" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+{{--                <div>--}}
+{{--                    <div id="our-4" class="media d-block media-custom text-center">--}}
+{{--                        <a href="#our-4" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font"> </h3>--}}
+{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/masters/master_1.jpg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+            </div>
             <!-- END slider -->
         </div>
+
+        <!-- END slider -->
     </div>
 </section>
+
+
+
+
+
+<!-- Masters -->
+{{--<section id="masters" class="section">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row justify-content-center mb-5 element-animate" style__="margin-top: -50px">--}}
+{{--            <div class="col-md-10 text-center">--}}
+{{--                <h2 class="heading mb-4 color-common section-title">Наши мастера просто обожают ваших питомцев</h2>--}}
+{{--                <!--            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>-->--}}
+{{--            </div>--}}
+{{--        </div>--}}
+
+{{--        <div class="row element-animate" style="margin-top: -50px">--}}
+{{--            <div class="col-md text-center">--}}
+{{--                <div class="card" style="margin: 0 auto; max-width: 500px">--}}
+{{--                    <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">--}}
+{{--                    <div class="card-body bg-light">--}}
+{{--                        <h3 class="mt-0 text-white section-title">Карина</h3>--}}
+{{--                        <p class="block-master main-font">--}}
+{{--                            Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.--}}
+{{--                            Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />--}}
+{{--                            <strong>Владелица Йорка Гуччи.</strong>--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+
+
+{{--              <div class="major-caousel js-carousel-1 owl-carousel">--}}
+{{--                  <div>--}}
+{{--                    <div class="media d-block media-custom text-center">--}}
+{{--                     <a href="adoption-single.html"><img src="img/masters/master_1.jpg" alt="Image Placeholder" class="img-fluid"></a>--}}
+{{--                   <div class="media-body bg-light">--}}
+{{--                         <h3 class="mt-0 text-white"><b>Карина Ферхо</b></h3>--}}
+{{--                       <p class="block-master">--}}
+{{--                          Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.--}}
+{{--                          Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />--}}
+{{--                          <strong>Владелица Йорка Гуччи.</strong>--}}
+{{--                       </p>--}}
+{{--                       </div>--}}
+{{--                     </div>--}}
+{{--                   </div>--}}
+{{--                </div>--}}
+{{--            <!-- END slider -->--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 <!-- END section -->
 
 <!-- Prices -->
@@ -486,14 +551,6 @@
                 <p>Помощь в консультировании по вопросам правильного ухода за домашними животными</p>
             </div>
         </div>
-
-{{--        <div class="row">--}}
-{{--            <div class="col-12 text-center our">--}}
-{{--                <p style="margin-top: 2em">--}}
-{{--                    В нашем салоне доступны услуги: <strong>стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей</strong>--}}
-{{--                </p>--}}
-{{--            </div>--}}
-{{--        </div>--}}
     </div>
 </section>
 <!-- END section -->
@@ -568,12 +625,18 @@
 
 <!-- Address -->
 <section id="address" class="address-fluid">
-    <h2 class="heading mb-4 color-common text-center section-title">Москва, ул. Долгоруковская, 40</h2>
-    <div class="">
+    <div class="container">
+        <div class="row main-font">
+            <div class="col-md-12">
+                <h2 class="heading mb-4 color-common text-center section-title">Москва, ул. Долгоруковская, 40</h2>
 
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1d2c42ddbc66b85e3eafa2435ccd87074e779036847fb644e7984904e205959&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1d2c42ddbc66b85e3eafa2435ccd87074e779036847fb644e7984904e205959&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
 
+            </div>
+        </div>
     </div>
+
+
 </section>
 <!-- END section -->
 

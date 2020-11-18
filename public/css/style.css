@@ -135,12 +135,15 @@ header {
     #prices {
       display: none;
     }
-    #home-slider {
-        display: none;
+    .zzz {
+        margin-top: -50px !important;
     }
-    #home-slider-mobile {
-        display: block;
-    }
+    /*#home-slider {*/
+    /*    display: none;*/
+    /*}*/
+    /*#home-slider-mobile {*/
+    /*    display: block;*/
+    /*}*/
     #contactform {
         width: 100%;
     }

@@ -159,6 +159,9 @@
 .main-slider-2 {
     background-image: url('/public/img/main_slider_2.png');
 }
+.main-banner {
+    background-image: url('/public/img/slider/main-banner.jpeg');
+}
 .slider-1 {
     background-image: url('/public/img/banner-bg.jpg');
 }
