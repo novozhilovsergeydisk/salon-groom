@@ -119,9 +119,10 @@
 </section>
 <!-- END slider -->
 
+<!-- Masters -->
 <section id="masters" class="section">
-    <div class="container">
-        <div class="row justify-content-center mb-5 element-animate" style__="margin-top: -50px">
+    <div class="container mobile-margin-top">
+        <div class="row justify-content-center mb-5 element-animate">
             <div class="col-md-10 text-center">
                 <h2 class="heading mb-4 color-common section-title mobile-title">Наши мастера просто обожают ваших питомцев</h2>
             </div>
@@ -177,8 +178,8 @@
 
 <!-- Prices -->
 <section id="prices" class="section">
-    <div class="container">
-        <div id="row" style__="margin-top: -150px">
+    <div class="container mobile-margin-top">
+        <div id="row" class="">
             <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги не кусаются и не царапаются</h2>
         </div>
 
@@ -319,7 +320,7 @@
 
 <!-- Gallery -->
 <section id="gallery" class="section">
-    <div class="container">
+    <div class="container mobile-margin-top">
         <div id="animate-title" class="row justify-content-center mb-5 element-animate">
             <div class="col-md-10 text-center">
                 <h2 class="heading mb-4 color-common section-title mobile-title">Все работы смотрите в нашем Instagram </h2>
@@ -387,7 +388,7 @@
 
 <!-- About our -->
 <section id="about-our" class="section">
-    <div class="container" style__="margin-top: -100px">
+    <div class="container mobile-margin-top">
         <h2 class="heading mb-4 color-common text-center section-title mobile-title">Почему клиенты выбирают нас?</h2>
 
         <div class="row pd-1-rem__ text-center">
@@ -493,7 +494,7 @@
 
 <!-- Address -->
 <section id="address" class="address-fluid">
-    <div class="container">
+    <div class="container mobile-margin-top">
         <div class="row main-font">
             <div class="col-md-12">
                 <h2 class="heading mb-4 color-common text-center section-title mobile-title">Москва, ул. Долгоруковская, 40</h2>

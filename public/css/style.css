@@ -150,6 +150,9 @@ header {
     .mobile-title {
         font-size: 20px;
     }
+    .mobile-margin-top {
+      margin-top: -3em;
+    }
     #contactform {
         width: 100%;
     }
