@@ -575,10 +575,10 @@
                         <input type="text" class="form-control" placeholder="" id="phone" name="phone">
                     </div>
 
-                    <div class="form-group">
-                        <label for="poroda">Порода *</label>
-                        <input type="text" class="form-control" placeholder="" id="poroda" name="poroda">
-                    </div>
+{{--                    <div class="form-group">--}}
+{{--                        <label for="poroda">Порода *</label>--}}
+{{--                        <input type="text" class="form-control" placeholder="" id="poroda" name="poroda">--}}
+{{--                    </div>--}}
 
                     <div class="form-group">
                         <label for="date" class="">Дата *</label>
@@ -605,11 +605,11 @@
 
                     <div class="form-group">
                         <div id="sendmessage" style="color: green; font-weight: bold;" class="hidden">
-                            Ваша заявка принята
+                            Спасибо! Ваша заявка принята. Ожидайте звонок администратора.
                         </div>
 
                         <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
-                            Заполните пустые поля
+                            Заполните пустые поля.
                         </div>
                     </div>
 
