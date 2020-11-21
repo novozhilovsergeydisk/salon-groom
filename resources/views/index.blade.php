@@ -115,7 +115,6 @@
             </div>
         </div>
     </div>
-
 </section>
 <!-- END slider -->
 
@@ -391,7 +390,7 @@
     <div class="container mobile-margin-top">
         <h2 class="heading mb-4 color-common text-center section-title mobile-title">Почему клиенты выбирают нас?</h2>
 
-        <div class="row pd-1-rem__ text-center">
+        <div class="row pd-1-rem text-center" >
             <div class="col-md-4 our">
                 <i class="fa fa-car our-icon"></i>
                 <p><strong>Бесплатная VIP стоянка для наших клиентов возле офиса</strong></p>
