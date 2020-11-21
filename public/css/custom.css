@@ -1,3 +1,9 @@
+.map {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
 .glyphicon-arrow-left:before{content:"\e091"}
 
 .our {
@@ -158,6 +164,11 @@
 }
 .main-slider-2 {
     background-image: url('/public/img/main_slider_2.png');
+}
+.mobile-slider {
+    background-image: url('/public/img/gallery/our5.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
 }
 .main-banner {
     background-image: url('/public/img/slider/main-banner.jpeg');

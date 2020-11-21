@@ -5,16 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{{--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balsamiq%20Sans">--}}
-    <style>
-        body {
-            font-family: "Balsamiq Sans" /* Rubik "Roboto Slab" "Yanone Kaffeesatz" Caveat "Balsamiq Sans" */
-            /*font-size: 22px;*/
-        }
-
-
-    </style>
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
     <link rel="stylesheet" href="/public/css/bootstrap.css">
@@ -22,7 +12,7 @@
     <link rel="stylesheet" href="/public/css/owl.carousel.min.css">
 
     <link rel="stylesheet" href="/public/fonts/ionicons/css/ionicons.min.css">
-{{--    <link rel="stylesheet" href="/public/fonts/fontawesome/css/font-awesome.min.css">--}}
+    {{--    <link rel="stylesheet" href="/public/fonts/fontawesome/css/font-awesome.min.css">--}}
 
     <link rel="stylesheet" href="/public/fonts/fontawesome-free-5.15.1-web/css/all.css">
 
@@ -39,7 +29,7 @@
 
     <link href="/public/components/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 
-{{--    <script src="/public/components/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>--}}
+    {{--    <script src="/public/components/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>--}}
 
     <style>
         @font-face {
@@ -95,15 +85,17 @@
 <!-- END header -->
 
 <!-- Slider mobile -->
-<section id="home-slider-mobile" class="hidden">
-    <div id="container" class="slider-mobile">
-        <br />
-        <p class="text-center text-white main-font">Салон №1 груминг собак и кошек</p>
-        <p class="text-center">
-            <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
-
-{{--            <button class="btn btn-white btn-outline-white btn-save main-font" data-toggle="modal" data-target="#myModal">Записаться</button>--}}
-        </p>
+<section id="home-slider-mobile" class="hidden mobile-slider">
+    <div id="container" class="container">
+        <div class="row">
+            <div class="col-md-12 text-center" style="margin-top: 150px; min-height: 500px;">
+                <h2 class="text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
+                <p class="text-white main-font">Салон №1 груминг собак и кошек</p>
+                <p class="text-center">
+                    <a class="btn btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 <!-- END section -->
@@ -113,16 +105,11 @@
     <div class="slider-item main-slider-2">
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
-                <div class="col-md-8 text-center col-sm-12 element-animate zzz">
+                <div class="col-md-8 text-center col-sm-12 element-animate mt-50-">
                     <h2 class="color-light__ text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
                     <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
                     <p>
-
                         <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
-
-{{--                        <button class="btn btn-white btn-outline-white btn-save" data-toggle="modal" data-target="#myModal">--}}
-{{--                            <h4 class="text-white">Записаться</h4>--}}
-{{--                        </button>--}}
                     </p>
                 </div>
             </div>
@@ -132,14 +119,11 @@
 </section>
 <!-- END slider -->
 
-
-
-
 <section id="masters" class="section">
     <div class="container">
         <div class="row justify-content-center mb-5 element-animate" style__="margin-top: -50px">
             <div class="col-md-10 text-center">
-                <h2 class="heading mb-4 color-common section-title">Наши мастера просто обожают ваших питомцев</h2>
+                <h2 class="heading mb-4 color-common section-title mobile-title">Наши мастера просто обожают ваших питомцев</h2>
             </div>
         </div>
 
@@ -175,79 +159,27 @@
                     </div>
                 </div>
 
-{{--                <div>--}}
-{{--                    <div id="our-4" class="media d-block media-custom text-center">--}}
-{{--                        <a href="#our-4" class="link-thumbnail">--}}
-{{--                            <h3 class="main-font"> </h3>--}}
-{{--                            <span class="ion-plus icon"></span>--}}
-{{--                            <img src="/public/img/masters/master_1.jpg" alt="Image placeholder" class="img-fluid">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                {{--                <div>--}}
+                {{--                    <div id="our-4" class="media d-block media-custom text-center">--}}
+                {{--                        <a href="#our-4" class="link-thumbnail">--}}
+                {{--                            <h3 class="main-font"> </h3>--}}
+                {{--                            <span class="ion-plus icon"></span>--}}
+                {{--                            <img src="/public/img/masters/master_1.jpg" alt="Image placeholder" class="img-fluid">--}}
+                {{--                        </a>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
             </div>
             <!-- END slider -->
         </div>
-
         <!-- END slider -->
     </div>
 </section>
-
-
-
-
-
-<!-- Masters -->
-{{--<section id="masters" class="section">--}}
-{{--    <div class="container">--}}
-{{--        <div class="row justify-content-center mb-5 element-animate" style__="margin-top: -50px">--}}
-{{--            <div class="col-md-10 text-center">--}}
-{{--                <h2 class="heading mb-4 color-common section-title">Наши мастера просто обожают ваших питомцев</h2>--}}
-{{--                <!--            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>-->--}}
-{{--            </div>--}}
-{{--        </div>--}}
-
-{{--        <div class="row element-animate" style="margin-top: -50px">--}}
-{{--            <div class="col-md text-center">--}}
-{{--                <div class="card" style="margin: 0 auto; max-width: 500px">--}}
-{{--                    <img class="card-img-top" src="/public/img/masters/master_1.jpg" alt="Card image">--}}
-{{--                    <div class="card-body bg-light">--}}
-{{--                        <h3 class="mt-0 text-white section-title">Карина</h3>--}}
-{{--                        <p class="block-master main-font">--}}
-{{--                            Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.--}}
-{{--                            Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />--}}
-{{--                            <strong>Владелица Йорка Гуччи.</strong>--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-
-{{--              <div class="major-caousel js-carousel-1 owl-carousel">--}}
-{{--                  <div>--}}
-{{--                    <div class="media d-block media-custom text-center">--}}
-{{--                     <a href="adoption-single.html"><img src="img/masters/master_1.jpg" alt="Image Placeholder" class="img-fluid"></a>--}}
-{{--                   <div class="media-body bg-light">--}}
-{{--                         <h3 class="mt-0 text-white"><b>Карина Ферхо</b></h3>--}}
-{{--                       <p class="block-master">--}}
-{{--                          Аккуратный мастер с опытом работы. Ищет индивидуальный подход к каждому любимцу. Внимательная и ласковая, любящая животных.--}}
-{{--                          Сделает великолепную стрижку для вашего питомца. Стремится развиваться в профессии, сделает ваших любимцев самыми красивыми.<br /><br />--}}
-{{--                          <strong>Владелица Йорка Гуччи.</strong>--}}
-{{--                       </p>--}}
-{{--                       </div>--}}
-{{--                     </div>--}}
-{{--                   </div>--}}
-{{--                </div>--}}
-{{--            <!-- END slider -->--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</section>--}}
-<!-- END section -->
 
 <!-- Prices -->
 <section id="prices" class="section">
     <div class="container">
         <div id="row" style__="margin-top: -150px">
-            <h2 class="heading mb-4 text-center color-common section-title">Цены на наши услуги не кусаются и не царапаются</h2>
+            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги не кусаются и не царапаются</h2>
         </div>
 
         <p class="text-center main-font" style="margin-top: 15px">
@@ -390,8 +322,8 @@
     <div class="container">
         <div id="animate-title" class="row justify-content-center mb-5 element-animate">
             <div class="col-md-10 text-center">
-                <h2 class="heading mb-4 color-common section-title">Все работы смотрите в нашем Instagram </h2>
-{{--                    и еще немного наших работ для примера--}}
+                <h2 class="heading mb-4 color-common section-title mobile-title">Все работы смотрите в нашем Instagram </h2>
+                {{--                    и еще немного наших работ для примера--}}
             </div>
         </div>
 
@@ -412,7 +344,7 @@
                         <a href="#our-2" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/public/img/gallery/our4.jpeg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/our7.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -442,78 +374,13 @@
                         <a href="#our-5" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
                             <span class="ion-plus icon"></span>
-                            <img src="/public/img/gallery/our7.jpeg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/our4.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
             </div>
             <!-- END slider -->
         </div>
-
-{{--        <div id="animate-data" class="row element-animate">--}}
-{{--            <div class="major-caousel js-carousel-1 owl-carousel">--}}
-{{--                <div>--}}
-{{--                    <div class="media d-block media-custom text-center">--}}
-{{--                        <a href="single.html" class="link-thumbnail">--}}
-{{--                            <h3 class="main-font">Немецкая овчарка</h3>--}}
-{{--                            <span class="ion-plus icon"></span>--}}
-{{--                            <img src="/public/img/dog_1.jpg" alt="Image placeholder" class="img-fluid">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
-{{--                <div>--}}
-{{--                    <div class="media d-block media-custom text-center">--}}
-{{--                        <a href="single.html" class="link-thumbnail">--}}
-{{--                            <h3 class="main-font">Лабрадор</h3>--}}
-{{--                            <span class="ion-plus icon"></span>--}}
-{{--                            <img src="/public/img/dog_2.jpg" alt="Image placeholder" class="img-fluid">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
-{{--                <div>--}}
-{{--                    <div class="media d-block media-custom text-center">--}}
-{{--                        <a href="single.html" class="link-thumbnail">--}}
-{{--                            <h3 class="main-font">Бульдог</h3>--}}
-{{--                            <span class="ion-plus icon"></span>--}}
-{{--                            <img src="/public/img/dog_3.jpg" alt="Image placeholder" class="img-fluid">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
-{{--                <div>--}}
-{{--                    <div class="media d-block media-custom text-center">--}}
-{{--                        <a href="single.html" class="link-thumbnail">--}}
-{{--                            <h3 class="main-font">Восточно-европейская овчарка</h3>--}}
-{{--                            <span class="ion-plus icon"></span>--}}
-{{--                            <img src="/public/img/dog_4.jpg" alt="Image placeholder" class="img-fluid">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
-{{--                <div>--}}
-{{--                    <div class="media d-block media-custom text-center">--}}
-{{--                        <a href="single.html" class="link-thumbnail">--}}
-{{--                            <h3 class="main-font">Бигль</h3>--}}
-{{--                            <span class="ion-plus icon"></span>--}}
-{{--                            <img src="/public/img/dog_5.jpg" alt="Image placeholder" class="img-fluid">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
-{{--                <div>--}}
-{{--                    <div class="media d-block media-custom text-center">--}}
-{{--                        <a href="single.html" class="link-thumbnail">--}}
-{{--                            <h3 class="main-font">Золотистый ретривер</h3>--}}
-{{--                            <span class="ion-plus icon"></span>--}}
-{{--                            <img src="/public/img/dog_6.jpg" alt="Image placeholder" class="img-fluid">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <!-- END slider -->--}}
-{{--        </div>--}}
     </div>
 </section>
 <!-- END section -->
@@ -521,7 +388,7 @@
 <!-- About our -->
 <section id="about-our" class="section">
     <div class="container" style__="margin-top: -100px">
-        <h2 class="heading mb-4 color-common text-center section-title">Почему клиенты выбирают нас?</h2>
+        <h2 class="heading mb-4 color-common text-center section-title mobile-title">Почему клиенты выбирают нас?</h2>
 
         <div class="row pd-1-rem__ text-center">
             <div class="col-md-4 our">
@@ -536,9 +403,9 @@
                 <i class="fa fa-eye-dropper our-icon"></i>
                 <p><strong>И конечно, все процедуры выполняются без наркоза</strong></p>
             </div>
-{{--        </div>--}}
+            {{--        </div>--}}
 
-{{--        <div class="row pd-1-rem text-center">--}}
+            {{--        <div class="row pd-1-rem text-center">--}}
             <div class="col-md-4 our">
                 <i class="fas fa-diagnoses our-icon"></i>
                 <p>Команда профессиональных груммеров с большим опытом</p>
@@ -562,7 +429,7 @@
         <div class="row">
             <div class="col-12">
                 <hr />
-                <h3 class="color-common text-center section-title">Запись на стрижку</h3>
+                <h3 class="color-common text-center section-title mobile-title">Запись на стрижку</h3>
                 <form id="contactform" method="post" class="validateform" name="contactform">
                     {{ csrf_field() }}
 
@@ -575,10 +442,10 @@
                         <input type="text" class="form-control" placeholder="" id="phone" name="phone">
                     </div>
 
-{{--                    <div class="form-group">--}}
-{{--                        <label for="poroda">Порода *</label>--}}
-{{--                        <input type="text" class="form-control" placeholder="" id="poroda" name="poroda">--}}
-{{--                    </div>--}}
+                    {{--                    <div class="form-group">--}}
+                    {{--                        <label for="poroda">Порода *</label>--}}
+                    {{--                        <input type="text" class="form-control" placeholder="" id="poroda" name="poroda">--}}
+                    {{--                    </div>--}}
 
                     <div class="form-group">
                         <label for="date" class="">Дата *</label>
@@ -593,7 +460,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="time" class="">Время *</label>
+                        <label for="time" class="">Желаемое время *</label>
                         <div class="input-group date form_time col-md-5__" data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
                             <input id="time" name="time" class="form-control" size="16" type="text">
 
@@ -629,15 +496,18 @@
     <div class="container">
         <div class="row main-font">
             <div class="col-md-12">
-                <h2 class="heading mb-4 color-common text-center section-title">Москва, ул. Долгоруковская, 40</h2>
+                <h2 class="heading mb-4 color-common text-center section-title mobile-title">Москва, ул. Долгоруковская, 40</h2>
 
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1d2c42ddbc66b85e3eafa2435ccd87074e779036847fb644e7984904e205959&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+                <div id="map-yandex" class="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1d2c42ddbc66b85e3eafa2435ccd87074e779036847fb644e7984904e205959&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
 
+                <div id="map-yandex-mobile" class="map hidden" style="padding-left: 20px; padding-right: 20px;">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1d2c42ddbc66b85e3eafa2435ccd87074e779036847fb644e7984904e205959&amp;height=200&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
             </div>
         </div>
     </div>
-
-
 </section>
 <!-- END section -->
 

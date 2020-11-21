@@ -135,15 +135,21 @@ header {
     #prices {
       display: none;
     }
-    .zzz {
+    .mt-50- {
         margin-top: -50px !important;
     }
-    /*#home-slider {*/
-    /*    display: none;*/
-    /*}*/
-    /*#home-slider-mobile {*/
-    /*    display: block;*/
-    /*}*/
+    #home-slider, #map-yandex {
+        display: none;
+    }
+    #home-slider-mobile, #map-yandex-mobile {
+        display: block;
+    }
+    #masters {
+        margin-top: -100px;
+    }
+    .mobile-title {
+        font-size: 20px;
+    }
     #contactform {
         width: 100%;
     }
