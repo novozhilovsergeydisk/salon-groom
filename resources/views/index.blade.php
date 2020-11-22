@@ -77,7 +77,7 @@
                         <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6>Адреса салонов</h6></a>
                     </li>
                 </ul>
-                <span class="color-common font-weight-bold" style="margin-top: -9px; font-size: 20px;">+7 (499) 430-00-26</span>
+                <span class="color-common font-weight-bold" style="margin-top: -9px; font-size: 20px;"><strong>+7 (499) 430-00-26</strong></span>
             </div>
         </div>
     </nav>
