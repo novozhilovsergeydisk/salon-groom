@@ -77,7 +77,7 @@
                         <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6>Адреса салонов</h6></a>
                     </li>
                 </ul>
-                <span class="color-common font-weight-bold">+7 (499) 430-00-26</span>
+                <span class="color-common font-weight-bold" style="margin-top: -9px; font-size: 20px;">+7 (499) 430-00-26</span>
             </div>
         </div>
     </nav>
@@ -157,7 +157,7 @@
                             <img src="/public/img/masters/groomer3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
-                </div>
+{{--                </div>--}}
 
                 {{--                <div>--}}
                 {{--                    <div id="our-4" class="media d-block media-custom text-center">--}}
