@@ -29,6 +29,8 @@
 
     <link href="/public/components/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+
     {{--    <script src="/public/components/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>--}}
 
     <style>
@@ -128,7 +130,7 @@
         </div>
 
         <div id="animate-data" class="row element-animate">
-            <div class="major-caousel js-carousel-1 owl-carousel">
+            <div class="major-caousel js-carousel-1 owl-carousel owl-theme owl-loaded owl-drag">
                 <div>
                     <div id="our-1" class="media d-block media-custom text-center">
                         <a href="#our-1" class="link-thumbnail">
@@ -184,133 +186,268 @@
 
         <p class="text-center main-font" style="margin-top: 15px">
             <!--      <button id="tab-btn-1" class="tab-btn btn-tab-active">Порода</button>-->
-            <button id="tab-btn-2" class="tab-btn btn-tab-active">Под машинку/модельная</button>
-            <button id="tab-btn-3" class="tab-btn">Гигиена</button>
-            <button id="tab-btn-4" class="tab-btn">Мытье-сушка</button>
-            <button id="tab-btn-5" class="tab-btn">Тримминг</button>
-            <button id="tab-btn-6" class="tab-btn">Экпресс/линька</button>
+
+            <button id="tab-btn-1" class="tab-btn btn-tab-active">Комплекс для собачки</button>
+            <button id="tab-btn-2" class="tab-btn">Гигиена и дополнительные услуги</button>
+            <button id="tab-btn-3" class="tab-btn">Комплекс для кошечки	</button>
+
+{{--            <button id="tab-btn-2" class="tab-btn btn-tab-active">Под машинку/модельная</button>--}}
+{{--            <button id="tab-btn-3" class="tab-btn">Гигиена и дополнительные услуги	</button>--}}
+{{--            <button id="tab-btn-4" class="tab-btn">Мытье-сушка</button>--}}
+{{--            <button id="tab-btn-5" class="tab-btn">Тримминг</button>--}}
+{{--            <button id="tab-btn-6" class="tab-btn">Экпресс/линька</button>--}}
         </p>
 
         <div class="row main-font">
-            <div id="tab-1" class="col-sm tabs-price main-font">
-                <p><strong>Порода</strong></p>
-                <p>Бишон-фризе</p>
-                <p>Гриффон, пти брабансон</p>
-                <p>Йоркширский терьер, бивер-йорк</p>
-                <p>Китайская хохлатая голая</p>
-                <p>Китайская хохлатая пуховка</p>
-                <p>Левретка</p>
-                <p>Мальтийская болонка</p>
-                <p>Мопс</p>
-                <p>Папильон</p>
-                <p>Пекинес</p>
-                <p>Той-пудель</p>
-                <p>Той-терьер (гладкош./длиннош.)</p>
-                <p>Цвергпинчер</p>
-                <p>Чихуахуа (гладкош./длиннош.)</p>
-                <p>Ши-тцу</p>
-                <p>Шпиц (карликовый /малый, до 5кг)</p>
-                <p>Японский хин</p>
+            <div id="tab-1" class="col-sm tabs-price">
+                <table class="table table-dark-alt table-hover">
+                    <th>Декоративные</th>
+                    <th></th>
+                    <th>Средние</th>
+                    <th></th>
+                    <th>Крупные</th>
+                    <th></th>
+
+                    <tbody>
+                        <tr>
+                            <td>Австралийский терьер</td>
+                            <td><strong>2 100 ₽</strong></td>
+                            <td>Бедлингтон</td>
+                            <td><strong>3 300 ₽</strong></td>
+                            <td>Английский сеттер</td>                    	 		 		 
+                            <td><strong>3 800 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Бишон фризе</td>
+                            <td><strong>2 600 ₽</strong></td>
+                            <td>Вельш-терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Афганская борзая</td>                    	 		 		 
+                            <td><strong>3 800 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Грифон, Брабансон</td>
+                            <td><strong>2 200 ₽</strong></td>
+                            <td>Вест хайленд уайт терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Бернский зенненхунд</td>                    	 		 		 
+                            <td><strong>4 500 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Йоркширский терьер</td>
+                            <td><strong>2 100 ₽</strong></td>
+                            <td>Джек-рассел терьер</td>
+                            <td><strong>2 500 ₽</strong></td>
+                            <td>Бобтейл</td>                    	 		 		 
+                            <td><strong>5 500 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Китайская хохлатая  (голая)</td>
+                            <td><strong>1 600 ₽</strong></td>
+                            <td>Керн-терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Ирландский терьер</td>                    	 		 		 
+                            <td><strong>3 500 ₽</strong></td>
+                        </tr>     		 		 
+                        <tr>
+                            <td>Китайская хохлатая  (пуховка)</td>
+                            <td><strong>2 300 ₽</strong></td>
+                            <td>Лейкленд-терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Керри-блю терьер</td>                    	 		 		 
+                            <td><strong>3 300 ₽</strong></td>
+                        </tr>	 		 		 
+                        <tr>
+                            <td>Мальтийская болонка</td>
+                            <td><strong>2 400 ₽</strong></td>
+                            <td>Миттельшнауцер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Ньюфаунленд</td>                    	 		 		 
+                            <td><strong>5 500 ₽</strong></td>
+                        </tr>	 		 		 
+                        <tr>
+                            <td>Московский дракон</td>
+                            <td><strong>2 000 ₽</strong></td>
+                            <td>Норвич-терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Пшеничный терьер</td>                    	 		 		 
+                            <td><strong>3 400 ₽</strong></td>
+                        </tr>	 		 		 
+                        <tr>
+                            <td>Мальтипу</td>
+                            <td><strong>2 500 ₽</strong></td>
+                            <td>Норфолк-терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Голден ретривер</td>                    	 		 		 
+                            <td><strong>4 600 ₽</strong></td>
+                        </tr>	 		 		 
+                        <tr>
+                            <td>Пекинес</td>
+                            <td><strong>2 400 ₽</strong></td>
+                            <td>Карликовый пудель (до 35 см)</td>
+                            <td><strong>2 500 ₽</strong></td>
+                            <td>Лабрадор Ретривер</td>                    	 		 		 
+                            <td><strong>4 600 ₽</strong></td>
+                        </tr>	 		 		 
+                        <tr>
+                            <td>Петербургская орхидея</td>
+                            <td><strong>2 200 ₽</strong></td>
+                            <td>Средний пудель (до 45 см)</td>
+                            <td><strong>2 700 ₽</strong></td>
+                            <td>Ризеншнауцер</td>                    	 		 		 
+                            <td><strong>5 500 ₽</strong></td>
+                        </tr>	 		 		 
+                        <tr>
+                            <td>Той-пудель (до 28 см)</td>
+                            <td><strong>2 200 ₽</strong></td>
+                            <td>Скотч-терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Русский черный терьер</td>                    	 		 		 
+                            <td><strong>6 500 ₽</strong></td>
+                        </tr>	 		 		 
+                        <tr>
+                            <td>Той-терьер / Чихуа-хуа длинношерстные</td>
+                            <td><strong>1 800 ₽</strong></td>
+                            <td>Спаниели (наголо)</td>
+                            <td><strong>2 700 ₽</strong></td>
+                            <td>Хаски</td>                    	 		 		 
+                            <td><strong>3 800 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Ши-тцу</td>
+                            <td><strong>2 400 ₽</strong></td>
+                            <td>Спаниели (модельно)</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Эрдельтерьер</td>                    	 		 		 
+                            <td><strong>3 800 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Шпиц Малый / Померанский</td>
+                            <td><strong>2 400 ₽</strong></td>
+                            <td>Такса жесткошерстная</td>
+                            <td><strong>2 500 ₽</strong></td>
+                            <td>Чау-Чау</td>                    	 		 		 
+                            <td><strong>4 500 ₽</strong></td>
+                        </tr> 		 		 
+                        <tr>
+                            <td>Японский хин</td>
+                            <td><strong>2 100 ₽</strong></td>
+                            <td>Тибетский терьер</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td>Метисы от 20 кг (под машинку)</td>                    	 		 		 
+                            <td><strong>4 900 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Метисы (до 5 кг)</td>
+                            <td><strong>1 900 ₽</strong></td>
+                            <td>Фокс-терьер</td>
+                            <td><strong>2 700 ₽</strong></td>
+                            <td></td>                    	 		 		 
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Цвергшнауцер</td>
+                            <td>2 700 ₽</strong></td>
+                            <td></td>                    	 		 		 
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Метисы (5-10 кг)</td>
+                            <td><strong>2 900 ₽</strong></td>
+                            <td></td>                    	 		 		 
+                            <td></td>
+                        </tr> 
+                    </tbody>
+                </table>
             </div>
-            <div id="tab-2" class="col-sm tabs-price main-font">
-                <p><strong>Комплекс: под машинку / модельная</strong></p>
-                <p>2700 / 3200 &#8381;</p>
-                <p>2000 / 2300 &#8381;</p>
-                <p>2200 / 2500 &#8381;</p>
-                <p>1800 / 2000 &#8381;</p>
-                <p>2000 / 2500 &#8381;</p>
-                <p>1500 / *</p>
-                <p>2200 / 2500 &#8381;</p>
-                <p>2200 / *</p>
-                <p>2200 / 2500 &#8381;</p>
-                <p>2200 / 2500 &#8381;</p>
-                <p>2200 / 2500 &#8381;</p>
-                <p>1500 / 1800 &#8381;</p>
-                <p>1800 / *</p>
-                <p>1800 / 2100 &#8381;</p>
-                <p>2200 / 2500 &#8381;</p>
-                <p>2500 / 3000 &#8381;</p>
-                <p>2200 / 2500 &#8381;</p>
+
+            <div id="tab-2" class="col-sm tabs-price hidden">
+                <table class="table table-dark-alt table-hover">
+                    <th>Название</th>
+                    <th>Цена</th>
+
+                    <tbody>
+                        <tr>
+                            <td>Стрижка когтей</td>
+                            <td><strong>300 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Когти, пах, кончики ушей (без купания и стрижки)</td>
+                            <td><strong>950 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Купание, сушка (без вычесывания), когти, пах, кончики ушей (без стрижки)</td>
+                            <td><strong>до 1 800 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Купание, сушка (4-10 кг)</td>
+                            <td><strong>до 2 300 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Гигиена шпица: Когти, пах, купание и сушка (без вычесывания и стрижки)</td>
+                            <td><strong>1 700 ₽</strong></td>
+                        </tr>
+
+                        <tr>
+                            <td>Чистка и выщипывание ушек</td>
+                            <td><strong>300 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Чистка и промывание глазок</td>
+                            <td><strong>100 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Чистка зубов (Удаление зубного камня)</td>
+                            <td><strong>1 100 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Вычесывание колтунов</td>
+                            <td><strong>500 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Обработка от блох</td>
+                            <td><strong>300 ₽</strong></td>
+                        </tr>
+                    </tbody>
+                </table> 
             </div>
+
             <div id="tab-3" class="col-sm tabs-price hidden">
-                <p><strong>Гигиена</strong></p>
-                <p>2200 &#8381;</p>
-                <p>1800 &#8381;</p>
-                <p>2000 &#8381;</p>
-                <p>1500 &#8381;</p>
-                <p>1800 &#8381;</p>
-                <p>1200 &#8381;</p>
-                <p>2000 &#8381;</p>
-                <p>1800 &#8381;</p>
-                <p>2000 &#8381;</p>
-                <p>2000 &#8381;</p>
-                <p>2000 &#8381;</p>
-                <p>1200 &#8381;</p>
-                <p>1500 &#8381;</p>
-                <p>1500 &#8381;</p>
-                <p>2000 &#8381;</p>
-                <p>2400 &#8381;</p>
-                <p>2000 &#8381;</p>
-            </div>
-            <div id="tab-4" class="col-sm tabs-price hidden">
-                <p><strong>Мытье-сушка</strong></p>
-                <p>2000 &#8381;</p>
-                <p>1500 &#8381;</p>
-                <p>1700 &#8381;</p>
-                <p>1200 &#8381;</p>
-                <p>1500 &#8381;</p>
-                <p>1000 &#8381;</p>
-                <p>1700 &#8381;</p>
-                <p>1500 &#8381;</p>
-                <p>1600 &#8381;</p>
-                <p>1800 &#8381;</p>
-                <p>1700 &#8381;</p>
-                <p>1000 &#8381;</p>
-                <p>1200 &#8381;</p>
-                <p>1200 &#8381;</p>
-                <p>1700 &#8381;</p>
-                <p>2000 &#8381;</p>
-                <p>1500 &#8381;</p>
-            </div>
-            <div id="tab-5" class="col-sm tabs-price hidden">
-                <p><strong>Тримминг</strong></p>
-                <p>*</p>
-                <p>3500 &#8381;</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-            </div>
-            <div id="tab-6" class="col-sm tabs-price hidden">
-                <p><strong>Экспресс-линька</strong></p>
-                <p>*</p>
-                <p>2800 &#8381;</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>2000 &#8381;</p>
-                <p>*</p>
-                <p>2800 &#8381;</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>2000 &#8381;</p>
-                <p>2100 &#8381;</p>
-                <p>2100 &#8381;</p>
-                <p>*</p>
-                <p>3000 &#8381;</p>
-                <p>*</p>
+                <table class="table table-dark-alt table-hover">
+                    <th>Название</th>
+                    <th>Цена</th>
+
+                    <tbody>
+                        <tr>
+                            <td>Стрижка кошек</td>
+                            <td><strong>2 100 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка, купание, сушка, ушки и парфюм</td>
+                            <td><strong>2 800 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Купание и сушка</td>
+                            <td><strong>2 100 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Вычесывание колтунов</td>
+                            <td><strong>500 - 1 500 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Экспресс-линька</td>
+                            <td><strong>1 800 ₽</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Наклейка антицарапок</td>
+                            <td><strong>300 (со своими) - 600 ₽</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -579,17 +716,12 @@
 <script src="/public/js/jquery-3.2.1.min.js"></script>
 <script src="/public/js/popper.min.js"></script>
 <script src="/public/js/bootstrap.min.js"></script>
-<script src="/public/js/owl.carousel.min.js"></script>
 <script src="/public/js/jquery.waypoints.min.js"></script>
+<script src="/public/js/owl.carousel.min.js"></script>
 <script src="/public/js/main.js"></script>
 <script src="/public/js/custom.js"></script>
 
-<!-- 6. Подключить js-файл библиотеки Bootstrap 3 DateTimePicker -->
-{{--<script src="/public/js/moment.js"></script>--}}
-
-{{--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>--}}
-
-<!-- Инициализация виджета "Bootstrap datetimepicker" -->
+<!-- Инициализация виджета Bootstrap datetimepicker -->
 <script>
     $(document).ready(function () {
         console.log('test ajax');
@@ -655,7 +787,6 @@
     });
 </script>
 
-<!-- Fix navbar-toggler button code for hiding navbar-collapse --->
 <script>
     $('#myModal').on('hide.bs.modal', function (event) {
         console.log('hide');
