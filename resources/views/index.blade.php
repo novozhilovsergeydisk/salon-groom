@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/public/css/animate.css">
     <link rel="stylesheet" href="/public/css/owl.carousel.min.css">
 
-    <link rel="stylesheet" href="/public/fonts/ionicons/css/ionicons.min.css">
+{{--    <link rel="stylesheet" href="/public/fonts/ionicons/css/ionicons.min.css">--}}
     {{--    <link rel="stylesheet" href="/public/fonts/fontawesome/css/font-awesome.min.css">--}}
 
     <link rel="stylesheet" href="/public/fonts/fontawesome-free-5.15.1-web/css/all.css">
@@ -47,6 +47,8 @@
 </head>
 
 <body class="main">
+
+Joker
 <!-- Back to top button -->
 <a id="button"></a>
 
@@ -135,7 +137,7 @@
                     <div id="our-1" class="media d-block media-custom text-center">
                         <a href="#our-1" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/masters/groomer1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -145,7 +147,7 @@
                     <div id="our-2" class="media d-block media-custom text-center">
                         <a href="#our-2" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/masters/groomer2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -155,7 +157,7 @@
                     <div id="our-3" class="media d-block media-custom text-center">
                         <a href="#our-3" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/masters/groomer3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -165,7 +167,7 @@
                 {{--                    <div id="our-4" class="media d-block media-custom text-center">--}}
                 {{--                        <a href="#our-4" class="link-thumbnail">--}}
                 {{--                            <h3 class="main-font"> </h3>--}}
-                {{--                            <span class="ion-plus icon"></span>--}}
+                {{--                            <!--<span class="ion-plus icon"></span>-->--}}
                 {{--                            <img src="/public/img/masters/master_1.jpg" alt="Image placeholder" class="img-fluid">--}}
                 {{--                        </a>--}}
                 {{--                    </div>--}}
@@ -470,7 +472,7 @@
                     <div id="our-1" class="media d-block media-custom text-center">
                         <a href="#our-1" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/gallery/our1.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -480,7 +482,7 @@
                     <div id="our-2" class="media d-block media-custom text-center">
                         <a href="#our-2" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/gallery/our7.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -490,7 +492,7 @@
                     <div id="our-3" class="media d-block media-custom text-center">
                         <a href="#our-3" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/gallery/our5.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -500,7 +502,7 @@
                     <div id="our-4" class="media d-block media-custom text-center">
                         <a href="#our-4" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/gallery/our6.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -510,7 +512,7 @@
                     <div id="our-5" class="media d-block media-custom text-center">
                         <a href="#our-5" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-                            <span class="ion-plus icon"></span>
+                            <!--<span class="ion-plus icon"></span>-->
                             <img src="/public/img/gallery/our4.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
