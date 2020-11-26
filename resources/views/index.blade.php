@@ -626,7 +626,7 @@
 
                 <table class="table table-dark-alt table-hover">
                     <th>Стрижка (крупные)</th>
-                    <th>Цена</th>
+                    <th class="item-right">Цена</th>
                     <tbody>
                         <tr>
                             <td>Английский сеттер</td>                    	 		 		 
@@ -749,7 +749,7 @@
                     <tbody>
                     <tr>
                         <td>Стрижка кошек</td>
-                        <td class="item-right" style="min-width: 110px;"><strong>2 100 ₽</strong></td>
+                        <td class="item-right" style="min-width: 115px;"><strong>2 100 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Стрижка, купание, сушка, ушки и парфюм</td>

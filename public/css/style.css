@@ -162,7 +162,8 @@ header {
             font-size: 20px;
         }
         .mobile-margin-top {
-          margin-top: -3em;
+            margin-top: -3em;
+            margin-bottom: 5em;
         }
         #contactform {
             width: 100%;
