@@ -465,161 +465,161 @@
         </div>
 
         <div class="row main-font">
-            <div id="tab-1" class="col-sm tabs-price">
+
                 <table class="table table-dark-alt table-hover">
                     <th>Стрижка (декоративные)</th>
-                    <th>Цена</th>
+                    <th class="item-right">Цена</th>
                     <tbody>
                         <tr>
                             <td>Австралийский терьер</td>
-                            <td style="min-width: 100px;"><strong>2 100 ₽</strong></td>
+                            <td class="min-width-100 item-right"><strong>2 100 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Бишон фризе</td>
-                            <td><strong>2 600 ₽</strong></td>
+                            <td class="item-right"><strong>2 600 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Грифон, Брабансон</td>
-                            <td><strong>2 200 ₽</strong></td>
+                            <td class="item-right"><strong>2 200 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Йоркширский терьер</td>
-                            <td><strong>2 100 ₽</strong></td>
+                            <td class="item-right"><strong>2 100 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Китайская хохлатая  (голая)</td>
-                            <td><strong>1 600 ₽</strong></td>
+                            <td class="item-right"><strong>1 600 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Китайская хохлатая  (пуховка)</td>
-                            <td><strong>2 300 ₽</strong></td>
+                            <td class="item-right"><strong>2 300 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Мальтийская болонка</td>
-                            <td><strong>2 400 ₽</strong></td>
+                            <td class="item-right"><strong>2 400 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Московский дракон</td>
-                            <td><strong>2 000 ₽</strong></td>
+                            <td class="item-right"><strong>2 000 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Мальтипу</td>
-                            <td><strong>2 500 ₽</strong></td>
+                            <td class="item-right"><strong>2 500 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Пекинес</td>
-                            <td><strong>2 400 ₽</strong></td>
+                            <td class="item-right"><strong>2 400 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Петербургская орхидея</td>
-                            <td><strong>2 200 ₽</strong></td>
+                            <td class="item-right"><strong>2 200 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Той-пудель (до 28 см)</td>
-                            <td><strong>2 200 ₽</strong></td>
+                            <td class="item-right"><strong>2 200 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Той-терьер / Чихуа-хуа длинношерстные</td>
-                            <td><strong>1 800 ₽</strong></td>
+                            <td class="item-right"><strong>1 800 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Ши-тцу</td>
-                            <td><strong>2 400 ₽</strong></td>
+                            <td class="item-right"><strong>2 400 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Шпиц Малый / Померанский</td>
-                            <td><strong>2 400 ₽</strong></td>
+                            <td class="item-right"><strong>2 400 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Японский хин</td>
-                            <td><strong>2 100 ₽</strong></td>
+                            <td class="item-right"><strong>2 100 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Метисы (до 5 кг)</td>
-                            <td><strong>1 900 ₽</strong></td>
+                            <td class="item-right"><strong>1 900 ₽</strong></td>
                         </tr>
                     </tbody>
                 </table>
 
                 <table class="table table-dark-alt table-hover">
                     <th>Стрижка (средние)</th>
-                    <th>Цена</th>
+                    <th class="item-right">Цена</th>
                     <tbody>
                         <tr>
                             <td>Бедлингтон</td>
-                            <td><strong>3 300 ₽</strong></td>
+                            <td class="min-width-100 item-right"><strong>3 300 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Вельш-терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Вест хайленд уайт терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Джек-рассел терьер</td>
-                            <td><strong>2 500 ₽</strong></td>
+                            <td class="item-right"><strong>2 500 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Керн-терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>     		 		 
                         <tr>
                             <td>Лейкленд-терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Миттельшнауцер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Норвич-терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Норфолк-терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Карликовый пудель (до 35 см)</td>
-                            <td><strong>2 500 ₽</strong></td>
+                            <td class="item-right"><strong>2 500 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Средний пудель (до 45 см)</td>
-                            <td><strong>2 700 ₽</strong></td>
+                            <td class="item-right"><strong>2 700 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Скотч-терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Спаниели (наголо)</td>
-                            <td><strong>2 700 ₽</strong></td>
+                            <td class="item-right"><strong>2 700 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Спаниели (модельно)</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Такса жесткошерстная</td>
-                            <td><strong>2 500 ₽</strong></td>
+                            <td class="item-right"><strong>2 500 ₽</strong></td>
                         </tr> 		 		 
                         <tr>
                             <td>Тибетский терьер</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Фокс-терьер</td>
-                            <td><strong>2 700 ₽</strong></td>
+                            <td class="item-right"><strong>2 700 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Цвергшнауцер</td>
-                            <td>2 700 ₽</strong></td>
+                            <td class="item-right">2 700 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Метисы (5-10 кг)</td>
-                            <td><strong>2 900 ₽</strong></td>
+                            <td class="item-right"><strong>2 900 ₽</strong></td>
                         </tr> 
                     </tbody>
                 </table>
@@ -630,116 +630,115 @@
                     <tbody>
                         <tr>
                             <td>Английский сеттер</td>                    	 		 		 
-                            <td><strong>3 800 ₽</strong></td>
+                            <td class="min-width-100 item-right"><strong>3 800 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Афганская борзая</td>                    	 		 		 
-                            <td><strong>3 800 ₽</strong></td>
+                            <td class="item-right"><strong>3 800 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Бернский зенненхунд</td>                    	 		 		 
-                            <td><strong>4 500 ₽</strong></td>
+                            <td class="item-right"><strong>4 500 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Бобтейл</td>                    	 		 		 
-                            <td><strong>5 500 ₽</strong></td>
+                            <td class="item-right"><strong>5 500 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Ирландский терьер</td>                    	 		 		 
-                            <td><strong>3 500 ₽</strong></td>
+                            <td class="item-right"><strong>3 500 ₽</strong></td>
                         </tr>     		 		 
                         <tr>
                             <td>Керри-блю терьер</td>                    	 		 		 
-                            <td><strong>3 300 ₽</strong></td>
+                            <td class="item-right"><strong>3 300 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Ньюфаунленд</td>                    	 		 		 
-                            <td><strong>5 500 ₽</strong></td>
+                            <td class="item-right"><strong>5 500 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Пшеничный терьер</td>                    	 		 		 
-                            <td><strong>3 400 ₽</strong></td>
+                            <td class="item-right"><strong>3 400 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Голден ретривер</td>                    	 		 		 
-                            <td><strong>4 600 ₽</strong></td>
+                            <td class="item-right"><strong>4 600 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Лабрадор Ретривер</td>                    	 		 		 
-                            <td><strong>4 600 ₽</strong></td>
+                            <td class="item-right"><strong>4 600 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Ризеншнауцер</td>                    	 		 		 
-                            <td><strong>5 500 ₽</strong></td>
+                            <td class="item-right"><strong>5 500 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Русский черный терьер</td>                    	 		 		 
-                            <td><strong>6 500 ₽</strong></td>
+                            <td class="item-right"><strong>6 500 ₽</strong></td>
                         </tr>	 		 		 
                         <tr>
                             <td>Хаски</td>                    	 		 		 
-                            <td><strong>3 800 ₽</strong></td>
+                            <td class="item-right"><strong>3 800 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Эрдельтерьер</td>                    	 		 		 
-                            <td><strong>3 800 ₽</strong></td>
+                            <td class="item-right"><strong>3 800 ₽</strong></td>
                         </tr>
                         <tr>
                             <td>Чау-Чау</td>                    	 		 		 
-                            <td><strong>4 500 ₽</strong></td>
+                            <td class="item-right"><strong>4 500 ₽</strong></td>
                         </tr> 		 		 
                         <tr>
                             <td>Метисы от 20 кг (под машинку)</td>                    	 		 		 
-                            <td><strong>4 900 ₽</strong></td>
+                            <td class="item-right"><strong>4 900 ₽</strong></td>
                         </tr> 
                     </tbody>
                 </table>
 
                 <table class="table table-dark-alt table-hover">
                     <th colspan="2">Гигиена и дополнительные услуги</th>
-{{--                    <th>Цена</th>--}}
 
                     <tbody>
                     <tr>
                         <td>Стрижка когтей</td>
-                        <td style="min-width: 100px;"><strong>300 ₽</strong></td>
+                        <td class="item-right" style="min-width: 100px;"><strong>300 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Когти, пах, кончики ушей (без купания и стрижки)</td>
-                        <td><strong>950 ₽</strong></td>
+                        <td class="item-right"><strong>950 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Купание, сушка (без вычесывания), когти, пах, кончики ушей (без стрижки)</td>
-                        <td><strong>до 1 800 ₽</strong></td>
+                        <td class="item-right"><strong>до 1 800 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Купание, сушка (4-10 кг)</td>
-                        <td><strong>до 2 300 ₽</strong></td>
+                        <td class="item-right"><strong>до 2 300 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Гигиена шпица: Когти, пах, купание и сушка (без вычесывания и стрижки)</td>
-                        <td><strong>1 700 ₽</strong></td>
+                        <td class="item-right"><strong>1 700 ₽</strong></td>
                     </tr>
 
                     <tr>
                         <td>Чистка и выщипывание ушек</td>
-                        <td><strong>300 ₽</strong></td>
+                        <td class="item-right"><strong>300 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Чистка и промывание глазок</td>
-                        <td><strong>100 ₽</strong></td>
+                        <td class="item-right"><strong>100 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Чистка зубов (Удаление зубного камня)</td>
-                        <td><strong>1 100 ₽</strong></td>
+                        <td class="item-right"><strong>1 100 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Вычесывание колтунов</td>
-                        <td><strong>500 ₽</strong></td>
+                        <td class="item-right"><strong>500 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Обработка от блох</td>
-                        <td><strong>300 ₽</strong></td>
+                        <td class="item-right"><strong>300 ₽</strong></td>
                     </tr>
                     </tbody>
                 </table> 
@@ -750,31 +749,31 @@
                     <tbody>
                     <tr>
                         <td>Стрижка кошек</td>
-                        <td style="min-width: 100px;"><strong>2 100 ₽</strong></td>
+                        <td class="item-right" style="min-width: 110px;"><strong>2 100 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Стрижка, купание, сушка, ушки и парфюм</td>
-                        <td><strong>2 800 ₽</strong></td>
+                        <td class="item-right"><strong>2 800 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Купание и сушка</td>
-                        <td><strong>2 100 ₽</strong></td>
+                        <td class="item-right"><strong>2 100 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Вычесывание колтунов</td>
-                        <td><strong>500 - 1 500 ₽</strong></td>
+                        <td class="item-right"><strong>500 - 1500 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Экспресс-линька</td>
-                        <td><strong>1 800 ₽</strong></td>
+                        <td class="item-right"><strong>1 800 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Наклейка антицарапок</td>
-                        <td><strong>300 (со своими) - 600 ₽</strong></td>
+                        <td class="item-right"><strong>300 - 600 ₽</strong></td>
                     </tr>
                     </tbody>
                 </table>
-            </div>
+
         </div>
     </div>
 </section>
