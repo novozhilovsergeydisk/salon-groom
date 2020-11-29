@@ -271,7 +271,7 @@
                 <!-- Средние Комплекс: под машинку/модельная -->
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Средние порода</th>
+                    <th>Средние породы</th>
                     <th>Цена</th>
                     </thead>
 
@@ -514,7 +514,7 @@
             <div id="hygiene" class="col-md-12 tabs-price hidden">
                 <!-- Мелкие Гигиена -->
                 <table class="table table-dark-alt table-hover">
-                    <th>Мелкие порода</th>
+                    <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
@@ -590,7 +590,7 @@
                 <!-- Средние Гигиена -->
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Средние порода</th>
+                    <th>Средние породы</th>
                     <th>Цена</th>
                     </thead>
 
@@ -829,7 +829,7 @@
             <div id="washing-drying" class="col-md-12 tabs-price hidden">
                 <!-- Мелкие Мытье-сушка -->
                 <table class="table table-dark-alt table-hover">
-                    <th>Мелкие порода</th>
+                    <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
@@ -905,7 +905,7 @@
                 <!-- Средние Мытье-сушка -->
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Средние порода</th>
+                    <th>Средние породы</th>
                     <th>Цена</th>
                     </thead>
 
@@ -1145,7 +1145,7 @@
             <div id="trimming" class="col-md-12 tabs-price hidden">
                 <!-- Мелкие Тримминг -->
                 <table class="table table-dark-alt table-hover">
-                    <th>Порода</th>
+                    <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
@@ -1221,7 +1221,7 @@
                 <!-- Средние Тримминг -->
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Порода</th>
+                    <th>Средние породы</th>
                     <th>Цена</th>
                     </thead>
 
@@ -1311,7 +1311,7 @@
                 <!-- Крупные Экспресс-линька -->
                 <table id="trimming" class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Порода</th>
+                    <th>Крупные породы</th>
                     <th>Цена</th>
                     </thead>
 
@@ -1461,7 +1461,7 @@
             <div id="express-molt" class="col-md-12 tabs-price hidden">
                 <!-- Мелкие Экспресс-линька -->
                 <table class="table table-dark-alt table-hover">
-                    <th>Порода</th>
+                    <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
@@ -1537,7 +1537,7 @@
                 <!-- Средние Экспресс-линька -->
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Порода</th>
+                    <th>Средние породы</th>
                     <th>Цена</th>
                     </thead>
 
@@ -1627,7 +1627,7 @@
                 <!-- Крупные Экспресс-линька -->
                 <table id="express-molt" class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Порода</th>
+                    <th>Крупные породы</th>
                     <th>Цена</th>
                     </thead>
                     <tbody>
