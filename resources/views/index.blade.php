@@ -1982,13 +1982,13 @@
 
         <div class="text-center main-font" style="margin: 20px">
             <div class="col-sm">
-                <button id="btn-complex-mobile" class="tab-btn col-sm-12 btn-tab-active">Комплекс: под машинку/ модельная </button>
+                <button id="btn-complex-mobile" class="tab-btn col-sm-12 btn-tab-active">Комплекс: под машинку/модельная </button>
             </div>
             <div class="col-sm">
                 <button id="btn-hygiene-mobile" class="tab-btn col-sm-12">Гигиена </button>
             </div>
             <div class="col-sm">
-                <button id="btn-washing-drying-mobile" class="tab-btn col-sm-12">Мытье-сушка	</button>
+                <button id="btn-washing-drying-mobile" class="tab-btn col-sm-12">Мытье-сушка </button>
             </div>
             <div class="col-sm">
                 <button id="btn-trimming-mobile" class="tab-btn col-sm-12">Тримминг </button>
@@ -2290,7 +2290,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td width="70%">До 5 кг</td>
+                        <td width="50%">До 5 кг</td>
                         <td><strong>2200 / 2500 ₽</strong></td>
                     </tr>
                     <tr>
@@ -3592,9 +3592,9 @@
                     <thead>
                     <th width="">Услуги</th>
                     <th>До&nbsp&nbsp;3&nbsp;кг</th>
-                    <th>3.01&nbsp;-&nbsp;5&nbsp;кг</th>
-                    <th>От&nbsp;5.01&nbsp;кг</th>
-                    <th>Мейн-куны</th>
+                    <th>3&nbsp;-&nbsp;5&nbsp;кг</th>
+                    <th>От&nbsp;5&nbsp;кг</th>
+                    <th>Мейнкуны</th>
                     </thead>
                     <tbody>
                     <tr>
