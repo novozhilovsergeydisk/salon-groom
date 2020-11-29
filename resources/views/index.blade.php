@@ -1981,17 +1981,32 @@
         </div>
 
         <div class="text-center main-font" style="margin: 20px">
-            <button id="btn-complex-mobile" class="tab-btn btn-tab-active">Комплекс: под машинку/ модельная </button>
-            <button id="btn-hygiene-mobile" class="tab-btn">Гигиена </button>
-            <button id="btn-washing-drying-mobile" class="tab-btn">Мытье-сушка	</button>
-            <button id="btn-trimming-mobile" class="tab-btn">Тримминг </button>
-            <button id="btn-express-molt-mobile" class="tab-btn">Экспресс-линька </button>
-            <button id="btn-cats-mobile" class="tab-btn">Кошки </button>
-            <button id="btn-additional-services-mobile" class="tab-btn">Доп. услуги </button>
+            <div class="col-sm">
+                <button id="btn-complex-mobile" class="tab-btn col-sm-12 btn-tab-active">Комплекс: под машинку/ модельная </button>
+            </div>
+            <div class="col-sm">
+                <button id="btn-hygiene-mobile" class="tab-btn col-sm-12">Гигиена </button>
+            </div>
+            <div class="col-sm">
+                <button id="btn-washing-drying-mobile" class="tab-btn col-sm-12">Мытье-сушка	</button>
+            </div>
+            <div class="col-sm">
+                <button id="btn-trimming-mobile" class="tab-btn col-sm-12">Тримминг </button>
+            </div>
+            <div class="col-sm">
+                <button id="btn-express-molt-mobile" class="tab-btn col-sm-12">Экспресс-линька </button>
+            </div>
+            <div class="col-sm">
+                <button id="btn-cats-mobile" class="tab-btn col-sm-12">Кошки </button>
+            </div>
+            <div class="col-sm">
+                <button id="btn-additional-services-mobile" class="tab-btn col-sm-12">Доп. услуги </button>
+            </div>
+
         </div>
 
         <div class="row main-font">
-            <div id="complex-mobile" class="col-md-12 tabs-price">
+            <div id="complex-mobile" class="tabs-price">
                 <!-- Мелкие Комплекс: под машинку/ модельная -->
                 <table class="table table-dark-alt table-hover">
                     <thead>
@@ -2162,7 +2177,7 @@
                     </tbody>
                 </table>
                 <!-- Крупные Комплекс: под машинку/модельная -->
-                <table id="large-breeds-complex" class="table table-dark-alt table-hover">
+                <table id="large-breeds-complex" class="table table-dark-alt table-hover" style="width: 170% !important;">
                     <thead>
                     <th>Крупные породы</th>
                     <th>Цена</th>
@@ -2254,10 +2269,6 @@
                         <td><strong>4800 / 5200 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td><strong> ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Чау-чау</td>
                         <td><strong>4800 / 5200 ₽</strong></td>
                     </tr>
@@ -2279,7 +2290,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td width="50%">До 5 кг</td>
+                        <td width="70%">До 5 кг</td>
                         <td><strong>2200 / 2500 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2314,14 +2325,14 @@
                 </table>
             </div>
 
-            <div id="hygiene-mobile" class="col-md-12 tabs-price hidden">
+            <div id="hygiene-mobile" class="tabs-price hidden">
                 <!-- Мелкие Гигиена -->
                 <table class="table table-dark-alt table-hover">
                     <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
-                        <td width="50%">Бишон-фризе</td>
+                        <td width="70%">Бишон-фризе</td>
                         <td><strong>2200 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2399,7 +2410,7 @@
 
                     <tbody>
                     <tr>
-                        <td width="50%">Американский / английский кокер-спаниель</td>
+                        <td width="70%">Американский / английский кокер-спаниель</td>
                         <td><strong>2600 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2489,7 +2500,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td width="50%">Акита-ину</td>
+                        <td width="70%">Акита-ину</td>
                         <td><strong>5000 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2594,7 +2605,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td width="50%">До 5 кг</td>
+                        <td width="70%">До 5 кг</td>
                         <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2629,14 +2640,14 @@
                 </table>
             </div>
 
-            <div id="washing-drying-mobile" class="col-md-12 tabs-price hidden">
+            <div id="washing-drying-mobile" class="tabs-price hidden">
                 <!-- Мелкие Мытье-сушка -->
                 <table class="table table-dark-alt table-hover">
                     <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
-                        <td width="50%">Бишон-фризе</td>
+                        <td width="70%">Бишон-фризе</td>
                         <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2714,7 +2725,7 @@
 
                     <tbody>
                     <tr>
-                        <td width="50%">Американский / английский кокер-спаниель</td>
+                        <td width="70%">Американский / английский кокер-спаниель</td>
                         <td><strong>2200 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2804,7 +2815,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td width="50%">Акита-ину</td>
+                        <td width="70%">Акита-ину</td>
                         <td><strong>4500 ₽</strong></td>
                     </tr>
                     <tr>
@@ -2904,55 +2915,55 @@
                 <!-- Mestizo washing-drying -->
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th width="50%">Метисы вес</th>
+                    <th width="70%">Метисы вес</th>
                     <th>Цена</th>
                     </thead>
 
                     <tbody>
                     <tr>
-                        <td width="50%">До 5 кг</td>
+                        <td width="70%">До 5 кг</td>
                         <td><strong>1800 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="50%">6 - 10 кг</td>
+                        <td width="70%">6 - 10 кг</td>
                         <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="50%">11 - 20 кг</td>
+                        <td width="70%">11 - 20 кг</td>
                         <td><strong>2300 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="50%">21 - 30 кг</td>
+                        <td width="70%">21 - 30 кг</td>
                         <td><strong>2500 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="50%">31 - 40 кг</td>
+                        <td width="70%">31 - 40 кг</td>
                         <td><strong>3000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="50%">41 - 50 кг</td>
+                        <td width="70%">41 - 50 кг</td>
                         <td><strong>3500 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="50%">51 - 60 кг</td>
+                        <td width="70%">51 - 60 кг</td>
                         <td><strong>4000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="50%">От 61 кг</td>
+                        <td width="70%">От 61 кг</td>
                         <td><strong>4500 ₽</strong></td>
                     </tr>
                     </tbody>
                 </table>
             </div>
 
-            <div id="trimming-mobile" class="col-md-12 tabs-price hidden">
+            <div id="trimming-mobile" class="tabs-price hidden">
                 <!-- Мелкие Тримминг -->
                 <table class="table table-dark-alt table-hover">
                     <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
-                        <td width="50%">Бишон-фризе</td>
+                        <td width="70%">Бишон-фризе</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
@@ -3030,7 +3041,7 @@
 
                     <tbody>
                     <tr>
-                        <td width="50%">Американский / английский кокер-спаниель</td>
+                        <td width="70%">Американский / английский кокер-спаниель</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
@@ -3120,7 +3131,7 @@
 
                     <tbody>
                     <tr>
-                        <td width="50%">Акита-ину</td>
+                        <td width="70%">Акита-ину</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
@@ -3226,7 +3237,7 @@
 
                     <tbody>
                     <tr>
-                        <td width="50%">До 5 кг</td>
+                        <td width="70%">До 5 кг</td>
                         <td><strong>2800 ₽</strong></td>
                     </tr>
                     <tr>
@@ -3261,14 +3272,14 @@
                 </table>
             </div>
 
-            <div id="express-molt-mobile" class="col-md-12 tabs-price hidden">
+            <div id="express-molt-mobile" class="tabs-price hidden">
                 <!-- Мелкие Экспресс-линька -->
                 <table class="table table-dark-alt table-hover">
                     <th>Мелкие породы</th>
                     <th>Цена</th>
 
                     <tr>
-                        <td width="50%">Бишон-фризе</td>
+                        <td width="70%">Бишон-фризе</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
@@ -3346,7 +3357,7 @@
 
                     <tbody>
                     <tr>
-                        <td width="50%">Американский / английский кокер-спаниель</td>
+                        <td width="70%">Американский / английский кокер-спаниель</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
@@ -3435,7 +3446,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td width="50%"Акита-ину</td>
+                        <td width="70%"Акита-ину</td>
                         <td><strong>6000 ₽</strong></td>
                     </tr>
                     <tr>
@@ -3541,7 +3552,7 @@
 
                     <tbody>
                     <tr>
-                        <td width="50%">До 5 кг</td>
+                        <td width="70%">До 5 кг</td>
                         <td><strong>2800 ₽</strong></td>
                     </tr>
                     <tr>
@@ -3576,117 +3587,117 @@
                 </table>
             </div>
 
-            <div id="cats-mobile" class="col-md-12 tabs-price hidden">
+            <div id="cats-mobile" class="tabs-price hidden">
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th width="25%">Услуги</th>
-                    <th>До 3 кг</th>
-                    <th>3.01 - 5 кг</th>
-                    <th>От 5.01 кг</th>
+                    <th width="">Услуги</th>
+                    <th>До&nbsp&nbsp;3&nbsp;кг</th>
+                    <th>3.01&nbsp;-&nbsp;5 кг</th>
+                    <th>От&nbsp;5.01&nbsp;кг</th>
                     <th>Мейн-куны</th>
                     </thead>
                     <tbody>
                     <tr>
-                        <td width="25%">Комплекс 1</td>
-                        <td><strong>3500 ₽</strong></td>
-                        <td><strong>3800 ₽</strong></td>
-                        <td><strong>4000 ₽</strong></td>
-                        <td><strong>4300 ₽</strong></td>
+                        <td width="">Комплекс 1</td>
+                        <td><strong>3500&nbsp;₽</strong></td>
+                        <td><strong>3800&nbsp;₽</strong></td>
+                        <td><strong>4000&nbsp;₽</strong></td>
+                        <td><strong>4300&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="25%">Комплекс 2</td>
-                        <td><strong>3000 ₽</strong></td>
-                        <td><strong>3300 ₽</strong></td>
-                        <td><strong>3500 ₽</strong></td>
-                        <td><strong>4000 ₽</strong></td>
+                        <td width="">Комплекс 2</td>
+                        <td><strong>3000&nbsp;₽</strong></td>
+                        <td><strong>3300&nbsp;₽</strong></td>
+                        <td><strong>3500&nbsp;₽</strong></td>
+                        <td><strong>4000&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="25%">Экспресс-линька</td>
-                        <td><strong>2500 ₽</strong></td>
-                        <td><strong>2800 ₽</strong></td>
-                        <td><strong>3000 ₽</strong></td>
-                        <td><strong>3500 ₽</strong></td>
+                        <td width="">Экспресс-линька</td>
+                        <td><strong>2500&nbsp;₽</strong></td>
+                        <td><strong>2800&nbsp;₽</strong></td>
+                        <td><strong>3000&nbsp;₽</strong></td>
+                        <td><strong>3500&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="25%">Стрижка ПМ</td>
-                        <td><strong>1800 ₽</strong></td>
-                        <td><strong>2000 ₽</strong></td>
-                        <td><strong>2300 ₽</strong></td>
-                        <td><strong>2500 ₽</strong></td>
+                        <td width="">Стрижка ПМ</td>
+                        <td><strong>1800&nbsp;₽</strong></td>
+                        <td><strong>2000&nbsp;₽</strong></td>
+                        <td><strong>2300&nbsp;₽</strong></td>
+                        <td><strong>2500&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="25%">Вычесывание (1 час)</td>
-                        <td><strong>1000 ₽</strong></td>
-                        <td><strong>1200 ₽</strong></td>
-                        <td><strong>1500 ₽</strong></td>
-                        <td><strong>1800 ₽</strong></td>
+                        <td width="">Вычесывание (1 час)</td>
+                        <td><strong>1000&nbsp;₽</strong></td>
+                        <td><strong>1200&nbsp;₽</strong></td>
+                        <td><strong>1500&nbsp;₽</strong></td>
+                        <td><strong>1800&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td width="25%">Мытье - сушка</td>
-                        <td><strong>1500 ₽</strong></td>
-                        <td><strong>1800 ₽</strong></td>
-                        <td><strong>2000 ₽</strong></td>
-                        <td><strong>2300 ₽</strong></td>
+                        <td width="">Мытье - сушка</td>
+                        <td><strong>1500&nbsp;₽</strong></td>
+                        <td><strong>1800&nbsp;₽</strong></td>
+                        <td><strong>2000&nbsp;₽</strong></td>
+                        <td><strong>2300&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Мытье сухим шампунем</td>
-                        <td><strong>1200 ₽</strong></td>
-                        <td><strong>1500 ₽</strong></td>
-                        <td><strong>1800 ₽</strong></td>
-                        <td><strong>2000 ₽</strong></td>
+                        <td width="">Мытье сухим шампунем</td>
+                        <td><strong>1200&nbsp;₽</strong></td>
+                        <td><strong>1500&nbsp;₽</strong></td>
+                        <td><strong>1800&nbsp;₽</strong></td>
+                        <td><strong>2000&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Ванна с озоном</td>
-                        <td colspan="4">1000 ₽/15 мин.</td>
+                        <td width="">Ванна с озоном</td>
+                        <td colspan="4">1000&nbsp;₽/15 мин.</td>
                     </tr>
                     <tr>
-                        <td>Доп. Маска по типу шерсти</td>
-                        <td><strong>150 ₽</strong></td>
-                        <td><strong>200 ₽</strong></td>
-                        <td><strong>250 ₽</strong></td>
-                        <td><strong>300 ₽</strong></td>
+                        <td width="">Доп. Маска по типу шерсти</td>
+                        <td><strong>150&nbsp;₽</strong></td>
+                        <td><strong>200&nbsp;₽</strong></td>
+                        <td><strong>250&nbsp;₽</strong></td>
+                        <td><strong>300&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Вычесывание колтунов</td>
-                        <td colspan="4"><strong>1000 ₽/час</strong></td>
+                        <td width="">Вычесывание колтунов</td>
+                        <td colspan="4"><strong>1000&nbsp;₽/час</strong></td>
                     </tr>
                     <tr>
-                        <td>Выстригание колтунов</td>
-                        <td colspan="4"><strong>500-1000 ₽ в зависимости от сложности</strong></td>
+                        <td width="">Выстригание колтунов</td>
+                        <td colspan="4"><strong>500-1000&nbsp;₽<br /> в зависимости от сложности</strong></td>
                     </tr>
                     <tr>
-                        <td>Стрижка когтей</td>
-                        <td colspan="4"><strong>300 ₽</strong></td>
+                        <td width="">Стрижка когтей</td>
+                        <td colspan="4"><strong>300&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Антицарапки</td>
-                        <td colspan="4"><strong>1000 ₽</strong></td>
+                        <td width="">Антицарапки</td>
+                        <td colspan="4"><strong>1000&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Чистка ушей</td>
-                        <td colspan="4"><strong>300 ₽</strong></td>
+                        <td width="">Чистка ушей</td>
+                        <td colspan="4"><strong>300&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Стразы, 1 шт.</td>
-                        <td colspan="4"><strong>100 ₽</strong></td>
+                        <td width="">Стразы, 1 шт.</td>
+                        <td colspan="4"><strong>100&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Блеск-тату</td>
-                        <td colspan="4"><strong>от 500 ₽</strong></td>
+                        <td width="">Блеск-тату</td>
+                        <td colspan="4"><strong>от 500&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Окрашивание</td>
-                        <td colspan="4"><strong>от 500 ₽</strong></td>
+                        <td width="">Окрашивание</td>
+                        <td colspan="4"><strong>от 500&nbsp;₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Доплата за агрессию</td>
-                        <td colspan="4"><strong>500-1000 ₽ (на усмотрение мастера)</strong></td>
+                        <td width="">Доплата за агрессию</td>
+                        <td colspan="4"><strong>500-1000&nbsp;₽<br /> (на усмотрение мастера)</strong></td>
                     </tr>
                     </tbody>
                 </table>
             </div>
 
-            <div id="additional-services-mobile" class="col-md-12 tabs-price hidden">
+            <div id="additional-services-mobile" class="tabs-price hidden">
                 <table class="table table-dark-alt table-hover">
                     <thead>
                     <th>Услуга</th>
@@ -3694,7 +3705,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Стрижка когтей</td>
+                        <td width="50%">Стрижка когтей</td>
                         <td><strong>300 ₽</strong></td>
                     </tr>
                     <tr>
@@ -3765,8 +3776,8 @@
                         <td><strong>500-1000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Стразы	50 руб. / 1 шт.</td>
-                        <td><strong> ₽</strong></td>
+                        <td>Стразы</td>
+                        <td><strong>50 ₽ / 1 шт.</strong></td>
                     </tr>
                     </tbody>
                 </table>
@@ -3852,7 +3863,7 @@
         <div class="row pd-1-rem text-center" >
             <div class="col-md-4 our">
                 <i class="fa fa-car our-icon"></i>
-                <p><strong>Бесплатная VIP стоянка для наших клиентов возле офиса</strong></p>
+                <p><strong>Бесплатная VIP стоянка для наших клиентов возле салона</strong></p>
             </div>
             <div class="col-md-4 our">
                 <i class="fas fa-dog our-icon"></i>
