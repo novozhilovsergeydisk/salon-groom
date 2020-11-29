@@ -161,6 +161,4 @@
 	};
 	contentWayPoint();
 
-
-
 })(jQuery);
