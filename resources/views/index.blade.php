@@ -3592,7 +3592,7 @@
                     <thead>
                     <th width="">Услуги</th>
                     <th>До&nbsp&nbsp;3&nbsp;кг</th>
-                    <th>3.01&nbsp;-&nbsp;5 кг</th>
+                    <th>3.01&nbsp;-&nbsp;5&nbsp;кг</th>
                     <th>От&nbsp;5.01&nbsp;кг</th>
                     <th>Мейн-куны</th>
                     </thead>
