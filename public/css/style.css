@@ -132,12 +132,12 @@ header {
         header .navbar-brand {
           /*display: none;*/
         }
-        #prices {
-            display: none;
-        }
-        #prices-mobile {
-            display: block;
-        }
+        /*#prices {*/
+        /*    display: none;*/
+        /*}*/
+        /*#prices-mobile {*/
+        /*    display: block;*/
+        /*}*/
         .mt-50- {
             margin-top: -50px !important;
         }
