@@ -54,6 +54,66 @@ btn_additional_services.addEventListener('click', function() {
     show(additional_services);
 });
 
+// Mobile
+
+let btn_complex_mobile = document.getElementById('btn-complex-mobile');
+let complex_mobile = document.getElementById('complex-mobile');
+btn_complex_mobile.addEventListener('click', function() {
+    hideClassTabs();
+    btn_complex_mobile.classList.add('btn-tab-active');
+    show(complex_mobile);
+});
+
+let btn_hygiene_mobile = document.getElementById('btn-hygiene-mobile');
+let hygiene_mobile = document.getElementById('hygiene-mobile');
+btn_hygiene_mobile.addEventListener('click', function() {
+    hideClassTabs();
+    btn_hygiene_mobile.classList.add('btn-tab-active');
+    show(hygiene_mobile);
+});
+
+let btn_washing_drying_mobile = document.getElementById('btn-washing-drying-mobile');
+let washing_drying_mobile = document.getElementById('washing-drying-mobile');
+btn_washing_drying_mobile.addEventListener('click', function() {
+    hideClassTabs();
+    btn_washing_drying_mobile.classList.add('btn-tab-active');
+    show(washing_drying_mobile);
+});
+
+let btn_trimming_mobile = document.getElementById('btn-trimming-mobile');
+let trimming_mobile = document.getElementById('trimming-mobile');
+btn_trimming_mobile.addEventListener('click', function() {
+    hideClassTabs();
+    btn_trimming_mobile.classList.add('btn-tab-active');
+    show(trimming_mobile);
+});
+
+let btn_express_molt_mobile = document.getElementById('btn-express-molt-mobile');
+let express_molt_mobile = document.getElementById('express-molt-mobile');
+btn_express_molt_mobile.addEventListener('click', function() {
+    hideClassTabs();
+    btn_express_molt_mobile.classList.add('btn-tab-active');
+    show(express_molt_mobile);
+});
+
+let btn_cats_mobile = document.getElementById('btn-cats-mobile');
+let cats_mobile = document.getElementById('cats-mobile');
+btn_cats_mobile.addEventListener('click', function() {
+    hideClassTabs();
+    btn_cats_mobile.classList.add('btn-tab-active');
+    show(cats_mobile);
+});
+
+let btn_additional_services_mobile = document.getElementById('btn-additional-services-mobile');
+let additional_services_mobile = document.getElementById('additional-services-mobile');
+btn_additional_services_mobile.addEventListener('click', function() {
+    hideClassTabs();
+    btn_additional_services_mobile.classList.add('btn-tab-active');
+    show(additional_services_mobile);
+});
+
+
+
 function log(data) {
     console.log(data);
 }
