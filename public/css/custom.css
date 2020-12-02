@@ -1,3 +1,9 @@
+.main-mobile {
+    margin: 0 auto;
+    text-align: center;
+    width: 100% !important;
+}
+
 .item-right {
     text-align: right;
 }
