@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col-md-12 text-center" style="margin-top: 150px; min-height: 500px;">
                 <h2 class="text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
-                <p class="text-white main-font">Салон №1 груминг собак и кошек</p>
+                <p class="main-font color-common"><strong>Салон №1 груминг собак и кошек</strong></p>
                 <p class="text-center">
                     <a class="btn btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
                 </p>
