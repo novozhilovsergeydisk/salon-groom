@@ -202,11 +202,6 @@
                         <td><strong>2700 / 3200 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Гриффон, пти брабансон</td>
-                        <td><strong>2000 / 2300 ₽</strong></td>
-
-                    </tr>
-                    <tr>
                         <td>Йоркширский терьер, бивер-йорк</td>
                         <td><strong>2200 / 2500 ₽</strong></td>
                     </tr>
@@ -217,10 +212,6 @@
                     <tr>
                         <td>Китайская хохлатая пуховка</td>
                         <td><strong>2000 / 2500 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Левретка</td>
-                        <td><strong>1500 / * ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Мальтийская болонка</td>
@@ -313,14 +304,6 @@
                         <td><strong>3000 / * ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Кавалер-кинг-чарльз спаниель</td>
-                        <td><strong>2500 / 2800 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Лабрадудль</td>
-                        <td><strong>3500 / 3800 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Миттельшнауцер</td>
                         <td><strong>3200 / 3500 ₽</strong></td>
                     </tr>
@@ -387,15 +370,7 @@
                         <td><strong>5300 / 5800 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Бобтейл</td>
-                        <td><strong>5300 / 5800 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Далматин</td>
-                        <td><strong>4200 / * ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Доберман</td>
                         <td><strong>4200 / * ₽</strong></td>
                     </tr>
                     <tr>
@@ -522,11 +497,6 @@
                         <td><strong>2200 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Гриффон, пти брабансон</td>
-                        <td><strong>1800 ₽</strong></td>
-
-                    </tr>
-                    <tr>
                         <td>Йоркширский терьер, бивер-йорк</td>
                         <td><strong>2000 ₽</strong></td>
                     </tr>
@@ -539,20 +509,12 @@
                         <td><strong>1800 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Левретка</td>
-                        <td><strong>1200 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Мальтийская болонка</td>
                         <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Мопс</td>
                         <td><strong>1800 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Папильон</td>
-                        <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Пекинес</td>
@@ -637,19 +599,11 @@
                         <td><strong>2200 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Лабрадудль</td>
-                        <td><strong>3000 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Миттельшнауцер</td>
                         <td><strong>3000 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Пудель (малый, до 15 кг)</td>
-                        <td><strong>2500 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Сиба-ину</td>
                         <td><strong>2500 ₽</strong></td>
                     </tr>
                     <tr>
@@ -712,14 +666,6 @@
                     <tr>
                         <td>Далматин</td>
                         <td><strong>4000 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Доберман</td>
-                        <td><strong>4000 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Кане-корсо</td>
-                        <td><strong>4200 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Колли</td>
@@ -846,14 +792,6 @@
                         <td><strong>1700 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Китайская хохлатая голая</td>
-                        <td><strong>1200 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Китайская хохлатая пуховка</td>
-                        <td><strong>1500 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Левретка</td>
                         <td><strong>1000 ₽</strong></td>
                     </tr>
@@ -866,20 +804,12 @@
                         <td><strong>1500 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Папильон</td>
-                        <td><strong>1600 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Пекинес</td>
                         <td><strong>1800 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Той-пудель</td>
                         <td><strong>1700 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Той-терьер (гладкош./длиннош.)</td>
-                        <td><strong>1000 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Цвергпинчер</td>
@@ -964,14 +894,6 @@
                         <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Сиба-ину</td>
-                        <td><strong>2200 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Скотч-терьер</td>
-                        <td><strong>2000 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Такса (гладкош., длиннош., жесткош.)</td>
                         <td><strong>2000 ₽</strong></td>
                     </tr>
@@ -1030,14 +952,6 @@
                     </tr>
                     <tr>
                         <td>Доберман</td>
-                        <td><strong>3500 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Кане-корсо</td>
-                        <td><strong>3800 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Колли</td>
                         <td><strong>3500 ₽</strong></td>
                     </tr>
                     <tr>
@@ -1194,14 +1108,6 @@
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Той-терьер (гладкош./длиннош.)</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Цвергпинчер</td>
-                        <td><strong> ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Чихуахуа (гладкош./длиннош.)</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
@@ -1243,10 +1149,6 @@
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Бордер-колли</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Вельш-корги</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
@@ -1283,16 +1185,8 @@
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Скотч-терьер</td>
-                        <td><strong>4000 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Такса (гладкош., длиннош., жесткош.)</td>
                         <td><strong>3700 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Фокс-терьер</td>
-                        <td><strong>3800 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Французский бульдог</td>
@@ -1366,10 +1260,6 @@
                     </tr>
                     <tr>
                         <td>Немецкая овчарка</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Ньюфаундленд</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
@@ -1514,10 +1404,6 @@
                         <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Цвергпинчер</td>
-                        <td><strong>2000 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Чихуахуа (гладкош./длиннош.)</td>
                         <td><strong>2100 ₽</strong></td>
                     </tr>
@@ -1528,10 +1414,6 @@
                     <tr>
                         <td>Шпиц (карликовый /малый, до 5кг)</td>
                         <td><strong>3000 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Японский хин</td>
-                        <td><strong>* ₽</strong></td>
                     </tr>
                 </table>
                 <!-- Средние Экспресс-линька -->
@@ -1607,20 +1489,12 @@
                         <td><strong>3200 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Фокс-терьер</td>
-                        <td><strong>3500 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Французский бульдог</td>
                         <td><strong>3200 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Цвергшнауцер</td>
                         <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Шелти</td>
-                        <td><strong>3300 ₽</strong></td>
                     </tr>
                     </tbody>
                 </table>
@@ -1684,20 +1558,12 @@
                         <td><strong>5500 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Ньюфаундленд</td>
-                        <td><strong>7500 ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Пудель (королевский)</td>
                         <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Ризеншнауцер</td>
                         <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Ротвейлер</td>
-                        <td><strong>5200 ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Сенбернар</td>
@@ -2095,10 +1961,6 @@
                                         <td>Шпиц (карликовый /малый, до 5кг)</td>
                                         <td><strong>2500 / 3000 ₽</strong></td>
                                     </tr>
-                                    <tr>
-                                        <td>Японский хин</td>
-                                        <td><strong>2200 / 2500 ₽</strong></td>
-                                    </tr>
                                     </tbody>
                                 </table>
                             {{--</div>--}}
@@ -2122,10 +1984,6 @@
                                 <tr>
                                     <td width="50%">Американский / английский кокер-спаниель</td>
                                     <td><strong>2800 / 3200 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Английский бульдог</td>
-                                    <td><strong>2800 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бассенджи</td>
@@ -2195,10 +2053,6 @@
                                     <td>Цвергшнауцер</td>
                                     <td><strong>2500 / 2800 ₽</strong></td>
                                 </tr>
-                                <tr>
-                                    <td>Шелти</td>
-                                    <td><strong>2800 / 3000 ₽</strong></td>
-                                </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -2221,10 +2075,6 @@
                                 <tr>
                                     <td width="50%">Акита-ину</td>
                                     <td><strong>5300 / 5800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Английский сеттер</td>
-                                    <td><strong>4500 / 4800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Афганская борзая</td>
@@ -2281,14 +2131,6 @@
                                 <tr>
                                     <td>Ризеншнауцер</td>
                                     <td><strong>5000 / 5500 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Ротвейлер</td>
-                                    <td><strong>4500 / * ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Сенбернар</td>
-                                    <td><strong> 5500 / 6000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Стафордширский терьер</td>
@@ -2476,15 +2318,6 @@
                                     <td><strong>2600 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Английский бульдог</td>
-                                    <td><strong>2500 ₽</strong></td>
-
-                                </tr>
-                                <tr>
-                                    <td>Бассенджи</td>
-                                    <td><strong>2000 ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Бигль</td>
                                     <td><strong>2200 ₽</strong></td>
                                 </tr>
@@ -2575,14 +2408,6 @@
                                     <td><strong>5000 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Английский сеттер</td>
-                                    <td><strong>4200 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Афганская борзая</td>
-                                    <td><strong>4500 ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Бладхаунд</td>
                                     <td><strong>4000 ₽</strong></td>
                                 </tr>
@@ -2639,10 +2464,6 @@
                                     <td><strong>4200 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Сенбернар</td>
-                                    <td><strong>5000 ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Стафордширский терьер</td>
                                     <td><strong>3800 ₽</strong></td>
                                 </tr>
@@ -2652,10 +2473,6 @@
                                 </tr>
                                 <tr>
                                     <td>Хаски</td>
-                                    <td><strong>4500 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Чау-чау</td>
                                     <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -2833,16 +2650,8 @@
 
                                 </tr>
                                 <tr>
-                                    <td>Бассенджи</td>
-                                    <td><strong>1600 ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Бигль</td>
                                     <td><strong>1800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Бордер-колли</td>
-                                    <td><strong>2000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вельш-корги</td>
@@ -2931,14 +2740,6 @@
                                     <td><strong>3800 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Афганская борзая</td>
-                                    <td><strong>4000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Бладхаунд</td>
-                                    <td><strong>3500 ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Бернский зенненхунд</td>
                                     <td><strong>4500 ₽</strong></td>
                                 </tr>
@@ -3005,14 +2806,6 @@
                                 <tr>
                                     <td>Хаски</td>
                                     <td><strong>4000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Чау-чау</td>
-                                    <td><strong>4000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Шарпей</td>
-                                    <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Эрдельтерьер</td>
@@ -3193,10 +2986,6 @@
                                     <td><strong>* ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Бордер-колли</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Вельш-корги</td>
                                     <td><strong>* ₽</strong></td>
                                 </tr>
@@ -3207,10 +2996,6 @@
                                 <tr>
                                     <td>Джек-рассел терьер</td>
                                     <td><strong>3500 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Ирландский терьер</td>
-                                    <td><strong>4000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Кавалер-кинг-чарльз спаниель</td>
@@ -3288,10 +3073,6 @@
                                     <td><strong>* ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Бладхаунд</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Бернский зенненхунд</td>
                                     <td><strong>* ₽</strong></td>
                                 </tr>
@@ -3361,10 +3142,6 @@
                                 </tr>
                                 <tr>
                                     <td>Чау-чау</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Шарпей</td>
                                     <td><strong>* ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -3562,16 +3339,8 @@
                                     <td><strong>3200 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Ирландский терьер</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
                                     <td>Миттельшнауцер</td>
                                     <td><strong>3200 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Кавалер-кинг-чарльз спаниель</td>
-                                    <td><strong>* ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Лабрадудль</td>
@@ -3645,10 +3414,6 @@
                                 </tr>
                                 <tr>
                                     <td>Бернский зенненхунд</td>
-                                    <td><strong>6000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Бобтейл</td>
                                     <td><strong>6000 ₽</strong></td>
                                 </tr>
                                 <tr>
