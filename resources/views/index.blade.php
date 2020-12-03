@@ -1872,13 +1872,6 @@
         </div>
 
         <div class="row main-font">
-            {{--<div id="complex-mobile" class="tabs-price hidden">--}}
-
-                {{----}}
-                {{----}}
-                {{----}}
-            {{--</div>--}}
-
             <div id="complex-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
@@ -3397,7 +3390,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td width="70%"Акита-ину</td>
+                                    <td width="70%">Акита-ину</td>
                                     <td><strong>6000 ₽</strong></td>
                                 </tr>
                                 <tr>
