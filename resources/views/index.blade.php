@@ -1880,15 +1880,9 @@
                         </button>
 
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            {{--<div class="card-body">--}}
-                                <!-- Мелкие Комплекс: под машинку/ модельная -->
                                 <table class="table table-dark-alt table-hover">
-                                    <thead>
-                                    <th>Название</th>
-                                    <th>Цена</th>
-                                    </thead>
-
                                     <tbody>
+                                    <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                     <tr>
                                         <td width="50%">Бишон-фризе</td>
                                         <td><strong>2700 / 3200 ₽</strong></td>
@@ -1956,7 +1950,6 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                            {{--</div>--}}
                         </div>
                     </div>
 
@@ -1968,12 +1961,8 @@
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <!-- Средние Комплекс: под машинку/модельная -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Название</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="50%">Американский / английский кокер-спаниель</td>
                                     <td><strong>2800 / 3200 ₽</strong></td>
@@ -2058,13 +2047,9 @@
 
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <!-- Крупные Комплекс: под машинку/модельная -->
-                            <table id="large-breeds-complex" class="table table-dark-alt table-hover" style__="width: 170% !important;">
-                                <thead>
-                                <th>Название</th>
-                                <th>Цена</th>
-                                </thead>
-
+                            <table id="large-breeds-complex" class="table table-dark-alt table-hover">
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="50%">Акита-ину</td>
                                     <td><strong>5300 / 5800 ₽</strong></td>
@@ -2162,11 +2147,8 @@
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                             <!-- Mestizo complex -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Вес</th>
-                                <th>Цена</th>
-                                </thead>
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="50%">До 5 кг</td>
                                     <td><strong>2200 / 2500 ₽</strong></td>
@@ -2216,8 +2198,7 @@
                         <div id="collapseOne_hygiene" class="collapse" aria-labelledby="headingOne_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Мелкие Гигиена -->
                             <table class="table table-dark-alt table-hover">
-                                <th>Мелкие породы</th>
-                                <th>Цена</th>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
 
                                 <tr>
                                     <td width="70%">Бишон-фризе</td>
@@ -2300,12 +2281,8 @@
                         <div id="collapseTwo_hygiene" class="collapse" aria-labelledby="headingTwo_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Средние Гигиена -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Средние породы</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Американский / английский кокер-спаниель</td>
                                     <td><strong>2600 ₽</strong></td>
@@ -2391,11 +2368,8 @@
                         <div id="collapseThree_hygiene" class="collapse" aria-labelledby="headingThree_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Крупные Гигиена -->
                             <table id="large-breeds-hygiene" class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Крупные породы</th>
-                                <th>Цена</th>
-                                </thead>
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Акита-ину</td>
                                     <td><strong>5000 ₽</strong></td>
@@ -2489,11 +2463,8 @@
                         <div id="collapseFour_hygiene" class="collapse" aria-labelledby="headingFour_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Mestizo hygiene -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Метисы вес</th>
-                                <th>Цена</th>
-                                </thead>
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">До 5 кг</td>
                                     <td><strong>2000 ₽</strong></td>
@@ -2543,9 +2514,7 @@
                         <div id="collapseOne_washing" class="collapse" aria-labelledby="headingOne_washing" data-parent="#accordionExample_washing">
                             <!-- Мелкие Мытье-сушка -->
                             <table class="table table-dark-alt table-hover">
-                                <th>Мелкие породы</th>
-                                <th>Цена</th>
-
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Бишон-фризе</td>
                                     <td><strong>2000 ₽</strong></td>
@@ -2627,12 +2596,8 @@
                         <div id="collapseTwo_washing" class="collapse" aria-labelledby="headingTwo_washing" data-parent="#accordionExample_washing">
                             <!-- Средние Мытье-сушка -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Средние породы</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Американский / английский кокер-спаниель</td>
                                     <td><strong>2200 ₽</strong></td>
@@ -2719,11 +2684,8 @@
                         <div id="collapseThree_washing" class="collapse" aria-labelledby="headingThree_washing" data-parent="#accordionExample_washing">
                             <!-- Крупные Мытье-сушка -->
                             <table id="large-breeds-washing-drying" class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Крупные породы</th>
-                                <th>Цена</th>
-                                </thead>
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Акита-ину</td>
                                     <td><strong>4500 ₽</strong></td>
@@ -2817,12 +2779,8 @@
                         <div id="collapseFour_washing" class="collapse" aria-labelledby="headingFour_washing" data-parent="#accordionExample_washing">
                             <!-- Mestizo washing-drying -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th width="70%">Метисы вес</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">До 5 кг</td>
                                     <td><strong>1800 ₽</strong></td>
@@ -2872,9 +2830,7 @@
                         <div id="collapseOne_trimming" class="collapse" aria-labelledby="headingOne_trimming" data-parent="#accordionExample_trimming">
                             <!-- Мелкие Тримминг -->
                             <table class="table table-dark-alt table-hover">
-                                <th>Мелкие породы</th>
-                                <th>Цена</th>
-
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Бишон-фризе</td>
                                     <td><strong>* ₽</strong></td>
@@ -2956,12 +2912,8 @@
                         <div id="collapseTwo_trimming" class="collapse" aria-labelledby="headingTwo_trimming" data-parent="#accordionExample_trimming">
                             <!-- Средние Тримминг -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Средние породы</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Американский / английский кокер-спаниель</td>
                                     <td><strong>* ₽</strong></td>
@@ -3047,12 +2999,8 @@
                         <div id="collapseThree_trimming" class="collapse" aria-labelledby="headingThree_trimming" data-parent="#accordionExample_trimming">
                             <!-- Крупные Тримминг -->
                             <table id="trimming" class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Крупные породы</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Акита-ину</td>
                                     <td><strong>* ₽</strong></td>
@@ -3154,12 +3102,8 @@
                         <div id="collapseFour_trimming" class="collapse" aria-labelledby="headingFour_trimming" data-parent="#accordionExample_trimming">
                             <!-- Mestizo trimming -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Вес</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">До 5 кг</td>
                                     <td><strong>2800 ₽</strong></td>
@@ -3209,9 +3153,7 @@
                         <div id="collapseOne_express" class="collapse" aria-labelledby="headingOne_express" data-parent="#accordionExample_express">
                             <!-- Мелкие Экспресс-линька -->
                             <table class="table table-dark-alt table-hover">
-                                <th>Мелкие породы</th>
-                                <th>Цена</th>
-
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Бишон-фризе</td>
                                     <td><strong>* ₽</strong></td>
@@ -3293,12 +3235,8 @@
                         <div id="collapseTwo_express" class="collapse" aria-labelledby="headingTwo_express" data-parent="#accordionExample_express">
                             <!-- Средние Экспресс-линька -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Средние породы</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Американский / английский кокер-спаниель</td>
                                     <td><strong>* ₽</strong></td>
@@ -3384,11 +3322,8 @@
                         <div id="collapseThree_express" class="collapse" aria-labelledby="headingThree_express" data-parent="#accordionExample_express">
                             <!-- Крупные Экспресс-линька -->
                             <table id="express-molt" class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Крупные породы</th>
-                                <th>Цена</th>
-                                </thead>
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Акита-ину</td>
                                     <td><strong>6000 ₽</strong></td>
@@ -3494,12 +3429,8 @@
                         <div id="collapseFour_express" class="collapse" aria-labelledby="headingFour_express" data-parent="#accordionExample_express">
                             <!-- Mestizo express-molt -->
                             <table class="table table-dark-alt table-hover">
-                                <thead>
-                                <th>Вес</th>
-                                <th>Цена</th>
-                                </thead>
-
                                 <tbody>
+                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">До 5 кг</td>
                                     <td><strong>2800 ₽</strong></td>
