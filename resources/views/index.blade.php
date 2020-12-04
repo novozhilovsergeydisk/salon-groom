@@ -148,7 +148,7 @@
                         <a href="#our-2" class="link-thumbnail">
                             <h3 class="main-font">Светлана </h3>
 {{--                            <span class="ion-plus icon"></span>--}}
-                            <img src="/public/img/masters/groomer2.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/masters/grooming_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
