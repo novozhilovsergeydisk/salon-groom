@@ -17,7 +17,8 @@ body {
     margin-top: 75px;
 }
 .nav-item h6 {
-    color: #6C458C;
+    /*color: #6C458C;*/
+    color: white;
     font-weight: bolder;
 }
 .nav-item h6:hover {

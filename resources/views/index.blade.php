@@ -52,14 +52,13 @@
 
 <!-- Header -->
 <header role="banner" style__="border: 1px solid red;">
-    <nav class="navbar navbar-expand-lg navbar-dark transparant">
+    <nav class="navbar navbar-expand-lg navbar-dark transparant" style="background-color: #6f42c1;">
         <div class="container">
             <a class="navbar-brand absolute" href="/">
-                <!--        <strong>SALON GROOM</strong>-->
                 <img class="w-72" src="/public/img/logo-new.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-main" aria-controls="navbars-main" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon text-white"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbars-main">
@@ -80,7 +79,7 @@
                         <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6>Адреса салонов</h6></a>
                     </li>
                 </ul>
-                <span class="color-common font-weight-bold" style="margin-top: -9px; font-size: 20px;"><strong>+7 (499) 430-00-26</strong></span>
+                <h5><strong class="text-white">+7 (499) 430-00-26</strong></h5>
             </div>
         </div>
     </nav>
@@ -93,7 +92,7 @@
         <div class="row">
             <div class="col-md-12 text-center" style="margin-top: 150px; min-height: 500px;">
                 <h2 class="text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
-                <p class="main-font color-common"><strong>Салон №1 груминг собак и кошек</strong></p>
+                <p class="main-font color-common"><strong>Груминг салон №1 для собак и кошек</strong></p>
                 <p class="text-center">
                     <a class="btn btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
                 </p>
@@ -110,7 +109,7 @@
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-md-8 text-center col-sm-12 element-animate mt-50-">
                     <h2 class="color-light__ text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
-                    <p class="mb-5 font-weight-bold">Салон №1 груминг собак и кошек</p>
+                    <p class="mb-5 font-weight-bold">Груминг салон №1 для собак и кошек</p>
                     <p>
                         <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
                     </p>
@@ -146,7 +145,7 @@
                 <div>
                     <div id="our-2" class="media d-block media-custom text-center">
                         <a href="#our-2" class="link-thumbnail">
-                            <h3 class="main-font">Светлана </h3>
+                            <h3 class="main-font">Карина </h3>
 {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/grooming_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -156,7 +155,7 @@
                 <div>
                     <div id="our-3" class="media d-block media-custom text-center">
                         <a href="#our-3" class="link-thumbnail">
-                            <h3 class="main-font">Екатерина </h3>
+                            <h3 class="main-font">Светлана </h3>
 {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/groomer3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
@@ -174,7 +173,13 @@
 <section id="prices" class="section">
     <div class="container mobile-margin-top">
         <div id="row" class="">
-            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги не кусаются и не царапаются</h2>
+            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги комфортные и доступные</h2>
+        </div>
+
+        <div class="text-center" style="margin: 0 auto; border: 1px solid #6f42c1; padding: 17px; width: 50%; box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);">
+            <h5><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h5>
+            <h5><strong class="color-common">АКЦИЯ!</strong></h5>
+            <h5><strong class="color-common">СКИДКУ 20% НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
         </div>
 
         <div class="text-center main-font" style="margin: 20px">
@@ -424,10 +429,6 @@
                     <tr>
                         <td>Хаски</td>
                         <td><strong>4800 / 5200 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><strong> ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Чау-чау</td>
@@ -3745,30 +3746,27 @@
 
         <div class="row pd-1-rem text-center" >
             <div class="col-md-4 our">
-                <i class="fa fa-car our-icon"></i>
+                <i class="fa fa-car fs-50"></i>
                 <p><strong>Бесплатная VIP стоянка для наших клиентов возле салона</strong></p>
             </div>
             <div class="col-md-4 our">
-                <i class="fas fa-dog our-icon"></i>
+                <i class="fas fa-dog fs-50"></i>
                 <p>Комфортная зона отдыха для ожидания ваших питомцев</p>
             </div>
             <div class="col-md-4 our">
-                <i class="fa fa-eye-dropper our-icon"></i>
+                <i class="fa fa-eye-dropper fs-50"></i>
                 <p><strong>И конечно, все процедуры выполняются без наркоза</strong></p>
             </div>
-            {{--        </div>--}}
-
-            {{--        <div class="row pd-1-rem text-center">--}}
             <div class="col-md-4 our">
-                <i class="fas fa-diagnoses our-icon"></i>
+                <i class="fas fa-diagnoses fs-50"></i>
                 <p>Команда профессиональных груммеров с большим опытом</p>
             </div>
             <div class="col-md-4 our">
-                <i class="fas fa-hands-wash our-icon"></i>
+                <i class="fas fa-hands-wash fs-50"></i>
                 <p>Мы используем современные средства европейских брендов ухода за шерстью</p>
             </div>
             <div class="col-md-4 our">
-                <i class="fas fa-user-plus our-icon"></i>
+                <i class="fas fa-user-plus fs-50"></i>
                 <p>Помощь в консультировании по вопросам правильного ухода за домашними животными</p>
             </div>
         </div>
