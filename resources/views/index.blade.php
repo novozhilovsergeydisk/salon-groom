@@ -176,7 +176,7 @@
             <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги комфортные и доступные</h2>
         </div>
 
-        <div class="text-center" style="margin: 0 auto; border: 1px solid #6f42c1; padding: 17px; width: 50%; box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);">
+        <div class="text-center action-price">
             <h5><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h5>
             <h5><strong class="color-common">АКЦИЯ!</strong></h5>
             <h5><strong class="color-common">СКИДКУ 20% НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
@@ -1844,7 +1844,13 @@
 <section id="prices-mobile" class="section hidden">
     <div class="container mobile-margin-top">
         <div id="row" class="">
-            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги не кусаются и не царапаются</h2>
+            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги комфортные и доступные</h2>
+        </div>
+
+        <div class="text-center action-price-mobile">
+            <h5><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h5>
+            <h5><strong class="color-common">АКЦИЯ!</strong></h5>
+            <h5><strong class="color-common">СКИДКУ 20%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
         </div>
 
         <div class="text-center main-font" style="margin: 20px">
