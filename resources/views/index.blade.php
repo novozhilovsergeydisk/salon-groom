@@ -1848,7 +1848,7 @@
         <div class="text-center action-price-mobile">
             <h5><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h5>
             <h5><strong class="color-common">АКЦИЯ!</strong></h5>
-            <h5><strong class="color-common">СКИДКУ 20%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
+            <h5><strong class="color-common">СКИДКА 20%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
         </div>
 
         <div class="text-center main-font" style="margin: 20px">
