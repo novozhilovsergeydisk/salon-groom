@@ -1843,9 +1843,7 @@
 <!-- Prices mobile -->
 <section id="prices-mobile" class="section hidden">
     <div class="container mobile-margin-top">
-        <div id="row" class="">
-            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги комфортные и доступные</h2>
-        </div>
+        <h2 class="heading mb-4 text-center color-common section-title mobile-title" style="margin-top: -100px !important;">Цены на наши услуги комфортные и доступные</h2>
 
         <div class="text-center action-price-mobile">
             <h5><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h5>
