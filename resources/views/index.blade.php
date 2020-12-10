@@ -192,18 +192,22 @@
             <button id="btn-additional-services" class="tab-btn">Доп. услуги </button>
         </div>
 
+        <script>
+
+        </script>
+
         <div class="row main-font">
             <div id="complex" class="col-md-12 tabs-price">
-                <!-- Мелкие Комплекс: под машинку/ модельная -->
+                <!-- Мелкие complex -->
                 <table class="table table-dark-alt table-hover">
-                    <thead>
-                    <th>Мелкие породы</th>
-                    <th>Цена</th>
+                    <thead id="head-small-complex">
+                    <th width="80%">Мелкие породы</th>
+                    <th><span id="col-price-1" class="col-price hidden">Цена</span> <i id="col-price-arrow-1" class="fa fa-arrow-circle-down fs-25"></i></th>
                     </thead>
 
-                    <tbody>
+                    <tbody id="tbody-small-complex" class="hidden">
                     <tr>
-                        <td width="80%">Бишон-фризе</td>
+                        <td>Бишон-фризе</td>
                         <td><strong>2700 / 3200 ₽</strong></td>
                     </tr>
                     <tr>
@@ -264,16 +268,16 @@
                     </tr>
                     </tbody>
                 </table>
-                <!-- Средние Комплекс: под машинку/модельная -->
+                <!-- Средние complex -->
                 <table class="table table-dark-alt table-hover">
-                    <thead>
-                    <th>Средние породы</th>
-                    <th>Цена</th>
+                    <thead id="head-middle-complex">
+                    <th width="80%">Средние породы</th>
+                    <th><span id="col-price-2" class="col-price hidden">Цена</span> <i id="col-price-arrow-2" Цена class="fa fa-arrow-circle-down fs-25"></i></th>
                     </thead>
 
-                    <tbody>
+                    <tbody id="tbody-middle-complex" class="hidden">
                     <tr>
-                        <td width="80%">Американский / английский кокер-спаниель</td>
+                        <td>Американский / английский кокер-спаниель</td>
                         <td><strong>2800 / 3200 ₽</strong></td>
                     </tr>
                     <tr>
@@ -346,16 +350,16 @@
                     </tr>
                     </tbody>
                 </table>
-                <!-- Крупные Комплекс: под машинку/модельная -->
+                <!-- Крупные complex -->
                 <table id="large-breeds-complex" class="table table-dark-alt table-hover">
-                    <thead>
-                    <th>Крупные породы</th>
-                    <th>Цена</th>
+                    <thead id="head-large-complex">
+                    <th width="80%">Крупные породы</th>
+                    <th><span id="col-price-3" class="col-price hidden">Цена</span> <i id="col-price-arrow-3" class="fa fa-arrow-circle-down fs-25"></i></th>
                     </thead>
 
-                    <tbody>
+                    <tbody id="tbody-large-complex" class="hidden">
                     <tr>
-                        <td width="80%">Акита-ину</td>
+                        <td>Акита-ину</td>
                         <td><strong>5300 / 5800 ₽</strong></td>
                     </tr>
                     <tr>
@@ -446,13 +450,14 @@
                 </table>
                 <!-- Mestizo complex -->
                 <table class="table table-dark-alt table-hover">
-                    <thead>
-                    <th>Метисы вес</th>
-                    <th>Цена</th>
+                    <thead id="head-mestizo-complex">
+                    <th width="80%">Метисы вес</th>
+                    <th><span id="col-price-4" class="col-price hidden">Цена</span> <i id="col-price-arrow-4" class="fa fa-arrow-circle-down fs-25"></i></th>
                     </thead>
-                    <tbody>
+
+                    <tbody id="tbody-mestizo-complex" class="hidden">
                     <tr>
-                        <td width="80%">До 5 кг</td>
+                        <td>До 5 кг</td>
                         <td><strong>2200 / 2500 ₽</strong></td>
                     </tr>
                     <tr>
@@ -1058,100 +1063,14 @@
             </div>
 
             <div id="trimming" class="col-md-12 tabs-price hidden">
-                <!-- Мелкие Тримминг -->
+                <!-- Тримминг -->
                 <table class="table table-dark-alt table-hover">
-                    <th>Мелкие породы</th>
+                    <th>Породы</th>
                     <th>Цена</th>
 
                     <tr>
-                        <td width="80%">Бишон-фризе</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Гриффон, пти брабансон</td>
+                        <td width="80%">Гриффон, пти брабансон</td>
                         <td><strong>3500 ₽</strong></td>
-
-                    </tr>
-                    <tr>
-                        <td>Йоркширский терьер, бивер-йорк</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Китайская хохлатая голая</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Китайская хохлатая пуховка</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Левретка</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Мальтийская болонка</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Мопс</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Папильон</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Пекинес</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Той-пудель</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Чихуахуа (гладкош./длиннош.)</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Ши-тцу</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Шпиц (карликовый /малый, до 5кг)</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Японский хин</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                </table>
-                <!-- Средние Тримминг -->
-                <table class="table table-dark-alt table-hover">
-                    <thead>
-                    <th>Средние породы</th>
-                    <th>Цена</th>
-                    </thead>
-
-                    <tbody>
-                    <tr>
-                        <td width="80%">Американский / английский кокер-спаниель</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Английский бульдог</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Бассенджи</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Бигль</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Вельш-корги</td>
-                        <td><strong>* ₽</strong></td>
                     </tr>
                     <tr>
                         <td>Вэст-хайленд-уайт терьер</td>
@@ -1166,145 +1085,29 @@
                         <td><strong>4000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Кавалер-кинг-чарльз спаниель</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Лабрадудль</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Миттельшнауцер</td>
                         <td><strong>4000 ₽</strong></td>
                     </tr>
-                    <tr>
-                        <td>Пудель (малый, до 15 кг)</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Сиба-ину</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
+
                     <tr>
                         <td>Такса (гладкош., длиннош., жесткош.)</td>
                         <td><strong>3700 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Французский бульдог</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Цвергшнауцер</td>
                         <td><strong>3800 ₽</strong></td>
                     </tr>
-                    <tr>
-                        <td>Шелти</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <!-- Крупные Экспресс-линька -->
-                <table id="trimming" class="table table-dark-alt table-hover">
-                    <thead>
-                    <th>Крупные породы</th>
-                    <th>Цена</th>
-                    </thead>
 
-                    <tbody>
-                    <tr>
-                        <td width="80%">Акита-ину</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Английский сеттер</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Афганская борзая</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Бладхаунд</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Бернский зенненхунд</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Бобтейл</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Далматин</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Доберман</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Кане-корсо</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Колли</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Лабрадор (+ золотистый ретривер)</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td> Маламут</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Немецкая овчарка</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Пудель (королевский)</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
                     <tr>
                         <td>Ризеншнауцер</td>
                         <td><strong>8500 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Ротвейлер</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Сенбернар</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Стафордширский терьер</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Тибетский мастиф</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Хаски</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Чау-чау</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Шарпей</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Эрдельтерьер</td>
                         <td><strong>8000 ₽</strong></td>
                     </tr>
-                    </tbody>
                 </table>
+
                 <!-- Mestizo trimming -->
                 <table class="table table-dark-alt table-hover">
                     <thead>

@@ -54,6 +54,89 @@ btn_additional_services.addEventListener('click', function() {
     show(additional_services);
 });
 
+// ************ Показывать и скрывать цены complex
+let hideElements = function(els_list) {
+    for (let i = 0; i < els_list.length; i++) {
+        els_list[i].classList.add('hidden');
+    }
+}
+
+let _class_ = '';
+
+let head_small_complex = document.getElementById('head-small-complex');
+let tbody_small_complex = document.getElementById('tbody-small-complex');
+let head_middle_complex = document.getElementById('head-middle-complex');
+let tbody_middle_complex = document.getElementById('tbody-middle-complex');
+let head_large_complex = document.getElementById('head-large-complex');
+let tbody_large_complex = document.getElementById('tbody-large-complex');
+let head_mestizo_complex = document.getElementById('head-mestizo-complex');
+let tbody_mestizo_complex = document.getElementById('tbody-mestizo-complex');
+
+head_small_complex.addEventListener('click', function() {
+    _class_ = tbody_small_complex.getAttribute('class');
+
+    hideElements([tbody_small_complex, tbody_middle_complex, tbody_large_complex, tbody_mestizo_complex]);
+
+    if (_class_ == 'hidden') {
+        tbody_small_complex.classList.remove('hidden');
+    } else {
+        tbody_small_complex.classList.add('hidden');
+    }
+});
+
+head_middle_complex.addEventListener('click', function() {
+    _class_ = tbody_middle_complex.getAttribute('class');
+
+    hideElements([tbody_small_complex, tbody_middle_complex, tbody_large_complex, tbody_mestizo_complex]);
+
+    if (_class_ == 'hidden') {
+        tbody_middle_complex.classList.remove('hidden');
+    } else {
+        tbody_middle_complex.classList.add('hidden');
+    }
+});
+
+head_large_complex.addEventListener('click', function() {
+    _class_ = tbody_large_complex.getAttribute('class');
+
+    hideElements([tbody_small_complex, tbody_middle_complex, tbody_large_complex, tbody_mestizo_complex]);
+
+    if (_class_ == 'hidden') {
+        tbody_large_complex.classList.remove('hidden');
+    } else {
+        tbody_large_complex.classList.add('hidden');
+    }
+});
+
+head_mestizo_complex.addEventListener('click', function() {
+    // magicActions(tbody_mestizo_complex);
+
+    _class_ = tbody_mestizo_complex.getAttribute('class');
+
+    hideElements([tbody_small_complex, tbody_middle_complex, tbody_large_complex, tbody_mestizo_complex]);
+
+    if (_class_ == 'hidden') {
+        tbody_mestizo_complex.classList.remove('hidden');
+    } else {
+        tbody_mestizo_complex.classList.add('hidden');
+    }
+});
+
+let magicActions = function(el) {
+    _class_ = el.getAttribute('class');
+
+    console.log(_class_, el);
+
+    hideElements([tbody_small_complex, tbody_middle_complex, tbody_large_complex, tbody_mestizo_complex]);
+
+    if (_class_ == 'hidden') {
+        el.remove('hidden');
+        console.log('test')
+    } else {
+        el.add('hidden');
+    }
+}
+
 // Mobile
 
 let btn_complex_mobile = document.getElementById('btn-complex-mobile');
@@ -111,8 +194,6 @@ btn_additional_services_mobile.addEventListener('click', function() {
     btn_additional_services_mobile.classList.add('btn-tab-active');
     show(additional_services_mobile);
 });
-
-
 
 function log(data) {
     console.log(data);

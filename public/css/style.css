@@ -35,6 +35,9 @@ body {
     width: 50%;
     text-align:center !important;
 }
+#head-small-complex:hover, #head-middle-complex:hover, #head-large-complex:hover, #head-mestizo-complex:hover {
+    cursor: pointer;
+}
 
 /* END Custom css */
 
