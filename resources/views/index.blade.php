@@ -3504,7 +3504,7 @@
         <div class="row pd-1-rem text-center" >
             <div class="col-md-4 our">
                 <i class="fa fa-car fs-50"></i>
-                <p><strong>Бесплатная VIP стоянка для наших клиентов возле салона</strong></p>
+                <p><strong>Бесплатная стоянка для наших клиентов возле салона</strong></p>
             </div>
             <div class="col-md-4 our">
                 <i class="fas fa-dog fs-50"></i>
