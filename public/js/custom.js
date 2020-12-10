@@ -61,7 +61,10 @@ let hideElements = function(els_list) {
     }
 }
 
+// ************ Global vars
 let _class_ = '';
+let remove_class_list
+// ************ END Global vars
 
 let head_small_complex = document.getElementById('head-small-complex');
 let tbody_small_complex = document.getElementById('tbody-small-complex');
@@ -121,6 +124,216 @@ head_mestizo_complex.addEventListener('click', function() {
         tbody_mestizo_complex.classList.add('hidden');
     }
 });
+
+// Гигиена
+let head_small_hygiene = document.getElementById('head-small-hygiene');
+let tbody_small_hygiene = document.getElementById('tbody-small-hygiene');
+let head_middle_hygiene = document.getElementById('head-middle-hygiene');
+let tbody_middle_hygiene = document.getElementById('tbody-middle-hygiene');
+let head_large_hygiene = document.getElementById('head-large-hygiene');
+let tbody_large_hygiene = document.getElementById('tbody-large-hygiene');
+let head_mestizo_hygiene = document.getElementById('head-mestizo-hygiene');
+let tbody_mestizo_hygiene = document.getElementById('tbody-mestizo-hygiene');
+remove_class_list = [tbody_small_hygiene, tbody_middle_hygiene, tbody_large_hygiene, tbody_mestizo_hygiene];
+
+head_small_hygiene.addEventListener('click', function() {
+    _class_ = tbody_small_hygiene.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_small_hygiene.classList.remove('hidden');
+    } else {
+        tbody_small_hygiene.classList.add('hidden');
+    }
+});
+
+head_middle_hygiene.addEventListener('click', function() {
+    _class_ = tbody_middle_hygiene.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_middle_hygiene.classList.remove('hidden');
+    } else {
+        tbody_middle_hygiene.classList.add('hidden');
+    }
+});
+
+head_large_hygiene.addEventListener('click', function() {
+    _class_ = tbody_large_hygiene.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_large_hygiene.classList.remove('hidden');
+    } else {
+        tbody_large_hygiene.classList.add('hidden');
+    }
+});
+
+head_mestizo_hygiene.addEventListener('click', function() {
+    _class_ = tbody_mestizo_hygiene.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_mestizo_hygiene.classList.remove('hidden');
+    } else {
+        tbody_mestizo_hygiene.classList.add('hidden');
+    }
+});
+
+// Мытье-сушка
+let head_small_washing = document.getElementById('head-small-washing');
+let tbody_small_washing = document.getElementById('tbody-small-washing');
+let head_middle_washing = document.getElementById('head-middle-washing');
+let tbody_middle_washing = document.getElementById('tbody-middle-washing');
+let head_large_washing = document.getElementById('head-large-washing');
+let tbody_large_washing = document.getElementById('tbody-large-washing');
+let head_mestizo_washing = document.getElementById('head-mestizo-washing');
+let tbody_mestizo_washing = document.getElementById('tbody-mestizo-washing');
+remove_class_list = [tbody_small_washing, tbody_middle_washing, tbody_large_washing, tbody_mestizo_washing];
+
+head_small_washing.addEventListener('click', function() {
+    _class_ = tbody_small_washing.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_small_washing.classList.remove('hidden');
+    } else {
+        tbody_small_washing.classList.add('hidden');
+    }
+});
+
+head_middle_washing.addEventListener('click', function() {
+    _class_ = tbody_middle_washing.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_middle_washing.classList.remove('hidden');
+    } else {
+        tbody_middle_washing.classList.add('hidden');
+    }
+});
+
+head_large_washing.addEventListener('click', function() {
+    _class_ = tbody_large_washing.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_large_washing.classList.remove('hidden');
+    } else {
+        tbody_large_washing.classList.add('hidden');
+    }
+});
+
+head_mestizo_washing.addEventListener('click', function() {
+    _class_ = tbody_mestizo_washing.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_mestizo_washing.classList.remove('hidden');
+    } else {
+        tbody_mestizo_washing.classList.add('hidden');
+    }
+});
+
+// Express molt
+let head_small_express = document.getElementById('head-small-express');
+let tbody_small_express = document.getElementById('tbody-small-express');
+let head_middle_express = document.getElementById('head-middle-express');
+let tbody_middle_express = document.getElementById('tbody-middle-express');
+let head_large_express = document.getElementById('head-large-express');
+let tbody_large_express = document.getElementById('tbody-large-express');
+let head_mestizo_express = document.getElementById('head-mestizo-express');
+let tbody_mestizo_express = document.getElementById('tbody-mestizo-express');
+remove_class_list = [tbody_small_express, tbody_middle_express, tbody_large_express, tbody_mestizo_express];
+
+head_small_express.addEventListener('click', function() {
+    _class_ = tbody_small_express.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_small_express.classList.remove('hidden');
+    } else {
+        tbody_small_express.classList.add('hidden');
+    }
+});
+
+head_middle_express.addEventListener('click', function() {
+    _class_ = tbody_middle_express.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_middle_express.classList.remove('hidden');
+    } else {
+        tbody_middle_express.classList.add('hidden');
+    }
+});
+
+head_large_express.addEventListener('click', function() {
+    _class_ = tbody_large_express.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_large_express.classList.remove('hidden');
+    } else {
+        tbody_large_express.classList.add('hidden');
+    }
+});
+
+head_mestizo_express.addEventListener('click', function() {
+    _class_ = tbody_mestizo_express.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_mestizo_express.classList.remove('hidden');
+    } else {
+        tbody_mestizo_express.classList.add('hidden');
+    }
+});
+
+// Trimming
+let head_main_trimming = document.getElementById('head-main-trimming');
+let tbody_main_trimming = document.getElementById('tbody-main-trimming');
+let head_mestizo_trimming = document.getElementById('head-mestizo-trimming');
+let tbody_mestizo_trimming = document.getElementById('tbody-mestizo-trimming');
+remove_class_list = [tbody_main_trimming, tbody_mestizo_trimming];
+
+head_main_trimming.addEventListener('click', function() {
+    _class_ = tbody_main_trimming.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_main_trimming.classList.remove('hidden');
+    } else {
+        tbody_main_trimming.classList.add('hidden');
+    }
+});
+
+head_mestizo_trimming.addEventListener('click', function() {
+    _class_ = tbody_mestizo_trimming.getAttribute('class');
+
+    hideElements(remove_class_list);
+
+    if (_class_ == 'hidden') {
+        tbody_mestizo_trimming.classList.remove('hidden');
+    } else {
+        tbody_mestizo_trimming.classList.add('hidden');
+    }
+});
+
+// ************* END
 
 let magicActions = function(el) {
     _class_ = el.getAttribute('class');

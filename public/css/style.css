@@ -35,7 +35,12 @@ body {
     width: 50%;
     text-align:center !important;
 }
-#head-small-complex:hover, #head-middle-complex:hover, #head-large-complex:hover, #head-mestizo-complex:hover {
+#head-small-complex:hover, #head-middle-complex:hover, #head-large-complex:hover, #head-mestizo-complex:hover,
+#head-small-hygiene:hover, #head-middle-hygiene:hover, #head-large-hygiene:hover, #head-mestizo-hygiene:hover,
+#head-small-washing:hover, #head-middle-washing:hover, #head-large-washing:hover, #head-mestizo-washing:hover,
+#head-small-express:hover, #head-middle-express:hover, #head-large-express:hover, #head-mestizo-express:hover,
+#head-main-trimming:hover, #head-mestizo-trimming:hover
+{
     cursor: pointer;
 }
 
