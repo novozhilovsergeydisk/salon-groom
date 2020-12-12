@@ -1188,10 +1188,6 @@
                         <td><strong>2000 ₽</strong></td>
                     </tr>
                     <tr>
-                        <td>Мальтийская болонка</td>
-                        <td><strong>* ₽</strong></td>
-                    </tr>
-                    <tr>
                         <td>Мопс</td>
                         <td><strong>2800 ₽</strong></td>
                     </tr>
@@ -1506,7 +1502,7 @@
             <div id="additional-services" class="col-md-12 tabs-price hidden">
                 <table class="table table-dark-alt table-hover">
                     <thead>
-                    <th>Услуга</th>
+                    <th width="80%">Услуга</th>
                     <th>Цена</th>
                     </thead>
                     <tbody>
@@ -3586,6 +3582,10 @@
                         <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
                             Заполните пустые поля.
                         </div>
+                    </div>
+
+                    <div>
+                        <span>Прием заказов: пн-пт: 11:00 - 20:00 сб-вс: 10:18</span>
                     </div>
 
                     <div class="form-group">
