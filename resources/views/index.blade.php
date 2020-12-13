@@ -51,12 +51,13 @@
 <a id="button"></a>
 
 <!-- Header -->
-<header role="banner" style__="border: 1px solid red;">
+<header role="banner">
     <nav class="navbar navbar-expand-lg navbar-dark transparant" style="background-color: #6f42c1;">
         <div class="container">
             <a class="navbar-brand absolute" href="/">
                 <img class="w-72" src="/public/img/logo-new.png" alt="logo">
             </a>
+            <strong id="phone-mobile" style="margin-left: -27px !important;" class="text-white hidden">+7 (499) 430-00-26</strong>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-main" aria-controls="navbars-main" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
             </button>
@@ -79,7 +80,7 @@
                         <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6>Адреса салонов</h6></a>
                     </li>
                 </ul>
-                <h5><strong class="text-white">+7 (499) 430-00-26</strong></h5>
+                <h5 id="phone"><strong class="text-white">+7 (499) 430-00-26</strong></h5>
             </div>
         </div>
     </nav>
