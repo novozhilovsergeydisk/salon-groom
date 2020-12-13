@@ -1,3 +1,10 @@
+
+.text-master {
+    padding: 10px;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 0px !important;
+}
 .fs-50 {
     font-size: 50px !important;
 }
