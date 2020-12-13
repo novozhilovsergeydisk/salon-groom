@@ -138,6 +138,10 @@
 {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/groomer1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
+
+                        <p style="padding: 10px; line-height: 18px; text-align: left;">
+                            Аккуратный мастер, с опытом работы, ищет индивидуальны подход.
+                        </p>
 {{--                        <h2 class="color-common">Марина </h2>--}}
                     </div>
                 </div>
@@ -149,6 +153,10 @@
 {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/grooming_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
+
+                        <p style="padding: 10px; line-height: 18px; text-align: left;">
+                            Обожает ваших любимцев, профессионально выполняет свои обязанности.
+                        </p>
                     </div>
                 </div>
 
@@ -159,6 +167,10 @@
 {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/groomer3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
+
+                        <p style="padding: 10px; line-height: 18px; text-align: left;">
+                            Внимательная и ласковая, любящая животных.
+                        </p>
                     </div>
                 </div>
                 <!-- END slider -->
