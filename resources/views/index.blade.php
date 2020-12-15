@@ -196,12 +196,16 @@
 <section id="prices" class="section">
     <div class="container mobile-margin-top">
         <div class="text-center action-price">
-            <h4><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h4>
-            <h4><strong class="color-common">АКЦИЯ!</strong></h4>
-            <h4><strong class="color-common">СКИДКА 20% НА ПЕРВУЮ СТРИЖКУ!</strong></h4>
+            <h4><strong class="" style="color: rgba(200,20,20,0.9);">МЫ ОТКРЫЛИСЬ!</strong></h4>
+            <h4><strong class="" style="color: rgba(200,20,20,0.9);">АКЦИЯ!</strong></h4>
+            <h4><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 20% НА ПЕРВУЮ СТРИЖКУ!</strong></h4>
         </div>
 
-        <div id="row" class="">
+        <div style="height: 50px;">
+
+        </div>
+
+        <div id="row" class="" >
             <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги комфортные и доступные</h2>
         </div>
 
