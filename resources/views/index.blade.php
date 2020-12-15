@@ -3627,7 +3627,7 @@
     <div class="container mobile-margin-top">
         <div class="row main-font">
             <div class="col-md-12">
-                <h2 class="heading mb-4 color-common text-center section-title mobile-title">Москва ЦАО м. Новослободская,  ул. Долгоруковская 40</h2>
+                <h2 class="heading mb-4 color-common text-center section-title mobile-title">Москва<br /> ЦАО м. Новослободская,<br />  ул. Долгоруковская 40</h2>
 
                 <div id="map-yandex" class="map">
                     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1d2c42ddbc66b85e3eafa2435ccd87074e779036847fb644e7984904e205959&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
