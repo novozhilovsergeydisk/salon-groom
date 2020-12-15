@@ -1,9 +1,10 @@
 
 .text-master {
-    padding: 10px;
-    line-height: 18px;
+    padding: 12px;
+    /*line-height: 14px;*/
     text-align: left;
     margin-top: 0px !important;
+    color: #1b1b1c;
 }
 .fs-50 {
     font-size: 50px !important;

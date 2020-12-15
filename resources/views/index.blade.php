@@ -108,8 +108,8 @@
     <div class="slider-item main-slider-2">
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
-                <div class="col-md-8 text-center col-sm-12 element-animate mt-50-">
-                    <h2 class="color-light__ text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
+                <div class="col-md-10 text-center col-sm-12 element-animate mt-50-">
+                    <h1 class="color-light__ text-white section-title" style="font-size: 32px;">Мы стрижем ваших питомцев с любовью</h1>
                     <p class="mb-5 font-weight-bold">Груминг салон №1 для собак и кошек</p>
                     <p>
                         <a class="btn btn-white btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
@@ -141,7 +141,10 @@
                         </a>
 
                         <p class="text-master">
-                            Аккуратный мастер, с опытом работы, ищет индивидуальны подход.
+                            Марина обожает купать животных, они особенно послушны, когда находятся в ее руках.
+                            Активно помогает животным в приютах найти своего хозяина.
+                            Опыт работы грумером более 5 лет. Постоянно повышает свою квалификацию на курсах.
+                            Специализируется на SPA процедурах для животных.
                         </p>
 {{--                        <h2 class="color-common">Марина </h2>--}}
                     </div>
@@ -156,7 +159,11 @@
                         </a>
 
                         <p class="text-master">
-                            Обожает ваших любимцев, профессионально выполняет свои обязанности.
+                            Основатель салона груминга.
+                            Мастер-универсал, фанат своего дела. Найдет подход к любому хвостику и к большому животному и к маленькому питомцу.
+                            Хозяйка двух красивых ротвейлеров Марты и Джохара.
+                            Регулярно посещает семинары по повышению квалификации.
+                            Помимо процедур красоты вашего питомца проконсультирует по вопросам ухода и сожержания.
                         </p>
                     </div>
                 </div>
@@ -170,7 +177,10 @@
                         </a>
 
                         <p class="text-master">
-                            Внимательная и ласковая, любящая животных, ответственная.
+                            Светлана в груминге относительно недавно, чуть более 2 лет.
+                            Молодая активная, любит свою профессию и горит желанием развиваться в ней.
+                            Если понаблюдать за работой Светы со стороны, то видно с каким усердием она стрижет ваших питомцев, как аккуратно она подходит к решению каждого нюанса.
+                            Она хочет быть лучшей в профессии и мы ее в этом поддерживаем.
                         </p>
                     </div>
                 </div>
@@ -185,14 +195,14 @@
 <!-- Prices -->
 <section id="prices" class="section">
     <div class="container mobile-margin-top">
-        <div id="row" class="">
-            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги комфортные и доступные</h2>
-        </div>
-
         <div class="text-center action-price">
             <h4><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h4>
             <h4><strong class="color-common">АКЦИЯ!</strong></h4>
             <h4><strong class="color-common">СКИДКА 20% НА ПЕРВУЮ СТРИЖКУ!</strong></h4>
+        </div>
+
+        <div id="row" class="">
+            <h2 class="heading mb-4 text-center color-common section-title mobile-title">Цены на наши услуги комфортные и доступные</h2>
         </div>
 
         <div class="text-center main-font" style="margin: 20px">
