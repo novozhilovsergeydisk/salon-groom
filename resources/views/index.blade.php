@@ -80,7 +80,7 @@
                         <a class="nav-link" onclick="hideNavbarCollapse()" href="#address"><h6>Адреса салонов</h6></a>
                     </li>
                 </ul>
-                <h5 id="phone"><strong class="text-white">+7 (499) 430-00-26</strong></h5>
+                <h5 id="phone-menu"><strong class="text-white">+7 (499) 430-00-26</strong></h5>
             </div>
         </div>
     </nav>
@@ -173,7 +173,7 @@
                         <a href="#our-3" class="link-thumbnail">
                             <h3 class="main-font">Светлана </h3>
 {{--                            <span class="ion-plus icon"></span>--}}
-                            <img src="/public/img/masters/groomer3.jpg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/masters/master_svetlana.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
 
                         <p class="text-master">
@@ -3554,11 +3554,26 @@
 </section>
 <!-- END About our -->
 
+<!-- Legend -->
+<section id="orders-list" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 bg-light__" style="line-height: 22px">
+                Это история о том, как три мастера решили открыть салон груминга. Каждая из наших мастеров (Карина, Светлана и Марина) долго шли к этой цели: начинали по разному, кто-то ездил и оказывал услуги на дому, кто-то работал в салоне. Это был непростой, но очень интересный и познавательный путь - становления в профессии. Мы абсолютно уверены в том, что человек с «холодным» сердцем не сможет работать в этой профессии. Животные его не примут.
+
+                Нам пришлось пройти через все бюрократические процедуры открытия своего дела. Для нас это первый и удачный опыт. Мы очень рады своим постоянным клиентам, которые у нас появились за прошедший период работы, и мы очень рады нашим новым клиентам, которые впервые доверили нам своих любимцев.
+
+                Мы будем стараться для Вас! Приходите в наш салон. Животные будут рады.
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Orders form -->
 <section id="orders-list" class="section">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-12 col-sm-12">
                 <hr />
                 <h3 class="color-common text-center section-title mobile-title">Запись на стрижку</h3>
                 <form id="contactform" method="post" class="validateform" name="contactform">
@@ -3573,14 +3588,9 @@
                         <input type="text" class="form-control" placeholder="" id="phone" name="phone">
                     </div>
 
-                    {{--                    <div class="form-group">--}}
-                    {{--                        <label for="poroda">Порода *</label>--}}
-                    {{--                        <input type="text" class="form-control" placeholder="" id="poroda" name="poroda">--}}
-                    {{--                    </div>--}}
-
                     <div class="form-group">
                         <label for="date" class="">Дата *</label>
-                        <div class="input-group date form_date col-md-5__" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
+                        <div class="input-group date form_date" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
                             <input class="form-control" id="date" name="date" type="text">
 
                             <span class="input-group-addon pointer">
@@ -3592,7 +3602,7 @@
 
                     <div class="form-group">
                         <label for="time" class="">Желаемое время *</label>
-                        <div class="input-group date form_time col-md-5__" data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+                        <div class="input-group date form_time" data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
                             <input id="time" name="time" class="form-control" size="16" type="text">
 
                             <span class="input-group-addon pointer">

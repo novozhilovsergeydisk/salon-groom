@@ -141,7 +141,10 @@ header {
         header .navbar-brand {
           /*display: none;*/
         }
-        #phone {
+        .text-master {
+            height: 100% !important;
+        }
+        #phone-menu {
             display: none;
         }
         #phone-mobile {
