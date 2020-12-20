@@ -1621,12 +1621,16 @@
 <!-- Prices mobile -->
 <section id="prices-mobile" class="section hidden">
     <div class="container mobile-margin-top">
-        <h2 class="heading mb-4 text-center color-common section-title mobile-title" style="margin-top: -100px !important;">Цены на наши услуги комфортные и доступные</h2>
+        <h2 class="heading mb-4 text-center color-common section-title mobile-title" style="margin-top: -130px !important;">Цены на наши услуги комфортные и доступные</h2>
 
         <div class="text-center action-price-mobile">
-            <h5><strong class="color-common">МЫ ОТКРЫЛИСЬ!</strong></h5>
-            <h5><strong class="color-common">АКЦИЯ!</strong></h5>
-            <h5><strong class="color-common">СКИДКА 20%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
+            <h5><strong class="" style="color: rgba(200,20,20,0.9);">МЫ ОТКРЫЛИСЬ!</strong></h5>
+            <h5><strong class="" style="color: rgba(200,20,20,0.9);">АКЦИЯ!</strong></h5>
+            <h5><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 20%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
+        </div>
+
+        <div style="height: 15px;">
+
         </div>
 
         <div class="text-center main-font" style="margin: 20px">

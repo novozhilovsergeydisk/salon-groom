@@ -25,9 +25,9 @@
 
 .action-price-mobile {
     margin: 0 auto;
-    border: 1px solid #6f42c1;
+    border: 1px solid red;
     padding: 7px;
-    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    box-shadow: inset 0px 0px 10px rgba(200,20,20,0.9);
 }
 
 .main-mobile {
