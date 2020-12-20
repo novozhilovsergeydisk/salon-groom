@@ -31,6 +31,8 @@
 
     <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
 
+    <link rel="icon" href="/favicon.ico">
+
     {{--    <script src="/public/components/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>--}}
 
     <style>
