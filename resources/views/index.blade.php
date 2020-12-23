@@ -46,6 +46,8 @@
                 url('/public/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
         }
     </style>
+
+    <meta name="yandex-verification" content="f15cc82a54c3430d" />
 </head>
 
 <body class="main">
