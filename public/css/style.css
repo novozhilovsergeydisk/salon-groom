@@ -129,6 +129,9 @@ header {
   }
 
     @media (max-width: 1199px) {
+        body {
+            background-color: white;
+        }
         header .navbar {
             background: #6f42c1 !important;
             padding-top: .5rem;

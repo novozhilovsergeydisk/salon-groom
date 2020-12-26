@@ -351,62 +351,183 @@ let magicActions = function(el) {
 }
 
 // Mobile
+// Complex small
+let complex_mobile_arrow_up = document.getElementById('complex-mobile-arrow-up');
+let complex_mobile_arrow_down = document.getElementById('complex-mobile-arrow-down');
 
-let btn_complex_mobile = document.getElementById('btn-complex-mobile');
-let complex_mobile = document.getElementById('complex-mobile');
-btn_complex_mobile.addEventListener('click', function() {
-    hideClassTabs();
-    btn_complex_mobile.classList.add('btn-tab-active');
-    show(complex_mobile);
+let complex_mobile_plus_up = document.getElementById('complex-mobile-plus-up');
+let complex_mobile_plus_down = document.getElementById('complex-mobile-plus-down');
+
+let complex_mobile_small = document.getElementById('complex-mobile-small');
+complex_mobile_small.addEventListener('click', function() {
+    if (complex_mobile_small.classList.contains('collapsed')) {
+        complex_mobile_arrow_up.classList.add('hide');
+        complex_mobile_arrow_down.classList.remove('hide');
+
+        complex_mobile_plus_up.classList.add('hide');
+        complex_mobile_plus_down.classList.remove('hide');
+
+        console.log('collapsed');
+    } else {
+        complex_mobile_arrow_up.classList.remove('hide');
+        complex_mobile_arrow_down.classList.add('hide');
+
+        complex_mobile_plus_up.classList.remove('hide');
+        complex_mobile_plus_down.classList.add('hide');
+
+        console.log('NO collapsed');
+    }
+
+    console.log('complex_mobile_small.addEventListener');
 });
 
-let btn_hygiene_mobile = document.getElementById('btn-hygiene-mobile');
-let hygiene_mobile = document.getElementById('hygiene-mobile');
-btn_hygiene_mobile.addEventListener('click', function() {
-    hideClassTabs();
-    btn_hygiene_mobile.classList.add('btn-tab-active');
-    show(hygiene_mobile);
+// Complex middle
+let complex_middle_arrow_up = document.getElementById('complex-middle-arrow-up');
+let complex_middle_arrow_down = document.getElementById('complex-middle-arrow-down');
+
+let complex_middle_plus_up = document.getElementById('complex-middle-plus-up');
+let complex_middle_plus_down = document.getElementById('complex-middle-plus-down');
+
+let complex_mobile_middle = document.getElementById('complex-mobile-middle');
+complex_mobile_middle.addEventListener('click', function() {
+    if (complex_mobile_middle.classList.contains('collapsed')) {
+        complex_middle_arrow_up.classList.add('hide');
+        complex_middle_arrow_down.classList.remove('hide');
+
+        complex_middle_plus_up.classList.add('hide');
+        complex_middle_plus_down.classList.remove('hide');
+
+        console.log('collapsed middle');
+    } else {
+        complex_middle_arrow_up.classList.remove('hide');
+        complex_middle_arrow_down.classList.add('hide');
+
+        complex_middle_plus_up.classList.remove('hide');
+        complex_middle_plus_down.classList.add('hide');
+
+        console.log('NO collapsed middle');
+    }
 });
 
-let btn_washing_drying_mobile = document.getElementById('btn-washing-drying-mobile');
-let washing_drying_mobile = document.getElementById('washing-drying-mobile');
-btn_washing_drying_mobile.addEventListener('click', function() {
-    hideClassTabs();
-    btn_washing_drying_mobile.classList.add('btn-tab-active');
-    show(washing_drying_mobile);
+// Complex large
+let complex_large_arrow_up = document.getElementById('complex-large-arrow-up');
+let complex_large_arrow_down = document.getElementById('complex-large-arrow-down');
+
+let complex_large_plus_up = document.getElementById('complex-large-plus-up');
+let complex_large_plus_down = document.getElementById('complex-large-plus-down');
+
+let complex_mobile_large = document.getElementById('complex-mobile-large');
+complex_mobile_large.addEventListener('click', function() {
+    if (complex_mobile_large.classList.contains('collapsed')) {
+        complex_large_arrow_up.classList.add('hide');
+        complex_large_arrow_down.classList.remove('hide');
+
+        complex_large_plus_up.classList.add('hide');
+        complex_large_plus_down.classList.remove('hide');
+
+        console.log('collapsed large');
+    } else {
+        complex_large_arrow_up.classList.remove('hide');
+        complex_large_arrow_down.classList.add('hide');
+
+        complex_large_plus_up.classList.remove('hide');
+        complex_large_plus_down.classList.add('hide');
+
+        console.log('NO collapsed large');
+    }
 });
 
-let btn_trimming_mobile = document.getElementById('btn-trimming-mobile');
-let trimming_mobile = document.getElementById('trimming-mobile');
-btn_trimming_mobile.addEventListener('click', function() {
-    hideClassTabs();
-    btn_trimming_mobile.classList.add('btn-tab-active');
-    show(trimming_mobile);
+// Complex mestizo
+let complex_mestizo_arrow_up = document.getElementById('complex-mestizo-arrow-up');
+let complex_mestizo_arrow_down = document.getElementById('complex-mestizo-arrow-down');
+
+let complex_mestizo_plus_up = document.getElementById('complex-mestizo-plus-up');
+let complex_mestizo_plus_down = document.getElementById('complex-mestizo-plus-down');
+
+let complex_mobile_mestizo = document.getElementById('complex-mobile-mestizo');
+complex_mobile_mestizo.addEventListener('click', function() {
+    if (complex_mobile_mestizo.classList.contains('collapsed')) {
+        complex_mestizo_arrow_up.classList.add('hide');
+        complex_mestizo_arrow_down.classList.remove('hide');
+
+        complex_mestizo_plus_up.classList.add('hide');
+        complex_mestizo_plus_down.classList.remove('hide');
+
+        console.log('collapsed mestizo');
+    } else {
+        complex_mestizo_arrow_up.classList.remove('hide');
+        complex_mestizo_arrow_down.classList.add('hide');
+
+        complex_mestizo_plus_up.classList.remove('hide');
+        complex_mestizo_plus_down.classList.add('hide');
+
+        console.log('NO collapsed mestizo');
+    }
 });
 
-let btn_express_molt_mobile = document.getElementById('btn-express-molt-mobile');
-let express_molt_mobile = document.getElementById('express-molt-mobile');
-btn_express_molt_mobile.addEventListener('click', function() {
-    hideClassTabs();
-    btn_express_molt_mobile.classList.add('btn-tab-active');
-    show(express_molt_mobile);
-});
 
-let btn_cats_mobile = document.getElementById('btn-cats-mobile');
-let cats_mobile = document.getElementById('cats-mobile');
-btn_cats_mobile.addEventListener('click', function() {
-    hideClassTabs();
-    btn_cats_mobile.classList.add('btn-tab-active');
-    show(cats_mobile);
-});
 
-let btn_additional_services_mobile = document.getElementById('btn-additional-services-mobile');
-let additional_services_mobile = document.getElementById('additional-services-mobile');
-btn_additional_services_mobile.addEventListener('click', function() {
-    hideClassTabs();
-    btn_additional_services_mobile.classList.add('btn-tab-active');
-    show(additional_services_mobile);
-});
+
+
+
+
+
+
+// let btn_complex_mobile = document.getElementById('btn-complex-mobile');
+// let complex_mobile = document.getElementById('complex-mobile');
+// btn_complex_mobile.addEventListener('click', function() {
+//     hideClassTabs();
+//     btn_complex_mobile.classList.add('btn-tab-active');
+//     show(complex_mobile);
+// });
+
+// let btn_hygiene_mobile = document.getElementById('btn-hygiene-mobile');
+// let hygiene_mobile = document.getElementById('hygiene-mobile');
+// btn_hygiene_mobile.addEventListener('click', function() {
+//     hideClassTabs();
+//     btn_hygiene_mobile.classList.add('btn-tab-active');
+//     show(hygiene_mobile);
+// });
+//
+// let btn_washing_drying_mobile = document.getElementById('btn-washing-drying-mobile');
+// let washing_drying_mobile = document.getElementById('washing-drying-mobile');
+// btn_washing_drying_mobile.addEventListener('click', function() {
+//     hideClassTabs();
+//     btn_washing_drying_mobile.classList.add('btn-tab-active');
+//     show(washing_drying_mobile);
+// });
+//
+// let btn_trimming_mobile = document.getElementById('btn-trimming-mobile');
+// let trimming_mobile = document.getElementById('trimming-mobile');
+// btn_trimming_mobile.addEventListener('click', function() {
+//     hideClassTabs();
+//     btn_trimming_mobile.classList.add('btn-tab-active');
+//     show(trimming_mobile);
+// });
+//
+// let btn_express_molt_mobile = document.getElementById('btn-express-molt-mobile');
+// let express_molt_mobile = document.getElementById('express-molt-mobile');
+// btn_express_molt_mobile.addEventListener('click', function() {
+//     hideClassTabs();
+//     btn_express_molt_mobile.classList.add('btn-tab-active');
+//     show(express_molt_mobile);
+// });
+//
+// let btn_cats_mobile = document.getElementById('btn-cats-mobile');
+// let cats_mobile = document.getElementById('cats-mobile');
+// btn_cats_mobile.addEventListener('click', function() {
+//     hideClassTabs();
+//     btn_cats_mobile.classList.add('btn-tab-active');
+//     show(cats_mobile);
+// });
+//
+// let btn_additional_services_mobile = document.getElementById('btn-additional-services-mobile');
+// let additional_services_mobile = document.getElementById('additional-services-mobile');
+// btn_additional_services_mobile.addEventListener('click', function() {
+//     hideClassTabs();
+//     btn_additional_services_mobile.classList.add('btn-tab-active');
+//     show(additional_services_mobile);
+// });
 
 function log(data) {
     console.log(data);

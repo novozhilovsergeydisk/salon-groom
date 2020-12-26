@@ -46,8 +46,6 @@
                 url('/public/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
         }
     </style>
-
-    <meta name="yandex-verification" content="f15cc82a54c3430d" />
 </head>
 
 <body class="main">
@@ -97,7 +95,7 @@
         <div class="row">
             <div class="col-md-12 text-center" style="margin-top: 150px; min-height: 500px;">
                 <h2 class="text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
-                <p class="main-font color-common"><strong>Груминг салон №1 для собак и кошек</strong></p>
+                <p class="main-font color-common"><strong style="font-size: larger__">Груминг салон №1 для собак и кошек</strong></p>
                 <p class="text-center">
                     <a class="btn btn-outline-white btn-save" href="#orders-list" style="font-weight: 600; padding: 20px;">Записаться</a>
                 </p>
@@ -140,7 +138,7 @@
                     <div id="our-1" class="media d-block media-custom text-center">
                         <a href="#our-1" class="link-thumbnail">
                             <h3 class="main-font">Марина </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/groomer1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
 
@@ -150,7 +148,7 @@
                             Опыт работы грумером более 5 лет. Постоянно повышает свою квалификацию на курсах.
                             Специализируется на SPA процедурах для животных.
                         </p>
-{{--                        <h2 class="color-common">Марина </h2>--}}
+                        {{--                        <h2 class="color-common">Марина </h2>--}}
                     </div>
                 </div>
 
@@ -158,7 +156,7 @@
                     <div id="our-2" class="media d-block media-custom text-center">
                         <a href="#our-2" class="link-thumbnail">
                             <h3 class="main-font">Карина </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/grooming_2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
 
@@ -176,7 +174,7 @@
                     <div id="our-3" class="media d-block media-custom text-center">
                         <a href="#our-3" class="link-thumbnail">
                             <h3 class="main-font">Светлана </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/masters/master_svetlana.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
 
@@ -202,7 +200,7 @@
         <div class="text-center action-price">
             <h4><strong class="" style="color: rgba(200,20,20,0.9);">МЫ ОТКРЫЛИСЬ!</strong></h4>
             <h4><strong class="" style="color: rgba(200,20,20,0.9);">АКЦИЯ!</strong></h4>
-            <h4><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 20% НА ПЕРВУЮ СТРИЖКУ!</strong></h4>
+            <h4><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 50% НА ПЕРВУЮ СТРИЖКУ!</strong></h4>
         </div>
 
         <div style="height: 50px;">
@@ -1628,201 +1626,208 @@
         <div class="text-center action-price-mobile">
             <h5><strong class="" style="color: rgba(200,20,20,0.9);">МЫ ОТКРЫЛИСЬ!</strong></h5>
             <h5><strong class="" style="color: rgba(200,20,20,0.9);">АКЦИЯ!</strong></h5>
-            <h5><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 20%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
+            <h5><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 50%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
         </div>
 
-        <div style="height: 15px;">
+        <div class="h-15">
 
         </div>
 
-        <div class="text-center main-font" style="margin: 20px">
-            <div class="col-sm">
-                <button id="btn-complex-mobile" class="tab-btn col-sm-12 btn-tab-active">Комплекс: под машинку/модельная </button>
-            </div>
-            <div class="col-sm">
-                <button id="btn-hygiene-mobile" class="tab-btn col-sm-12">Гигиена </button>
-            </div>
-            <div class="col-sm">
-                <button id="btn-washing-drying-mobile" class="tab-btn col-sm-12">Мытье-сушка </button>
-            </div>
-            <div class="col-sm">
-                <button id="btn-trimming-mobile" class="tab-btn col-sm-12">Тримминг </button>
-            </div>
-            <div class="col-sm">
-                <button id="btn-express-molt-mobile" class="tab-btn col-sm-12">Экспресс-линька </button>
-            </div>
-            <div class="col-sm">
-                <button id="btn-cats-mobile" class="tab-btn col-sm-12">Кошки </button>
-            </div>
-            <div class="col-sm">
-                <button id="btn-additional-services-mobile" class="tab-btn col-sm-12">Доп. услуги </button>
-            </div>
-
-        </div>
+        <style>
+            .flex{ display: flex; }
+        </style>
 
         <div class="row main-font">
+            <div class="text-center w-100 color-common mt-20"><strong class="">Комплекс:</strong> под машинку/модельная</div>
             <div id="complex-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Мелкие породы
-                        </button>
+                        <div id="complex-mobile-small" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div class="card-flex-10">
+                                <i id="complex-mobile-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="complex-mobile-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Мелкие породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="complex-mobile-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="complex-mobile-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <table class="table table-dark-alt table-hover">
-                                    <tbody>
-                                    <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
-                                    <tr>
-                                        <td width="50%">Бишон-фризе</td>
-                                        <td><strong>2700 / 3200 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Гриффон, пти брабансон</td>
-                                        <td><strong>2000 / 2300 ₽</strong></td>
+                        <div id="collapseOne" class="mt-20 collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
 
-                                    </tr>
-                                    <tr>
-                                        <td>Йоркширский терьер, бивер-йорк</td>
-                                        <td><strong>2200 / 2500 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Китайская хохлатая голая</td>
-                                        <td><strong>1800 / 2000 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Китайская хохлатая пуховка</td>
-                                        <td><strong>2000 / 2500 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Левретка</td>
-                                        <td><strong>1500 / * ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Мальтийская болонка</td>
-                                        <td><strong>2200 / 2500 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Мопс</td>
-                                        <td><strong>2200 / * ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Папильон</td>
-                                        <td><strong>2200 / 2500 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Пекинес</td>
-                                        <td><strong>2200 / 2500 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Той-пудель</td>
-                                        <td><strong>2200 / 2500 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Той-терьер (гладкош./длиннош.)</td>
-                                        <td><strong>1500 / 1800 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Цвергпинчер</td>
-                                        <td><strong>1800 / * ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Чихуахуа (гладкош./длиннош.)</td>
-                                        <td><strong>1800 / 2100 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ши-тцу</td>
-                                        <td><strong>2200 / 2500 ₽</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Шпиц (карликовый /малый, до 5кг)</td>
-                                        <td><strong>2500 / 3000 ₽</strong></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                <tbody>
+                                <tr>
+                                    <td>Бишон-фризе</td>
+                                    <td>2700 / 3200 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Гриффон, пти брабансон</td>
+                                    <td>2000 / 2300 ₽</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Йоркширский терьер, бивер-йорк</td>
+                                    <td>2200 / 2500 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Китайская хохлатая голая</td>
+                                    <td>1800 / 2000 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Китайская хохлатая пуховка</td>
+                                    <td>2000 / 2500 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Левретка</td>
+                                    <td>1500 / * ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Мальтийская болонка</td>
+                                    <td>2200 / 2500 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Мопс</td>
+                                    <td>2200 / * ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Папильон</td>
+                                    <td>2200 / 2500 ₽</td>
+                                </tr>
+                                <tr>
+                                    <td>Пекинес</td>
+                                    <td><span>2200 / 2500 ₽</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Той-пудель</td>
+                                    <td><span>2200 / 2500 ₽</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Той-терьер (гладкош./длиннош.)</td>
+                                    <td><span>1500 / 1800 ₽</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Цвергпинчер</td>
+                                    <td><span>1800 / * ₽</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Чихуахуа (гладкош./длиннош.)</td>
+                                    <td><span>1800 / 2100 ₽</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ши-тцу</td>
+                                    <td><span>2200 / 2500 ₽</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Шпиц (карликовый /малый, до 5кг)</td>
+                                    <td><span>2500 / 3000 ₽</span></td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Средние породы
-                        </button>
+                        <div id="complex-mobile-middle" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="card-flex-10">
+                                <i id="complex-middle-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="complex-middle-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Средние породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="complex-middle-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="complex-middle-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div id="collapseTwo" class="mt-20 collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <!-- Средние Комплекс: под машинку/модельная -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="50%">Американский / английский кокер-спаниель</td>
-                                    <td><strong>2800 / 3200 ₽</strong></td>
+                                    <td><span>2800 / 3200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Бассенджи</td>
-                                    <td><strong>2200 / * ₽</strong></td>
+                                    <td><span>2200 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Бигль</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><span>2500 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Бордер-колли</td>
-                                    <td><strong>2500 / 2800  ₽</strong></td>
+                                    <td><span>2500 / 2800  ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Вельш-корги</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><span>2500 / 2800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Вэст-хайленд-уайт терьер</td>
-                                    <td><strong>3500 / 4000 ₽</strong></td>
+                                    <td><span>3500 / 4000 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Джек-рассел терьер</td>
-                                    <td><strong>2800 / * ₽</strong></td>
+                                    <td><span>2800 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Ирландский терьер</td>
-                                    <td><strong>3000 / * ₽</strong></td>
+                                    <td><span>3000 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Кавалер-кинг-чарльз спаниель</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><span>2500 / 2800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Лабрадудль</td>
-                                    <td><strong>3500 / 3800 ₽</strong></td>
+                                    <td><span>3500 / 3800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Миттельшнауцер</td>
-                                    <td><strong>3200 / 3500 ₽</strong></td>
+                                    <td><span>3200 / 3500 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Пудель (малый, до 15 кг)</td>
-                                    <td><strong>2800 / 3200 ₽</strong></td>
+                                    <td><span>2800 / 3200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Сиба-ину</td>
-                                    <td><strong>2800 / * ₽</strong></td>
+                                    <td><span>2800 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Скотч-терьер</td>
-                                    <td><strong>2800 / 3200 ₽</strong></td>
+                                    <td><span>2800 / 3200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Такса (гладкош., длиннош., жесткош.)</td>
-                                    <td><strong>2800 / 3000 ₽</strong></td>
+                                    <td><span>2800 / 3000 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Фокс-терьер</td>
-                                    <td><strong> 2800 / 3000 ₽</strong></td>
+                                    <td><span> 2800 / 3000 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Французский бульдог</td>
-                                    <td><strong>2700 / * ₽</strong></td>
+                                    <td><span>2700 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергшнауцер</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><span>2500 / 2800 ₽</span></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1830,98 +1835,110 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Крупные породы
-                        </button>
-
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div id="complex-mobile-large" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <div class="card-flex-10">
+                                <i id="complex-large-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="complex-large-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Крупные породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="complex-large-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="complex-large-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="mt-20 collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <!-- Крупные Комплекс: под машинку/модельная -->
-                            <table id="large-breeds-complex" class="table table-dark-alt table-hover">
+                            <table id="large-breeds-complex" class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="50%">Акита-ину</td>
-                                    <td><strong>5300 / 5800 ₽</strong></td>
+                                    <td><span>5300 / 5800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Афганская борзая</td>
-                                    <td><strong>4800 / 5200 ₽</strong></td>
+                                    <td><span>4800 / 5200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Бладхаунд</td>
-                                    <td><strong>4200 / * ₽</strong></td>
+                                    <td><span>4200 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Бернский зенненхунд</td>
-                                    <td><strong>5300 / 5800 ₽</strong></td>
+                                    <td><span>5300 / 5800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Бобтейл</td>
-                                    <td><strong>5300 / 5800 ₽</strong></td>
+                                    <td><span>5300 / 5800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Далматин</td>
-                                    <td><strong>4200 / * ₽</strong></td>
+                                    <td><span>4200 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Доберман</td>
-                                    <td><strong>4200 / * ₽</strong></td>
+                                    <td><span>4200 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Кане-корсо</td>
-                                    <td><strong>4600 / * ₽</strong></td>
+                                    <td><span>4600 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Колли</td>
-                                    <td><strong>4500 / 5000 ₽</strong></td>
+                                    <td><span>4500 / 5000 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Лабрадор (+ золотистый ретривер)</td>
-                                    <td><strong>4500 / 5000 ₽</strong></td>
+                                    <td><span>4500 / 5000 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td> Маламут</td>
-                                    <td><strong>5300 / 5800 ₽</strong></td>
+                                    <td><span>5300 / 5800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Немецкая овчарка</td>
-                                    <td><strong>4800 / 5200 ₽</strong></td>
+                                    <td><span>4800 / 5200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Ньюфаундленд</td>
-                                    <td><strong>5500 / 6000 ₽</strong></td>
+                                    <td><span>5500 / 6000 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Пудель (королевский)</td>
-                                    <td><strong>4500 / 5200 ₽</strong></td>
+                                    <td><span>4500 / 5200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Ризеншнауцер</td>
-                                    <td><strong>5000 / 5500 ₽</strong></td>
+                                    <td><span>5000 / 5500 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Стафордширский терьер</td>
-                                    <td><strong>4000 / * ₽</strong></td>
+                                    <td><span>4000 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Тибетский мастиф</td>
-                                    <td><strong>5800 / 6300 ₽</strong></td>
+                                    <td><span>5800 / 6300 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Хаски</td>
-                                    <td><strong>4800 / 5200 ₽</strong></td>
+                                    <td><span>4800 / 5200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Чау-чау</td>
-                                    <td><strong>4800 / 5200 ₽</strong></td>
+                                    <td><span>4800 / 5200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Шарпей</td>
-                                    <td><strong>4000 / * ₽</strong></td>
+                                    <td><span>4000 / * ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Эрдельтерьер</td>
-                                    <td><strong>5000 / 5500 ₽</strong></td>
+                                    <td><span>5000 / 5500 ₽</span></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1929,46 +1946,64 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Метисы
-                        </button>
+                        <div id="complex-mobile-mestizo" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <div class="card-flex-10">
+                                <i id="complex-mestizo-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="complex-mestizo-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Метисы вес</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="complex-mestizo-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="complex-mestizo-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div id="collapseFour" class="mt-20 collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                             <!-- Mestizo complex -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th>
+                                    <strong>Название</strong>
+                                </th>
+                                <th>
+                                    <strong>Цена</strong>
+                                </th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="50%">До 5 кг</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td>До 5 кг</td>
+                                    <td><span>2200 / 2500 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>6 - 10 кг</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><span>2500 / 2800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>11 - 20 кг</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><span>2500 / 2800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>21 - 30 кг</td>
-                                    <td><strong>3200 / 3500 ₽</strong></td>
+                                    <td><span>3200 / 3500 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>31 - 40 кг</td>
-                                    <td><strong>3800 / 4200 ₽</strong></td>
+                                    <td><span>3800 / 4200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>41 - 50 кг</td>
-                                    <td><strong>4200 / 4800 ₽</strong></td>
+                                    <td><span>4200 / 4800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>51 - 60 кг</td>
-                                    <td><strong>4800 / 5200 ₽</strong></td>
+                                    <td><span>4800 / 5200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>От 61 кг</td>
-                                    <td><strong>5500 / 6000 ₽</strong></td>
+                                    <td><span>5500 / 6000 ₽</span></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1977,38 +2012,52 @@
                 </div>
             </div>
 
-            <div id="hygiene-mobile" class="tabs-price main-mobile hidden">
+            <div class="text-center w-100 color-common mt-20"><strong class="">Гигиена:</strong> </div>
+            <div id="hygiene-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_hygiene">
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseOne_hygiene" aria-expanded="true" aria-controls="collapseOne_hygiene">
-                            Мелкие породы
-                        </button>
+                        <div id="hygiene-mobile-small" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseOne_hygiene" aria-expanded="true" aria-controls="collapseOne_hygiene">
+                            <div class="card-flex-10">
+                                <i id="hygiene-small-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="hygiene-small-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Мелкие породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="hygiene-small-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="hygiene-small-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseOne_hygiene" class="collapse" aria-labelledby="headingOne_hygiene" data-parent="#accordionExample_hygiene">
+                        <div id="collapseOne_hygiene" class="mt-20 collapse" aria-labelledby="headingOne_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Мелкие Гигиена -->
-                            <table class="table table-dark-alt table-hover">
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
 
                                 <tr>
-                                    <td width="70%">Бишон-фризе</td>
-                                    <td><strong>2200 ₽</strong></td>
+                                    <td>Бишон-фризе</td>
+                                    <td><span>2200 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Гриффон, пти брабансон</td>
-                                    <td><strong>1800 ₽</strong></td>
+                                    <td><span>1800 ₽</span></td>
 
                                 </tr>
                                 <tr>
                                     <td>Йоркширский терьер, бивер-йорк</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><span>2000 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Китайская хохлатая голая</td>
-                                    <td><strong>1500 ₽</strong></td>
+                                    <td><span>1500 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Китайская хохлатая пуховка</td>
-                                    <td><strong>1800 ₽</strong></td>
+                                    <td><span>1800 ₽</span></td>
                                 </tr>
                                 <tr>
                                     <td>Левретка</td>
@@ -2063,15 +2112,29 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseTwo_hygiene" aria-expanded="false" aria-controls="collapseTwo_hygiene">
-                            Средние породы
-                        </button>
+                        <div id="hygiene-mobile-middle" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseTwo_hygiene" aria-expanded="true" aria-controls="collapseTwo_hygiene">
+                            <div class="card-flex-10">
+                                <i id="hygiene-mobile-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="hygiene-mobile-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Средние породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="hygiene-mobile-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="hygiene-mobile-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseTwo_hygiene" class="collapse" aria-labelledby="headingTwo_hygiene" data-parent="#accordionExample_hygiene">
+                        <div id="collapseTwo_hygiene" class="mt-20 collapse" aria-labelledby="headingTwo_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Средние Гигиена -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Американский / английский кокер-спаниель</td>
                                     <td><strong>2600 ₽</strong></td>
@@ -2150,17 +2213,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseThree_hygiene" aria-expanded="false" aria-controls="collapseThree_hygiene">
-                            Крупные породы
-                        </button>
+                        <div id="hygiene-mobile-large" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseThree_hygiene" aria-expanded="true" aria-controls="collapseThree_hygiene">
+                            <div class="card-flex-10">
+                                <i id="hygiene-large-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="hygiene-large-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Крупные породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="hygiene-large-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="hygiene-large-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseThree_hygiene" class="collapse" aria-labelledby="headingThree_hygiene" data-parent="#accordionExample_hygiene">
+                        <div id="collapseThree_hygiene" class="mt-20 collapse" aria-labelledby="headingThree_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Крупные Гигиена -->
-                            <table id="large-breeds-hygiene" class="table table-dark-alt table-hover">
+                            <table id="large-breeds-hygiene" class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">Акита-ину</td>
+                                    <td>Акита-ину</td>
                                     <td><strong>5000 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -2245,17 +2322,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseFour_hygiene" aria-expanded="false" aria-controls="collapseFour_hygiene">
-                            Метисы
-                        </button>
+                        <div id="hygiene-mobile-mestizo" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseFour_hygiene" aria-expanded="true" aria-controls="collapseFour_hygiene">
+                            <div class="card-flex-10">
+                                <i id="hygiene-mestizo-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="hygiene-mestizo-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Метисы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="hygiene-mestizo-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="hygiene-mestizo-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseFour_hygiene" class="collapse" aria-labelledby="headingFour_hygiene" data-parent="#accordionExample_hygiene">
+                        <div id="collapseFour_hygiene" class="mt-20 collapse" aria-labelledby="headingFour_hygiene" data-parent="#accordionExample_hygiene">
                             <!-- Mestizo hygiene -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">До 5 кг</td>
+                                    <td>До 5 кг</td>
                                     <td><strong>2000 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -2293,17 +2384,33 @@
                 </div>
             </div>
 
-            <div id="washing-drying-mobile" class="tabs-price main-mobile hidden">
+            <div class="text-center w-100 color-common mt-20"><strong class="">Мытье-сушка:</strong> </div>
+            <div id="washing-drying-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_washing">
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseOne_washing" aria-expanded="true" aria-controls="collapseOne_washing">
-                            Мелкие породы
-                        </button>
+                        <div id="washing-mobile-small" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseOne_washing" aria-expanded="true" aria-controls="collapseOne_washing">
+                            <div class="card-flex-10">
+                                <i id="washing-small-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="washing-small-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Мелкие породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="washing-small-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="washing-small-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseOne_washing" class="collapse" aria-labelledby="headingOne_washing" data-parent="#accordionExample_washing">
+                        <div id="collapseOne_washing" class="mt-20 collapse" aria-labelledby="headingOne_washing" data-parent="#accordionExample_washing">
                             <!-- Мелкие Мытье-сушка -->
-                            <table class="table table-dark-alt table-hover">
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
+                                <tbody>
                                 <tr>
                                     <td width="70%">Бишон-фризе</td>
                                     <td><strong>2000 ₽</strong></td>
@@ -2373,20 +2480,35 @@
                                     <td>Японский хин</td>
                                     <td><strong>1500 ₽</strong></td>
                                 </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseTwo_washing" aria-expanded="false" aria-controls="collapseTwo_washing">
-                            Средние породы
-                        </button>
+                        <div id="washing-mobile-middle" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseTwo_washing" aria-expanded="true" aria-controls="collapseTwo_washing">
+                            <div class="card-flex-10">
+                                <i id="washing-middle-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="washing-middle-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Средние породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="washing-middle-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="washing-middle-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseTwo_washing" class="collapse" aria-labelledby="headingTwo_washing" data-parent="#accordionExample_washing">
+                        <div id="collapseTwo_washing" class="mt-20 collapse" aria-labelledby="headingTwo_washing" data-parent="#accordionExample_washing">
                             <!-- Средние Мытье-сушка -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
                                     <td width="70%">Американский / английский кокер-спаниель</td>
                                     <td><strong>2200 ₽</strong></td>
@@ -2466,17 +2588,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseThree_washing" aria-expanded="false" aria-controls="collapseThree_washing">
-                            Крупные породы
-                        </button>
+                        <div id="washing-mobile-large" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseThree_washing" aria-expanded="true" aria-controls="collapseThree_washing">
+                            <div class="card-flex-10">
+                                <i id="washing-large-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="washing-large-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Крупные породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="washing-large-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="washing-large-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseThree_washing" class="collapse" aria-labelledby="headingThree_washing" data-parent="#accordionExample_washing">
+                        <div id="collapseThree_washing" class="mt-20 collapse" aria-labelledby="headingThree_washing" data-parent="#accordionExample_washing">
                             <!-- Крупные Мытье-сушка -->
-                            <table id="large-breeds-washing-drying" class="table table-dark-alt table-hover">
+                            <table id="large-breeds-washing-drying" class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">Акита-ину</td>
+                                    <td>Акита-ину</td>
                                     <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -2561,17 +2697,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseFour_washing" aria-expanded="false" aria-controls="collapseFour_washing">
-                            Метисы
-                        </button>
+                        <div id="washing-mobile-mestizo" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseFour_washing" aria-expanded="true" aria-controls="collapseFour_washing">
+                            <div class="card-flex-10">
+                                <i id="washing-mestizo-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="washing-mestizo-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Метисы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="washing-mestizo-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="washing-mestizo-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseFour_washing" class="collapse" aria-labelledby="headingFour_washing" data-parent="#accordionExample_washing">
+                        <div id="collapseFour_washing" class="mt-20 collapse" aria-labelledby="headingFour_washing" data-parent="#accordionExample_washing">
                             <!-- Mestizo washing-drying -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">До 5 кг</td>
+                                    <td>До 5 кг</td>
                                     <td><strong>1800 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -2609,19 +2759,34 @@
                 </div>
             </div>
 
-            <div id="trimming-mobile" class="tabs-price main-mobile hidden">
+            <div class="text-center w-100 color-common mt-20"><strong class="">Тримминг:</strong> </div>
+            <div id="trimming-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_trimming">
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseOne_trimming" aria-expanded="true" aria-controls="collapseOne_trimming">
-                            Мелкие породы
-                        </button>
+                        <div id="trimming-mobile-small" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseOne_trimming" aria-expanded="true" aria-controls="collapseOne_trimming">
+                            <div class="card-flex-10">
+                                <i id="trimming-small-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="trimming-small-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Мелкие породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="trimming-small-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="trimming-small-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseOne_trimming" class="collapse" aria-labelledby="headingOne_trimming" data-parent="#accordionExample_trimming">
+                        <div id="collapseOne_trimming" class="mt-20 collapse" aria-labelledby="headingOne_trimming" data-parent="#accordionExample_trimming">
                             <!-- Мелкие Тримминг -->
-                            <table class="table table-dark-alt table-hover">
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tr>
-                                    <td width="70%">Бишон-фризе</td>
+                                    <td>Бишон-фризе</td>
                                     <td><strong>* ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -2694,207 +2859,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseTwo_trimming" aria-expanded="false" aria-controls="collapseTwo_trimming">
-                            Средние породы
-                        </button>
-
-                        <div id="collapseTwo_trimming" class="collapse" aria-labelledby="headingTwo_trimming" data-parent="#accordionExample_trimming">
-                            <!-- Средние Тримминг -->
-                            <table class="table table-dark-alt table-hover">
-                                <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
-                                <tr>
-                                    <td width="70%">Американский / английский кокер-спаниель</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Английский бульдог</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Бассенджи</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Бигль</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Вельш-корги</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Вэст-хайленд-уайт терьер</td>
-                                    <td><strong>4200 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Джек-рассел терьер</td>
-                                    <td><strong>3500 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Кавалер-кинг-чарльз спаниель</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Лабрадудль</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Миттельшнауцер</td>
-                                    <td><strong>4000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Пудель (малый, до 15 кг)</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Сиба-ину</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Скотч-терьер</td>
-                                    <td><strong>4000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Такса (гладкош., длиннош., жесткош.)</td>
-                                    <td><strong>3700 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Фокс-терьер</td>
-                                    <td><strong>3800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Французский бульдог</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Цвергшнауцер</td>
-                                    <td><strong>3800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Шелти</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                </tbody>
-                            </table>
+                        <div id="trimming-mobile-mestizo" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseFour_trimming" aria-expanded="true" aria-controls="collapseFour_trimming">
+                            <div class="card-flex-10">
+                                <i id="trimming-mestizo-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="trimming-mestizo-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Метисы вес</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="trimming-mestizo-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="trimming-mestizo-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseThree_trimming" aria-expanded="false" aria-controls="collapseThree_trimming">
-                            Крупные породы
-                        </button>
-
-                        <div id="collapseThree_trimming" class="collapse" aria-labelledby="headingThree_trimming" data-parent="#accordionExample_trimming">
-                            <!-- Крупные Тримминг -->
-                            <table id="trimming" class="table table-dark-alt table-hover">
-                                <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
-                                <tr>
-                                    <td width="70%">Акита-ину</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Английский сеттер</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Афганская борзая</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Бернский зенненхунд</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Бобтейл</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Далматин</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Доберман</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Кане-корсо</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Колли</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Лабрадор (+ золотистый ретривер)</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td> Маламут</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Немецкая овчарка</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Ньюфаундленд</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Пудель (королевский)</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Ризеншнауцер</td>
-                                    <td><strong>8500 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Ротвейлер</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Сенбернар</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Стафордширский терьер</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Тибетский мастиф</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Хаски</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Чау-чау</td>
-                                    <td><strong>* ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Эрдельтерьер</td>
-                                    <td><strong>8000 ₽</strong></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseFour_trimming" aria-expanded="false" aria-controls="collapseFour_trimming">
-                            Метисы
-                        </button>
-
-                        <div id="collapseFour_trimming" class="collapse" aria-labelledby="headingFour_trimming" data-parent="#accordionExample_trimming">
+                        <div id="collapseFour_trimming" class="mt-20 collapse" aria-labelledby="headingFour_trimming" data-parent="#accordionExample_trimming">
                             <!-- Mestizo trimming -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">До 5 кг</td>
+                                    <td>До 5 кг</td>
                                     <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -2932,19 +2921,34 @@
                 </div>
             </div>
 
-            <div id="express-molt-mobile" class="tabs-price main-mobile hidden">
+            <div class="text-center w-100 color-common mt-20"><strong class="">Экспресс-линька:</strong> </div>
+            <div id="express-molt-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_express">
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseOne_express" aria-expanded="true" aria-controls="collapseOne_express">
-                            Мелкие породы
-                        </button>
+                        <div id="express-mobile-small" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseOne_express" aria-expanded="true" aria-controls="collapseOne_express">
+                            <div class="card-flex-10">
+                                <i id="express-small-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="express-small-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Мелкие породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="express-small-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="express-small-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseOne_express" class="collapse" aria-labelledby="headingOne_express" data-parent="#accordionExample_express">
+                        <div id="collapseOne_express" class="mt-20 collapse" aria-labelledby="headingOne_express" data-parent="#accordionExample_express">
                             <!-- Мелкие Экспресс-линька -->
-                            <table class="table table-dark-alt table-hover">
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tr>
-                                    <td width="70%">Бишон-фризе</td>
+                                    <td>Бишон-фризе</td>
                                     <td><strong>* ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -3017,17 +3021,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseTwo_express" aria-expanded="false" aria-controls="collapseTwo_express">
-                            Средние породы
-                        </button>
+                        <div id="express-mobile-middle" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseTwo_express" aria-expanded="true" aria-controls="collapseTwo_express">
+                            <div class="card-flex-10">
+                                <i id="express-middle-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="express-middle-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Средние породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="express-middle-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="express-middle-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                        <div id="collapseTwo_express" class="collapse" aria-labelledby="headingTwo_express" data-parent="#accordionExample_express">
+                        <div id="collapseTwo_express" class="mt-20 collapse" aria-labelledby="headingTwo_express" data-parent="#accordionExample_express">
                             <!-- Средние Экспресс-линька -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">Американский / английский кокер-спаниель</td>
+                                    <td>Американский / английский кокер-спаниель</td>
                                     <td><strong>* ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -3104,17 +3122,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseThree_express" aria-expanded="false" aria-controls="collapseThree_express">
-                            Крупные породы
-                        </button>
+                        <div id="express-mobile-large" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseThree_express" aria-expanded="true" aria-controls="collapseThree_express">
+                            <div class="card-flex-10">
+                                <i id="express-large-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="express-large-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Крупные породы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="express-large-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="express-large-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
                         <div id="collapseThree_express" class="collapse" aria-labelledby="headingThree_express" data-parent="#accordionExample_express">
                             <!-- Крупные Экспресс-линька -->
-                            <table id="express-molt" class="table table-dark-alt table-hover">
+                            <table id="express-molt" class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">Акита-ину</td>
+                                    <td>Акита-ину</td>
                                     <td><strong>6000 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -3211,17 +3243,31 @@
                     </div>
 
                     <div class="card">
-                        <button class="tab-btn" type="button" data-toggle="collapse" data-target="#collapseFour_express" aria-expanded="false" aria-controls="collapseFour_express">
-                            Метисы
-                        </button>
+                        <div id="express-mobile-mestizo" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseFour_express" aria-expanded="true" aria-controls="collapseFour_express">
+                            <div class="card-flex-10">
+                                <i id="express-mestizo-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="express-mestizo-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Метисы</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="express-mestizo-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="express-mestizo-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
                         <div id="collapseFour_express" class="collapse" aria-labelledby="headingFour_express" data-parent="#accordionExample_express">
                             <!-- Mestizo express-molt -->
-                            <table class="table table-dark-alt table-hover">
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th><strong>Название</strong></th>
+                                <th><strong>Цена</strong></th>
+                                </thead>
+
                                 <tbody>
-                                <tr><td><strong>Название</strong></td><td><strong>Цена</strong></td></tr>
                                 <tr>
-                                    <td width="70%">До 5 кг</td>
+                                    <td>До 5 кг</td>
                                     <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
@@ -3259,18 +3305,20 @@
                 </div>
             </div>
 
-            <div id="cats-mobile" class="tabs-price hidden">
-                <table class="table table-dark-alt table-hover">
+            <div class="text-center w-100 color-common mt-20"><strong class="">Кошки:</strong> </div>
+            <div id="cats-mobile" class="tabs-price">
+                <table class="table table-hover table-mobile">
                     <thead>
-                    <th width="">Услуги</th>
+                    <th>Услуги</th>
                     <th>До&nbsp&nbsp;3&nbsp;кг</th>
                     <th>3&nbsp;-&nbsp;5&nbsp;кг</th>
                     <th>От&nbsp;5&nbsp;кг</th>
                     <th>Мейнкуны</th>
                     </thead>
+
                     <tbody>
                     <tr>
-                        <td width="">Комплекс 1</td>
+                        <td>Комплекс 1</td>
                         <td><strong>3500&nbsp;₽</strong></td>
                         <td><strong>3800&nbsp;₽</strong></td>
                         <td><strong>4000&nbsp;₽</strong></td>
@@ -3369,15 +3417,17 @@
                 </table>
             </div>
 
-            <div id="additional-services-mobile" class="tabs-price hidden">
-                <table class="table table-dark-alt table-hover">
+            <div class="text-center w-100 color-common mt-20"><strong class="">Доп. услуги:</strong> </div>
+            <div id="additional-services-mobile" class="tabs-price">
+                <table class="table table-hover table-mobile">
                     <thead>
                     <th>Услуга</th>
                     <th>Цена</th>
                     </thead>
+
                     <tbody>
                     <tr>
-                        <td width="50%">Стрижка когтей</td>
+                        <td>Стрижка когтей</td>
                         <td><strong>300 ₽</strong></td>
                     </tr>
                     <tr>
@@ -3475,7 +3525,7 @@
                     <div id="our-1" class="media d-block media-custom text-center">
                         <a href="#our-1" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/gallery/our1.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -3485,7 +3535,7 @@
                     <div id="our-2" class="media d-block media-custom text-center">
                         <a href="#our-2" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/gallery/our7.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -3495,7 +3545,7 @@
                     <div id="our-3" class="media d-block media-custom text-center">
                         <a href="#our-3" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/gallery/our5.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -3505,7 +3555,7 @@
                     <div id="our-4" class="media d-block media-custom text-center">
                         <a href="#our-4" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/gallery/our6.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -3515,7 +3565,7 @@
                     <div id="our-5" class="media d-block media-custom text-center">
                         <a href="#our-5" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
-{{--                            <span class="ion-plus icon"></span>--}}
+                            {{--                            <span class="ion-plus icon"></span>--}}
                             <img src="/public/img/gallery/our4.jpeg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
@@ -3703,8 +3753,8 @@
             </div>
             <div class="col-md-4 mb-5">
                 <h3>О нас</h3>
-                <p class="mb-5">
-                    Салон №1 груминг собак и кошек<br />
+                <p class="mb-5" style="font-size: larger; line-height: 22px;">
+                    <strong>Салон №1 груминг собак и кошек</strong><br />
                     В нашем салоне доступны услуги: стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей.
                 </p>
                 <ul class="list-unstyled footer-link d-flex footer-social">

@@ -1,4 +1,42 @@
-
+.table-mobile {
+    color: #696969;
+}
+.table-mobile thead {
+    background-color: #6F45C1;
+    color: white;
+}
+.table-mobile tr:nth-child(1n) {
+    text-align: left;
+    font-size: 11px !important;
+}
+.table-mobile td:nth-child(1) {
+    color: #6F45C1; /* Цвет текста */
+    border-left: 1px dashed #ccc !important;
+    width: 60%;
+}
+.table-mobile td:nth-child(2n) {
+    font-size: 12px;
+    width: 40%;
+    border-left: 1px dashed #ccc !important;
+    border-right: 1px dashed #ccc !important;
+}
+.card {
+    border: 0 solid;
+    margin-top: 5px;
+}
+.font-large {
+    font-size: large;
+}
+.card-flex-10 {
+    text-align: center;
+    width: 10%;
+    border: 0px solid red;
+}
+.card-flex-80 {
+    text-align: center;
+    width: 80%;
+    border: 0px solid red;
+}
 .text-master {
     padding: 12px;
     /*line-height: 14px;*/
@@ -13,6 +51,10 @@
 
 .fs-25 {
     font-size: 25px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
 }
 
 .action-price {
@@ -54,7 +96,7 @@
 
 .our {
     /*color: white;*/
-    color: #6f42c1;
+    color: #6f45c1;
 }
 .our i {
     font-size: 32px;
@@ -115,8 +157,20 @@
 .text-strong, .text-bold {
 	font-weight: bold;
 }
-.mt-20- {
-	margin-top: -190px !important;
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-60 {
+    margin-top: 60px;
 }
 .mt-70 {
 	margin-top: 70px !important;
@@ -124,13 +178,18 @@
 .mt-75 {
     margin-top: 75px !important;
 }
+
+.h-15 {
+    height: 15px;
+}
+
 .lh-12 {
 	line-height: 12px !important;
 }
 .w-72 {
     width: 72px;
 }
-.border {
+.border-red {
 	border: solid 1px red;
 }
 .tab-btn {
@@ -147,6 +206,9 @@
 }
 .hidden {
 	display: none;
+}
+.hide {
+    display: none !important;
 }
 .btn-tab-active {
 	background: #6f42c1;
