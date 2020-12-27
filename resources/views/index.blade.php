@@ -3306,203 +3306,337 @@
             </div>
 
             <div class="text-center w-100 color-common mt-20"><strong class="">Кошки:</strong> </div>
-            <div id="cats-mobile" class="tabs-price">
-                <table class="table table-hover table-mobile">
-                    <thead>
-                    <th>Услуги</th>
-                    <th>До&nbsp&nbsp;3&nbsp;кг</th>
-                    <th>3&nbsp;-&nbsp;5&nbsp;кг</th>
-                    <th>От&nbsp;5&nbsp;кг</th>
-                    <th>Мейнкуны</th>
-                    </thead>
+            <div id="cats-mobile" class="tabs-price main-mobile">
+                <div class="accordion" id="accordionExample_cats">
+                    <div class="card">
+                        <div id="cats-mobile-" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseOne_cats" aria-expanded="true" aria-controls="collapseOne_cats">
+                            <div class="card-flex-10">
+                                <i id="cats-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="cats-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Услуги цены</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="cats-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="cats-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                    <tbody>
-                    <tr>
-                        <td>Комплекс 1</td>
-                        <td><strong>3500&nbsp;₽</strong></td>
-                        <td><strong>3800&nbsp;₽</strong></td>
-                        <td><strong>4000&nbsp;₽</strong></td>
-                        <td><strong>4300&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Комплекс 2</td>
-                        <td><strong>3000&nbsp;₽</strong></td>
-                        <td><strong>3300&nbsp;₽</strong></td>
-                        <td><strong>3500&nbsp;₽</strong></td>
-                        <td><strong>4000&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Экспресс-линька</td>
-                        <td><strong>2500&nbsp;₽</strong></td>
-                        <td><strong>2800&nbsp;₽</strong></td>
-                        <td><strong>3000&nbsp;₽</strong></td>
-                        <td><strong>3500&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Стрижка ПМ</td>
-                        <td><strong>1800&nbsp;₽</strong></td>
-                        <td><strong>2000&nbsp;₽</strong></td>
-                        <td><strong>2300&nbsp;₽</strong></td>
-                        <td><strong>2500&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Вычесывание (1 час)</td>
-                        <td><strong>1000&nbsp;₽</strong></td>
-                        <td><strong>1200&nbsp;₽</strong></td>
-                        <td><strong>1500&nbsp;₽</strong></td>
-                        <td><strong>1800&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Мытье - сушка</td>
-                        <td><strong>1500&nbsp;₽</strong></td>
-                        <td><strong>1800&nbsp;₽</strong></td>
-                        <td><strong>2000&nbsp;₽</strong></td>
-                        <td><strong>2300&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Мытье сухим шампунем</td>
-                        <td><strong>1200&nbsp;₽</strong></td>
-                        <td><strong>1500&nbsp;₽</strong></td>
-                        <td><strong>1800&nbsp;₽</strong></td>
-                        <td><strong>2000&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Ванна с озоном</td>
-                        <td colspan="4">1000&nbsp;₽/15 мин.</td>
-                    </tr>
-                    <tr>
-                        <td width="">Доп. Маска по типу шерсти</td>
-                        <td><strong>150&nbsp;₽</strong></td>
-                        <td><strong>200&nbsp;₽</strong></td>
-                        <td><strong>250&nbsp;₽</strong></td>
-                        <td><strong>300&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Вычесывание колтунов</td>
-                        <td colspan="4"><strong>1000&nbsp;₽/час</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Выстригание колтунов</td>
-                        <td colspan="4"><strong>500-1000&nbsp;₽<br /> в зависимости от сложности</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Стрижка когтей</td>
-                        <td colspan="4"><strong>300&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Антицарапки</td>
-                        <td colspan="4"><strong>1000&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Чистка ушей</td>
-                        <td colspan="4"><strong>300&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Стразы, 1 шт.</td>
-                        <td colspan="4"><strong>100&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Блеск-тату</td>
-                        <td colspan="4"><strong>от 500&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Окрашивание</td>
-                        <td colspan="4"><strong>от 500&nbsp;₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td width="">Доплата за агрессию</td>
-                        <td colspan="4"><strong>500-1000&nbsp;₽<br /> (на усмотрение мастера)</strong></td>
-                    </tr>
-                    </tbody>
-                </table>
+                        <div id="collapseOne_cats" class="mt-20 collapse" aria-labelledby="headingOne_cats" data-parent="#accordionExample_cats">
+                            <!-- Кошки -->
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th>Услуги</th>
+                                <th>До&nbsp&nbsp;3&nbsp;кг</th>
+                                <th>3&nbsp;-&nbsp;5&nbsp;кг</th>
+                                <th>От&nbsp;5&nbsp;кг</th>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>Комплекс 1</td>
+                                    <td><strong>3500&nbsp;₽</strong></td>
+                                    <td><strong>3800&nbsp;₽</strong></td>
+                                    <td><strong>4000&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Комплекс 2</td>
+                                    <td><strong>3000&nbsp;₽</strong></td>
+                                    <td><strong>3300&nbsp;₽</strong></td>
+                                    <td><strong>3500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Экспресс-линька</td>
+                                    <td><strong>2500&nbsp;₽</strong></td>
+                                    <td><strong>2800&nbsp;₽</strong></td>
+                                    <td><strong>3000&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Стрижка ПМ</td>
+                                    <td><strong>1800&nbsp;₽</strong></td>
+                                    <td><strong>2000&nbsp;₽</strong></td>
+                                    <td><strong>2300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Вычесывание (1 час)</td>
+                                    <td><strong>1000&nbsp;₽</strong></td>
+                                    <td><strong>1200&nbsp;₽</strong></td>
+                                    <td><strong>1500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Мытье - сушка</td>
+                                    <td><strong>1500&nbsp;₽</strong></td>
+                                    <td><strong>1800&nbsp;₽</strong></td>
+                                    <td><strong>2000&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Мытье сухим шампунем</td>
+                                    <td><strong>1200&nbsp;₽</strong></td>
+                                    <td><strong>1500&nbsp;₽</strong></td>
+                                    <td><strong>1800&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Ванна с озоном</td>
+                                    <td colspan="3">1000&nbsp;₽/15 мин.</td>
+                                </tr>
+                                <tr>
+                                    <td width="">Доп. Маска по типу шерсти</td>
+                                    <td><strong>150&nbsp;₽</strong></td>
+                                    <td><strong>200&nbsp;₽</strong></td>
+                                    <td><strong>250&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Вычесывание колтунов</td>
+                                    <td colspan="3"><strong>1000&nbsp;₽/час</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Выстригание колтунов</td>
+                                    <td colspan="3"><strong>500-1000&nbsp;₽<br /> в зависимости от сложности</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Стрижка когтей</td>
+                                    <td colspan="3"><strong>300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Антицарапки</td>
+                                    <td colspan="3"><strong>1000&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Чистка ушей</td>
+                                    <td colspan="3"><strong>300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Стразы, 1 шт.</td>
+                                    <td colspan="3"><strong>100&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Блеск-тату</td>
+                                    <td colspan="3"><strong>от 500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Окрашивание</td>
+                                    <td colspan="3"><strong>от 500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td width="">Доплата за агрессию</td>
+                                    <td colspan="3"><strong>500-1000&nbsp;₽<br /> (на усмотрение мастера)</strong></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div id="mainecune-mobile" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseMainecune_cats" aria-expanded="true" aria-controls="collapseMainecune_cats">
+                            <div class="card-flex-10">
+                                <i id="mainecune-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="mainecune-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Мейнкуны цены</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="mainecune-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="mainecune-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
+
+                        <div id="collapseMainecune_cats" class="mt-20 collapse" aria-labelledby="headingMainecune_cats" data-parent="#accordionExample_cats">
+                            <!-- Кошки -->
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th>Услуги</th>
+                                <th>Цены</th>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>Комплекс 1</td>
+                                    <td><strong>4300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Комплекс 2</td>
+                                    <td><strong>4000&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Экспресс-линька</td>
+                                    <td><strong>3500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Стрижка ПМ</td>
+                                    <td><strong>2500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Вычесывание (1 час)</td>
+                                    <td><strong>1800&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Мытье - сушка</td>
+                                    <td><strong>2300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Мытье сухим шампунем</td>
+                                    <td><strong>2000&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Ванна с озоном</td>
+                                    <td>1000&nbsp;₽/15 мин.</td>
+                                </tr>
+                                <tr>
+                                    <td>Доп. Маска по типу шерсти</td>
+                                    <td><strong>300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Вычесывание колтунов</td>
+                                    <td><strong>1000&nbsp;₽/час</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Выстригание колтунов</td>
+                                    <td><strong>500-1000&nbsp;₽<br /> в зависимости от сложности</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Стрижка когтей</td>
+                                    <td><strong>300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Антицарапки</td>
+                                    <td><strong>1000&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Чистка ушей</td>
+                                    <td><strong>300&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Стразы, 1 шт.</td>
+                                    <td><strong>100&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Блеск-тату</td>
+                                    <td><strong>от 500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Окрашивание</td>
+                                    <td><strong>от 500&nbsp;₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Доплата за агрессию</td>
+                                    <td><strong>500-1000&nbsp;₽<br /> (на усмотрение мастера)</strong></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="text-center w-100 color-common mt-20"><strong class="">Доп. услуги:</strong> </div>
-            <div id="additional-services-mobile" class="tabs-price">
-                <table class="table table-hover table-mobile">
-                    <thead>
-                    <th>Услуга</th>
-                    <th>Цена</th>
-                    </thead>
+            <div id="additional-services-mobile" class="tabs-price main-mobile">
+                <div class="accordion" id="accordionExample_additional">
+                    <div class="card">
+                        <div id="additional-mobile" class="flex tab-btn bg-common collapsed" data-toggle="collapse" data-target="#collapseOne_additional" aria-expanded="true" aria-controls="collapseOne_additional">
+                            <div class="card-flex-10">
+                                <i id="additional-arrow-up" class="fa fa-arrow-circle-down fs-20"></i>
+                                <i id="additional-arrow-down" class="fa fa-arrow-circle-up fs-20 hide"></i>
+                            </div>
+                            <div class="card-flex-80">
+                                <strong>Услуги цены</strong>
+                            </div>
+                            <div class="card-flex-10">
+                                <i id="additional-plus-up" class="fa fa-plus fs-20"></i>
+                                <i id="additional-plus-down" class="fa fa-minus fs-20 hide"></i>
+                            </div>
+                        </div>
 
-                    <tbody>
-                    <tr>
-                        <td>Стрижка когтей</td>
-                        <td><strong>300 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Подпил когтей</td>
-                        <td><strong>250 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Чистка ушей</td>
-                        <td><strong>300 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Окантовка лап</td>
-                        <td><strong>400 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Окантовка ушей</td>
-                        <td><strong>200 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Пуделиные лапки</td>
-                        <td><strong>300 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Выстригание подушечек лап</td>
-                        <td><strong>150 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Бритье морды</td>
-                        <td><strong>400 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Выстригание колтунов</td>
-                        <td><strong>500-1000 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Разбор колтунов	</td>
-                        <td><strong>от 1000 ₽. / час</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Озонотерапия</td>
-                        <td><strong>1000 ₽ / 15 мин. </strong></td>
-                    </tr>
-                    <tr>
-                        <td>Маска по типу шерсти</td>
-                        <td><strong>300 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Гигиеническая чистка зубов</td>
-                        <td><strong>500 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Воск для подушечек лап</td>
-                        <td><strong>300 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Доплата за агрессию</td>
-                        <td><strong>500-1000 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <th colspan="2" class="text-center">Креатив</th>
-                    </tr>
-                    <tr>
-                        <td>Окрашивание</td>
-                        <td><strong>от 1000 ₽ / час </strong></td>
-                    </tr>
-                    <tr>
-                        <td>Блеск-тату</td>
-                        <td><strong>500-1000 ₽</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Стразы</td>
-                        <td><strong>50 ₽ / 1 шт.</strong></td>
-                    </tr>
-                    </tbody>
-                </table>
+                        <div id="collapseOne_additional" class="mt-20 collapse" aria-labelledby="headingOne_additional" data-parent="#accordionExample_additional">
+                            <!-- Доп. услуги -->
+                            <table class="table table-hover table-mobile">
+                                <thead>
+                                <th>Услуга</th>
+                                <th>Цена</th>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>Стрижка когтей</td>
+                                    <td><strong>300 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Подпил когтей</td>
+                                    <td><strong>250 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Чистка ушей</td>
+                                    <td><strong>300 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Окантовка лап</td>
+                                    <td><strong>400 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Окантовка ушей</td>
+                                    <td><strong>200 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Пуделиные лапки</td>
+                                    <td><strong>300 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Выстригание подушечек лап</td>
+                                    <td><strong>150 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Бритье морды</td>
+                                    <td><strong>400 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Выстригание колтунов</td>
+                                    <td><strong>500-1000 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Разбор колтунов	</td>
+                                    <td><strong>от 1000 ₽. / час</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Озонотерапия</td>
+                                    <td><strong>1000 ₽ / 15 мин. </strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Маска по типу шерсти</td>
+                                    <td><strong>300 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Гигиеническая чистка зубов</td>
+                                    <td><strong>500 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Воск для подушечек лап</td>
+                                    <td><strong>300 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Доплата за агрессию</td>
+                                    <td><strong>500-1000 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class="text-center">Креатив</th>
+                                </tr>
+                                <tr>
+                                    <td>Окрашивание</td>
+                                    <td><strong>от 1000 ₽ / час </strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Блеск-тату</td>
+                                    <td><strong>500-1000 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Стразы</td>
+                                    <td><strong>50 ₽ / 1 шт.</strong></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
