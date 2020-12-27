@@ -1638,7 +1638,7 @@
         </style>
 
         <div class="row main-font">
-            <div class="text-center w-100 color-common mt-20"><strong class="">Комплекс:</strong> под машинку/модельная</div>
+            <div class="text-center w-100 color-common mt-20"><strong>Комплекс:</strong> под машинку/модельная</div>
             <div id="complex-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
@@ -2012,7 +2012,7 @@
                 </div>
             </div>
 
-            <div class="text-center w-100 color-common mt-20"><strong class="">Гигиена:</strong> </div>
+            <div class="text-center w-100 color-common mt-20">Цены: <strong>гигиена:</strong> </div>
             <div id="hygiene-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_hygiene">
                     <div class="card">
@@ -2384,7 +2384,7 @@
                 </div>
             </div>
 
-            <div class="text-center w-100 color-common mt-20"><strong class="">Мытье-сушка:</strong> </div>
+            <div class="text-center w-100 color-common mt-20">Цены: <strong>мытье-сушка:</strong> </div>
             <div id="washing-drying-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_washing">
                     <div class="card">
@@ -2759,7 +2759,7 @@
                 </div>
             </div>
 
-            <div class="text-center w-100 color-common mt-20"><strong class="">Тримминг:</strong> </div>
+            <div class="text-center w-100 color-common mt-20">Цены: <strong>тримминг:</strong> </div>
             <div id="trimming-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_trimming">
                     <div class="card">
@@ -2921,7 +2921,7 @@
                 </div>
             </div>
 
-            <div class="text-center w-100 color-common mt-20"><strong class="">Экспресс-линька:</strong> </div>
+            <div class="text-center w-100 color-common mt-20">Цены: <strong>экспресс-линька:</strong> </div>
             <div id="express-molt-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_express">
                     <div class="card">
@@ -3305,7 +3305,7 @@
                 </div>
             </div>
 
-            <div class="text-center w-100 color-common mt-20"><strong class="">Кошки:</strong> </div>
+            <div class="text-center w-100 color-common mt-20">Цены: <strong>кошки:</strong> </div>
             <div id="cats-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_cats">
                     <div class="card">
@@ -3530,7 +3530,7 @@
                 </div>
             </div>
 
-            <div class="text-center w-100 color-common mt-20"><strong class="">Доп. услуги:</strong> </div>
+            <div class="text-center w-100 color-common mt-20">Цены: <strong>доп. услуги:</strong> </div>
             <div id="additional-services-mobile" class="tabs-price main-mobile">
                 <div class="accordion" id="accordionExample_additional">
                     <div class="card">
