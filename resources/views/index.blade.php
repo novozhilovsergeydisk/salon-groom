@@ -3750,7 +3750,7 @@
 <section id="orders-list" class="section">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12 color-common" style="line-height__: 22px; padding: 12px; background-color__: white;">
+            <div class="col-md-12 col-sm-12 color-common" style="font-size: 17px !important;">
                 <hr style="border: 1px solid" />
                 <strong>Это история о том, как три мастера решили открыть салон груминга.</strong> Каждая из наших мастеров (Карина, Светлана и Марина) долго шли к этой цели: начинали по разному, кто-то ездил и оказывал услуги на дому, кто-то работал в салоне. Это был непростой, но очень интересный и познавательный путь - становления в профессии. Мы абсолютно уверены в том, что человек с «холодным» сердцем не сможет работать в этой профессии. Животные его не примут.
 
