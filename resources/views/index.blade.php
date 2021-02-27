@@ -200,7 +200,7 @@
         <div class="text-center action-price">
             <h4><strong class="" style="color: rgba(200,20,20,0.9);">МЫ ОТКРЫЛИСЬ!</strong></h4>
             <h4><strong class="" style="color: rgba(200,20,20,0.9);">АКЦИЯ!</strong></h4>
-            <h4><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 50% НА ПЕРВУЮ СТРИЖКУ!</strong></h4>
+            <h4><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 20% НА ПЕРВУЮ СТРИЖКУ!</strong></h4>
         </div>
 
         <div style="height: 50px;">
@@ -1626,7 +1626,7 @@
         <div class="text-center action-price-mobile">
             <h5><strong class="" style="color: rgba(200,20,20,0.9);">МЫ ОТКРЫЛИСЬ!</strong></h5>
             <h5><strong class="" style="color: rgba(200,20,20,0.9);">АКЦИЯ!</strong></h5>
-            <h5><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 50%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
+            <h5><strong class="" style="color: rgba(200,20,20,0.9);">СКИДКА 20%<br /> НА ПЕРВУЮ СТРИЖКУ!</strong></h5>
         </div>
 
         <div class="h-15">
