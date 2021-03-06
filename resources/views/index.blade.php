@@ -3897,7 +3897,7 @@
                     В нашем салоне доступны услуги: стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей.
                 </p>
                 <ul class="list-unstyled footer-link d-flex footer-social">
-                    <li><a href="https://instagram.com/salongroom1?igshid=1pvyxcewbq2yq" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                    <li><a href="https://instagram.com/salongroom1?igshid=1pvyxcewbq2yq" class="p-2" target="_blank"><span class="fa fa-instagram"></span></a></li>
                 </ul>
             </div>
         </div>
