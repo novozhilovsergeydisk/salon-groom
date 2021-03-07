@@ -12,6 +12,7 @@ body {
 
 .section-title {
     font-weight: 600;
+    margin-bottom: 40px !important;
 }
 #home-slider {
     margin-top: 75px;
