@@ -60,7 +60,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark transparant" style="background-color: #6f42c1;">
         <div class="container">
             <a class="navbar-brand absolute" href="/">
-                <img class="w-72" src="/public/img/logo-new.png" alt="logo">
+                <img class="w-72__" src="/public/img/svg/logo.png" alt="logo" style="width: 60px;">
+{{--                <img class="w-72" src="/public/img/logo-new.png" alt="logo">--}}
             </a>
             <strong id="phone-mobile" style="margin-left: -27px !important;" class="text-white hidden">+7 (499) 430-00-26</strong>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-main" aria-controls="navbars-main" aria-expanded="false" aria-label="Toggle navigation">
@@ -3651,7 +3652,7 @@
     <div class="container mobile-margin-top">
         <div id="animate-title" class="row justify-content-center mb-5 element-animate">
             <div class="col-md-10 text-center">
-                <h2 class="heading mb-4 color-common section-title mobile-title">Все работы смотрите в нашем Instagram </h2>
+                <h2 class="heading mb-4 color-common section-title mobile-title">Все работы смотрите в нашем <a href="https://instagram.com/salongroom1?igshid=1pvyxcewbq2yq">Instagram</a> </h2>
                 {{--                    и еще немного наших работ для примера--}}
             </div>
         </div>
@@ -3721,7 +3722,7 @@
 
         <div class="row pd-1-rem text-center" >
             <div class="col-md-4 our">
-                <img class="w-300" src="/public/img/svg/3.svg" alt="svg">
+                <img class="w-300" src="/public/img/svg/3.svg" alt="svg" style="font-family: 'Open Sans'">
 
 {{--                <i class="fa fa-car fs-50"></i>--}}
 {{--                <p><strong>Бесплатная стоянка для наших клиентов возле салона</strong></p>--}}
@@ -3907,13 +3908,16 @@
             </div>
             <div class="col-md-4 mb-5">
                 <h3>О нас</h3>
-                <p class="mb-5" style="font-size: larger; line-height: 22px;">
+                <p class="mb-5" style="font-size: larger; line-height__: 22px;">
                     <strong>Салон №1 груминг собак и кошек</strong><br />
                     В нашем салоне доступны услуги: стрижка шерсти и коготков, купание, сушка, чистка глаз и ушей.
                 </p>
-                <ul class="list-unstyled footer-link d-flex footer-social">
-                    <li><a href="https://instagram.com/salongroom1?igshid=1pvyxcewbq2yq" class="p-2" target="_blank"><span class="fa fa-instagram"></span></a></li>
-                </ul>
+
+                <p style="margin-top: -30px !important; margin-left: -10px;"><a href="https://instagram.com/salongroom1?igshid=1pvyxcewbq2yq" class="p-2" target="_blank" title="Наши работы в Instagram"> <span style="font-size: 25px;" class="fa fa-instagram"></span> Наши работы в Instagram</a></p>
+
+{{--                <ul class="list-unstyled footer-link d-flex footer-social">--}}
+{{--                    <li></li>--}}
+{{--                </ul>--}}
             </div>
         </div>
         <div class="row main-font">
