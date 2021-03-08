@@ -103,24 +103,27 @@ textarea.form-control {
     text-decoration: none; }
 
 /* Header */
-header {
+    header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 5; }
-  header .navbar-brand {
+    header .navbar-brand {
     text-transform: uppercase;
     letter-spacing: .2em;
     font-weight: 400; }
     header .navbar-brand.absolute {
       position: absolute; }
-      @media (max-width: 991px) {
+    @media (max-width: 991px) {
         header .navbar-brand.absolute {
-          position: relative; } }
+          position: relative;
+        }
+    }
     header .navbar-brand span {
       color: #BFB3F4; }
-  header .navbar {
+
+    header .navbar {
     padding-top: 0;
     padding-bottom: 0;
     /*background: #6f42c1 !important; !* *!*/
@@ -189,6 +192,14 @@ header {
         }
         #contactform {
             width: 100%;
+        }
+
+        #masters {
+            display: none;
+        }
+
+        #masters-mobile {
+            display: block;
         }
     }
 

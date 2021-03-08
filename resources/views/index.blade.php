@@ -97,7 +97,7 @@
 <section id="home-slider-mobile" class="hidden mobile-slider">
     <div id="container" class="container">
         <div class="row">
-            <div class="col-md-12 text-center" style="margin-top: 150px; min-height: 500px;">
+            <div class="col-md-12 text-center" style="margin-top: 150px; min-height: 350px;">
                 <h2 class="text-white section-title">Мы стрижем ваших питомцев с любовью</h2>
                 <p class="main-font color-common"><strong style="font-size: larger__">Груминг салон №1 для собак и кошек</strong></p>
                 <p class="text-center">
@@ -126,6 +126,34 @@
     </div>
 </section>
 <!-- END Slider mobile -->
+
+<!-- Masters mobile -->
+<section id="masters-mobile" class="section hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 text-center">
+                <h2 class="heading mb-4 color-common section-title mobile-title">Наши мастера просто обожают ваших питомцев</h2>
+            </div>
+
+            <div id="" class="media d-block media-custom text-center">
+                <a href="#" class="link-thumbnail">
+                    <h3 class="main-font">Карина </h3>
+                    <span class="ion-plus icon"></span>
+                    <img src="/public/img/masters/grooming_2.jpg" alt="Image placeholder" class="img-fluid">
+                </a>
+
+                <p class="text-master">
+                    Основатель салона груминга.
+                    Мастер-универсал, фанат своего дела. Найдет подход к любому хвостику и к большому животному и к маленькому питомцу.
+                    Хозяйка двух красивых ротвейлеров Марты и Джохара.
+                    Регулярно посещает семинары по повышению квалификации.
+                    Помимо процедур красоты вашего питомца проконсультирует по вопросам ухода и сожержания.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END Masters mobile -->
 
 <!-- Masters -->
 <section id="masters" class="section">
@@ -3664,7 +3692,7 @@
                         <a href="#our-1" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
                             {{--                            <span class="ion-plus icon"></span>--}}
-                            <img src="/public/img/gallery/our1.jpeg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/1.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -3674,7 +3702,7 @@
                         <a href="#our-2" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
                             {{--                            <span class="ion-plus icon"></span>--}}
-                            <img src="/public/img/gallery/our7.jpeg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/2.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -3684,7 +3712,7 @@
                         <a href="#our-3" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
                             {{--                            <span class="ion-plus icon"></span>--}}
-                            <img src="/public/img/gallery/our5.jpeg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/3.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -3694,20 +3722,20 @@
                         <a href="#our-4" class="link-thumbnail">
                             <h3 class="main-font"> </h3>
                             {{--                            <span class="ion-plus icon"></span>--}}
-                            <img src="/public/img/gallery/our6.jpeg" alt="Image placeholder" class="img-fluid">
+                            <img src="/public/img/gallery/4.jpg" alt="Image placeholder" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
-                <div>
-                    <div id="our-5" class="media d-block media-custom text-center">
-                        <a href="#our-5" class="link-thumbnail">
-                            <h3 class="main-font"> </h3>
-                            {{--                            <span class="ion-plus icon"></span>--}}
-                            <img src="/public/img/gallery/our4.jpeg" alt="Image placeholder" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
+{{--                <div>--}}
+{{--                    <div id="our-5" class="media d-block media-custom text-center">--}}
+{{--                        <a href="#our-5" class="link-thumbnail">--}}
+{{--                            <h3 class="main-font"> </h3>--}}
+{{--                            --}}{{--                            <span class="ion-plus icon"></span>--}}
+{{--                            <img src="/public/img/gallery/our4.jpeg" alt="Image placeholder" class="img-fluid">--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
             <!-- END slider -->
         </div>

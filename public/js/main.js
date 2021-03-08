@@ -34,7 +34,7 @@
 
 	// home slider
 	$('.home-slider').owlCarousel({
-    loop: true,
+    loop: true, mouseDrag: false, touchDrag: false, pullDrag: false,
     autoplay: true,
     margin: 10,
     animateOut: 'fadeOut',
@@ -64,7 +64,7 @@
 	// owl carousel
 	var majorCarousel = $('.js-carousel-1');
 	majorCarousel.owlCarousel({
-    loop:true,
+    loop: true, mouseDrag: false, touchDrag: false, pullDrag: false,
     autoplay: true,
     stagePadding: 7,
     margin: 20,
@@ -97,7 +97,7 @@
 	// owl carousel
 	var major2Carousel = $('.js-carousel-2');
 	major2Carousel.owlCarousel({
-    loop:true,
+    loop: true, mouseDrag: false, touchDrag: false, pullDrag: false,
     autoplay: true,
     stagePadding: 7,
     margin: 20,
