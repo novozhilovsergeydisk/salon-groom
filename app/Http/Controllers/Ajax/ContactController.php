@@ -13,7 +13,7 @@ class ContactController extends Controller
         try {
             $data = $request->all();
 
-            if (empty($data['name']) or empty( $data['phone']) or empty( $data['date']) or empty( $data['time'])) {
+            if (empty($data['name']) or empty( $data['phone'])) {
                 $data['result'] = 'failed';
                 $data['error'] = 'empty fields';
 
@@ -21,7 +21,7 @@ class ContactController extends Controller
             }
 
             $fp = fopen(storage_path().'/app/public/orders.txt', 'a');
-            fwrite($fp, now() . '|' . $data['name'] . '|' . $data['phone'] . '|' . '|' . $data['date'] . '|' . $data['time'] . PHP_EOL);
+            fwrite($fp, now() . '|' . $data['name'] . '|' . $data['phone'] . '|' . PHP_EOL);
             fclose($fp);
             $data['result'] = 'success';
 

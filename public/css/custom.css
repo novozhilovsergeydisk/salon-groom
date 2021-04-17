@@ -1,4 +1,4 @@
-.table-mobile {
+﻿.table-mobile {
     color: #696969;
 }
 .table-mobile thead {
@@ -268,24 +268,24 @@
     background-color: transparent;
 }
 .main-slider-1 {
-    background-image: url('/public/img/main_slider_1.png');
+    background-image: url('../img/org/main_slider_1.png');
 }
 .main-slider-2 {
-    background-image: url('/public/img/main_slider_2.png');
+    background-image: url('../img/org/main_slider_2.png');
 }
 .mobile-slider {
-    background-image: url('/public/img/gallery/our5.jpeg');
+    background-image: url('../img/gallery/our5.jpeg');
     background-position: top;
     background-repeat: no-repeat;
 }
 .main-banner {
-    background-image: url('/public/img/slider/main-banner.jpeg');
+    background-image: url('../img/slider/main-banner.jpeg');
 }
 .slider-1 {
-    background-image: url('/public/img/banner-bg.jpg');
+    background-image: url('../img/org/banner-bg.jpg');
 }
 .slider-2 {
-    background-image: url('/public/img/main_banner_1.png');
+    background-image: url('../img/org/main_banner_1.png');
     /*background-position: center;*/
 }
 .slider-mobile {

@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Салон стрижки собак и кошек</title>
-    <link rel="icon" href="/public/img/favicon.ico">
-    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/css/custom.css">
-    <link rel="stylesheet" href="/public/css/all.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css">
-    <link rel="stylesheet" href="/public/css/vertical-dot-navigation.css">
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="css/vertical-dot-navigation.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="wrapper">
@@ -22,7 +22,7 @@
                     <h1>парковка бесплатная</h1>
                 </div>
                 <div class="header-logo">
-                    <img src="/public/img/org/logo.png" alt="">
+                    <img src="img/logo.png" alt="">
                     <div>Груминг салон №1 для собак и кошек</div>
                 </div>
                 <div class="header-phone">
@@ -74,7 +74,7 @@
                 </nav>
                 <div class="header-img">
                     <div class="section-img">
-                        <img src="/public/img/org/dogs.png" alt="">
+                        <img src="img/песики главная.png" alt="">
                     </div>
                     <div class="title-b ">
                         <div>МЫ СТРИЖЕМ ВАШИХ ПИТОМЦЕВ С ЛЮБОВЬЮ <i class="fas fa-heart"></i></div>
@@ -99,30 +99,30 @@
                                     <div>Все работы смотрите в нашем</div>
                                     <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
                                 </div>
-                                <img src="/public/img/1.jpg" alt="">
-                                <img src="/public/img/2.jpg" alt="">
-                                <img src="/public/img/3.jpg" alt="">
-                                <img src="/public/img/4.jpg" alt="">
+                                <img src="img/1.jpg" alt="">
+                                <img src="img/2.jpg" alt="">
+                                <img src="img/3.jpg" alt="">
+                                <img src="img/4.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
                                 <div class="slider_title">
                                     <div>Все работы смотрите в нашем</div>
                                     <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
                                 </div>
-                                <img src="/public/img/5.jpg" alt="">
-                                <img src="/public/img/6.jpg" alt="">
-                                <img src="/public/img/7.jpg" alt="">
-                                <img src="/public/img/8.jpg" alt="">
+                                <img src="img/5.jpg" alt="">
+                                <img src="img/6.jpg" alt="">
+                                <img src="img/7.jpg" alt="">
+                                <img src="img/8.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
                                 <div class="slider_title">
                                     <div>Все работы смотрите в нашем</div>
                                     <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
                                 </div>
-                                <img src="/public/img/9.jpg" alt="">
-                                <img src="/public/img/10.jpg" alt="">
-                                <img src="/public/img/11.jpg" alt="">
-                                <img src="/public/img/4.jpg" alt="">
+                                <img src="img/9.jpg" alt="">
+                                <img src="img/10.jpg" alt="">
+                                <img src="img/11.jpg" alt="">
+                                <img src="img/4.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -131,40 +131,40 @@
                     <div class="row">
                         <div class="slider">
                             <div class="slider__item filter">
-                                <img src="/public/img/4.jpg" alt="">
+                                <img src="img/4.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/2.jpg" alt="">
+                                <img src="img/2.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/3.jpg" alt="">
+                                <img src="img/3.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/1.jpg" alt="">
+                                <img src="img/1.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/5.jpg" alt="">
+                                <img src="img/5.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/6.jpg" alt="">
+                                <img src="img/6.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/12.jpg" alt="">
+                                <img src="img/12.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/7.jpg" alt="">
+                                <img src="img/7.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/8.jpg" alt="">
+                                <img src="img/8.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/9.jpg" alt="">
+                                <img src="img/9.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/10.jpg" alt="">
+                                <img src="img/10.jpg" alt="">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/11.jpg" alt="">
+                                <img src="img/11.jpg" alt="">
                             </div>
                         </div>
                         <div class="slider_title">
@@ -186,7 +186,7 @@
                                 <h1>Наши мастера</h1>
                                 <hr>
                                 <div class="slider-title">
-                                    <img src="/public/img/karina.png" alt="фото">
+                                    <img src="img/карина.png" alt="">
                                     <div class="doc">
                                         <h2>Карина</h2>
                                         <div>Основатель салона груминга. Мастер-универсал, фанат своего дела. Найдет подход к любому
@@ -202,7 +202,7 @@
                                 <h1>Наши мастера</h1>
                                 <hr>
                                 <div class="slider-title">
-                                    <img src="/public/img/marina.jpg" alt="фото">
+                                    <img src="img/Марина.jpg" alt="">
                                     <div class="doc">
                                         <h2>Марина</h2>
                                         <div>Марина обожает купать животных, они
@@ -222,7 +222,7 @@
                                 <h1>Наши мастера</h1>
                                 <hr>
                                 <div class="slider-title">
-                                    <img src="/public/img/svetlana.jpg" alt="фото">
+                                    <img src="img/СВЕТЛАНА.jpg" alt="">
                                     <div class="doc">
                                         <h2>Светлана</h2>
                                         <div>Светлана в груминге относительно недавно,
@@ -1692,51 +1692,21 @@
     </section>
     <section class="section-recording"id="sec5">
         <div class="container">
-{{--            <a name="top">--}}
-{{--                <div class="recording">--}}
-{{--                    <div class="form-group">--}}
-{{--                        <div class="input-group">--}}
-{{--                            <input class="form-control" type="text" name="name" placeholder="Имя">--}}
-{{--                        </div>--}}
-{{--                        <div class="input-group">--}}
-{{--                            <input class="form-control" type="tel" id="phone1" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="time-section">--}}
-{{--                        <button class="btn-cats">Записаться</button>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </a>--}}
-            <form id="contactform" method="post" class="validateform" name="contactform">
-                {{ csrf_field() }}
-
-                <a name="top">
-                    <div class="recording">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="name" name="name" placeholder="Имя">
-                            </div>
-                            <div class="input-group">
-                                <input class="form-control" type="tel" id="phone" name="phone" pattern__="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">
-                            </div>
+            <a name="top">
+                <div class="recording">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="name" placeholder="Имя">
                         </div>
-
-                        <div class="form-group">
-                            <div id="sendmessage" style="color: green; font-weight: bold;" class="hidden">
-                                Спасибо! Ваша заявка принята. Ожидайте звонок администратора.
-                            </div>
-
-                            <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
-                                Заполните пустые поля.
-                            </div>
-                        </div>
-
-                        <div class="time-section">
-                            <button type="submit" class="btn-cats">Записаться</button>
+                        <div class="input-group">
+                            <input class="form-control" type="tel" id="phone1" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">
                         </div>
                     </div>
-                </a>
-            </form>
+                    <div class="time-section">
+                        <button class="btn-cats">Записаться</button>
+                    </div>
+                </div>
+            </a>
         </div>
     </section>
     <section class="section-review" id="sec8">
@@ -1748,7 +1718,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="raiteng-img">
-                                <img src="/public/img/mention_1.png" alt="">
+                                <img src="img/отзыв 1.png" alt="">
                             </div>
                             <div class="raiteng" data-total-value="0">
                                 <div class="raiteng_item" data-item-value="5">★</div>
@@ -1765,7 +1735,7 @@
                         </div>
                         <div class="col">
                             <div class="raiteng-img">
-                                <img src="/public/img/mention_2.png" alt="">
+                                <img src="img/отзыв 2.png" alt="">
                             </div>
                             <div class="raiteng" data-total-value="0">
                                 <div class="raiteng_item" data-item-value="5">★</div>
@@ -1780,7 +1750,7 @@
                         </div>
                         <div class="col">
                             <div class="raiteng-img">
-                                <img src="/public/img/mention_3.png" alt="">
+                                <img src="img/отзыв 3.png" alt="">
                             </div>
                             <div class="raiteng" data-total-value="0">
                                 <div class="raiteng_item" data-item-value="5">★</div>
@@ -1803,7 +1773,7 @@
                             <div class="slider__item filter">
                                 <div class="col">
                                     <div class="raiteng-img">
-                                        <img src="/public/img/mention_1.png" alt="">
+                                        <img src="img/отзыв 1.png" alt="">
                                     </div>
                                     <div class="raiteng" data-total-value="0">
                                         <div class="raiteng_item" data-item-value="5">★</div>
@@ -1813,7 +1783,7 @@
                                         <div class="raiteng_item" data-item-value="1">★</div>
                                     </div>
                                     <div class="section-review_title">
-                                        <div>Привозили кошку на вычёсывание, мастер Карина бережно обращалась с животным, процедуру провела на высшем уровне...</div>
+                                        <div>Привозили кошку на вычёсывание, мастер Карина бережно обращалась с животным процедуру провела на высшем уровне...</div>
                                         <a href="#">открыть  полностью</a>
                                     </div>
                                     <h3>Yana T.</h3>
@@ -1822,7 +1792,7 @@
                             <div class="slider__item filter">
                                 <div class="col">
                                     <div class="raiteng-img">
-                                        <img src="/public/img/mention_2.png" alt="">
+                                        <img src="img/отзыв 2.png" alt="">
                                     </div>
                                     <div class="raiteng" data-total-value="0">
                                         <div class="raiteng_item" data-item-value="5">★</div>
@@ -1831,15 +1801,15 @@
                                         <div class="raiteng_item" data-item-value="2">★</div>
                                         <div class="raiteng_item" data-item-value="1">★</div>
                                     </div>
-                                    <div class="section-review_title">Уютно. Видно, что недавно открылись. Салон просторный. Мне удобно, я живу прямо в этом доме, где открыли салон.
-                                        Карина хороший мастер, внимательная.</div>
+                                    <div class="section-review_title">Уютно.Видно, что недавно открылись.Салон просторный. Мне удобно, я живу прямо в этом доме, где открыли салон.
+                                        карина хороший мастер, внимательная</div>
                                     <h3>Сергей П.</h3>
                                 </div>
                             </div>
                             <div class="slider__item filter">
                                 <div class="col">
                                     <div class="raiteng-img">
-                                        <img src="/public/img/mention_3.png" alt="">
+                                        <img src="img/отзыв 3.png" alt="">
                                     </div>
                                     <div class="raiteng" data-total-value="0">
                                         <div class="raiteng_item" data-item-value="5">★</div>
@@ -1848,8 +1818,8 @@
                                         <div class="raiteng_item" data-item-value="2">★</div>
                                         <div class="raiteng_item" data-item-value="1">★</div>
                                     </div>
-                                    <div class="section-review_title">Спасибо Карине!!! Подстригли в этом салоне 2-х собачек своих!
-                                        Очень довольны. Хоть мы и сложный клиент, но дело сделано с большой
+                                    <div class="section-review_title">Спасибо Карине!!!Подстригли в этом салоне 2-х собачек своих!
+                                        Очень довольны. Хоть мы и сложный клиент, но дело сделанос большой
                                         любовью! Придем еще!
                                     </div>
                                     <h3>Анна К.</h3>
@@ -1867,27 +1837,27 @@
             <hr>
             <div class="row">
                 <div class="col">
-                    <img src="/public/img/1.png">
+                    <img src="img/1.png">
                     <blockquote>Бесплатная стоянка для наших клиентов возле салона</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/2.png">
+                    <img src="img/2.png">
                     <blockquote>Конфортна зона отдыха для ожидания ваших питомцев</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/3.png">
+                    <img src="img/3.png">
                     <blockquote>И конечно, все процедуры выполняются без наркоза</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/4.png">
+                    <img src="img/4.png">
                     <blockquote>Команда професиональных грумеров с большим опытом</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/5.png">
+                    <img src="img/5.png">
                     <blockquote>Мы используем современные средства европейских брендов ухода ха шерстью</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/6.png">
+                    <img src="img/6.png">
                     <blockquote>Помощь в консультировании по вопросам правильного ухода за домашним животным</blockquote>
                 </div>
             </div>
@@ -1909,28 +1879,28 @@
             <div id="contact">
                 <div class="footer-contacts">
                     <div class="contact">
-                        <div class="contact-site"><img src="/public/img/1.svg" alt=""> Москва, ул. Долгоруковская, 40</div>
+                        <div class="contact-site"><img src="img/1.svg" alt=""> Москва, ул. Долгоруковская, 40</div>
                         <div class="contact-site">
                             <div class="phone">
-                                <img src="/public/img/2.svg" alt="">
+                                <img src="img/2.svg" alt="">
                                 +7 (499) 430-00-26
                             </div>
                         </div>
-                        <div class="contact-site"><img src="/public/img/5.svg" alt="">пн-пт: 11:00 - 20:00 <span>сб-вс: 10:18</span></div>
-                        <div class="contact-site"><img src="/public/img/3.svg" alt=""><a href="mailto:fo@salon-groom.ru">info@salon-groom.ru</a></div>
-                        <div class="contact-site"><img src="/public/img/4.svg" alt=""><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1</a></div>
+                        <div class="contact-site"><img src="img/5.svg" alt="">пн-пт: 11:00 - 20:00 <span>сб-вс: 10:18</span></div>
+                        <div class="contact-site"><img src="img/3.svg" alt=""><a href="mailto:fo@salon-groom.ru">nfo@salon-groom.ru</a></div>
+                        <div class="contact-site"><img src="img/4.svg" alt=""><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1</a></div>
                     </div>
-{{--                    <div class="form">--}}
-{{--                        <div class="recording">--}}
-{{--                            <div class="form-group">--}}
-{{--                                <input class="form-control" type="text" name="name" placeholder="Имя">--}}
-{{--                                <input class="form-control" type="tel" id="phone2" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">--}}
-{{--                                <div class="time-section">--}}
-{{--                                    <button class="btn-cats">Записаться</button>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
+                    <div class="form">
+                        <div class="recording">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="name" placeholder="Имя">
+                                <input class="form-control" type="tel" id="phone2" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">
+                                <div class="time-section">
+                                    <button class="btn-cats">Записаться</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="footer-title"><a href="https://salon-groom.ru/">salon-groom.ru</a> ©2021 Все права защищены</div>
             </div>
@@ -1938,9 +1908,9 @@
 </div>
 <script type="text/javascript"src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-<script type="text/javascript" src="/public/js/custom.js"></script>
-<script type="text/javascript" src="/public/js/vertical-dot-navigation.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/vertical-dot-navigation.js"></script>
 <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
-<script type="text/javascript" src="/public/js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
