@@ -1761,7 +1761,7 @@
                                 <div class="raiteng_item" data-item-value="1">★</div>
                             </div>
                             <div class="section-review_title">Уютно.Видно, что недавно открылись.Салон просторный. Мне удобно, я живу прямо в этом доме, где открыли салон.
-                                карина хороший мастер, внимательная</div>
+                                Карина хороший мастер, внимательная</div>
                             <h3>Сергей П.</h3>
                         </div>
                         <div class="col">
@@ -1907,19 +1907,8 @@
                         <div class="contact-site"><img src="/public/img/3.svg" alt=""><a href="mailto:fo@salon-groom.ru">info@salon-groom.ru</a></div>
                         <div class="contact-site"><img src="/public/img/4.svg" alt=""><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1</a></div>
                     </div>
-{{--                    <div class="form">--}}
-{{--                        <div class="recording">--}}
-{{--                            <div class="form-group">--}}
-{{--                                <input class="form-control" type="text" name="name" placeholder="Имя">--}}
-{{--                                <input class="form-control" type="tel" id="phone2" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">--}}
-{{--                                <div class="time-section">--}}
-{{--                                    <button class="btn-cats">Записаться</button>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
                 </div>
-                <div class="footer-title"><a href="https://salon-groom.ru/">salon-groom.ru</a> ©2021 Все права защищены</div>
+                <div class="footer-title"><a href="https://salon-groom.ru/">salon-groom.ru</a> ©@php echo Date('Y'); @endphp Все права защищены</div>
             </div>
         </div>
     </footer>
