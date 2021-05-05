@@ -20,7 +20,7 @@
         <div class="container">
             <header class="header">
                 <div class="header-title">
-                    <h1>парковка бесплатная</h1>
+                    <div>парковка бесплатная</div>
                 </div>
                 <div class="header-logo">
                     <img src="/public/img/org/logo.png" alt="">
