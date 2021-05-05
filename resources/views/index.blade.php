@@ -87,7 +87,7 @@
     <section class="section-our_work section" id="sec2">
         <div class="container">
             <div id="work">
-                <h1>Наши работы</h1>
+                <h1>Груминг салон №1 в Москве</h1>
                 <hr>
                 <div class="slider-desktop">
                     <div class="row">
