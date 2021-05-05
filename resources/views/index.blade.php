@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Груминг салон №1 в Москве стрижка собак и кошек премиум класса, лучшие мастера в Европе, стрижка, груминг, экспресс-линька в центре Москвы ☎ 8(499)430-00-26">
+
     <title>Груминг салон в Москве №1 для собак и кошек</title>
-    <link rel="icon" href="/public/img/favicon.ico">
+
+    <link rel="icon" href="{{asset('public/img/favicon.ico')}}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css">
 
@@ -244,7 +247,7 @@
         <div id="price">
             <div class="container">
                 <div class="mobile-margin-top">
-                    <div class="title">Прайс</div>
+                    <h2 class="title">Цены на груминг в Москве</h2>
                     <hr>
                     <div class="text-center main-font" style="margin: 20px">
                         <button id="btn-complex" class="tab-btn btn-tab-active">Комплекс: под машинку / модельная </button>
@@ -1715,7 +1718,7 @@
                         </div>
 
                         <div class="time-section">
-                            <button type="submit" class="btn-cats">Записаться</button>
+                            <button type="submit" onclick__="aym(XXXXXX, 'reachGoal', 'TARGET_NAME'); return true;" class="btn-cats">Записаться</button>
                         </div>
                     </div>
                 </a>
@@ -1725,7 +1728,7 @@
     <section class="section-review" id="sec8">
         <div class="container">
             <div id="review">
-                <div class="title white">Отзыв</div>
+                <h2 class="title white">Груминг салон - отзывы</h2>
                 <hr>
                 <div class="slider-desktop">
                     <div class="row">
