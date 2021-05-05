@@ -7087,6 +7087,7 @@ label {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
 .green {
     color: green;
 }
@@ -7095,3 +7096,18 @@ label {
     font-weight: bold;
 }
 
+.title {
+    font-family: "Avant";
+    font-size: 33px;
+    padding: 36px 0 10px;
+    color: #726f74;
+    margin-bottom: .5rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+.white {
+    color: #fdfdfd;
+}

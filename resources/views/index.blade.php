@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +9,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css">
 
-    <link rel="stylesheet" href="/public/css/app.css">
-
-{{--    <link rel="stylesheet" href="/public/css/bootstrap.min.css">--}}
-{{--    <link rel="stylesheet" href="/public/css/custom.css">--}}
-{{--    <link rel="stylesheet" href="/public/css/all.css">--}}
-{{--    <link rel="stylesheet" href="/public/css/vertical-dot-navigation.css">--}}
-{{--    <link rel="stylesheet" href="/public/css/style.css">--}}
+    <link rel="stylesheet" href="{{asset('public/css/app.css')}}">
 </head>
 <body>
 <div class="wrapper">
@@ -23,7 +17,7 @@
         <div class="container">
             <header class="header">
                 <div class="header-title">
-                    <h1>парковка бесплатная</h1>
+                    <div class="title">парковка бесплатная</div>
                 </div>
                 <div class="header-logo">
                     <img src="/public/img/org/logo.png" alt="">
@@ -187,7 +181,7 @@
                     <div class="slider slider_master">
                         <div class="slider__item filter">
                             <div class="slide-info">
-                                <h1>Наши мастера</h1>
+                                <div class="title">Наши мастера</div>
                                 <hr>
                                 <div class="slider-title">
                                     <img src="/public/img/karina.png" alt="фото">
@@ -203,7 +197,7 @@
                         </div>
                         <div class="slider__item filter">
                             <div class="slide-info">
-                                <h1>Наши мастера</h1>
+                                <div class="title">Наши мастера</div>
                                 <hr>
                                 <div class="slider-title">
                                     <img src="/public/img/marina.jpg" alt="фото">
@@ -223,7 +217,7 @@
                         </div>
                         <div class="slider__item filter">
                             <div class="slide-info">
-                                <h1>Наши мастера</h1>
+                                <div class="title">Наши мастера</div>
                                 <hr>
                                 <div class="slider-title">
                                     <img src="/public/img/svetlana.jpg" alt="фото">
@@ -250,7 +244,7 @@
         <div id="price">
             <div class="container">
                 <div class="mobile-margin-top">
-                    <h1>Прайс</h1>
+                    <div class="title">Прайс</div>
                     <hr>
                     <div class="text-center main-font" style="margin: 20px">
                         <button id="btn-complex" class="tab-btn btn-tab-active">Комплекс: под машинку / модельная </button>
@@ -1696,21 +1690,6 @@
     </section>
     <section class="section-recording"id="sec5">
         <div class="container">
-{{--            <a name="top">--}}
-{{--                <div class="recording">--}}
-{{--                    <div class="form-group">--}}
-{{--                        <div class="input-group">--}}
-{{--                            <input class="form-control" type="text" name="name" placeholder="Имя">--}}
-{{--                        </div>--}}
-{{--                        <div class="input-group">--}}
-{{--                            <input class="form-control" type="tel" id="phone1" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="time-section">--}}
-{{--                        <button class="btn-cats">Записаться</button>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </a>--}}
             <form id="contactform" method="post" class="validateform" name="contactform">
                 {{ csrf_field() }}
 
@@ -1746,7 +1725,7 @@
     <section class="section-review" id="sec8">
         <div class="container">
             <div id="review">
-                <h1>Отзыв</h1>
+                <div class="title white">Отзыв</div>
                 <hr>
                 <div class="slider-desktop">
                     <div class="row">
@@ -1867,7 +1846,7 @@
     </section>
     <section class="section-advantages" id="sec7">
         <div class="container">
-            <h1>Наши преимущества</h1>
+            <div class="title">Наши преимущества</div>
             <hr>
             <div class="row">
                 <div class="col">
@@ -1899,16 +1878,17 @@
     </section>
     <section class="about-us" id="sec6">
         <div class="container">
-            <h1>О нас</h1>
+            <div class="title">О нас</div>
             <hr>
             <div class="row">
                 <div>Это история о том, как три мастера открыли салон груминга. Каждая из наших мастеров (Карина, Светлана и Марина) долго шли к этой цели: начинали по разному, кто-то ездил и оказывал услуги на дому, кто-то работал в салоне. Это был непростой, но очень интересный и познавательный путь - становления в профессии. Мы абсолютно уверены в том, что человек с «холодным» сердцем не сможет работать в этой профессии. Животные его не примут. . Для нас это первый и удачный опыт. Мы очень рады своим постоянным клиентам, которые у нас появились за прошедший период работы, и мы очень рады нашим новым клиентам, которые впервые доверили нам своих любимцев. Мы будем стараться для Вас! Приходите в наш салон. Животные будут рады</div>
             </div>
         </div>
     </section>
+
     <footer class="footer" id="sec9">
         <div class="container">
-            <h1>Контакты</h1>
+            <div class="title">Контакты</div>
             <hr>
             <div id="contact">
                 <div class="footer-contacts">
@@ -1938,14 +1918,15 @@
                 </div>
                 <div class="footer-title"><a href="https://salon-groom.ru/">salon-groom.ru</a> ©2021 Все права защищены</div>
             </div>
+        </div>
     </footer>
 </div>
+
 <script type="text/javascript"src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-<script type="text/javascript" src="/public/js/custom.js"></script>
-<script type="text/javascript" src="/public/js/vertical-dot-navigation.js"></script>
 <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
-<script type="text/javascript" src="/public/js/script.js"></script>
+
+<script type="text/javascript" src="{{asset('public/js/common.js')}}"></script>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >

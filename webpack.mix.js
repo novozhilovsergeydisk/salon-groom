@@ -20,4 +20,9 @@ mix.js('resources/js/app.js', 'public/js')
         'public/css/style.css',
         'public/css/nova.css'
     ], 'public/css/app.css')
+    .combine([
+        'public/js/custom.js',
+        'public/js/vertical-dot-navigation.js',
+        'public/js/script.js'
+    ], 'public/js/common.js')
 ;
