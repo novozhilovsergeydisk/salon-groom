@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Груминг салон №1 в Москве стрижка собак и кошек премиум класса, лучшие мастера в Европе, стрижка, груминг, экспресс-линька в центре Москвы ☎ 8(499)430-00-26">
+    <meta name="description" content="Груминг салон №1 в Москве, стрижка собак и кошек премиум класса, лучшие мастера в Европе, стрижка, груминг, экспресс-линька в центре Москвы, 8(499)430-00-26">
 
     <title>Груминг салон в Москве №1 для собак и кошек</title>
 
