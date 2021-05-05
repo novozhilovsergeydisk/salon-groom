@@ -34,8 +34,7 @@
                         <li><a href="#work" class="header_li">Наши работы</a></li>
                         <li><a href="#master" class="header_li">Наши мастера</a></li>
                         <li><a href="#price" class="header_li">Прайс</a></li>
-                        <li><a href="#zapis" class="header_li">Галлерея</a></li>
-                        <li><a href="#review" class="header_li">Отзыв</a></li>
+                        <li><a href="#review" class="header_li">Отзывы</a></li>
                         <li><a href="#contact" class="header_li">Контакты</a></li>
                     </ul>
                 </nav>
