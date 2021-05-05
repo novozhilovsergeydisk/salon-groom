@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Салон стрижки собак и кошек</title>
     <link rel="icon" href="/public/img/favicon.ico">
-    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/css/custom.css">
-    <link rel="stylesheet" href="/public/css/all.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css">
-    <link rel="stylesheet" href="/public/css/vertical-dot-navigation.css">
-    <link rel="stylesheet" href="/public/css/style.css">
+
+    <link rel="stylesheet" href="/public/css/app.css">
+
+{{--    <link rel="stylesheet" href="/public/css/bootstrap.min.css">--}}
+{{--    <link rel="stylesheet" href="/public/css/custom.css">--}}
+{{--    <link rel="stylesheet" href="/public/css/all.css">--}}
+{{--    <link rel="stylesheet" href="/public/css/vertical-dot-navigation.css">--}}
+{{--    <link rel="stylesheet" href="/public/css/style.css">--}}
 </head>
 <body>
 <div class="wrapper">
@@ -1722,8 +1726,8 @@
                         </div>
 
                         <div class="form-group">
-                            <div id="sendmessage" style="color: green; font-weight: bold;" class="hidden">
-                                Спасибо! Ваша заявка принята. Ожидайте звонок администратора.
+                            <div id="sendmessage" class="hidden green bold">
+                                Спасибо! Ваша заявка принята.<br /> Ожидайте звонок администратора.
                             </div>
 
                             <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
