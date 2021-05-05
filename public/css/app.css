@@ -6847,6 +6847,10 @@ label {
     font-size: 30px;
     padding: 27% 27% 0;
   }
+    .header-title div {
+        font-size: 30px;
+        padding: 27% 27% 0;
+    }
   .section-recording .recording .time-section div {
     padding: 0 0 15px 0;
     font-size: 14px;
