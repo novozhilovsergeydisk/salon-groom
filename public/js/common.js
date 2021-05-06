@@ -659,6 +659,8 @@ $(document).ready(function () {
     $('#contactform').on('submit', function (e) {
         e.preventDefault();
 
+        aym(70137172,'reachGoal','nazhatie-na-knopku-zapis');
+
         console.log('contactform');
 
         $.ajax({
