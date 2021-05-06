@@ -41,8 +41,6 @@ $(document).ready(function () {
     $('#contactform').on('submit', function (e) {
         e.preventDefault();
 
-        ym(70137172,'reachGoal','nazhatie-na-knopku-zapis');
-
         console.log('ajax contactform');
 
         $.ajax({
@@ -51,7 +49,10 @@ $(document).ready(function () {
             data: $('#contactform').serialize(),
             success: function (data) {
                 if (data.result == 'success') {
+                    ym(70137172,'reachGoal','nazhatie-na-knopku-zapis');
+
                     console.log('data.result = ', data.result);
+
                     $('#senderror').hide();
                     $('#sendmessage').show();
                     $('#contactform')[0].reset();
