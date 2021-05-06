@@ -659,7 +659,9 @@ $(document).ready(function () {
     $('#contactform').on('submit', function (e) {
         e.preventDefault();
 
-        console.log('contactform');
+        ym(70137172,'reachGoal','nazhatie-na-knopku-zapis');
+
+        console.log('ajax contactform');
 
         $.ajax({
             type: 'POST',

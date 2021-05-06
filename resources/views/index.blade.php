@@ -1717,7 +1717,7 @@
                         </div>
 
                         <div class="time-section">
-                            <button type="submit" onclick__="aym(XXXXXX, 'reachGoal', 'TARGET_NAME'); return true;" class="btn-cats">Записаться</button>
+                            <button type="submit" onclick__="ym(70137172,'reachGoal','nazhatie-na-knopku-zapis'); console.log('nazhatie-na-knopku-zapis'); return true;" class="btn-cats">Записаться</button>
                         </div>
                     </div>
                 </a>
