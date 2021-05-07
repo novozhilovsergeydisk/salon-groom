@@ -1,3 +1,5 @@
+// import cookielib from 'cookielib';
+
 $(document).ready(function () {
     $('.header-burger').click(function (event) {
         $('.header-burger, .menu-nav').toggleClass('active');
@@ -49,7 +51,7 @@ $(document).ready(function () {
             data: $('#contactform').serialize(),
             success: function (data) {
                 if (data.result == 'success') {
-                    ym(70137172,'reachGoal','nazhatie-na-knopku-zapis');
+                    codeTarget(70137172, 'nazhatie-na-knopku-zapis');
 
                     console.log('data.result = ', data.result);
 
@@ -66,14 +68,53 @@ $(document).ready(function () {
             },
             error: function () {
                 console.log('error ajax');
-                // $('#senderror').show();
-                // $('#sendmessage').hide();
             }
         });
     });
 });
 
+$(document).ready(function () {
+    // deleteCookie('user_statistic');
 
+    $("#header-phone").click(function (e) {
+        // e.preventDefault();
+
+        // log(document.cookie);
+
+        if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
+            let date = new Date(Date.now() + 86400e3);
+            document.cookie = "user_statistic=click_on_phone; expires=" + date;
+            // document.cookie = "user_statistic=click_on_phone; max-age=10";
+            // setCookie('user_statistic', 'click_on_phone');
+
+            codeTarget(70137172, 'nazhatie-na-telefon');
+
+            console.log('click header-phone');
+        }
+
+        // log(document.cookie);
+    });
+
+    $("#footer-phone").click(function (e) {
+        // e.preventDefault();
+
+        // log(document.cookie);
+
+        if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
+            let date = new Date(Date.now() + 86400e3);
+            document.cookie = "user_statistic=click_on_phone; expires=" + date;
+            // document.cookie = "user_statistic=click_on_phone; max-age=10";
+            // setCookie('user_statistic', 'click_on_phone');
+
+            codeTarget(70137172, 'nazhatie-na-telefon');
+
+            console.log('click header-phone');
+        }
+
+        // log(document.cookie);
+    });
+
+});
 
 const raitengItemsList = document.querySelectorAll('.raiteng_item');
 const raitengItemsArray = Array.prototype.slice.call(raitengItemsList);
@@ -84,3 +125,4 @@ raitengItemsArray.forEach(item =>
         item.parentNode.dataset.totalValue = itemValue;
     })
 );
+

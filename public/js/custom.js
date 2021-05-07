@@ -554,22 +554,32 @@ function show(el) {
     el.classList.remove('hidden');
 }
 
-// tab_btn_1.addEventListener('click', function() {
-//     hideClassTabs();
-//     tab_btn_1.classList.add('btn-tab-active');
-//     show(tab_1);
-// });
+const codeTarget = (code, target) => {
+    ym(code,'reachGoal',target)
+    log('codeTarget()')
+}
 
-// tab_btn_2.addEventListener('click', function() {
-//     hideClassTabs();
-//     tab_btn_2.classList.add('btn-tab-active');
-//     hide(tab_1);
-//     show(tab_2);
-// });
+// ym(70137172,'reachGoal','nazhatie-na-knopku-zapis')
+// ym(70137172,'reachGoal','nazhatie-na-telefon')
 
-// tab_btn_3.addEventListener('click', function() {
-//     hideClassTabs();
-//     tab_btn_3.classList.add('btn-tab-active');
-//     hide(tab_1);
-//     show(tab_3);
-// });
+const setCookie = (name, value) => {
+    document.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value)
+    let cookie = document.cookie
+    console.log('cookie = ', cookie)
+}
+
+// возвращает куки с указанным name,
+// или undefined, если ничего не найдено
+function getCookie(name) {
+    let matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+function deleteCookie(name) {
+    setCookie(name, '', {
+        'max-age': -1
+    })
+}

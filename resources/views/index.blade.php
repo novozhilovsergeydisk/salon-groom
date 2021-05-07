@@ -26,7 +26,7 @@
                     <img src="/public/img/org/logo.png" alt="">
                     <div>Груминг салон №1 для собак и кошек</div>
                 </div>
-                <div class="header-phone">
+                <div id="header-phone" class="header-phone">
                     <a href="tel:+7 (499) 430-00-26">+7 (499) 430-00-26</a>
                 </div>
                 <nav id="menu" class="menu-nav">
@@ -1897,9 +1897,9 @@
                     <div class="contact">
                         <div class="contact-site"><img src="/public/img/1.svg" alt=""> Москва, ул. Долгоруковская, 40</div>
                         <div class="contact-site">
-                            <div class="phone">
+                            <div id="footer-phone" class="phone">
                                 <img src="/public/img/2.svg" alt="">
-                                +7 (499) 430-00-26
+                                <a href="tel:+7 (499) 430-00-26">+7 (499) 430-00-26</a>
                             </div>
                         </div>
                         <div class="contact-site"><img src="/public/img/5.svg" alt="">пн-пт: 11:00 - 20:00 <span>сб-вс: 10:18</span></div>
