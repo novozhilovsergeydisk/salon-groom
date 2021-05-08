@@ -1,26 +1,26 @@
 @font-face {
   font-family: "bebas";
-  src: url("../fonts/bebas.ttf") format("truetype");
+  src: url("../../public/fonts/bebas.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "BaskerLight";
-  src: url("../fonts/BaskervilleLight.ttf") format("truetype");  
+  src: url("../../public/fonts/BaskervilleLight.ttf") format("truetype");
 }
 @font-face {
   font-family: "bebas-ciryllic";
-  src: url("../fonts/bebas-ciryllic.ttf") format("truetype");
+  src: url("../../public/fonts/bebas-ciryllic.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Avant";
-  src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");  
+  src: url("../../public/fonts/AvantGardeGothicC-Demi.otf") format("truetype");
 }
 @font-face {
   font-family: "Avant-Book";
-  src: url("../fonts/AvantGardeGothicCBook.otf") format("truetype");  
+  src: url("../../public/fonts/AvantGardeGothicCBook.otf") format("truetype");
 }
 * {
   box-sizing: border-box;
@@ -112,7 +112,7 @@ nav.dot-vrt-nav {
     align-self: flex-end;
     z-index: 100;
     margin-bottom: 40px;
-    .btn {      
+    .btn {
       background-color: #f8d90c;
       border-radius: 5px;
       padding: 8px 20px;
@@ -191,7 +191,7 @@ nav.dot-vrt-nav {
   margin: 0 auto;
 }
 .section-main {
-  background-image: url("../img/bagraund-img.jpg");
+  background-image: url("../../public/img/bagraund-img.jpg");
   height: 100%;
 
   .title-b {
@@ -205,7 +205,7 @@ nav.dot-vrt-nav {
       font-family: "bebas-ciryllic";
       color: rgb(156, 128, 192);
       text-transform: uppercase;
-    }    
+    }
   }
 }
 .section-img {
@@ -237,7 +237,7 @@ hr {
     position: relative;
     img{
       max-width: 400px;
-    }  
+    }
   }
   .slider_title{
     top: 30%;
@@ -254,7 +254,7 @@ hr {
     a{
       font-size: 25px;
       color:#d09f08;
-    }  
+    }
   }
   .slider__item {
     img {
@@ -356,7 +356,7 @@ h1{
     }
   }
   .slider__item {
-    
+
     img {
       max-width: 305px;
       min-height: 382px;
@@ -395,7 +395,7 @@ h1{
   }
 }
 .section-prics {
-  
+
   .text-center{
     padding: 50px 0 0;
   }
@@ -434,8 +434,8 @@ label {
       border-width: 0 0 1px;
       border-color: #c7c6c7;
       margin: 20px 0;
-      width: 100%; 
-    } 
+      width: 100%;
+    }
   }
   .form-control{
     padding: 0;
@@ -459,7 +459,7 @@ label {
 .time-section{
   input{
     border:none;
-  }  
+  }
   div{
     font-size: 20px;
     font-family: "Avant";
@@ -467,7 +467,7 @@ label {
     line-height: 2;
     text-align: center;
   }
-  
+
   .btn-cats{
     font-size: 29px;
     font-family: "bebas-ciryllic";
@@ -487,7 +487,7 @@ label {
   height: 35px;
 }
 .about-us{
-  background-image: url("../img/bg-imga.jpg");
+  background-image: url("../../public/img/bg-imga.jpg");
   background-repeat: no-repeat;
 	background-size: cover;
   background-position: center;
@@ -505,14 +505,14 @@ label {
     text-align:justify;
     max-width: 764px;
     line-height: 2;
-    font-family: "Avant-Book";    
-  } 
+    font-family: "Avant-Book";
+  }
 }
 .section-advantages{
   padding: 0 0 80px;
   .row{
     max-width: 900px;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
   .col{
     text-align: center;
@@ -524,7 +524,7 @@ label {
     max-width: 205px;
     margin: 0 auto;
   }
-  img{ 
+  img{
     width: 250px;
   }
 }
@@ -588,10 +588,10 @@ label {
 .raiteng[data-total-value="5"] .raiteng_item:nth-child(n + 1){
   color:#faea08;
 }
-.footer{  
+.footer{
   background: linear-gradient(to bottom, #DECEED, #FFFFFF);
-  color: #4e4a52;  
-  
+  color: #4e4a52;
+
   .contact{
     padding: 30px 15px 0;
     font-size: 25px;
@@ -604,21 +604,21 @@ label {
       padding: 0 0 30px;
       img{
         width: 50px;
-      }  
+      }
       span{
         margin-left: 5px;
-      }   
+      }
     }
     .phone{
       font-family: "Avant";
-      font-size: 36px;      
+      font-size: 36px;
       color: #7e58a4;
       line-height: 1.014;
     }
   }
   .row{
     max-width: 900px;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
   .form{
     max-width: 350px;
@@ -629,7 +629,7 @@ label {
     margin: 0 auto;
     padding: 25px 0 30px;
     input{
-      background-color:transparent;  
+      background-color:transparent;
       outline: 0;
       border-width: 0 0 1px;
       // border-color: #c7c6c7;
@@ -640,7 +640,7 @@ label {
         color: #77727c;
         font-family: "bebas";
       }
-    } 
+    }
 
   }
   .fa-calendar:before {
@@ -659,16 +659,16 @@ label {
     background-color: #f8d90c;
     text-align: center;
     // letter-spacing: 1px;
-    padding: 0px 60px;     
+    padding: 0px 60px;
     width: 100%;
     margin: 10px 0 0 0;
-    
+
   }
   &-title{
-    text-align: center;    
+    text-align: center;
     color: #9273ab;
     padding: 50px 0 30px 0;
-    a{     
+    a{
       text-decoration: none;
       color: #9273ab;
     }
@@ -680,22 +680,22 @@ label {
       font-family: "bebas-ciryllic";
       text-transform: uppercase;
       padding: 10px 0 0;
-    } 
+    }
   }
   .footer-contacts{
     display: flex;
     // max-width: 900px;
     margin: 0 auto;
-    justify-content: space-around;    
+    justify-content: space-around;
   }
 }
 .slider-mobail{
   display: none;
 }
 .datepicker-custom {
-  background-image: url("../img/calendar.png");
-  background-repeat: no-repeat;    
-  background-position: right;    
+  background-image: url("../../public/img/calendar.png");
+  background-repeat: no-repeat;
+  background-position: right;
   &:hover{
     cursor: pointer;
   }
@@ -707,7 +707,7 @@ label {
 @media (max-width: 1024px){
   nav.dot-vrt-nav {
     display: none;
-  } 
+  }
  .header-title{
    margin-top: -24%;
    margin-left: -2%;
@@ -717,10 +717,10 @@ label {
     width: 360px;
   }
   .header .btn-section {
-    right: 7%;    
-    margin-bottom: 0;    
+    right: 7%;
+    margin-bottom: 0;
     padding-bottom: 3px;
-  } 
+  }
 }
 @media (max-width: 768px) {
   nav.dot-vrt-nav {
@@ -728,13 +728,13 @@ label {
     bottom:22%;
   }
   .header .btn-section {
-    right: 3%;    
+    right: 3%;
     bottom: 15px;
   }
   .header-title {
     margin: -35% 0 0 -9%;
   }
-  
+
   .header-logo{
     width: 240px;
     margin: 0 auto;
@@ -748,7 +748,7 @@ label {
   .header-phone {
     padding: 30px 15px 0 0;
   }
-  .header-phone a{    
+  .header-phone a{
     z-index: 10;
     height: 0;
     font-size: 16px;
@@ -849,7 +849,7 @@ label {
       width: 322px;
     }
   }
-  
+
   .slide-info{
     padding: 0 15px 30px;
   }
@@ -888,7 +888,7 @@ label {
  .slider-desktop{
   display: none;
  }
- 
+
  .slider-mobail{
    display: block;
  }
@@ -904,7 +904,7 @@ label {
 
   .section-recording{
     .recording{
-      .time-section{        
+      .time-section{
         div{
           padding: 0 0 15px 0;
           font-size: 14px;
@@ -915,13 +915,13 @@ label {
         .btn-cats{
           color: #8708fe;
         }
-      }      
+      }
     }
   }
 
   .section-img img{
     max-width: 400px;
-  }  
+  }
   .section-advantages .row{
     text-align: center;
   }
@@ -949,13 +949,13 @@ label {
 
   .header {
     .btn-section {
-      right: 8%;  
+      right: 8%;
     }
   }
-  
+
   .section-main .title-b div {
     font-size: 23px;
-    padding: 13px 23px; 
+    padding: 13px 23px;
     text-align: center;
   }
   .section-our_work{
@@ -985,8 +985,8 @@ label {
       }
     }
   }
-  
-  
+
+
   .section-slic_slider .slider_master h1 {
     padding: 0;
   }
@@ -1021,7 +1021,7 @@ label {
     display: block;
   }
 
-  .footer { 
+  .footer {
     background: linear-gradient(to top, #DECEED, #FFFFFF);
     .contact-site{
       text-align: center;
@@ -1033,14 +1033,14 @@ label {
     }
     .footer-contacts{
       flex-direction: column-reverse;
-      
+
       .form{
         order: 2;
         margin: 0 auto;
         .recording{
           padding: 0;
           input{
-            font-size: 18px;           
+            font-size: 18px;
             font-family: "Avant";
             color: rgb(114, 111, 116);
           }
@@ -1083,7 +1083,7 @@ label {
   }
   .section-img img {
     max-width: 330px;
-  }    
+  }
   .section-our_work .slider__item img {
     padding: 0 0 0 0;
     width: 400px;
@@ -1096,7 +1096,7 @@ label {
     list-style: none;
     margin: 0px 10px 0 0;
   }
-  
+
   .footer {
     .row {
       display: block;
@@ -1111,7 +1111,7 @@ label {
       max-width: 290px;
       margin: 0 auto;
     }
-  }  
+  }
 }
 
 @media (max-width: 320px){
@@ -1136,7 +1136,7 @@ label {
   .section-our_work .slider__item img {
     padding: 0 80px 15px 0;
   }
-  
+
   .section-slic_slider .slider_master .slick-dots {
     position: absolute;
     top: 95%;
@@ -1150,7 +1150,7 @@ label {
     padding: 20px;
     left: 0;
     max-width: 200px;
-  } 
+  }
   .section-slic_slider .slider__item img {
     max-width: 205px;
     min-height: 271px;

@@ -10,9 +10,9 @@
 
     <link rel="icon" href="{{asset('public/img/favicon.ico')}}">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css">
-
     <link rel="stylesheet" href="{{asset('public/css/app.css')}}">
+
+    <link rel="stylesheet" href="{{asset('public/css/bootstrap.min.css')}}">
 </head>
 <body>
 <div class="wrapper">
@@ -188,8 +188,9 @@
                                 <div class="slider-title">
                                     <img src="/public/img/karina.png" alt="фото">
                                     <div class="doc">
-                                        <h2>Карина</h2>
-                                        <div>Основатель салона груминга. Мастер-универсал, фанат своего дела. Найдет подход к любому
+                                        <div class="master-name">Карина</div>
+
+                                        <div class="div-master">Основатель салона груминга. Мастер-универсал, фанат своего дела. Найдет подход к любому
                                             хвостику и большому животному и к маленькому питомцу. Хозяйка двух красивых ротвейлеров Марты и
                                             Джохара. Регулярно посещает семинары по повышении квалификации. помимо процедур красоты вашего
                                             питомца проконсультирует по вопросам ухода и содержания.</div>
@@ -204,8 +205,8 @@
                                 <div class="slider-title">
                                     <img src="/public/img/marina.jpg" alt="фото">
                                     <div class="doc">
-                                        <h2>Марина</h2>
-                                        <div>Марина обожает купать животных, они
+                                        <div class="master-name">Марина</div>
+                                        <div class="div-master">Марина обожает купать животных, они
                                             особенно послушны, когда находятся в ее
                                             руках. Активно помогает животным в
                                             приютах найти своего хозяина. Опыт работы
@@ -224,8 +225,8 @@
                                 <div class="slider-title">
                                     <img src="/public/img/svetlana.jpg" alt="фото">
                                     <div class="doc">
-                                        <h2>Светлана</h2>
-                                        <div>Светлана в груминге относительно недавно,
+                                        <div class="master-name">Светлана</div>
+                                        <div class="div-master">Светлана в груминге относительно недавно,
                                             чуть более 2 лет. Молодая, активная, любит
                                             свою профессию и горит желанием
                                             развиваться в ней. Если понаблюдать за
@@ -246,7 +247,7 @@
         <div id="price">
             <div class="container">
                 <div class="mobile-margin-top">
-                    <h2 class="title">Цены на груминг в Москве</h2>
+                    <div class="title">Цены на груминг в Москве</div>
                     <hr>
                     <div class="text-center main-font" style="margin: 20px">
                         <button id="btn-complex" class="tab-btn btn-tab-active">Комплекс: под машинку / модельная </button>
@@ -1727,7 +1728,7 @@
     <section class="section-review" id="sec8">
         <div class="container">
             <div id="review">
-                <h2 class="title white">Груминг салон - отзывы</h2>
+                <div class="title white">Груминг салон - отзывы</div>
                 <hr>
                 <div class="slider-desktop">
                     <div class="row">
@@ -1744,9 +1745,8 @@
                             </div>
                             <div class="section-review_title">
                                 <div>Привозили кошку на вычёсывание, мастер Карина бережно обращалась с животным процедуру провела на высшем уровне...</div>
-                                <a href="#">открыть  полностью</a>
                             </div>
-                            <h3>Yana T.</h3>
+                            <div class="review-author">Yana T.</div>
                         </div>
                         <div class="col">
                             <div class="raiteng-img">
@@ -1761,7 +1761,7 @@
                             </div>
                             <div class="section-review_title">Уютно.Видно, что недавно открылись.Салон просторный. Мне удобно, я живу прямо в этом доме, где открыли салон.
                                 Карина хороший мастер, внимательная</div>
-                            <h3>Сергей П.</h3>
+                            <div class="review-author">Сергей П.</div>
                         </div>
                         <div class="col">
                             <div class="raiteng-img">
@@ -1778,7 +1778,7 @@
                                 Очень довольны. Хоть мы и сложный клиент, но дело сделанос большой
                                 любовью! Придем еще!
                             </div>
-                            <h3>Анна К.</h3>
+                            <div class="review-author">Анна К.</div>
                         </div>
                     </div>
                 </div>
@@ -1799,9 +1799,8 @@
                                     </div>
                                     <div class="section-review_title">
                                         <div>Привозили кошку на вычёсывание, мастер Карина бережно обращалась с животным, процедуру провела на высшем уровне...</div>
-                                        <a href="#">открыть  полностью</a>
                                     </div>
-                                    <h3>Yana T.</h3>
+                                    <div class="review-author">Yana T.</div>
                                 </div>
                             </div>
                             <div class="slider__item filter">
@@ -1818,7 +1817,7 @@
                                     </div>
                                     <div class="section-review_title">Уютно. Видно, что недавно открылись. Салон просторный. Мне удобно, я живу прямо в этом доме, где открыли салон.
                                         Карина хороший мастер, внимательная.</div>
-                                    <h3>Сергей П.</h3>
+                                    <div class="review-author">Сергей П.</div>
                                 </div>
                             </div>
                             <div class="slider__item filter">
@@ -1837,7 +1836,7 @@
                                         Очень довольны. Хоть мы и сложный клиент, но дело сделано с большой
                                         любовью! Придем еще!
                                     </div>
-                                    <h3>Анна К.</h3>
+                                    <div class="review-author">Анна К.</div>
                                 </div>
                             </div>
                         </div>
@@ -1915,7 +1914,6 @@
 
 <script type="text/javascript"src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-<script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
 
 <script type="text/javascript" src="{{asset('public/js/common.js')}}"></script>
 

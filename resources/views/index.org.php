@@ -19,7 +19,7 @@
     <!--  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">-->
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
 
     <!-- Theme Style Custom -->
     <link rel="stylesheet" href="/public/css/custom.css">

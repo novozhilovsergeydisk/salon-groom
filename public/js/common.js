@@ -704,42 +704,36 @@ $(document).ready(function () {
 $(document).ready(function () {
     // deleteCookie('user_statistic');
 
-    $("#header-phone").click(function (e) {
-        // e.preventDefault();
-
-        // log(document.cookie);
+    $("#header-phone").click(function () {
+        log(document.cookie);
 
         if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
             let date = new Date(Date.now() + 86400e3);
             document.cookie = "user_statistic=click_on_phone; expires=" + date;
             // document.cookie = "user_statistic=click_on_phone; max-age=10";
-            // setCookie('user_statistic', 'click_on_phone');
 
             codeTarget(70137172, 'nazhatie-na-telefon');
 
             console.log('click header-phone');
         }
 
-        // log(document.cookie);
+        log(document.cookie);
     });
 
-    $("#footer-phone").click(function (e) {
-        // e.preventDefault();
-
-        // log(document.cookie);
+    $("#footer-phone").click(function () {
+        log(document.cookie);
 
         if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
             let date = new Date(Date.now() + 86400e3);
             document.cookie = "user_statistic=click_on_phone; expires=" + date;
             // document.cookie = "user_statistic=click_on_phone; max-age=10";
-            // setCookie('user_statistic', 'click_on_phone');
 
             codeTarget(70137172, 'nazhatie-na-telefon');
 
             console.log('click header-phone');
         }
 
-        // log(document.cookie);
+        log(document.cookie);
     });
 
 });

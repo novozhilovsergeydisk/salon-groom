@@ -13,9 +13,9 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .combine([
-        'public/css/all.css',
-        'public/css/bootstrap.min.css',
+        // 'public/css/all.css',
         'public/css/custom.css',
+        'public/css/all.css',
         'public/css/vertical-dot-navigation.css',
         'public/css/style.css',
         'public/css/nova.css'
