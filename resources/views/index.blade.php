@@ -1676,7 +1676,7 @@
             <form id="contactform" method="post" class="validateform" name="contactform">
                 {{ csrf_field() }}
 
-                <a name="top"></a>
+                <a id="top" name="top"></a>
 
                 <div class="recording">
                     <div class="form-group">
