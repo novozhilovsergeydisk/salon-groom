@@ -77,7 +77,7 @@ $(document).ready(function () {
     // deleteCookie('user_statistic');
 
     $("#header-phone").click(function () {
-        log(document.cookie);
+        // log(document.cookie);
 
         if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
             let date = new Date(Date.now() + 86400e3);
@@ -89,11 +89,11 @@ $(document).ready(function () {
             console.log('click header-phone');
         }
 
-        log(document.cookie);
+        // log(document.cookie);
     });
 
     $("#footer-phone").click(function () {
-        log(document.cookie);
+        // log(document.cookie);
 
         if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
             let date = new Date(Date.now() + 86400e3);
@@ -102,10 +102,10 @@ $(document).ready(function () {
 
             codeTarget(70137172, 'nazhatie-na-telefon');
 
-            console.log('click header-phone');
+            console.log('click footer-phone');
         }
 
-        log(document.cookie);
+        // log(document.cookie);
     });
 
 });
