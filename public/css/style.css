@@ -1300,6 +1300,13 @@ label {
     nav.dot-vrt-nav {
         left: 86%;
     }
+
+    nav.dot-vrt-nav.ul-li-p {
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+
     .section-our_work .slider_title {
         top: 38%;
         padding: 20px;

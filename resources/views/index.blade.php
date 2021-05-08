@@ -23,11 +23,11 @@
                     <div>парковка бесплатная</div>
                 </div>
                 <div class="header-logo">
-                    <img src="/public/img/org/logo.png" alt="">
+                    <img src="/public/img/org/logo.png" alt="фото">
                     <div>Груминг салон №1 для собак и кошек</div>
                 </div>
                 <div id="header-phone" class="header-phone">
-                    <a href="tel:+7 (499) 430-00-26">+7 (499) 430-00-26</a>
+                    <a href="tel:+7(499)430-00-26">+7 (499) 430-00-26</a>
                 </div>
                 <nav id="menu" class="menu-nav">
                     <ul class="header_list">
@@ -43,38 +43,20 @@
                 </div>
                 <nav class="dot-vrt-nav">
                     <ul>
-                        <a href="#sec1">
-                            <li></li>
-                        </a>
-                        <a href="#sec2">
-                            <li></li>
-                        </a>
-                        <a href="#sec3">
-                            <li></li>
-                        </a>
-                        <a href="#sec4">
-                            <li></li>
-                        </a>
-                        <a href="#sec5">
-                            <li></li>
-                        </a>
-                        <a href="#sec6">
-                            <li></li>
-                        </a>
-                        <a href="#sec7">
-                            <li></li>
-                        </a>
-                        <a href="#sec8">
-                            <li></li>
-                        </a>
-                        <a href="#sec9">
-                            <li></li>
-                        </a>
+                        <li><a href="#sec1"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec2"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec3"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec4"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec5"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec6"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec7"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec8"><p class="ul-li-p">&nbsp;</p></a></li>
+                        <li><a href="#sec9"><p class="ul-li-p">&nbsp;</p></a></li>
                     </ul>
                 </nav>
                 <div class="header-img">
                     <div class="section-img">
-                        <img src="/public/img/org/dogs.png" alt="">
+                        <img src="/public/img/org/dogs.png" alt="section-img">
                     </div>
                     <div class="title-b ">
                         <div>МЫ СТРИЖЕМ ВАШИХ ПИТОМЦЕВ С ЛЮБОВЬЮ <i class="fas fa-heart"></i></div>
@@ -99,30 +81,30 @@
                                     <div>Все работы смотрите в нашем</div>
                                     <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
                                 </div>
-                                <img src="/public/img/1.jpg" alt="">
-                                <img src="/public/img/2.jpg" alt="">
-                                <img src="/public/img/3.jpg" alt="">
-                                <img src="/public/img/4.jpg" alt="">
+                                <img src="/public/img/1.jpg" alt="фото">
+                                <img src="/public/img/2.jpg" alt="фото">
+                                <img src="/public/img/3.jpg" alt="фото">
+                                <img src="/public/img/4.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
                                 <div class="slider_title">
                                     <div>Все работы смотрите в нашем</div>
                                     <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
                                 </div>
-                                <img src="/public/img/5.jpg" alt="">
-                                <img src="/public/img/6.jpg" alt="">
-                                <img src="/public/img/7.jpg" alt="">
-                                <img src="/public/img/8.jpg" alt="">
+                                <img src="/public/img/5.jpg" alt="фото">
+                                <img src="/public/img/6.jpg" alt="фото">
+                                <img src="/public/img/7.jpg" alt="фото">
+                                <img src="/public/img/8.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
                                 <div class="slider_title">
                                     <div>Все работы смотрите в нашем</div>
                                     <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
                                 </div>
-                                <img src="/public/img/9.jpg" alt="">
-                                <img src="/public/img/10.jpg" alt="">
-                                <img src="/public/img/11.jpg" alt="">
-                                <img src="/public/img/4.jpg" alt="">
+                                <img src="/public/img/9.jpg" alt="фото">
+                                <img src="/public/img/10.jpg" alt="фото">
+                                <img src="/public/img/11.jpg" alt="фото">
+                                <img src="/public/img/4.jpg" alt="фото">
                             </div>
                         </div>
                     </div>
@@ -131,40 +113,40 @@
                     <div class="row">
                         <div class="slider">
                             <div class="slider__item filter">
-                                <img src="/public/img/4.jpg" alt="">
+                                <img src="/public/img/4.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/2.jpg" alt="">
+                                <img src="/public/img/2.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/3.jpg" alt="">
+                                <img src="/public/img/3.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/1.jpg" alt="">
+                                <img src="/public/img/1.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/5.jpg" alt="">
+                                <img src="/public/img/5.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/6.jpg" alt="">
+                                <img src="/public/img/6.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/12.jpg" alt="">
+                                <img src="/public/img/12.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/7.jpg" alt="">
+                                <img src="/public/img/7.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/8.jpg" alt="">
+                                <img src="/public/img/8.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/9.jpg" alt="">
+                                <img src="/public/img/9.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/10.jpg" alt="">
+                                <img src="/public/img/10.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <img src="/public/img/11.jpg" alt="">
+                                <img src="/public/img/11.jpg" alt="фото">
                             </div>
                         </div>
                         <div class="slider_title">
@@ -1734,7 +1716,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="raiteng-img">
-                                <img src="/public/img/mention_1.png" alt="">
+                                <img src="/public/img/mention_1.png" alt="фото">
                             </div>
                             <div class="raiteng" data-total-value="0">
                                 <div class="raiteng_item" data-item-value="5">★</div>
@@ -1750,7 +1732,7 @@
                         </div>
                         <div class="col">
                             <div class="raiteng-img">
-                                <img src="/public/img/mention_2.png" alt="">
+                                <img src="/public/img/mention_2.png" alt="фото">
                             </div>
                             <div class="raiteng" data-total-value="0">
                                 <div class="raiteng_item" data-item-value="5">★</div>
@@ -1765,7 +1747,7 @@
                         </div>
                         <div class="col">
                             <div class="raiteng-img">
-                                <img src="/public/img/mention_3.png" alt="">
+                                <img src="/public/img/mention_3.png" alt="фото">
                             </div>
                             <div class="raiteng" data-total-value="0">
                                 <div class="raiteng_item" data-item-value="5">★</div>
@@ -1788,7 +1770,7 @@
                             <div class="slider__item filter">
                                 <div class="col">
                                     <div class="raiteng-img">
-                                        <img src="/public/img/mention_1.png" alt="">
+                                        <img src="/public/img/mention_1.png" alt="фото">
                                     </div>
                                     <div class="raiteng" data-total-value="0">
                                         <div class="raiteng_item" data-item-value="5">★</div>
@@ -1806,7 +1788,7 @@
                             <div class="slider__item filter">
                                 <div class="col">
                                     <div class="raiteng-img">
-                                        <img src="/public/img/mention_2.png" alt="">
+                                        <img src="/public/img/mention_2.png" alt="фото">
                                     </div>
                                     <div class="raiteng" data-total-value="0">
                                         <div class="raiteng_item" data-item-value="5">★</div>
@@ -1823,7 +1805,7 @@
                             <div class="slider__item filter">
                                 <div class="col">
                                     <div class="raiteng-img">
-                                        <img src="/public/img/mention_3.png" alt="">
+                                        <img src="/public/img/mention_3.png" alt="фото">
                                     </div>
                                     <div class="raiteng" data-total-value="0">
                                         <div class="raiteng_item" data-item-value="5">★</div>
@@ -1851,27 +1833,27 @@
             <hr>
             <div class="row">
                 <div class="col">
-                    <img src="/public/img/1.png">
+                    <img src="/public/img/1.png" alt="фото">
                     <blockquote>Бесплатная стоянка для наших клиентов возле салона</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/2.png">
+                    <img src="/public/img/2.png" alt="фото">
                     <blockquote>Конфортна зона отдыха для ожидания ваших питомцев</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/3.png">
+                    <img src="/public/img/3.png" alt="фото">
                     <blockquote>И конечно, все процедуры выполняются без наркоза</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/4.png">
+                    <img src="/public/img/4.png" alt="фото">
                     <blockquote>Команда професиональных грумеров с большим опытом</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/5.png">
+                    <img src="/public/img/5.png" alt="фото">
                     <blockquote>Мы используем современные средства европейских брендов ухода ха шерстью</blockquote>
                 </div>
                 <div class="col">
-                    <img src="/public/img/6.png">
+                    <img src="/public/img/6.png" alt="фото">
                     <blockquote>Помощь в консультировании по вопросам правильного ухода за домашним животным</blockquote>
                 </div>
             </div>
@@ -1894,16 +1876,16 @@
             <div id="contact">
                 <div class="footer-contacts">
                     <div class="contact">
-                        <div class="contact-site"><img src="/public/img/1.svg" alt=""> Москва, ул. Долгоруковская, 40</div>
+                        <div class="contact-site"><img src="/public/img/1.svg" alt="фото"> Москва, ул. Долгоруковская, 40</div>
                         <div class="contact-site">
                             <div id="footer-phone" class="phone">
-                                <img src="/public/img/2.svg" alt="">
-                                <a href="tel:+7 (499) 430-00-26">+7 (499) 430-00-26</a>
+                                <img src="/public/img/2.svg" alt="фото">
+                                <a href="tel:+7(499)430-00-26">+7 (499) 430-00-26</a>
                             </div>
                         </div>
-                        <div class="contact-site"><img src="/public/img/5.svg" alt="">пн-пт: 11:00 - 20:00 <span>сб-вс: 10:18</span></div>
-                        <div class="contact-site"><img src="/public/img/3.svg" alt=""><a href="mailto:fo@salon-groom.ru">info@salon-groom.ru</a></div>
-                        <div class="contact-site"><img src="/public/img/4.svg" alt=""><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1</a></div>
+                        <div class="contact-site"><img src="/public/img/5.svg" alt="фото">пн-пт: 11:00 - 20:00 <span>сб-вс: 10:18</span></div>
+                        <div class="contact-site"><img src="/public/img/3.svg" alt="фото"><a href="mailto:fo@salon-groom.ru">info@salon-groom.ru</a></div>
+                        <div class="contact-site"><img src="/public/img/4.svg" alt="фото"><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1</a></div>
                     </div>
                 </div>
                 <div class="footer-title"><a href="https://salon-groom.ru/">salon-groom.ru</a> ©@php echo Date('Y'); @endphp Все права защищены</div>
@@ -1930,7 +1912,7 @@
         webvisor:true
     });
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/70137172" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/70137172" style="position:absolute; left:-9999px;" alt="фото" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 </body>
