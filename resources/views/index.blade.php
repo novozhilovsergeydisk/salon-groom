@@ -247,8 +247,7 @@
                                 <thead id="head-small-complex">
                                 <tr>
                                     <th class="width-80-persent">Мелкие породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
-                                                                                                       class="fa fa-arrow-circle-down fs-25"></i></th>
+                                    <th><span class="col-price hidden">Цена</span> <i class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
                                 <tbody id="tbody-small-complex" class="hidden">
@@ -319,8 +318,7 @@
                                 <thead id="head-middle-complex">
                                 <tr>
                                     <th class="width-80-persent">Средние породы</th>
-                                    <th><span id="col-price-2" class="col-price hidden">Цена</span> <i id="col-price-arrow-2" цена=""
-                                                                                                       class="fa fa-arrow-circle-down fs-25"></i></th>
+                                    <th><span id="col-price-2" class="col-price hidden">Цена</span> <i id="col-price-arrow-2" class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
 
@@ -551,7 +549,7 @@
                                 <thead id="head-small-hygiene">
                                 <tr>
                                     <th class="width-80-persent">Мелкие породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -620,7 +618,7 @@
                                 <thead id="head-middle-hygiene">
                                 <tr>
                                     <th class="width-80-persent">Средние породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -706,7 +704,7 @@
                                 <thead id="head-large-hygiene">
                                 <tr>
                                     <th class="width-80-persent">Крупные породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -807,7 +805,7 @@
                                 <thead id="head-mestizo-hygiene">
                                 <tr>
                                     <th class="width-80-persent">Метисы вес</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -854,7 +852,7 @@
                                 <thead id="head-small-washing">
                                 <tr>
                                     <th class="width-80-persent">Мелкие породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -920,7 +918,7 @@
                                 <thead id="head-middle-washing">
                                 <tr>
                                     <th class="width-80-persent">Средние породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1006,7 +1004,7 @@
                                 <thead id="head-large-washing">
                                 <tr>
                                     <th class="width-80-persent">Крупные породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1107,7 +1105,7 @@
                                 <thead id="head-mestizo-washing">
                                 <tr>
                                     <th class="width-80-persent">Метисы вес</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1154,7 +1152,7 @@
                                 <thead id="head-main-trimming">
                                 <tr>
                                     <th class="width-80-persent">Породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1204,7 +1202,7 @@
                                 <thead id="head-mestizo-trimming">
                                 <tr>
                                     <th class="width-80-persent">Вес</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1250,7 +1248,7 @@
                                 <thead id="head-small-express">
                                 <tr>
                                     <th class="width-80-persent">Мелкие породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1286,7 +1284,7 @@
                                 <thead id="head-middle-express">
                                 <tr>
                                     <th class="width-80-persent">Средние породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1338,11 +1336,11 @@
                                 </tbody>
                             </table>
                             <!-- Крупные Экспресс-линька -->
-                            <table id="express-molt" class="table table-dark-alt table-hover">
+                            <table id="express-molt-middle" class="table table-dark-alt table-hover">
                                 <thead id="head-large-express">
                                 <tr>
                                     <th class="width-80-persent">Крупные породы</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1430,7 +1428,7 @@
                                 <thead id="head-mestizo-express">
                                 <tr>
                                     <th class="width-80-persent">Вес</th>
-                                    <th><span class="col-price hidden">Цена</span> <i id="col-price-arrow-1"
+                                    <th><span class="col-price hidden">Цена</span> <i
                                                                                                        class="fa fa-arrow-circle-down fs-25"></i></th>
                                 </tr>
                                 </thead>
@@ -1673,37 +1671,38 @@
             </div>
         </div>
     </div>
-    <div class="section-recording"id="sec5">
+    <div class="section-recording" id="sec5">
         <div class="container">
             <form id="contactform" method="post" class="validateform" name="contactform">
                 {{ csrf_field() }}
 
-                <a name="top">
-                    <div class="recording">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="name" name="name" placeholder="Имя">
-                            </div>
-                            <div class="input-group">
-                                <input class="form-control" type="tel" id="phone" name="phone" pattern__="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">
-                            </div>
+                <a name="top"></a>
+
+                <div class="recording">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" type="text" id="name" name="name" placeholder="Имя">
                         </div>
-
-                        <div class="form-group">
-                            <div id="sendmessage" class="hidden green bold">
-                                Спасибо! Ваша заявка принята.<br /> Ожидайте звонок администратора.
-                            </div>
-
-                            <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
-                                Заполните пустые поля.
-                            </div>
-                        </div>
-
-                        <div class="time-section">
-                            <button type="submit" onclick__="ym(70137172,'reachGoal','nazhatie-na-knopku-zapis'); console.log('nazhatie-na-knopku-zapis'); return true;" class="btn-cats">Записаться</button>
+                        <div class="input-group">
+                            <input class="form-control" type="tel" id="phone" name="phone" required placeholder="Телефон">
                         </div>
                     </div>
-                </a>
+
+                    <div class="form-group">
+                        <div id="sendmessage" class="hidden green bold">
+                            Спасибо! Ваша заявка принята.<br /> Ожидайте звонок администратора.
+                        </div>
+
+                        <div id="senderror" style="color: red; font-weight: bold;" class="hidden">
+                            Заполните пустые поля.
+                        </div>
+                    </div>
+
+                    <div class="time-section">
+                        <button type="submit" class="btn-cats">Записаться</button>
+                    </div>
+                </div>
+
             </form>
         </div>
     </div>
