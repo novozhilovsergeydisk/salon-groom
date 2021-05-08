@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <section class="section-main section" id="sec1">
+    <div class="section-main section" id="sec1">
         <div class="container">
             <header class="header">
                 <div class="header-title">
@@ -67,8 +67,8 @@
                 </div>
             </header>
         </div>
-    </section>
-    <section class="section-our_work section" id="sec2">
+    </div>
+    <div class="section-our_work section" id="sec2">
         <div class="container">
             <div id="work">
                 <h1>Груминг салон №1 в Москве</h1>
@@ -157,8 +157,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-slic_slider" id="sec3">
+    </div>
+    <div class="section-slic_slider" id="sec3">
         <div class="container">
             <div id="master">
                 <div class="row">
@@ -224,8 +224,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-prics" id="sec4">
+    </div>
+    <div class="section-prics" id="sec4">
         <div id="price">
             <div class="container">
                 <div class="mobile-margin-top">
@@ -1672,8 +1672,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-recording"id="sec5">
+    </div>
+    <div class="section-recording"id="sec5">
         <div class="container">
             <form id="contactform" method="post" class="validateform" name="contactform">
                 {{ csrf_field() }}
@@ -1706,8 +1706,8 @@
                 </a>
             </form>
         </div>
-    </section>
-    <section class="section-review" id="sec8">
+    </div>
+    <div class="section-review" id="sec8">
         <div class="container">
             <div id="review">
                 <div class="title white">Груминг салон - отзывы</div>
@@ -1826,8 +1826,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-advantages" id="sec7">
+    </div>
+    <div class="section-advantages" id="sec7">
         <div class="container">
             <div class="title">Наши преимущества</div>
             <hr>
@@ -1858,8 +1858,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="about-us" id="sec6">
+    </div>
+    <div class="about-us" id="sec6">
         <div class="container">
             <div class="title">О нас</div>
             <hr>
@@ -1867,7 +1867,7 @@
                 <div>Это история о том, как три мастера открыли салон груминга. Каждая из наших мастеров (Карина, Светлана и Марина) долго шли к этой цели: начинали по разному, кто-то ездил и оказывал услуги на дому, кто-то работал в салоне. Это был непростой, но очень интересный и познавательный путь - становления в профессии. Мы абсолютно уверены в том, что человек с «холодным» сердцем не сможет работать в этой профессии. Животные его не примут. . Для нас это первый и удачный опыт. Мы очень рады своим постоянным клиентам, которые у нас появились за прошедший период работы, и мы очень рады нашим новым клиентам, которые впервые доверили нам своих любимцев. Мы будем стараться для Вас! Приходите в наш салон. Животные будут рады</div>
             </div>
         </div>
-    </section>
+    </div>
 
     <footer class="footer" id="sec9">
         <div class="container">
