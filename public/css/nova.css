@@ -11,17 +11,17 @@
 }
 
 .title {
-    font-family: "Avant";
-    font-size: 33px;
-    padding: 36px 0 10px;
-    color: #726f74;
-    margin-bottom: .5rem;
-    text-align: center;
-    font-weight: 500;
-    line-height: 1.2;
-    box-sizing: border-box;
+    font-family: "Avant" !important;
+    font-size: 33px !important;
+    padding: 36px 0 10px !important;
+    color: #726f74 !important;
+    margin-bottom: .5rem !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    box-sizing: border-box !important;
 }
 
 .white {
-    color: #fdfdfd;
+    color: #fdfdfd !important;
 }
