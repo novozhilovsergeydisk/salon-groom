@@ -27,7 +27,8 @@
                     <div>Груминг салон №1 для собак и кошек</div>
                 </div>
                 <div id="header-phone" class="header-phone">
-                    <a href="tel:+7(499)430-00-26">+7 (499) 430-00-26</a>
+                    <a href="tel:+7(499)430-00-26">+7 (499) 430-00-26</a><br />
+                    <span style="color: #726f74;">м. Новослободская</span>
                 </div>
                 <nav id="menu" class="menu-nav">
                     <ul class="header_list">
@@ -1875,7 +1876,7 @@
             <div id="contact">
                 <div class="footer-contacts">
                     <div class="contact">
-                        <div class="contact-site"><img src="/public/img/1.svg" alt="фото"> Москва, ул. Долгоруковская, 40</div>
+                        <div class="contact-site"><img src="/public/img/1.svg" alt="фото">Москва, м. Новослободская, ул. Долгоруковская, 40</div>
                         <div class="contact-site">
                             <div id="footer-phone" class="phone">
                                 <img src="/public/img/2.svg" alt="фото">
