@@ -1876,7 +1876,7 @@
             <div id="contact">
                 <div class="footer-contacts">
                     <div class="contact">
-                        <div class="contact-site"><img src="/public/img/1.svg" alt="фото">Москва, м. Новослободская, ул. Долгоруковская, 40</div>
+                        <div class="contact-site"><img src="/public/img/1.svg" alt="фото">м. Новослободская, ул. Долгоруковская, 40</div>
                         <div class="contact-site">
                             <div id="footer-phone" class="phone">
                                 <img src="/public/img/2.svg" alt="фото">
