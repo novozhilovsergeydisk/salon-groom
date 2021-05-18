@@ -1879,7 +1879,7 @@
                         <div class="contact-site">
                             <img src="/public/img/1.svg" alt="фото">
                             <img style="width: 20px !important;
-                            margin-bottom: -6px !important;" src="/public/img/moscow_metro_mini.png" alt="фото"> Новослободская, ул. Долгоруковская, 40
+                            margin-bottom: -6px !important;" src="/public/img/moscow_metro_mini.png" alt="фото"> Новослободская, Долгоруковская, 40
                         </div>
                         <div class="contact-site">
                             <div id="footer-phone" class="phone">
