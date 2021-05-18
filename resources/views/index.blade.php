@@ -1876,7 +1876,7 @@
             <div id="contact">
                 <div class="footer-contacts">
                     <div class="contact">
-                        <div class="contact-site"><img src="/public/img/1.svg" alt="фото">м. Новослободская, ул. Долгоруковская, 40</div>
+                        <div class="contact-site"><img src="/public/img/1.svg" alt="фото">м. Новослободская, Долгоруковская, 40</div>
                         <div class="contact-site">
                             <div id="footer-phone" class="phone">
                                 <img src="/public/img/2.svg" alt="фото">
@@ -1888,6 +1888,7 @@
                         <div class="contact-site"><img src="/public/img/4.svg" alt="фото"><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1</a></div>
                     </div>
                 </div>
+
                 <div class="footer-title"><a href="https://salon-groom.ru/">salon-groom.ru</a> ©@php echo Date('Y'); @endphp Все права защищены</div>
             </div>
         </div>
