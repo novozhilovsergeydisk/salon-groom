@@ -24,6 +24,7 @@ class ContactController extends Controller
             fwrite($fp, now() . '|' . $data['name'] . '|' . $data['phone'] . '|' . PHP_EOL);
             fclose($fp);
             $data['result'] = 'success';
+            $data['_token'] = csrf_token();
 
             return  $data;
         } catch (\Exception $e) {
