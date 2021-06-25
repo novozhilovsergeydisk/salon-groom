@@ -1901,12 +1901,12 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 
-{{--<script src="{{asset('public/js/common.js')}}"></script>--}}
+<script src="{{asset('public/js/common.js')}}"></script>
 
-<script src="{{asset('public/js/app.main.js')}}"></script>
-<script src="{{asset('public/js/custom.main.js')}}"></script>
-<script src="{{asset('public/js/vertical_dot_navigation.main.js')}}"></script>
-<script src="{{asset('public/js/script.main.js')}}"></script>
+{{--<script src="{{asset('public/js/app.main.js')}}"></script>--}}
+{{--<script src="{{asset('public/js/custom.main.js')}}"></script>--}}
+{{--<script src="{{asset('public/js/vertical_dot_navigation.main.js')}}"></script>--}}
+{{--<script src="{{asset('public/js/script.main.js')}}"></script>--}}
 
 <!-- Yandex.Metrika counter -->
 <script>
