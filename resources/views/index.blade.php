@@ -186,7 +186,7 @@
                                 <div class="title">Наши мастера</div>
                                 <hr>
                                 <div class="slider-title">
-                                    <img src="/public/img/marina2.jpg" alt="фото">
+                                    <img src="/public/img/tamila.jpg" alt="фото">
                                     <div class="doc">
                                         <div class="master-name">Марина</div>
                                         <div class="div-master">Марина обожает купать животных, они
