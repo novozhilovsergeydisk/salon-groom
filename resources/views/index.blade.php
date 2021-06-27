@@ -186,7 +186,7 @@
                                 <div class="title">Наши мастера</div>
                                 <hr>
                                 <div class="slider-title">
-                                    <img src="/public/img/tamila.jpg" alt="фото">
+                                    <img src="/public/img/tamila_305x372.jpg" alt="фото">
                                     <div class="doc">
                                         <div class="master-name">Тамила</div>
                                         <div class="div-master">Тамила обожает купать животных, они
