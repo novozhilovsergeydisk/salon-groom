@@ -1691,6 +1691,8 @@
         <div class="container">
             <div id="review">
                 <h2 class="title white">Груминг салон - отзывы</h2>
+
+
                 <hr>
                 <div class="slider-desktop">
                     <div class="row">
@@ -1806,6 +1808,14 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="row" style="text-align: center; margin: 0 auto;">
+                <div style="width:560px;height:800px;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/146753303774?comments"></iframe><a href="https://yandex.ru/maps/org/gruming_salon_1/146753303774/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0">Груминг салон № 1 на карте Москвы — Яндекс.Карты</a></div>
+
+            </div>
+        </div>
+
     </div>
     <div class="section-advantages" id="sec7">
         <div class="container">
