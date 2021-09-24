@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Груминг салон №1 в Москве, стрижка собак и кошек премиум класса, лучшие мастера в Европе, стрижка, груминг, экспресс-линька в центре Москвы, 8(499)430-00-26">
 
-    <title>Груминг салон в Москве №1 для собак и кошек</title>
+    <title>Груминг салон в Москве номер 1 для собак и кошек</title>
 
     <link rel="icon" href="{{asset('public/img/favicon.ico')}}">
 
@@ -24,7 +24,7 @@
                 </div>
                 <div class="header-logo">
                     <img src="/public/img/org/logo.png" alt="фото">
-                    <div>Груминг салон №1 для собак и кошек</div>
+                    <div>Груминг салон номер 1 для собак и кошек</div>
                 </div>
                 <div id="header-phone" class="header-phone">
                     <a href="tel:+7(499)430-00-26">+7 (499) 430-00-26</a><br />
@@ -72,7 +72,7 @@
     <div class="section-our_work section" id="sec2">
         <div class="container">
             <div id="work">
-                <h1>Груминг салон №1 в Москве</h1>
+                <h1>Наши работы</h1>
                 <hr>
                 <div class="slider-desktop">
                     <div class="row">
@@ -210,7 +210,7 @@
         <div id="price">
             <div class="container">
                 <div class="mobile-margin-top">
-                    <h2 class="title">Цены на груминг в Москве</h2>
+                    <h2 class="title">Прайс</h2>
                     <hr>
                     <div class="text-center main-font" style="margin: 20px">
                         <button id="btn-complex" class="tab-btn btn-tab-active">Комплекс: под машинку / модельная </button>
@@ -1690,7 +1690,7 @@
     <div class="section-review" id="sec8">
         <div class="container">
             <div id="review">
-                <h2 class="title white">Груминг салон - отзывы</h2>
+                <h2 class="title white">Отзывы посетителей</h2>
 
             </div>
         </div>
@@ -1716,11 +1716,11 @@
                 </div>
                 <div class="col">
                     <img src="/public/img/2.png" alt="фото">
-                    <blockquote>Конфортна зона отдыха для ожидания ваших питомцев</blockquote>
+                    <blockquote>Комфортная зона отдыха для ожидания ваших питомцев</blockquote>
                 </div>
                 <div class="col">
                     <img src="/public/img/3.png" alt="фото">
-                    <blockquote>И конечно, все процедуры выполняются без наркоза</blockquote>
+                    <blockquote>Все процедуры выполняются без наркоза</blockquote>
                 </div>
                 <div class="col">
                     <img src="/public/img/4.png" alt="фото">
@@ -1728,11 +1728,11 @@
                 </div>
                 <div class="col">
                     <img src="/public/img/5.png" alt="фото">
-                    <blockquote>Мы используем современные средства европейских брендов ухода ха шерстью</blockquote>
+                    <blockquote>Мы используем современные средства европейских брендов ухода за шерстью</blockquote>
                 </div>
                 <div class="col">
                     <img src="/public/img/6.png" alt="фото">
-                    <blockquote>Помощь в консультировании по вопросам правильного ухода за домашним животным</blockquote>
+                    <blockquote>Помощь в консультировании по вопросам правильного ухода за домашними животными</blockquote>
                 </div>
             </div>
         </div>
