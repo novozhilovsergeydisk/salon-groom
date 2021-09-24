@@ -1692,126 +1692,13 @@
             <div id="review">
                 <h2 class="title white">Груминг салон - отзывы</h2>
 
-
-                <hr>
-                <div class="slider-desktop">
-                    <div class="row">
-                        <div class="col">
-                            <div class="raiteng-img">
-                                <img src="/public/img/mention_1.png" alt="фото">
-                            </div>
-                            <div class="raiteng" data-total-value="0">
-                                <div class="raiteng_item" data-item-value="5">★</div>
-                                <div class="raiteng_item" data-item-value="4">★</div>
-                                <div class="raiteng_item" data-item-value="3">★</div>
-                                <div class="raiteng_item" data-item-value="2">★</div>
-                                <div class="raiteng_item" data-item-value="1">★</div>
-                            </div>
-                            <div class="section-review_title">
-                                <div>Привозили кошку на вычёсывание, мастер Карина бережно обращалась с животным процедуру провела на высшем уровне...</div>
-                            </div>
-                            <div class="review-author">Yana T.</div>
-                        </div>
-                        <div class="col">
-                            <div class="raiteng-img">
-                                <img src="/public/img/mention_2.png" alt="фото">
-                            </div>
-                            <div class="raiteng" data-total-value="0">
-                                <div class="raiteng_item" data-item-value="5">★</div>
-                                <div class="raiteng_item" data-item-value="4">★</div>
-                                <div class="raiteng_item" data-item-value="3">★</div>
-                                <div class="raiteng_item" data-item-value="2">★</div>
-                                <div class="raiteng_item" data-item-value="1">★</div>
-                            </div>
-                            <div class="section-review_title">Уютно.Видно, что недавно открылись.Салон просторный. Мне удобно, я живу прямо в этом доме, где открыли салон.
-                                Карина хороший мастер, внимательная</div>
-                            <div class="review-author">Сергей П.</div>
-                        </div>
-                        <div class="col">
-                            <div class="raiteng-img">
-                                <img src="/public/img/mention_3.png" alt="фото">
-                            </div>
-                            <div class="raiteng" data-total-value="0">
-                                <div class="raiteng_item" data-item-value="5">★</div>
-                                <div class="raiteng_item" data-item-value="4">★</div>
-                                <div class="raiteng_item" data-item-value="3">★</div>
-                                <div class="raiteng_item" data-item-value="2">★</div>
-                                <div class="raiteng_item" data-item-value="1">★</div>
-                            </div>
-                            <div class="section-review_title">Спасибо Карине!!!Подстригли в этом салоне 2-х собачек своих!
-                                Очень довольны. Хоть мы и сложный клиент, но дело сделанос большой
-                                любовью! Придем еще!
-                            </div>
-                            <div class="review-author">Анна К.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-mobail">
-                    <div class="row">
-                        <div class="slider">
-                            <div class="slider__item filter">
-                                <div class="col">
-                                    <div class="raiteng-img">
-                                        <img src="/public/img/mention_1.png" alt="фото">
-                                    </div>
-                                    <div class="raiteng" data-total-value="0">
-                                        <div class="raiteng_item" data-item-value="5">★</div>
-                                        <div class="raiteng_item" data-item-value="4">★</div>
-                                        <div class="raiteng_item" data-item-value="3">★</div>
-                                        <div class="raiteng_item" data-item-value="2">★</div>
-                                        <div class="raiteng_item" data-item-value="1">★</div>
-                                    </div>
-                                    <div class="section-review_title">
-                                        <div>Привозили кошку на вычёсывание, мастер Карина бережно обращалась с животным, процедуру провела на высшем уровне...</div>
-                                    </div>
-                                    <div class="review-author">Yana T.</div>
-                                </div>
-                            </div>
-                            <div class="slider__item filter">
-                                <div class="col">
-                                    <div class="raiteng-img">
-                                        <img src="/public/img/mention_2.png" alt="фото">
-                                    </div>
-                                    <div class="raiteng" data-total-value="0">
-                                        <div class="raiteng_item" data-item-value="5">★</div>
-                                        <div class="raiteng_item" data-item-value="4">★</div>
-                                        <div class="raiteng_item" data-item-value="3">★</div>
-                                        <div class="raiteng_item" data-item-value="2">★</div>
-                                        <div class="raiteng_item" data-item-value="1">★</div>
-                                    </div>
-                                    <div class="section-review_title">Уютно. Видно, что недавно открылись. Салон просторный. Мне удобно, я живу прямо в этом доме, где открыли салон.
-                                        Карина хороший мастер, внимательная.</div>
-                                    <div class="review-author">Сергей П.</div>
-                                </div>
-                            </div>
-                            <div class="slider__item filter">
-                                <div class="col">
-                                    <div class="raiteng-img">
-                                        <img src="/public/img/mention_3.png" alt="фото">
-                                    </div>
-                                    <div class="raiteng" data-total-value="0">
-                                        <div class="raiteng_item" data-item-value="5">★</div>
-                                        <div class="raiteng_item" data-item-value="4">★</div>
-                                        <div class="raiteng_item" data-item-value="3">★</div>
-                                        <div class="raiteng_item" data-item-value="2">★</div>
-                                        <div class="raiteng_item" data-item-value="1">★</div>
-                                    </div>
-                                    <div class="section-review_title">Спасибо Карине!!! Подстригли в этом салоне 2-х собачек своих!
-                                        Очень довольны. Хоть мы и сложный клиент, но дело сделано с большой
-                                        любовью! Придем еще!
-                                    </div>
-                                    <div class="review-author">Анна К.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="row" style="text-align: center; margin: 0 auto;">
-                <div style="width:560px;height:800px;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/146753303774?comments"></iframe><a href="https://yandex.ru/maps/org/gruming_salon_1/146753303774/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0">Груминг салон № 1 на карте Москвы — Яндекс.Карты</a></div>
+            <div style="padding-bottom: 20px;">
+                <div class="flex-row align-content-center" style=" width: 560px;height: 800px; overflow: hidden; position: relative; margin: 0 auto; padding-bottom__: 20px;">
+                    <iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/146753303774?comments"></iframe><a href="https://yandex.ru/maps/org/gruming_salon_1/146753303774/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0">Груминг салон № 1 на карте Москвы — Яндекс.Карты</a></div>
 
             </div>
         </div>
