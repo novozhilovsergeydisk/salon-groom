@@ -42,19 +42,19 @@
                 <div class="header-burger toggle-mnu">
                     <span></span>
                 </div>
-                <nav class="dot-vrt-nav">
-                    <ul>
-                        <li><a href="#sec1"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec2"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec3"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec4"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec5"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec6"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec7"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec8"><p class="ul-li-p">&nbsp;</p></a></li>
-                        <li><a href="#sec9"><p class="ul-li-p">&nbsp;</p></a></li>
-                    </ul>
-                </nav>
+{{--                <nav class="dot-vrt-nav">--}}
+{{--                    <ul>--}}
+{{--                        <li><a href="#sec1"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec2"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec3"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec4"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec5"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec6"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec7"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec8"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                        <li><a href="#sec9"><p class="ul-li-p">&nbsp;</p></a></li>--}}
+{{--                    </ul>--}}
+{{--                </nav>--}}
                 <div class="header-img">
                     <div class="section-img">
                         <img src="/public/img/org/dogs.png" alt="section-img">
