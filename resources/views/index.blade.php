@@ -1767,7 +1767,7 @@
                         </div>
                         <div class="contact-site"><img src="/public/img/5.svg" alt="фото">пн-пт: 11:00 - 20:00 <span>сб-вс: 10:18</span></div>
                         <div class="contact-site"><img src="/public/img/3.svg" alt="фото"><a href="mailto:fo@salon-groom.ru">info@salon-groom.ru</a></div>
-                        <div class="contact-site"><img src="/public/img/4.svg" alt="фото"><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1 в Instagram</a></div>
+                        <div class="contact-site"><img src="/public/img/4.svg" alt="фото"><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1 Instagram</a></div>
                     </div>
                 </div>
                 <div class="footer-title"><a href="https://salon-groom.ru/">salon-groom.ru</a> ©@php echo Date('Y'); @endphp Все права защищены</div>
