@@ -88,20 +88,20 @@
                                 <img src="/public/img/4.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <div class="slider_title">
-                                    <div>Все работы смотрите в нашем</div>
-                                    <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
-                                </div>
+{{--                                <div class="slider_title">--}}
+{{--                                    <div>Все работы смотрите в нашем</div>--}}
+{{--                                    <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>--}}
+{{--                                </div>--}}
                                 <img src="/public/img/5.jpg" alt="фото">
                                 <img src="/public/img/6.jpg" alt="фото">
                                 <img src="/public/img/7.jpg" alt="фото">
                                 <img src="/public/img/8.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-                                <div class="slider_title">
-                                    <div>Все работы смотрите в нашем</div>
-                                    <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>
-                                </div>
+{{--                                <div class="slider_title">--}}
+{{--                                    <div>Все работы смотрите в нашем</div>--}}
+{{--                                    <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>--}}
+{{--                                </div>--}}
                                 <img src="/public/img/9.jpg" alt="фото">
                                 <img src="/public/img/10.jpg" alt="фото">
                                 <img src="/public/img/11.jpg" alt="фото">
