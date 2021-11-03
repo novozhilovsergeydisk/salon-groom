@@ -1,3 +1,73 @@
+// Фунции общего применения
+
+const log = (log) => {
+    console.log({ log });
+}
+const hide = (el) => {
+    el.classList.add('hidden');
+}
+const show = (el) => {
+    el.classList.remove('hidden');
+}
+const setCookie = (name, value) => {
+    document.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value)
+    let cookie = document.cookie
+    console.log('cookie = ', cookie)
+}
+const getCookie = (name) => {
+    // Возвращает cookie с указанным name или undefined, если ничего не найдено!
+
+    let matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+const getCookieByName = getCookie;
+const deleteCookie = (name) => {
+    setCookie(name, '', {
+        'max-age': -1
+    })
+}
+const deleteCookieByName = deleteCookie;
+const isEmpty = (data) => {
+    switch (data) {
+        case typeof(data) === "undefined":
+        case "":
+        case 0:
+        case "0":
+        case null:
+        case false:
+        case Array.isArray(data) && data.length === 0:
+        case typeof data === 'object' && Object.keys(data).length === 0:
+            return true;
+        default:
+            return false;
+    }
+}
+const Validate = {
+    required: () => {
+
+    },
+    max: () => {
+
+    },
+    min: () => {
+
+    },
+    maxLength: (string, length) => {
+        return string.length > length;
+    },
+    minLength: () => {
+
+    },
+    cmatch: (pattern) => {
+
+    }
+}
+
+// END Фунции общего применения
+
 let btn_complex = document.getElementById('btn-complex');
 let complex = document.getElementById('complex');
 btn_complex.addEventListener('click', function() {
@@ -350,189 +420,6 @@ let magicActions = function(el) {
     }
 }
 
-// Mobile
-// Complex small
-// let complex_mobile_arrow_up = document.getElementById('complex-mobile-arrow-up');
-// let complex_mobile_arrow_down = document.getElementById('complex-mobile-arrow-down');
-
-// let complex_mobile_plus_up = document.getElementById('complex-mobile-plus-up');
-// let complex_mobile_plus_down = document.getElementById('complex-mobile-plus-down');
-
-// let complex_mobile_small = document.getElementById('complex-mobile-small');
-// complex_mobile_small.addEventListener('click', function() {
-//     if (complex_mobile_small.classList.contains('collapsed')) {
-//         complex_mobile_arrow_up.classList.add('hide');
-//         complex_mobile_arrow_down.classList.remove('hide');
-
-//         complex_mobile_plus_up.classList.add('hide');
-//         complex_mobile_plus_down.classList.remove('hide');
-
-//         console.log('collapsed');
-//     } else {
-//         complex_mobile_arrow_up.classList.remove('hide');
-//         complex_mobile_arrow_down.classList.add('hide');
-
-//         complex_mobile_plus_up.classList.remove('hide');
-//         complex_mobile_plus_down.classList.add('hide');
-
-//         console.log('NO collapsed');
-//     }
-
-//     console.log('complex_mobile_small.addEventListener');
-// });
-
-// Complex middle
-// let complex_middle_arrow_up = document.getElementById('complex-middle-arrow-up');
-// let complex_middle_arrow_down = document.getElementById('complex-middle-arrow-down');
-
-// let complex_middle_plus_up = document.getElementById('complex-middle-plus-up');
-// let complex_middle_plus_down = document.getElementById('complex-middle-plus-down');
-
-// let complex_mobile_middle = document.getElementById('complex-mobile-middle');
-// complex_mobile_middle.addEventListener('click', function() {
-//     if (complex_mobile_middle.classList.contains('collapsed')) {
-//         complex_middle_arrow_up.classList.add('hide');
-//         complex_middle_arrow_down.classList.remove('hide');
-
-//         complex_middle_plus_up.classList.add('hide');
-//         complex_middle_plus_down.classList.remove('hide');
-
-//         console.log('collapsed middle');
-//     } else {
-//         complex_middle_arrow_up.classList.remove('hide');
-//         complex_middle_arrow_down.classList.add('hide');
-
-//         complex_middle_plus_up.classList.remove('hide');
-//         complex_middle_plus_down.classList.add('hide');
-
-//         console.log('NO collapsed middle');
-//     }
-// });
-
-// Complex large
-// let complex_large_arrow_up = document.getElementById('complex-large-arrow-up');
-// let complex_large_arrow_down = document.getElementById('complex-large-arrow-down');
-
-// let complex_large_plus_up = document.getElementById('complex-large-plus-up');
-// let complex_large_plus_down = document.getElementById('complex-large-plus-down');
-
-// let complex_mobile_large = document.getElementById('complex-mobile-large');
-// complex_mobile_large.addEventListener('click', function() {
-//     if (complex_mobile_large.classList.contains('collapsed')) {
-//         complex_large_arrow_up.classList.add('hide');
-//         complex_large_arrow_down.classList.remove('hide');
-
-//         complex_large_plus_up.classList.add('hide');
-//         complex_large_plus_down.classList.remove('hide');
-
-//         console.log('collapsed large');
-//     } else {
-//         complex_large_arrow_up.classList.remove('hide');
-//         complex_large_arrow_down.classList.add('hide');
-
-//         complex_large_plus_up.classList.remove('hide');
-//         complex_large_plus_down.classList.add('hide');
-
-//         console.log('NO collapsed large');
-//     }
-// });
-
-// Complex mestizo
-// let complex_mestizo_arrow_up = document.getElementById('complex-mestizo-arrow-up');
-// let complex_mestizo_arrow_down = document.getElementById('complex-mestizo-arrow-down');
-
-// let complex_mestizo_plus_up = document.getElementById('complex-mestizo-plus-up');
-// let complex_mestizo_plus_down = document.getElementById('complex-mestizo-plus-down');
-
-// let complex_mobile_mestizo = document.getElementById('complex-mobile-mestizo');
-// complex_mobile_mestizo.addEventListener('click', function() {
-//     if (complex_mobile_mestizo.classList.contains('collapsed')) {
-//         complex_mestizo_arrow_up.classList.add('hide');
-//         complex_mestizo_arrow_down.classList.remove('hide');
-
-//         complex_mestizo_plus_up.classList.add('hide');
-//         complex_mestizo_plus_down.classList.remove('hide');
-
-//         console.log('collapsed mestizo');
-//     } else {
-//         complex_mestizo_arrow_up.classList.remove('hide');
-//         complex_mestizo_arrow_down.classList.add('hide');
-
-//         complex_mestizo_plus_up.classList.remove('hide');
-//         complex_mestizo_plus_down.classList.add('hide');
-
-//         console.log('NO collapsed mestizo');
-//     }
-// });
-
-
-
-
-
-
-
-
-
-// let btn_complex_mobile = document.getElementById('btn-complex-mobile');
-// let complex_mobile = document.getElementById('complex-mobile');
-// btn_complex_mobile.addEventListener('click', function() {
-//     hideClassTabs();
-//     btn_complex_mobile.classList.add('btn-tab-active');
-//     show(complex_mobile);
-// });
-
-// let btn_hygiene_mobile = document.getElementById('btn-hygiene-mobile');
-// let hygiene_mobile = document.getElementById('hygiene-mobile');
-// btn_hygiene_mobile.addEventListener('click', function() {
-//     hideClassTabs();
-//     btn_hygiene_mobile.classList.add('btn-tab-active');
-//     show(hygiene_mobile);
-// });
-//
-// let btn_washing_drying_mobile = document.getElementById('btn-washing-drying-mobile');
-// let washing_drying_mobile = document.getElementById('washing-drying-mobile');
-// btn_washing_drying_mobile.addEventListener('click', function() {
-//     hideClassTabs();
-//     btn_washing_drying_mobile.classList.add('btn-tab-active');
-//     show(washing_drying_mobile);
-// });
-//
-// let btn_trimming_mobile = document.getElementById('btn-trimming-mobile');
-// let trimming_mobile = document.getElementById('trimming-mobile');
-// btn_trimming_mobile.addEventListener('click', function() {
-//     hideClassTabs();
-//     btn_trimming_mobile.classList.add('btn-tab-active');
-//     show(trimming_mobile);
-// });
-//
-// let btn_express_molt_mobile = document.getElementById('btn-express-molt-mobile');
-// let express_molt_mobile = document.getElementById('express-molt-mobile');
-// btn_express_molt_mobile.addEventListener('click', function() {
-//     hideClassTabs();
-//     btn_express_molt_mobile.classList.add('btn-tab-active');
-//     show(express_molt_mobile);
-// });
-//
-// let btn_cats_mobile = document.getElementById('btn-cats-mobile');
-// let cats_mobile = document.getElementById('cats-mobile');
-// btn_cats_mobile.addEventListener('click', function() {
-//     hideClassTabs();
-//     btn_cats_mobile.classList.add('btn-tab-active');
-//     show(cats_mobile);
-// });
-//
-// let btn_additional_services_mobile = document.getElementById('btn-additional-services-mobile');
-// let additional_services_mobile = document.getElementById('additional-services-mobile');
-// btn_additional_services_mobile.addEventListener('click', function() {
-//     hideClassTabs();
-//     btn_additional_services_mobile.classList.add('btn-tab-active');
-//     show(additional_services_mobile);
-// });
-
-function log(data) {
-    console.log(data);
-}
-
 function hideClassTabs() {
     let tab_btn = document.getElementsByClassName('tab-btn');
     let tabs_price = document.getElementsByClassName('tabs-price');
@@ -546,15 +433,7 @@ function hideClassTabs() {
     }
 }
 
-function hide(el) {
-    el.classList.add('hidden');
-}
-
-function show(el) {
-    el.classList.remove('hidden');
-}
-
-const codeTarget = (code, target) => {
+function codeTarget(code, target) {
     ym(code,'reachGoal',target)
     log('codeTarget()')
 }
@@ -562,97 +441,36 @@ const codeTarget = (code, target) => {
 // ym(70137172,'reachGoal','nazhatie-na-knopku-zapis')
 // ym(70137172,'reachGoal','nazhatie-na-telefon')
 
-const setCookie = (name, value) => {
-    document.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value)
-    let cookie = document.cookie
-    console.log('cookie = ', cookie)
-}
+$(document).ready(function () {
+    // Event click
+    $("#header-phone").click(function () {
+        if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
+            let date = new Date(Date.now() + 86400e3);
+            document.cookie = "user_statistic=click_on_phone; expires=" + date;
+            // document.cookie = "user_statistic=click_on_phone; max-age=10";
 
-// возвращает куки с указанным name,
-// или undefined, если ничего не найдено
-function getCookie(name) {
-    let matches = document.cookie.match(new RegExp(
-        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-    ));
+            codeTarget(70137172, 'nazhatie-na-telefon');
 
-    return matches ? decodeURIComponent(matches[1]) : undefined;
-}
-
-function deleteCookie(name) {
-    setCookie(name, '', {
-        'max-age': -1
-    })
-}
-
-$(document).ready(function ($) {
-    var parPosition = [];
-    $('section').each(function () {
-        parPosition.push($(this).offset().top);
-    });
-
-    $('nav.dot-vrt-nav a').click(function () {
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
-        return false;
-    });
-
-    $('nav.dot-vrt-nav  li').click(function () {
-        $('nav.dot-vrt-nav  li').removeClass('active');
-        $(this).addClass('active');
-    });
-
-    $(document).scroll(function () { activateDot(); });
-
-    $('nav.dot-vrt-nav  li').click(function () {
-        $('nav.dot-vrt-nav  li').removeClass('active');
-        $(this).addClass('active');
-    });
-
-    activateDot();
-
-    function activateDot() {
-        var position = $(document).scrollTop(),
-            index;
-        for (var i = parPosition.length - 1; i >= 0; i--) {
-
-            if (position >= parPosition[i]) {
-                index = i;
-                break;
-            }
+            console.log('click header-phone');
         }
-        
-        $('nav.dot-vrt-nav  li').removeClass('active');
-        $('nav.dot-vrt-nav  li:eq(' + index + ')').addClass('active');
-    };
-});
-// import cookielib from 'cookielib';
 
-$(document).ready(function () {
-    $('.header-burger').click(function (event) {
-        $('.header-burger, .menu-nav').toggleClass('active');
-        $('body').toggleClass('lock');
+        // log(document.cookie);
+        log(getCookie('user_statistic'));
     });
+    $("#footer-phone").click(function () {
+        if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
+            let date = new Date(Date.now() + 86400e3);
+            document.cookie = "user_statistic=click_on_phone; expires=" + date;
+            // document.cookie = "user_statistic=click_on_phone; max-age=10";
 
-    $("#menu").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top,
-            burger = $('.header-burger'),
-            menuNav = $('.menu-nav');
+            codeTarget(70137172, 'nazhatie-na-telefon');
 
-            if(burger.attr('class').includes('active')){
-                $('body').removeClass('lock');
-                burger.removeClass('active');
-                menuNav.removeClass('active');
-            }
+            console.log('click footer-phone');
+        }
 
-        $('body,html').animate({scrollTop: top}, 1500);
+        // log(document.cookie);
+        log(getCookie('user_statistic'));
     });
-});
-
-
-$(document).ready(function () {
     $('.slider').slick({
         arrows: false,
         dots: true,
@@ -660,18 +478,85 @@ $(document).ready(function () {
         autoplay: false,
         speed: 1000,
     });
-
     $("#menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
     });
+    $('.header-burger').click(function (event) {
+        $('.header-burger, .menu-nav').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top,
+            burger = $('.header-burger'),
+            menuNav = $('.menu-nav');
 
+        if(burger.attr('class').includes('active')){
+            $('body').removeClass('lock');
+            burger.removeClass('active');
+            menuNav.removeClass('active');
+        }
+
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+
+    // Event submit
     $('#contactform').on('submit', function (e) {
         e.preventDefault();
 
-        console.log('ajax contactform');
+        const _token = document.getElementById('_token');
+        const name = document.getElementById('name');
+        const phone = document.getElementById('phone');
+
+        const senderror = document.getElementById('senderror');
+        const sendmessage = document.getElementById('sendmessage');
+
+        const form = document.querySelector('#contactform');
+        const formEntries = new FormData(form).entries(); // Получаем введеные данные из формы
+
+        const json = Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y}))); // Преобразуем массив в объект ключ->значение
+
+        // console.log({ 'Array.from(formEntries': Array.from(formEntries) });
+        // console.log({ 'formEntries': formEntries });
+        // console.log({ 'json': json });
+        // const xxxArray = [1, 'test', { 'foo': 'bar' }];
+        // const xxxObj = Object.assign(...xxxArray); // Преобразуем массив в объект ключ->значение
+        // console.log({ xxxArray, xxxObj });
+
+        if (isEmpty(json.name) || isEmpty(json.phone)) {
+            senderror.innerText = 'Поля Имя и Телефон обязательны к заполнению.';
+            show(senderror);
+            hide(sendmessage);
+
+            // $('#senderror').show();
+            // $('#sendmessage').hide();
+            // console.log('Поля Имя и Телефон обязательны к заполнению!');
+            return false;
+        }
+
+        if (Validate.maxLength(json.name, 11)) {
+            senderror.innerText = 'Имя должно содержать не более 11 символов.';
+            show(senderror);
+            hide(sendmessage);
+
+            console.log({ 'json.name.length': json.name.length });
+            return false;
+        }
+
+        if (Validate.maxLength(json.phone, 18)) {
+            senderror.innerText = 'Телефон должен содержать не более 18 символов.';
+            show(senderror);
+            hide(sendmessage);
+
+            console.log({ 'json.phone.length': json.phone.length });
+            return false;
+        }
+
+        console.log('Сообщение отправлено!')
 
         $.ajax({
             type: 'POST',
@@ -701,43 +586,6 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    // deleteCookie('user_statistic');
-
-    $("#header-phone").click(function () {
-        // log(document.cookie);
-
-        if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
-            let date = new Date(Date.now() + 86400e3);
-            document.cookie = "user_statistic=click_on_phone; expires=" + date;
-            // document.cookie = "user_statistic=click_on_phone; max-age=10";
-
-            codeTarget(70137172, 'nazhatie-na-telefon');
-
-            console.log('click header-phone');
-        }
-
-        // log(document.cookie);
-    });
-
-    $("#footer-phone").click(function () {
-        // log(document.cookie);
-
-        if (getCookie('user_statistic') == undefined || getCookie('user_statistic') == '') {
-            let date = new Date(Date.now() + 86400e3);
-            document.cookie = "user_statistic=click_on_phone; expires=" + date;
-            // document.cookie = "user_statistic=click_on_phone; max-age=10";
-
-            codeTarget(70137172, 'nazhatie-na-telefon');
-
-            console.log('click footer-phone');
-        }
-
-        // log(document.cookie);
-    });
-
-});
-
 const raitengItemsList = document.querySelectorAll('.raiteng_item');
 const raitengItemsArray = Array.prototype.slice.call(raitengItemsList);
 
@@ -747,4 +595,64 @@ raitengItemsArray.forEach(item =>
         item.parentNode.dataset.totalValue = itemValue;
     })
 );
+
+// Examples
+// 1 Array.prototype.filter()
+const studentsAge = [17, 16, 18, 19, 21, 17];
+const ableToDrink = studentsAge.filter( age => age > 18 );
+// Массив ableToDrink будет содержать два значения: [19, 21]
+
+console.log({ 'studentsAge': studentsAge });
+console.log({ 'ableToDrink': ableToDrink });
+
+// 2 Array.prototype.map()
+let numbers = [2, 3, 4, 5];
+const dollars = numbers.map( number => '$' + number);
+// Вот как будет выглядеть массив dollars: ['$2', '$3', '$4', '$5']
+
+console.log({ 'numbers Array.prototype.map()': numbers });
+console.log({ 'dollars': dollars });
+
+// 3 Array.prototype.reduce()
+/*
+Метод Array.prototype.reduce() нередко незаслуженно обходят вниманием. Он позволяет свести массив к единственному значению, накапливаемому в элементе-приёмнике. Значение, возвращаемое этим методом, может быть любого типа. Например, это может быть объект, массив, строка или число.
+ */
+numbers = [5, 10, 15];
+const total = numbers.reduce( (accumulator, currentValue) => accumulator + currentValue);
+// в константу total будет записано число 30
+
+console.log({ 'numbers Array.prototype.reduce()': numbers });
+console.log({ 'total': total });
+
+// 4 Array.prototype.some()
+/*
+Метод Array.prototype.some() проверяет, соответствует ли хотя бы один элемент массива условию, задаваемому передаваемой ему функцией. Этот метод, например, способен хорошо показать себя в решении задачи проверки полномочий пользователя. Его можно рассматривать в качестве аналога ранее рассмотренного .forEach(), с той разницей, что, при его применении, с помощью функции, которая ему передана, можно выполнять над элементами массива некие действия до тех пор, пока эта функция не вернёт истинное значение, после чего — прервать обработку.
+ */
+const userPrivileges = ['user', 'user', 'user', 'admin'];
+const containsAdmin = userPrivileges.some( element => element === 'admin');
+// в containsAdmin будет записано true
+
+console.log({ 'userPrivileges': userPrivileges });
+console.log({ 'containsAdmin': containsAdmin });
+
+// 5 Array.prototype.forEach()
+const emotions = ['happy', 'sad', 'angry'];
+emotions.forEach( emotion => console.log(emotion) );
+// Выведено будет следующее:
+// 'happy'
+// 'sad'
+// 'angry'
+
+// 6 Array.prototype.every()
+/*
+Метод Array.prototype.every() похож на вышеописанный метод .some(), но он возвращает true только в том случае, если все элементы массива соответствуют условию, задаваемому передаваемой этому методу функцией.
+ */
+const ratings = [3, 5, 4, 3, 5];
+const goodOverallRating = ratings.every( rating => rating >= 3 );
+//goodOverallRating будет равно true
+
+console.log({ 'ratings': ratings });
+console.log({ 'goodOverallRating': goodOverallRating });
+
+// END Examples
 

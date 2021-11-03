@@ -61,19 +61,6 @@
                 <div class="header-burger toggle-mnu">
                     <span></span>
                 </div>
-{{--                <nav class="dot-vrt-nav">--}}
-{{--                    <ul>--}}
-{{--                        <li><a href="#sec1"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec2"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec3"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec4"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec5"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec6"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec7"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec8"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                        <li><a href="#sec9"><p class="ul-li-p">&nbsp;</p></a></li>--}}
-{{--                    </ul>--}}
-{{--                </nav>--}}
                 <div class="header-img">
                     <div class="section-img">
                         <img src="/public/img/org/dogs.png" alt="section-img">
@@ -97,30 +84,18 @@
                     <div class="row">
                         <div class="slider">
                             <div class="slider__item filter">
-{{--                                <div class="slider_title">--}}
-{{--                                    <div>Все работы смотрите в нашем</div>--}}
-{{--                                    <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>--}}
-{{--                                </div>--}}
                                 <img src="/public/img/1.jpg" alt="фото">
                                 <img src="/public/img/2.jpg" alt="фото">
                                 <img src="/public/img/3.jpg" alt="фото">
                                 <img src="/public/img/4.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-{{--                                <div class="slider_title">--}}
-{{--                                    <div>Все работы смотрите в нашем</div>--}}
-{{--                                    <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>--}}
-{{--                                </div>--}}
                                 <img src="/public/img/5.jpg" alt="фото">
                                 <img src="/public/img/6.jpg" alt="фото">
                                 <img src="/public/img/7.jpg" alt="фото">
                                 <img src="/public/img/8.jpg" alt="фото">
                             </div>
                             <div class="slider__item filter">
-{{--                                <div class="slider_title">--}}
-{{--                                    <div>Все работы смотрите в нашем</div>--}}
-{{--                                    <div><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">Instagram</a></div>--}}
-{{--                                </div>--}}
                                 <img src="/public/img/9.jpg" alt="фото">
                                 <img src="/public/img/10.jpg" alt="фото">
                                 <img src="/public/img/11.jpg" alt="фото">
@@ -1684,7 +1659,7 @@
                             <input class="form-control" type="text" id="name" name="name" placeholder="Имя">
                         </div>
                         <div class="input-group">
-                            <input class="form-control" type="tel" id="phone" name="phone" required placeholder="Телефон">
+                            <input class="form-control" type="tel" id="phone" name="phone" placeholder="Телефон">
                         </div>
                     </div>
 
