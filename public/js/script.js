@@ -52,6 +52,7 @@ $(document).ready(function () {
             success: function (data) {
                 if (data.result == 'success') {
                     codeTarget(70137172, 'nazhatie-na-knopku-zapis');
+                    googleConvertionTarget();
 
                     console.log('data.result = ', data.result);
 

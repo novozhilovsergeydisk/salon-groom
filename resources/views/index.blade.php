@@ -1795,5 +1795,14 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
 <noscript><div><img src="https://mc.yandex.ru/watch/70137172" style="position:absolute; left:-9999px;" alt="фото" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+<!-- Global site tag (gtag.js) - Google Ads: 342943335 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-342943335"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-342943335');
+</script>
 </body>
 </html>

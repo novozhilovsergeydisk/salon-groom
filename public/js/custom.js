@@ -559,6 +559,10 @@ const codeTarget = (code, target) => {
     log('codeTarget()')
 }
 
+const googleConvertionTarget = () => {
+    gtag('event', 'conversion', {'send_to': 'AW-342943335/_KP6CIeAn4EDEOfMw6MB'});
+}
+
 // ym(70137172,'reachGoal','nazhatie-na-knopku-zapis')
 // ym(70137172,'reachGoal','nazhatie-na-telefon')
 
