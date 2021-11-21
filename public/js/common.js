@@ -438,6 +438,10 @@ function codeTarget(code, target) {
     log('codeTarget()')
 }
 
+const googleConvertionTarget = () => {
+    gtag('event', 'conversion', {'send_to': 'AW-342943335/_KP6CIeAn4EDEOfMw6MB'});
+}
+
 // ym(70137172,'reachGoal','nazhatie-na-knopku-zapis')
 // ym(70137172,'reachGoal','nazhatie-na-telefon')
 
@@ -565,6 +569,7 @@ $(document).ready(function () {
             success: function (data) {
                 if (data.result == 'success') {
                     codeTarget(70137172, 'nazhatie-na-knopku-zapis');
+                    googleConvertionTarget();
 
                     console.log('data.result = ', data.result);
 
