@@ -36,28 +36,32 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
 <div class="wrapper">
     <div class="section-main section" id="sec1">
         <div class="container">
-            <nav id="menu" class="menu-nav">
-                <ul class="header_list">
-                    <li><a href="#work" class="header_li">Наши работы</a></li>
-                    <li><a href="#master" class="header_li">Наши мастера</a></li>
-                    <li><a href="#price" class="header_li">Прайс</a></li>
-                    <li><a href="#review" class="header_li">Отзывы</a></li>
-                    <li><a href="#contact" class="header_li">Контакты</a></li>
-                </ul>
-            </nav>
-
             <header class="header">
 {{--                <div class="header-title">--}}
 {{--                    <div>парковка бесплатная</div>--}}
 {{--                </div>--}}
-                <div class="header-logo">
-                    <img src="/public/img/org/logo.png" alt="фото">
-{{--                    <div>Груминг салон номер 1 для собак и кошек</div>--}}
+
+                <div class="header-logo-phone red__">
+                    <div class="header-logo__ red__" style="height: 90px; margin-top: 20px;">
+                        <img class="" src="/public/img/org/logo.png" alt="фото" style="height: 90px">
+                        {{--                    <div>Груминг салон номер 1 для собак и кошек</div>--}}
+                    </div>
+
+                    <div id="header-phone" class="header-phone red__">
+                        <a href="tel:+7(499)430-00-26" style="padding-left: 10px;">+7 (499) 430-00-26</a><br />
+                        <span style="color: #726f74; padding-left: 10px;">м. Новослободская</span>
+                    </div>
                 </div>
-                <div id="header-phone" class="header-phone">
-                    <a href="tel:+7(499)430-00-26">+7 (499) 430-00-26</a><br />
-                    <span style="color: #726f74;">м. Новослободская</span>
-                </div>
+
+                <nav id="menu" class="menu-nav">
+                    <ul class="header_list">
+                        <li><a href="#work" class="header_li">Наши работы</a></li>
+                        <li><a href="#master" class="header_li">Наши мастера</a></li>
+                        <li><a href="#price" class="header_li">Прайс</a></li>
+                        <li><a href="#review" class="header_li">Отзывы</a></li>
+                        <li><a href="#contact" class="header_li">Контакты</a></li>
+                    </ul>
+                </nav>
 
                 <div class="header-burger toggle-mnu">
                     <span></span>
@@ -71,6 +75,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                         <div>МЫ СТРИЖЕМ ВАШИХ ПИТОМЦЕВ С ЛЮБОВЬЮ <i class="fas fa-heart"></i></div>
                     </div>
                 </div>
+
                 <div class="btn-section">
                     <a class="btn" href="#top">Записаться</a>
                 </div>
