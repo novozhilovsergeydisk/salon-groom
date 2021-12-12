@@ -227,63 +227,63 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-small-complex" class="hidden">
                                 <tr>
                                     <td>Бишон-фризе</td>
-                                    <td><strong>2700 / 3200 ₽</strong></td>
+                                    <td><strong>3300 / 3800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Йоркширский терьер, бивер-йорк</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>3000 / 3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Китайская хохлатая голая</td>
-                                    <td><strong>1800 / 2000 ₽</strong></td>
+                                    <td><strong>2000 / 2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Китайская хохлатая пуховка</td>
-                                    <td><strong>2000 / 2500 ₽</strong></td>
+                                    <td><strong>2500 / 2900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мальтийская болонка</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>3000 / 3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мопс</td>
-                                    <td><strong>2200 / * ₽</strong></td>
+                                    <td><strong>2900 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Папильон</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>3000 / 3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Пекинес</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>3000 / 3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Той-пудель</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>3000 / 3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Той-терьер (гладкош./длиннош.)</td>
-                                    <td><strong>1500 / 1800 ₽</strong></td>
+                                    <td><strong>2000 / 2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергпинчер</td>
-                                    <td><strong>1800 / * ₽</strong></td>
+                                    <td><strong>2400 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Чихуахуа (гладкош./длиннош.)</td>
-                                    <td><strong>1800 / 2100 ₽</strong></td>
+                                    <td><strong>2300 / 2600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ши-тцу</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>3000 / 3500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Шпиц (карликовый /малый, до 5кг)</td>
-                                    <td><strong>2500 / 3000 ₽</strong></td>
+                                    <td><strong> * / 3800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Японский хин</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>2800 / 3200 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -299,27 +299,27 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-middle-complex" class="hidden">
                                 <tr>
                                     <td>Американский / английский кокер-спаниель</td>
-                                    <td><strong>2800 / 3200 ₽</strong></td>
+                                    <td><strong>3500 / 4200 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Английский бульдог</td>
-                                    <td><strong>2800 / * ₽</strong></td>
+                                    <td><strong>3500 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бассенджи</td>
-                                    <td><strong>2200 / * ₽</strong></td>
+                                    <td><strong>2800 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бигль</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бордер-колли</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><strong>3500 / 3800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вельш-корги</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><strong> * / 3600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вэст-хайленд-уайт терьер</td>
@@ -327,47 +327,47 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Джек-рассел терьер</td>
-                                    <td><strong>2800 / * ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Ирландский терьер</td>
                                     <td><strong>3000 / * ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>Ирландский терьер</td>
+                                    <td><strong>3600 / * ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>Миттельшнауцер</td>
-                                    <td><strong>3200 / 3500 ₽</strong></td>
+                                    <td><strong>3700 / 4200 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Пудель (малый, до 15 кг)</td>
-                                    <td><strong>2800 / 3200 ₽</strong></td>
+                                    <td><strong>3300 / 3800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Сиба-ину</td>
-                                    <td><strong>2800 / * ₽</strong></td>
+                                    <td><strong>3800 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Скотч-терьер</td>
-                                    <td><strong>2800 / 3200 ₽</strong></td>
+                                    <td><strong>3500 / 4000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Такса (гладкош., длиннош., жесткош.)</td>
-                                    <td><strong>2800 / 3000 ₽</strong></td>
+                                    <td><strong>3000 / 3500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Фокс-терьер</td>
-                                    <td><strong> 2800 / 3000 ₽</strong></td>
+                                    <td><strong> 3300 / 3600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Французский бульдог</td>
-                                    <td><strong>2700 / * ₽</strong></td>
+                                    <td><strong>2900 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергшнауцер</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><strong>3300 / 3600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Шелти</td>
-                                    <td><strong>2800 / 3000 ₽</strong></td>
+                                    <td><strong>3300 / 3600 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -383,19 +383,19 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-large-complex" class="hidden">
                                 <tr>
                                     <td>Акита-ину</td>
-                                    <td><strong>5300 / 5800 ₽</strong></td>
+                                    <td><strong> * / 6000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Английский сеттер</td>
-                                    <td><strong>4500 / 4800 ₽</strong></td>
+                                    <td><strong>4900 / 5300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Афганская борзая</td>
-                                    <td><strong>4800 / 5200 ₽</strong></td>
+                                    <td><strong>5300 / 5800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бладхаунд</td>
-                                    <td><strong>4200 / * ₽</strong></td>
+                                    <td><strong>4900 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бернский зенненхунд</td>
@@ -403,7 +403,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Далматин</td>
-                                    <td><strong>4200 / * ₽</strong></td>
+                                    <td><strong>4800 / * ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Кане-корсо</td>
@@ -427,11 +427,11 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Ньюфаундленд</td>
-                                    <td><strong>5500 / 6000 ₽</strong></td>
+                                    <td><strong>5800 / 6500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Пудель (королевский)</td>
-                                    <td><strong>4500 / 5200 ₽</strong></td>
+                                    <td><strong>6000 / 6700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ризеншнауцер</td>
@@ -455,7 +455,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Хаски</td>
-                                    <td><strong>4800 / 5200 ₽</strong></td>
+                                    <td><strong> * / 5500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Чау-чау</td>
@@ -484,35 +484,35 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-mestizo-complex" class="hidden">
                                 <tr>
                                     <td>До 5 кг</td>
-                                    <td><strong>2200 / 2500 ₽</strong></td>
+                                    <td><strong>2500 / 2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>6 - 10 кг</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><strong>3000 / 3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>11 - 20 кг</td>
-                                    <td><strong>2500 / 2800 ₽</strong></td>
+                                    <td><strong>3300 / 3500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>21 - 30 кг</td>
-                                    <td><strong>3200 / 3500 ₽</strong></td>
+                                    <td><strong>3500 / 3800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>31 - 40 кг</td>
-                                    <td><strong>3800 / 4200 ₽</strong></td>
+                                    <td><strong>4000 / 4500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>41 - 50 кг</td>
-                                    <td><strong>4200 / 4800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>51 - 60 кг</td>
                                     <td><strong>4800 / 5200 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>51 - 60 кг</td>
+                                    <td><strong>5800 / 6000 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>От 61 кг</td>
-                                    <td><strong>5500 / 6000 ₽</strong></td>
+                                    <td><strong>7000 / 7700 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -531,59 +531,59 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-small-hygiene" class="hidden">
                                 <tr>
                                     <td>Бишон-фризе</td>
-                                    <td><strong>2200 ₽</strong></td>
+                                    <td><strong>2900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Йоркширский терьер, бивер-йорк</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Китайская хохлатая голая</td>
-                                    <td><strong>1500 ₽</strong></td>
+                                    <td><strong>1800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Китайская хохлатая пуховка</td>
-                                    <td><strong>1800 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мальтийская болонка</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мопс</td>
-                                    <td><strong>1800 ₽</strong></td>
+                                    <td><strong>2600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Пекинес</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Той-пудель</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Той-терьер (гладкош./длиннош.)</td>
-                                    <td><strong>1200 ₽</strong></td>
+                                    <td><strong>1800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергпинчер</td>
-                                    <td><strong>1500 ₽</strong></td>
+                                    <td><strong>1800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Чихуахуа (гладкош./длиннош.)</td>
-                                    <td><strong>1500 ₽</strong></td>
+                                    <td><strong>2000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ши-тцу</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Шпиц (карликовый /малый, до 5кг)</td>
-                                    <td><strong>2400 ₽</strong></td>
+                                    <td><strong>2900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Японский хин</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -600,28 +600,28 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-middle-hygiene" class="hidden">
                                 <tr>
                                     <td class="width-80-persent">Американский / английский кокер-спаниель</td>
-                                    <td><strong>2600 ₽</strong></td>
+                                    <td><strong>3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Английский бульдог</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
 
                                 </tr>
                                 <tr>
                                     <td>Бассенджи</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бигль</td>
-                                    <td><strong>2200 ₽</strong></td>
+                                    <td><strong>2600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бордер-колли</td>
-                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>3200 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вельш-корги</td>
-                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вэст-хайленд-уайт терьер</td>
@@ -629,47 +629,47 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Джек-рассел терьер</td>
-                                    <td><strong>2500 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Ирландский терьер</td>
                                     <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Кавалер-кинг-чарльз спаниель</td>
-                                    <td><strong>2200 ₽</strong></td>
+                                    <td>Ирландский терьер</td>
+                                    <td><strong>3200 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>Миттельшнауцер</td>
+                                    <td>Кавалер-кинг-чарльз спаниель</td>
                                     <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>Миттельшнауцер</td>
+                                    <td><strong>3400 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>Пудель (малый, до 15 кг)</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Скотч-терьер</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Такса (гладкош., длиннош., жесткош.)</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Фокс-терьер</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Французский бульдог</td>
-                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергшнауцер</td>
-                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Шелти</td>
-                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -686,31 +686,31 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-large-hygiene" class="hidden">
                                 <tr>
                                     <td>Акита-ину</td>
-                                    <td><strong>5000 ₽</strong></td>
+                                    <td><strong>5500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Английский сеттер</td>
-                                    <td><strong>4200 ₽</strong></td>
+                                    <td><strong>4900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Афганская борзая</td>
-                                    <td><strong>4500 ₽</strong></td>
+                                    <td><strong>5100 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бладхаунд</td>
-                                    <td><strong>4000 ₽</strong></td>
+                                    <td><strong>4800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бернский зенненхунд</td>
-                                    <td><strong>5000 ₽</strong></td>
+                                    <td><strong>5500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бобтейл</td>
-                                    <td><strong>5000 ₽</strong></td>
+                                    <td><strong>5500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Далматин</td>
-                                    <td><strong>4000 ₽</strong></td>
+                                    <td><strong>4600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Колли</td>
@@ -734,7 +734,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Пудель (королевский)</td>
-                                    <td><strong>4000 ₽</strong></td>
+                                    <td><strong>5500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ризеншнауцер</td>
@@ -743,7 +743,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tr>
                                     <td>Ротвейлер</td>
                                     <td><strong>4200 ₽</strong></td>
-                                </tr>
+                                </tr>	
                                 <tr>
                                     <td>Сенбернар</td>
                                     <td><strong>5000 ₽</strong></td>
@@ -787,35 +787,35 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-mestizo-hygiene" class="hidden">
                                 <tr>
                                     <td>До 5 кг</td>
-                                    <td><strong>2000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>6 - 10 кг</td>
                                     <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>11 - 20 кг</td>
+                                    <td>6 - 10 кг</td>
                                     <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>21 - 30 кг</td>
+                                    <td>11 - 20 кг</td>
                                     <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>21 - 30 кг</td>
+                                    <td><strong>3300 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>31 - 40 кг</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td><strong>3800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>41 - 50 кг</td>
-                                    <td><strong>4000 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>51 - 60 кг</td>
                                     <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>51 - 60 кг</td>
+                                    <td><strong>5500 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>От 61 кг</td>
-                                    <td><strong>5000 ₽</strong></td>
+                                    <td><strong>6500 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -834,56 +834,56 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-small-washing" class="hidden">
                                 <tr>
                                     <td>Бишон-фризе</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Гриффон, пти брабансон</td>
-                                    <td><strong>1500 ₽</strong></td>
+                                    <td><strong>2000 ₽</strong></td>
 
                                 </tr>
                                 <tr>
                                     <td>Йоркширский терьер, бивер-йорк</td>
-                                    <td><strong>1700 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Левретка</td>
-                                    <td><strong>1000 ₽</strong></td>
+                                    <td><strong>1500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мальтийская болонка</td>
-                                    <td><strong>1700 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мопс</td>
-                                    <td><strong>1500 ₽</strong></td>
+                                    <td><strong>2200 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Пекинес</td>
-                                    <td><strong>1800 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Той-пудель</td>
-                                    <td><strong>1700 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергпинчер</td>
-                                    <td><strong>1200 ₽</strong></td>
+                                    <td><strong>1800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Чихуахуа (гладкош./длиннош.)</td>
-                                    <td><strong>1200 ₽</strong></td>
+                                    <td><strong>1600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ши-тцу</td>
-                                    <td><strong>1700 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Шпиц (карликовый /малый, до 5кг)</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Японский хин</td>
-                                    <td><strong>1500 ₽</strong></td>
+                                    <td><strong>1900 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -900,76 +900,76 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-middle-washing" class="hidden">
                                 <tr>
                                     <td>Американский / английский кокер-спаниель</td>
-                                    <td><strong>2200 ₽</strong></td>
+                                    <td><strong>2900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Английский бульдог</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
 
                                 </tr>
                                 <tr>
                                     <td>Бассенджи</td>
-                                    <td><strong>1600 ₽</strong></td>
+                                    <td><strong>2100 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бигль</td>
-                                    <td><strong>1800 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бордер-колли</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вельш-корги</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вэст-хайленд-уайт терьер</td>
-                                    <td><strong>2200 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Джек-рассел терьер</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ирландский терьер</td>
-                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Кавалер-кинг-чарльз спаниель</td>
-                                    <td><strong>1800 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Лабрадудль</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Миттельшнауцер</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Пудель (малый, до 15 кг)</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Такса (гладкош., длиннош., жесткош.)</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Фокс-терьер</td>
-                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>2600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Французский бульдог</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергшнауцер</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Шелти</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -990,15 +990,15 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Английский сеттер</td>
-                                    <td><strong>3800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Афганская борзая</td>
                                     <td><strong>4000 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>Афганская борзая</td>
+                                    <td><strong>4300 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>Бладхаунд</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td><strong>3900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бернский зенненхунд</td>
@@ -1010,7 +1010,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Далматин</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td><strong>3900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Доберман</td>
@@ -1034,7 +1034,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Пудель (королевский)</td>
-                                    <td><strong>3200 ₽</strong></td>
+                                    <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ризеншнауцер</td>
@@ -1046,7 +1046,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Сенбернар</td>
-                                    <td><strong>4500 ₽</strong></td>
+                                    <td><strong>4700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Стафордширский терьер</td>
@@ -1087,35 +1087,35 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-mestizo-washing" class="hidden">
                                 <tr>
                                     <td class="width-80-persent">До 5 кг</td>
-                                    <td><strong>1800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td class="width-80-persent">6 - 10 кг</td>
                                     <td><strong>2000 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td class="width-80-persent">11 - 20 кг</td>
-                                    <td><strong>2300 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td class="width-80-persent">21 - 30 кг</td>
+                                    <td class="width-80-persent">6 - 10 кг</td>
                                     <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td class="width-80-persent">31 - 40 кг</td>
+                                    <td class="width-80-persent">11 - 20 кг</td>
+                                    <td><strong>2800 ₽</strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="width-80-persent">21 - 30 кг</td>
                                     <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td class="width-80-persent">41 - 50 кг</td>
+                                    <td class="width-80-persent">31 - 40 кг</td>
                                     <td><strong>3500 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td class="width-80-persent">51 - 60 кг</td>
+                                    <td class="width-80-persent">41 - 50 кг</td>
                                     <td><strong>4000 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td class="width-80-persent">51 - 60 кг</td>
+                                    <td><strong>5000 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td class="width-80-persent">От 61 кг</td>
-                                    <td><strong>4500 ₽</strong></td>
+                                    <td><strong>6000 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1135,31 +1135,31 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
 
                                 <tr>
                                     <td class="width-80-persent">Гриффон, пти брабансон</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td><strong>3900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вэст-хайленд-уайт терьер</td>
-                                    <td><strong>4200 ₽</strong></td>
+                                    <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Джек-рассел терьер</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td><strong>4000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ирландский терьер</td>
-                                    <td><strong>4000 ₽</strong></td>
+                                    <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Миттельшнауцер</td>
-                                    <td><strong>4000 ₽</strong></td>
+                                    <td><strong>4800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Такса (гладкош., длиннош., жесткош.)</td>
-                                    <td><strong>3700 ₽</strong></td>
+                                    <td><strong>4000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Цвергшнауцер</td>
-                                    <td><strong>3800 ₽</strong></td>
+                                    <td><strong>4300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ризеншнауцер</td>
@@ -1183,35 +1183,35 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-mestizo-trimming" class="hidden">
                                 <tr>
                                     <td class="width-80-persent">До 5 кг</td>
-                                    <td><strong>2800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>6 - 10 кг</td>
                                     <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>11 - 20 кг</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td>6 - 10 кг</td>
+                                    <td><strong>3300 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>21 - 30 кг</td>
+                                    <td>11 - 20 кг</td>
                                     <td><strong>4000 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>31 - 40 кг</td>
+                                    <td>21 - 30 кг</td>
                                     <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>31 - 40 кг</td>
+                                    <td><strong>5000 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>41 - 50 кг</td>
-                                    <td><strong>5500 ₽</strong></td>
+                                    <td><strong>6000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>51 - 60 кг</td>
-                                    <td><strong>6500 ₽</strong></td>
+                                    <td><strong>7000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>От 61 кг</td>
-                                    <td><strong>7500 ₽</strong></td>
+                                    <td><strong>8000 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1229,27 +1229,27 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-small-express" class="hidden">
                                 <tr>
                                     <td>Гриффон, пти брабансон</td>
-                                    <td><strong>2800 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Левретка</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2400 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мопс</td>
-                                    <td><strong>2800 ₽</strong></td>
+                                    <td><strong>3200 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Той-терьер (гладкош./длиннош.)</td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Чихуахуа (гладкош./длиннош.)</td>
-                                    <td><strong>2100 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Шпиц (карликовый /малый, до 5кг)</td>
-                                    <td><strong>3000 ₽</strong></td>
+                                    <td><strong>3800 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1265,35 +1265,35 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-middle-express" class="hidden">
                                 <tr>
                                     <td>Английский бульдог</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td><strong>3900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бассенджи</td>
-                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>3200 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бигль</td>
-                                    <td><strong>2800 ₽</strong></td>
+                                    <td><strong>3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бордер-колли</td>
-                                    <td><strong>3300 ₽</strong></td>
+                                    <td><strong>3600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вельш-корги</td>
-                                    <td><strong>3300 ₽</strong></td>
+                                    <td><strong>3600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Джек-рассел терьер</td>
-                                    <td><strong>3200 ₽</strong></td>
+                                    <td><strong>3500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Миттельшнауцер</td>
-                                    <td><strong>3200 ₽</strong></td>
+                                    <td><strong>3600 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Сиба-ину</td>
-                                    <td><strong>3300 ₽</strong></td>
+                                    <td><strong>3800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Скотч-терьер</td>
@@ -1301,11 +1301,11 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Такса (гладкош., длиннош., жесткош.)</td>
-                                    <td><strong>3200 ₽</strong></td>
+                                    <td><strong>3500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Французский бульдог</td>
-                                    <td><strong>3200 ₽</strong></td>
+                                    <td><strong>3600 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1341,7 +1341,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Бобтейл</td>
-                                    <td><strong>6000 ₽</strong></td>
+                                    <td><strong>7000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Далматин</td>
@@ -1361,7 +1361,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Лабрадор (+ золотистый ретривер)</td>
-                                    <td><strong>5200 ₽</strong></td>
+                                    <td><strong>5700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td> Маламут</td>
@@ -1409,35 +1409,35 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody id="tbody-mestizo-express" class="hidden">
                                 <tr>
                                     <td class="width-80-persent">До 5 кг</td>
-                                    <td><strong>2800 ₽</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>6 - 10 кг</td>
                                     <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>11 - 20 кг</td>
-                                    <td><strong>3500 ₽</strong></td>
+                                    <td>6 - 10 кг</td>
+                                    <td><strong>3300 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>21 - 30 кг</td>
+                                    <td>11 - 20 кг</td>
                                     <td><strong>4000 ₽</strong></td>
                                 </tr>
                                 <tr>
-                                    <td>31 - 40 кг</td>
+                                    <td>21 - 30 кг</td>
                                     <td><strong>4500 ₽</strong></td>
                                 </tr>
                                 <tr>
+                                    <td>31 - 40 кг</td>
+                                    <td><strong>5000 ₽</strong></td>
+                                </tr>
+                                <tr>
                                     <td>41 - 50 кг</td>
-                                    <td><strong>5500 ₽</strong></td>
+                                    <td><strong>6000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>51 - 60 кг</td>
-                                    <td><strong>6500 ₽</strong></td>
+                                    <td><strong>7000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>От 61 кг</td>
-                                    <td><strong>7500 ₽</strong></td>
+                                    <td><strong>8000 ₽</strong></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -1477,31 +1477,31 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Стрижка ПМ</td>
-                                    <td><strong>1800 ₽</strong></td>
-                                    <td><strong>2000 ₽</strong></td>
-                                    <td><strong>2300 ₽</strong></td>
                                     <td><strong>2500 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
+                                    <td><strong>3300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Вычесывание (1 час)</td>
-                                    <td><strong>1000 ₽</strong></td>
-                                    <td><strong>1200 ₽</strong></td>
-                                    <td><strong>1500 ₽</strong></td>
                                     <td><strong>1800 ₽</strong></td>
+                                    <td><strong>2300 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>2800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мытье - сушка</td>
-                                    <td><strong>1500 ₽</strong></td>
-                                    <td><strong>1800 ₽</strong></td>
                                     <td><strong>2000 ₽</strong></td>
                                     <td><strong>2300 ₽</strong></td>
+                                    <td><strong>2500 ₽</strong></td>
+                                    <td><strong>3000 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Мытье сухим шампунем</td>
-                                    <td><strong>1200 ₽</strong></td>
-                                    <td><strong>1500 ₽</strong></td>
-                                    <td><strong>1800 ₽</strong></td>
-                                    <td><strong>2000 ₽</strong></td>
+                                    <td><strong>1900 ₽</strong></td>
+                                    <td><strong>2200 ₽</strong></td>
+                                    <td><strong>2400 ₽</strong></td>
+                                    <td><strong>2900 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Ванна с озоном</td>
@@ -1524,7 +1524,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Стрижка когтей</td>
-                                    <td colspan="4"><strong>300 ₽</strong></td>
+                                    <td colspan="4"><strong>500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Антицарапки</td>
@@ -1532,7 +1532,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 </tr>
                                 <tr>
                                     <td>Чистка ушей</td>
-                                    <td colspan="4"><strong>300 ₽</strong></td>
+                                    <td colspan="4"><strong>500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Стразы, 1 шт.</td>
@@ -1564,35 +1564,35 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                                 <tbody>
                                 <tr>
                                     <td>Стрижка когтей</td>
-                                    <td><strong>300 ₽</strong></td>
+                                    <td><strong>500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Подпил когтей</td>
-                                    <td><strong>250 ₽</strong></td>
+                                    <td><strong>300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Чистка ушей</td>
-                                    <td><strong>300 ₽</strong></td>
+                                    <td><strong>400 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Окантовка лап</td>
-                                    <td><strong>400 ₽</strong></td>
+                                    <td><strong>700 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Окантовка ушей</td>
-                                    <td><strong>200 ₽</strong></td>
+                                    <td><strong>500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Пуделиные лапки</td>
-                                    <td><strong>300 ₽</strong></td>
+                                    <td><strong>500 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Выстригание подушечек лап</td>
-                                    <td><strong>150 ₽</strong></td>
+                                    <td><strong>300 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Бритье морды</td>
-                                    <td><strong>400 ₽</strong></td>
+                                    <td><strong>800 ₽</strong></td>
                                 </tr>
                                 <tr>
                                     <td>Выстригание колтунов</td>
