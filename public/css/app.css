@@ -7194,3 +7194,17 @@ label {
 .white {
     color: #fdfdfd !important;
 }
+
+.list-about ul {
+    margin-top: -10px;
+}
+
+.list-about li {
+    line-height: 23px !important;
+    list-style: circle !important;
+    margin-left: 32px !important;
+}
+
+.about-us p {
+    /*line-height: 32px !important;*/
+}
