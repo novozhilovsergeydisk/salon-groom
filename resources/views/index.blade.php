@@ -49,7 +49,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
 
                     <div id="header-phone" class="header-phone red__">
                         <a href="tel:+7(499)430-00-26" style="padding-left: 10px;">+7 (499) 430-00-26</a><br />
-                        <span style="color: #726f74; padding-left: 10px;">м. Новослободская</span>
+                        <span style="color: #726f74; padding-left: 10px;"><strong>info@salon-groom.ru</strong></span>
                     </div>
                 </div>
 
@@ -1797,7 +1797,7 @@ src="https://www.facebook.com/tr?id=6568225839919373&ev=PageView&noscript=1"
                             </div>
                         </div>
                         <div class="contact-site"><img src="/public/img/5.svg" alt="фото">пн-пт: 11:00 - 20:00 <span>сб-вс: 10:18</span></div>
-                        <div class="contact-site"><img src="/public/img/3.svg" alt="фото"><a href="mailto:fo@salon-groom.ru">info@salon-groom.ru</a></div>
+                        <div class="contact-site"><img src="/public/img/3.svg" alt="фото"><a href="mailto:info@salon-groom.ru">info@salon-groom.ru</a></div>
                         <div class="contact-site"><img src="/public/img/4.svg" alt="фото"><a href="https://www.instagram.com/salongroom1/?igshid=1pvyxcewbq2yq">salongroom1 Instagram</a></div>
                     </div>
                 </div>
