@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Груминг салон в Москве №1, стрижка собак и кошек премиум класса, лучшие мастера в Европе, стрижка, груминг, экспресс-линька в центре Москвы, 8(499)430-00-26">
 
+    <meta name="google-site-verification" content="I-zOAzToGG8jjZYE9mkj4A8ypX09_hg8BbMQSzS-6Gg" />
+
     <title>Груминг салон в Москве №1</title>
 
     <link rel="icon" href="{{asset('public/img/favicon.ico')}}">
