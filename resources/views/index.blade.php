@@ -8,7 +8,7 @@
 
     <meta name="google-site-verification" content="I-zOAzToGG8jjZYE9mkj4A8ypX09_hg8BbMQSzS-6Gg" />
 
-    <title>Груминг салон в Москве</title>
+    <title>Груминг салон в Москве №1</title>
 
     <link rel="icon" href="{{asset('public/img/favicon.ico')}}">
 
